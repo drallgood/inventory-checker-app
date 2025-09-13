@@ -1,0 +1,390 @@
+{
+  "regions": [
+    {
+      "url_prefix": "https://www.apple.com/at/",
+      "suffix": "ZD/A",
+      "name": "Austria",
+      "code": "at"
+    },
+    {
+      "url_prefix": "https://www.apple.com/",
+      "suffix": "LL/A",
+      "name": "US",
+      "code": "us"
+    },
+    {
+      "url_prefix": "https://www.apple.com/uk/",
+      "suffix": "QN/A",
+      "name": "UK",
+      "code": "uk"
+    },
+    {
+      "url_prefix": "https://www.apple.com/au/",
+      "suffix": "X/A",
+      "name": "Australia",
+      "code": "au"
+    },
+    {
+      "url_prefix": "https://www.apple.com/ca/",
+      "suffix": "LL/A",
+      "name": "Canada",
+      "code": "ca"
+    },
+    {
+      "url_prefix": "https://www.apple.com/de/",
+      "suffix": "ZD/A",
+      "name": "Germany",
+      "code": "de"
+    },
+    {
+      "url_prefix": "https://www.apple.com/fr/",
+      "suffix": "FN/A",
+      "name": "France",
+      "code": "fr"
+    },
+    {
+      "url_prefix": "https://www.apple.com/it/",
+      "suffix": "T/A",
+      "name": "Italy",
+      "code": "it"
+    },
+    {
+      "url_prefix": "https://www.apple.com/es/",
+      "suffix": "Y/A",
+      "name": "Spain",
+      "code": "es"
+    },
+    {
+      "url_prefix": "https://www.apple.com/nl/",
+      "suffix": "ZD/A",
+      "name": "Netherlands",
+      "code": "nl"
+    },
+    {
+      "url_prefix": "https://www.apple.com/be-nl/",
+      "suffix": "ZD/A",
+      "name": "Belgium (Netherlands)",
+      "code": "be-nl"
+    },
+    {
+        "url_prefix": "https://www.apple.com/be-fr/",
+        "suffix": "ZD/A",
+        "name": "Belgium (French)",
+        "code": "be-fr"
+      },
+    {
+        "url_prefix": "https://www.apple.com/ch-de/",
+        "suffix": "ZD/A",
+        "name": "Switzerland (German)",
+        "code": "ch-de"
+      },
+      {
+        "url_prefix": "https://www.apple.com/ch-fr/",
+        "suffix": "ZD/A",
+        "name": "Switzerland (French)",
+        "code": "ch-fr"
+      },
+    {
+      "url_prefix": "https://www.apple.com/se/",
+      "suffix": "KS/A",
+      "name": "Sweden",
+      "code": "se"
+    },
+    {
+      "url_prefix": "https://www.apple.com/dk/",
+      "suffix": "KN/A",
+      "name": "Denmark",
+      "code": "dk"
+    },
+    {
+      "url_prefix": "https://www.apple.com/no/",
+      "suffix": "KN/A",
+      "name": "Norway",
+      "code": "no"
+    },
+    {
+      "url_prefix": "https://www.apple.com/fi/",
+      "suffix": "KS/A",
+      "name": "Finland",
+      "code": "fi"
+    },
+    {
+      "url_prefix": "https://www.apple.com/jp/",
+      "suffix": "J/A",
+      "name": "Japan",
+      "code": "jp"
+    },
+    {
+      "url_prefix": "https://www.apple.com/kr/",
+      "suffix": "KH/A",
+      "name": "South Korea",
+      "code": "kr"
+    },
+    {
+      "url_prefix": "https://www.apple.com/hk/",
+      "suffix": "ZP/A",
+      "name": "Hong Kong",
+      "code": "hk"
+    },
+    {
+      "url_prefix": "https://www.apple.com/sg/",
+      "suffix": "ZP/A",
+      "name": "Singapore",
+      "code": "sg"
+    },
+    {
+      "url_prefix": "https://www.apple.com/tw/",
+      "suffix": "TA/A",
+      "name": "Taiwan",
+      "code": "tw"
+    },
+    {
+      "url_prefix": "https://www.apple.com/th/",
+      "suffix": "TH/A",
+      "name": "Thailand",
+      "code": "th"
+    },
+    {
+      "url_prefix": "https://www.apple.com/my/",
+      "suffix": "MY/A",
+      "name": "Malaysia",
+      "code": "my"
+    },
+    {
+      "url_prefix": "https://www.apple.com/in/",
+      "suffix": "HN/A",
+      "name": "India",
+      "code": "in"
+    },
+    {
+      "url_prefix": "https://www.apple.com/ae/",
+      "suffix": "AB/A",
+      "name": "UAE",
+      "code": "ae"
+    },
+    {
+      "url_prefix": "https://www.apple.com/sa/",
+      "suffix": "AB/A",
+      "name": "Saudi Arabia",
+      "code": "sa"
+    },
+    {
+      "url_prefix": "https://www.apple.com/tr/",
+      "suffix": "TU/A",
+      "name": "Turkey",
+      "code": "tr"
+    },
+    {
+      "url_prefix": "https://www.apple.com/za/",
+      "suffix": "ZA/A",
+      "name": "South Africa",
+      "code": "za"
+    },
+    {
+      "url_prefix": "https://www.apple.com/br/",
+      "suffix": "BZ/A",
+      "name": "Brazil",
+      "code": "br"
+    },
+    {
+      "url_prefix": "https://www.apple.com/mx/",
+      "suffix": "LA/A",
+      "name": "Mexico",
+      "code": "mx"
+    },
+    {
+      "url_prefix": "https://www.apple.com.cn/",
+      "suffix": "CH/A",
+      "name": "China",
+      "code": "cn"
+    }
+  ],
+  "product_categories": {
+    "iphones": {
+      "name": "iPhones",
+      "products": [
+        {
+          "path": "shop/buy-iphone/iphone-17-pro",
+          "name": "iPhone 17 Pro",
+          "categories": ["pro17", "proMax17"]
+        },
+        {
+          "path": "shop/buy-iphone/iphone-17",
+          "name": "iPhone 17",
+          "categories": ["regular17"]
+        },
+        {
+          "path": "shop/buy-iphone/iphone-air",
+          "name": "iPhone Air",
+          "categories": ["air"]
+        },
+        {
+          "path": "shop/buy-iphone/iphone-16e",
+          "name": "iPhone 16e",
+          "categories": ["iphone16e"]
+        }
+      ],
+      "output_files": [
+        {
+          "filename": "InventoryWatch/iPhoneModelsAir-intl.json",
+          "categories": ["air"]
+        },
+        {
+          "filename": "InventoryWatch/iPhoneModels17-intl.json",
+          "categories": ["regular17", "pro17", "proMax17"]
+        },
+        {
+          "filename": "InventoryWatch/iPhoneModels16-intl.json",
+          "categories": ["iphone16e"]
+        }
+      ]
+    },
+    "macs": {
+      "name": "Macs",
+      "products": [
+        {
+          "path": "shop/buy-mac/macbook-air",
+          "name": "MacBook Air",
+          "categories": ["macbook_air"]
+        },
+        {
+          "path": "shop/buy-mac/macbook-pro",
+          "name": "MacBook Pro",
+          "categories": ["macbook_pro"]
+        },
+        {
+          "path": "shop/buy-mac/imac",
+          "name": "iMac",
+          "categories": ["imac"]
+        },
+        {
+          "path": "shop/buy-mac/mac-mini",
+          "name": "Mac mini",
+          "categories": ["mac_mini"]
+        },
+        {
+          "path": "shop/buy-mac/mac-studio",
+          "name": "Mac Studio",
+          "categories": ["mac_studio"]
+        },
+        {
+          "path": "shop/buy-mac/mac-pro",
+          "name": "Mac Pro",
+          "categories": ["mac_pro"]
+        }
+      ],
+      "output_files": [
+        {
+          "filename": "InventoryWatch/MacModels-intl.json",
+          "categories": ["macbook_air", "macbook_pro", "imac", "mac_mini", "mac_studio", "mac_pro"]
+        }
+      ]
+    },
+    "airpods": {
+      "name": "AirPods",
+      "products": [
+        {
+          "path": "shop/product/airpods-4",
+          "name": "AirPods 4",
+          "categories": ["airpods_4"]
+        },
+        {
+          "path": "shop/product/airpods-pro",
+          "name": "AirPods Pro",
+          "categories": ["airpods_pro"]
+        },
+        {
+          "path": "shop/product/airpods-max",
+          "name": "AirPods Max",
+          "categories": ["airpods_max"]
+        }
+      ],
+      "output_files": [
+        {
+          "filename": "InventoryWatch/AirPodsModels-intl.json",
+          "categories": ["airpods_4", "airpods_pro", "airpods_max"]
+        }
+      ]
+    },
+    "ipads": {
+      "name": "iPads",
+      "products": [
+        {
+          "path": "shop/buy-ipad/ipad-pro",
+          "name": "iPad Pro",
+          "categories": ["ipad_pro"]
+        },
+        {
+          "path": "shop/buy-ipad/ipad-air",
+          "name": "iPad Air",
+          "categories": ["ipad_air"]
+        },
+        {
+          "path": "shop/buy-ipad/ipad",
+          "name": "iPad",
+          "categories": ["ipad"]
+        },
+        {
+          "path": "shop/buy-ipad/ipad-mini",
+          "name": "iPad mini",
+          "categories": ["ipad_mini"]
+        }
+      ],
+      "output_files": [
+        {
+          "filename": "InventoryWatch/iPadModels-intl.json",
+          "categories": ["ipad_pro", "ipad_air", "ipad", "ipad_mini"]
+        }
+      ]
+    },
+    "apple_watch": {
+      "name": "Apple Watch",
+      "products": [
+        {
+          "path": "shop/buy-watch/apple-watch",
+          "name": "Apple Watch",
+          "categories": ["watch_series"]
+        },
+        {
+          "path": "shop/buy-watch/apple-watch-ultra",
+          "name": "Apple Watch Ultra",
+          "categories": ["watch_ultra"]
+        },
+        {
+          "path": "shop/buy-watch/apple-watch-se",
+          "name": "Apple Watch SE",
+          "categories": ["watch_se"]
+        }
+      ],
+      "output_files": [
+        {
+          "filename": "InventoryWatch/AppleWatchModels-intl.json",
+          "categories": ["watch_series", "watch_ultra", "watch_se"]
+        }
+      ]
+    }
+  },
+  "categorization_rules": {
+    "air": ["air"],
+    "proMax17": ["iphone 17 pro max", "17 pro max", "pro max 17"],
+    "pro17": ["iphone 17 pro 256gb", "iphone 17 pro 512gb", "iphone 17 pro 1tb"],
+    "regular17": ["iphone 17 256gb", "iphone 17 512gb", "iphone 17 1tb"],
+    "iphone16e": ["16e", "iphone 16e"],
+    "macbook_air": ["macbook air", "air"],
+    "macbook_pro": ["macbook pro", "pro"],
+    "imac": ["imac"],
+    "mac_mini": ["mac mini", "mini"],
+    "mac_studio": ["mac studio", "studio"],
+    "mac_pro": ["mac pro"],
+    "airpods_4": ["airpods 4", "4th generation"],
+    "airpods_pro": ["airpods pro", "pro"],
+    "airpods_max": ["airpods max", "max"],
+    "ipad_pro": ["ipad pro", "pro"],
+    "ipad_air": ["ipad air", "air"],
+    "ipad": ["ipad"],
+    "ipad_mini": ["ipad mini", "mini"],
+    "watch_series": ["series 10", "10"],
+    "watch_ultra": ["ultra", "ultra 2", "ultra 3"],
+    "watch_se": ["se","se 2", "se 3"]
+  }
+}
