@@ -1,0 +1,173 @@
+{
+    "us": {
+        "ipad_pro_m2_11in_wifi": {
+            "MNXE3LL/A": "M2 iPad Pro 11in 128GB Silver Wifi",
+            "MNXG3LL/A": "M2 iPad Pro 11in 256GB Silver Wifi",
+            "MNXJ3LL/A": "M2 iPad Pro 11in 512GB Silver Wifi",
+            "MNXL3LL/A": "M2 iPad Pro 11in 1TB Silver Wifi",
+            "MNXN3LL/A": "M2 iPad Pro 11in 2TB Silver Wifi",
+            "MNXD3LL/A": "M2 iPad Pro 11in 128GB Space Gray Wifi",
+            "MNXF3LL/A": "M2 iPad Pro 11in 256GB Space Gray Wifi",
+            "MNXH3LL/A": "M2 iPad Pro 11in 512GB Space Gray Wifi",
+            "MNXK3LL/A": "M2 iPad Pro 11in 1TB Space Gray Wifi",
+            "MNXM3LL/A": "M2 iPad Pro 11in 2TB Space Gray Wifi"
+        },
+        "ipad_pro_m2_11in_cellular": {
+            "MP563LL/A": "M2 iPad Pro 11in 128GB Silver Cellular",
+            "MP583LL/A": "M2 iPad Pro 11in 256GB Silver Cellular",
+            "MP5D3LL/A": "M2 iPad Pro 11in 512GB Silver Cellular",
+            "MP5F3LL/A": "M2 iPad Pro 11in 1TB Silver Cellular",
+            "MP5H3LL/A": "M2 iPad Pro 11in 2TB Silver Cellular",
+            "MP553LL/A": "M2 iPad Pro 11in 128GB Space Gray Cellular",
+            "MP573LL/A": "M2 iPad Pro 11in 256GB Space Gray Cellular",
+            "MP593LL/A": "M2 iPad Pro 11in 512GB Space Gray Cellular",
+            "MP5E3LL/A": "M2 iPad Pro 11in 1TB Space Gray Cellular",
+            "MP5G3LL/A": "M2 iPad Pro 11in 2TB Space Gray Cellular"
+        },
+        "ipad_pro_m2_13in_wifi": {
+            "MNXQ3LL/A": "M2 iPad Pro 12.9in 128GB Silver Wifi",
+            "MNXT3LL/A": "M2 iPad Pro 12.9in 256GB Silver Wifi",
+            "MNXV3LL/A": "M2 iPad Pro 12.9in 512GB Silver Wifi",
+            "MNXX3LL/A": "M2 iPad Pro 12.9in 1TB Silver Wifi",
+            "MNY03LL/A": "M2 iPad Pro 12.9in 2TB Silver Wifi",
+            "MNXP3LL/A": "M2 iPad Pro 12.9in 128GB Space Gray Wifi",
+            "MNXR3LL/A": "M2 iPad Pro 12.9in 256GB Space Gray Wifi",
+            "MNXU3LL/A": "M2 iPad Pro 12.9in 512GB Space Gray Wifi",
+            "MNXW3LL/A": "M2 iPad Pro 12.9in 1TB Space Gray Wifi",
+            "MNXY3LL/A": "M2 iPad Pro 12.9in 2TB Space Gray Wifi"
+        },
+        "ipad_pro_m2_13in_cellular": {
+            "MP5Y3LL/A": "M2 iPad Pro 12.9in 128GB Silver Cellular",
+            "MP613LL/A": "M2 iPad Pro 12.9in 256GB Silver Cellular",
+            "MP633LL/A": "M2 iPad Pro 12.9in 512GB Silver Cellular",
+            "MP653LL/A": "M2 iPad Pro 12.9in 1TB Silver Cellular",
+            "MP673LL/A": "M2 iPad Pro 12.9in 2TB Silver Cellular",
+            "MP5X3LL/A": "M2 iPad Pro 12.9in 128GB Space Gray Cellular",
+            "MP603LL/A": "M2 iPad Pro 12.9in 256GB Space Gray Cellular",
+            "MP623LL/A": "M2 iPad Pro 12.9in 512GB Space Gray Cellular",
+            "MP643LL/A": "M2 iPad Pro 12.9in 1TB Space Gray Cellular",
+            "MP663LL/A": "M2 iPad Pro 12.9in 2TB Space Gray Cellular"
+        },
+        "ipad_10th_gen_wifi": {
+            "MPQ13LL/A": "iPad (10th Gen) 64GB Blue Wifi",
+            "MPQ93LL/A": "iPad (10th Gen) 256GB Blue Wifi",
+            "MPQ33LL/A": "iPad (10th Gen) 64GB Pink Wifi",
+            "MPQC3LL/A": "iPad (10th Gen) 256GB Pink Wifi",
+            "MPQ03LL/A": "iPad (10th Gen) 64GB Silver Wifi",
+            "MPQ83LL/A": "iPad (10th Gen) 256GB Silver Wifi",
+            "MPQ23LL/A": "iPad (10th Gen) 64GB Yellow Wifi",
+            "MPQA3LL/A": "iPad (10th Gen) 256GB Yellow Wifi"
+        },
+        "ipad_10th_gen_cellular": {
+            "MQ6K3LL/A": "iPad (10th Gen) 64GB Blue Cellular",
+            "MQ6U3LL/A": "iPad (10th Gen) 256GB Blue Cellular",
+            "MQ6M3LL/A": "iPad (10th Gen) 64GB Pink Cellular",
+            "MQ6W3LL/A": "iPad (10th Gen) 256GB Pink Cellular",
+            "MQ6J3LL/A": "iPad (10th Gen) 64GB Silver Cellular",
+            "MQ6T3LL/A": "iPad (10th Gen) 256GB Silver Cellular",
+            "MQ6L3LL/A": "iPad (10th Gen) 64GB Yellow Cellular",
+            "MQ6V3LL/A": "iPad (10th Gen) 256GB Yellow Cellular"
+        },
+        "ipad_mini_wifi": {
+            "MK7R3LL/A": "iPad Mini 64GB Purple Wifi",
+            "MLWL3LL/A": "iPad Mini 64GB Pink Wifi",
+            "MK7P3LL/A": "iPad Mini 64GB Starlight Wifi",
+            "MK7M3LL/A": "iPad Mini 64GB Space Gray Wifi",
+            "MK7X3LL/A": "iPad Mini 256GB Purple Wifi",
+            "MLWR3LL/A": "iPad Mini 256GB Pink Wifi",
+            "MK7V3LL/A": "iPad Mini 256GB Starlight Wifi",
+            "MK7T3LL/A": "iPad Mini 256GB Space Gray Wifi"
+        },
+        "ipad_mini_cellular": {
+            "MK8E3LL/A": "iPad Mini 64GB Purple Cellular",
+            "MLX43LL/A": "iPad Mini 64GB Pink Cellular",
+            "MK8C3LL/A": "iPad Mini 64GB Starlight Cellular",
+            "MK893LL/A": "iPad Mini 64GB Space Gray Cellular",
+            "MK8K3LL/A": "iPad Mini 256GB Purple Cellular",
+            "MLX93LL/A": "iPad Mini 256GB Pink Cellular",
+            "MK8H3LL/A": "iPad Mini 256GB Starlight Cellular",
+            "MK8F3LL/A": "iPad Mini 256GB Space Gray Cellular"
+        }
+    },
+    "be-nl": {
+        "ipad_pro_m2_11in_wifi": {
+            "MNXE3ZD/A": "M2 iPad Pro 11in 128GB Silver Wifi",
+            "MNXG3ZD/A": "M2 iPad Pro 11in 256GB Silver Wifi",
+            "MNXD3ZD/A": "M2 iPad Pro 11in 128GB Space Gray Wifi",
+            "MNXF3ZD/A": "M2 iPad Pro 11in 256GB Space Gray Wifi"
+        },
+        "ipad_pro_m2_11in_cellular": {
+            "MP563ZD/A": "M2 iPad Pro 11in 128GB Silver Cellular",
+            "MP583ZD/A": "M2 iPad Pro 11in 256GB Silver Cellular",
+            "MP553ZD/A": "M2 iPad Pro 11in 128GB Space Gray Cellular",
+            "MP573ZD/A": "M2 iPad Pro 11in 256GB Space Gray Cellular"
+        },
+        "ipad_mini_wifi": {
+            "MK7R3ZD/A": "iPad Mini 64GB Purple Wifi",
+            "MK7P3ZD/A": "iPad Mini 64GB Starlight Wifi",
+            "MK7M3ZD/A": "iPad Mini 64GB Space Gray Wifi"
+        },
+        "ipad_mini_cellular": {
+            "MK8E3ZD/A": "iPad Mini 64GB Purple Cellular",
+            "MK8C3ZD/A": "iPad Mini 64GB Starlight Cellular",
+            "MK893ZD/A": "iPad Mini 64GB Space Gray Cellular"
+        }
+    },
+    "be-fr": {
+        "ipad_pro_m2_11in_wifi": {
+            "MNXE3ZD/A": "M2 iPad Pro 11in 128GB Silver Wifi",
+            "MNXG3ZD/A": "M2 iPad Pro 11in 256GB Silver Wifi",
+            "MNXD3ZD/A": "M2 iPad Pro 11in 128GB Space Gray Wifi"
+        },
+        "ipad_pro_m2_11in_cellular": {
+            "MP563ZD/A": "M2 iPad Pro 11in 128GB Silver Cellular",
+            "MP583ZD/A": "M2 iPad Pro 11in 256GB Silver Cellular"
+        },
+        "ipad_mini_wifi": {
+            "MK7R3ZD/A": "iPad Mini 64GB Purple Wifi",
+            "MK7P3ZD/A": "iPad Mini 64GB Starlight Wifi"
+        },
+        "ipad_mini_cellular": {
+            "MK8E3ZD/A": "iPad Mini 64GB Purple Cellular",
+            "MK8C3ZD/A": "iPad Mini 64GB Starlight Cellular"
+        }
+    },
+    "ch-de": {
+        "ipad_pro_m2_11in_wifi": {
+            "MNXE3ZD/A": "M2 iPad Pro 11in 128GB Silver Wifi",
+            "MNXG3ZD/A": "M2 iPad Pro 11in 256GB Silver Wifi",
+            "MNXD3ZD/A": "M2 iPad Pro 11in 128GB Space Gray Wifi"
+        },
+        "ipad_pro_m2_11in_cellular": {
+            "MP563ZD/A": "M2 iPad Pro 11in 128GB Silver Cellular",
+            "MP583ZD/A": "M2 iPad Pro 11in 256GB Silver Cellular"
+        },
+        "ipad_mini_wifi": {
+            "MK7R3ZD/A": "iPad Mini 64GB Purple Wifi",
+            "MK7P3ZD/A": "iPad Mini 64GB Starlight Wifi"
+        },
+        "ipad_mini_cellular": {
+            "MK8E3ZD/A": "iPad Mini 64GB Purple Cellular",
+            "MK8C3ZD/A": "iPad Mini 64GB Starlight Cellular"
+        }
+    },
+    "ch-fr": {
+        "ipad_pro_m2_11in_wifi": {
+            "MNXE3ZD/A": "M2 iPad Pro 11in 128GB Silver Wifi",
+            "MNXG3ZD/A": "M2 iPad Pro 11in 256GB Silver Wifi",
+            "MNXD3ZD/A": "M2 iPad Pro 11in 128GB Space Gray Wifi"
+        },
+        "ipad_pro_m2_11in_cellular": {
+            "MP563ZD/A": "M2 iPad Pro 11in 128GB Silver Cellular",
+            "MP583ZD/A": "M2 iPad Pro 11in 256GB Silver Cellular"
+        },
+        "ipad_mini_wifi": {
+            "MK7R3ZD/A": "iPad Mini 64GB Purple Wifi",
+            "MK7P3ZD/A": "iPad Mini 64GB Starlight Wifi"
+        },
+        "ipad_mini_cellular": {
+            "MK8E3ZD/A": "iPad Mini 64GB Purple Cellular",
+            "MK8C3ZD/A": "iPad Mini 64GB Starlight Cellular"
+        }
+    }
+}

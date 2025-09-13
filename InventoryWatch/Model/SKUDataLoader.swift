@@ -10,7 +10,7 @@ import Foundation
 actor SKUDataLoader {
     
     private enum iPhoneModel: CaseIterable {
-        case thirteen, fourteen
+        case sixteen, seventeen, air
     }
     
     var defaultsManager = DefaultsVendor()
@@ -27,50 +27,48 @@ actor SKUDataLoader {
     func skuData(for productType: ProductType, and country: Country) async throws -> SKUData {
         switch productType {
         case .MacBookPro:
-            return MBPDataForCountry(country)
+            return try loadMacModels(for: country, category: "macbook_pro_m1")
         case .M2MacBookPro13:
-            return M2MBPDataForCountry(country)
+            return try loadMacModels(for: country, category: "macbook_pro_m2_13")
         case .M2MacBookAir:
-            return M2MBAirDataForCountry(country)
+            return try loadMacModels(for: country, category: "macbook_air_m2")
         case .MacStudio:
-            return MacStudioDataForCountry(country)
+            return try loadMacModels(for: country, category: "mac_studio")
             
         case .StudioDisplay:
-            return StudioDisplayForCountry(country)
-        case .AirPodsProGen2:
-            return AirPodsProGen2DataForCountry(country)
+            return try loadAccessoryModels(for: country, category: "studio_display")
+        case .AirPodsProGen3:
+            return try loadAccessoryModels(for: country, category: "airpods_pro_gen3")
         case .ApplePencilUSBCAdapter:
-            return ApplePencilUSBCAdapterDataForCountry(country)
+            return try loadAccessoryModels(for: country, category: "apple_pencil_usbc_adapter")
             
         case .iPadMiniWifi:
-            return iPadMiniDataForCountry(country, isWifi: true)
+            return try loadiPadModels(for: country, category: "ipad_mini_wifi")
         case .iPadMiniCellular:
-            return iPadMiniDataForCountry(country, isWifi: false)
+            return try loadiPadModels(for: country, category: "ipad_mini_cellular")
         case .iPad10thGenWifi:
-            return iPad10thGenDataForCountry(country, isWifi: true)
+            return try loadiPadModels(for: country, category: "ipad_10th_gen_wifi")
         case .iPad10thGenCellular:
-            return iPad10thGenDataForCountry(country, isWifi: false)
+            return try loadiPadModels(for: country, category: "ipad_10th_gen_cellular")
         case .iPadProM2_11in_Wifi:
-            return iPadProM2_11inDataForCountry(country, isWifi: true)
+            return try loadiPadModels(for: country, category: "ipad_pro_m2_11in_wifi")
         case .iPadProM2_11in_Cellular:
-            return iPadProM2_11inDataForCountry(country, isWifi: false)
+            return try loadiPadModels(for: country, category: "ipad_pro_m2_11in_cellular")
         case .iPadProM2_13in_Wifi:
-            return iPadProM2_13inDataForCountry(country, isWifi: true)
+            return try loadiPadModels(for: country, category: "ipad_pro_m2_13in_wifi")
         case .iPadProM2_13in_Cellular:
-            return iPadProM2_13inDataForCountry(country, isWifi: false)
+            return try loadiPadModels(for: country, category: "ipad_pro_m2_13in_cellular")
             
-        case .iPhoneRegular13:
-            return try phoneModels(for: country).toSkuData(\.regular13)
-        case .iPhoneMini13:
-            return try phoneModels(for: country).toSkuData(\.mini13)
-        case .iPhoneRegular14:
-            return try phoneModels(for: country).toSkuData(\.regular14)
-        case .iPhonePlus14:
-            return try phoneModels(for: country).toSkuData(\.plus14)
-        case .iPhonePro14:
-            return try phoneModels(for: country).toSkuData(\.pro14)
-        case .iPhoneProMax14:
-            return try phoneModels(for: country).toSkuData(\.proMax14)
+        case .iPhone16e:
+            return try phoneModels(for: country).toSkuData(\.iphone16e)
+        case .iPhoneAir:
+            return try phoneModels(for: country).toSkuData(\.air)
+        case .iPhoneRegular17:
+            return try phoneModels(for: country).toSkuData(\.regular17)
+        case .iPhonePro17:
+            return try phoneModels(for: country).toSkuData(\.pro17)
+        case .iPhoneProMax17:
+            return try phoneModels(for: country).toSkuData(\.proMax17)
             
         case .AppleWatchUltra:
             return try appleWatchUltraModels(for: country)
@@ -94,18 +92,20 @@ actor SKUDataLoader {
                 
                 let unmappedModelsData: [(String, WritableKeyPath<AllPhoneModels, [AllPhoneModels.PhoneModel]>)]
                 switch phoneModel {
-                case .thirteen:
+                case .sixteen:
                     unmappedModelsData = [
-                        ("mini13", \AllPhoneModels.mini13),
-                        ("regular13", \AllPhoneModels.regular13)
+                        ("iphone16e", \AllPhoneModels.iphone16e)
                     ]
-                case .fourteen:
+                case .seventeen:
                     unmappedModelsData = [
-                        ("plus14", \AllPhoneModels.plus14),
-                        ("regular14", \AllPhoneModels.regular14),
-                        ("pro14", \AllPhoneModels.pro14),
-                        ("proMax14", \AllPhoneModels.proMax14)
+                        ("regular17", \AllPhoneModels.regular17),
+                        ("pro17", \AllPhoneModels.pro17),
+                        ("proMax17", \AllPhoneModels.proMax17)
                     ]
+                case .air:
+                unmappedModelsData = [
+                    ("air", \AllPhoneModels.air),
+                ]
                 }
                 
                 let modelsData = unmappedModelsData.map { first, second in
@@ -116,7 +116,7 @@ actor SKUDataLoader {
                 if let existing = rv[country] {
                     phoneModels = existing
                 } else {
-                    phoneModels = AllPhoneModels(proMax14: [], pro14: [], regular14: [], plus14: [], mini13: [], regular13: [])
+                    phoneModels = AllPhoneModels(proMax17: [], pro17: [], regular17: [], air: [], iphone16e: [])
                 }
                 
                 for (models, keyPath) in modelsData {
@@ -126,7 +126,7 @@ actor SKUDataLoader {
                     
                     let parsed: [AllPhoneModels.PhoneModel] = models.map { modelData in
                         return AllPhoneModels.PhoneModel(sku: modelData.key, productName: modelData.value)
-                    }
+                    }.sorted { $0.sku < $1.sku }
                     
                     phoneModels[keyPath: keyPath] = parsed
                 }
@@ -153,10 +153,12 @@ actor SKUDataLoader {
     private func loadIPhoneModels(for model: iPhoneModel) throws -> [String: [String: [String: String]]] {
         let location: String
         switch model {
-        case .thirteen:
-            location = "iPhoneModels13-intl"
-        case .fourteen:
-            location = "iPhoneModels14-intl"
+        case .sixteen:
+            location = "iPhoneModels16-intl"
+        case .seventeen:
+            location = "iPhoneModels17-intl"
+        case .air:
+            location = "iPhoneModelsAir-intl"
         }
         
         if let path = Bundle.main.path(forResource: location, ofType: "json") {
@@ -215,6 +217,42 @@ actor SKUDataLoader {
         } else {
             throw AppError.invalidProjectState
         }
+    }
+    
+    // MARK: - JSON Loading Methods
+    
+    private func loadMacModels(for country: Country, category: String) throws -> SKUData {
+        return try loadModelsFromJSON(fileName: "MacModels-intl", country: country, category: category)
+    }
+    
+    private func loadiPadModels(for country: Country, category: String) throws -> SKUData {
+        return try loadModelsFromJSON(fileName: "iPadModels-intl", country: country, category: category)
+    }
+    
+    private func loadAccessoryModels(for country: Country, category: String) throws -> SKUData {
+        return try loadModelsFromJSON(fileName: "AccessoryModels-intl", country: country, category: category)
+    }
+    
+    private func loadModelsFromJSON(fileName: String, country: Country, category: String) throws -> SKUData {
+        guard let path = Bundle.main.path(forResource: fileName, ofType: "json") else {
+            throw AppError.invalidProjectState
+        }
+        
+        let data = try Data(contentsOf: URL(fileURLWithPath: path))
+        let decoder = JSONDecoder()
+        
+        let jsonData = try decoder.decode([String: [String: [String: String]]].self, from: data)
+        
+        let countryKey = country.shortcode.lowercased()
+        guard let countryData = jsonData[countryKey],
+              let categoryData = countryData[category] else {
+            throw AppError.invalidLocalModelStore
+        }
+        
+        let orderedSKUs = categoryData.keys.sorted()
+        let skuLookup = categoryData
+        
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
     }
 }
 

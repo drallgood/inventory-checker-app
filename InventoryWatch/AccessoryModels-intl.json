@@ -1,0 +1,83 @@
+{
+    "us": {
+        "studio_display": {
+            "MK0U3LL/A": "Studio Display - Standard glass - Tilt-adjustable stand",
+            "MK0Q3LL/A": "Studio Display - Standard glass - Tilt- and height-adjustable stand",
+            "MMYQ3LL/A": "Studio Display - Standard glass - VESA mount adapter",
+            "MMYW3LL/A": "Studio Display - Nano-texture glass - Tilt-adjustable stand",
+            "MMYV3LL/A": "Studio Display - Nano-texture glass - Tilt- and height-adjustable stand",
+            "MMYX3LL/A": "Studio Display - Nano-texture glass - VESA mount adapter"
+        },
+        "airpods_pro_gen3": {
+            "MFHP4LL/A": "AirPods Pro (3nd Generation)"
+        },
+        "apple_pencil_usbc_adapter": {
+            "MQLU3LL/A": "USB-C to Apple Pencil Adapter"
+        }
+    },
+    "uk": {
+        "studio_display": {
+            "MK0U3B/A": "Studio Display - Standard glass - Tilt-adjustable stand",
+            "MK0Q3B/A": "Studio Display - Standard glass - Tilt- and height-adjustable stand",
+            "MMYQ3B/A": "Studio Display - Standard glass - VESA mount adapter",
+            "MMYW3B/A": "Studio Display - Nano-texture glass - Tilt-adjustable stand",
+            "MMYV3B/A": "Studio Display - Nano-texture glass - Tilt- and height-adjustable stand",
+            "MMYX3B/A": "Studio Display - Nano-texture glass - VESA mount adapter"
+        },
+        "airpods_pro_gen3": {
+            "MFHP4B/A": "AirPods Pro (3nd Generation)"
+        },
+        "apple_pencil_usbc_adapter": {
+            "MQLU3B/A": "USB-C to Apple Pencil Adapter"
+        }
+    },
+    "be-nl": {
+        "studio_display": {
+            "MK0U3ZD/A": "Studio Display - Standard glass - Tilt-adjustable stand",
+            "MK0Q3ZD/A": "Studio Display - Standard glass - Tilt- and height-adjustable stand",
+            "MMYQ3ZD/A": "Studio Display - Standard glass - VESA mount adapter"
+        },
+        "airpods_pro_gen3": {
+            "MFHP4ZD/A": "AirPods Pro (3nd Generation)"
+        },
+        "apple_pencil_usbc_adapter": {
+            "MQLU3ZD/A": "USB-C to Apple Pencil Adapter"
+        }
+    },
+    "be-fr": {
+        "studio_display": {
+            "MK0U3ZD/A": "Studio Display - Standard glass - Tilt-adjustable stand",
+            "MK0Q3ZD/A": "Studio Display - Standard glass - Tilt- and height-adjustable stand"
+        },
+        "airpods_pro_gen3": {
+            "MFHP4ZD/A": "AirPods Pro (3nd Generation)"
+        },
+        "apple_pencil_usbc_adapter": {
+            "MQLU3ZD/A": "USB-C to Apple Pencil Adapter"
+        }
+    },
+    "ch-de": {
+        "studio_display": {
+            "MK0U3ZD/A": "Studio Display - Standard glass - Tilt-adjustable stand",
+            "MK0Q3ZD/A": "Studio Display - Standard glass - Tilt- and height-adjustable stand"
+        },
+        "airpods_pro_gen3": {
+            "MFHP4ZD/A": "AirPods Pro (3nd Generation)"
+        },
+        "apple_pencil_usbc_adapter": {
+            "MQLU3ZD/A": "USB-C to Apple Pencil Adapter"
+        }
+    },
+    "ch-fr": {
+        "studio_display": {
+            "MK0U3ZD/A": "Studio Display - Standard glass - Tilt-adjustable stand",
+            "MK0Q3ZD/A": "Studio Display - Standard glass - Tilt- and height-adjustable stand"
+        },
+        "airpods_pro_gen3": {
+            "MFHP4ZD/A": "AirPods Pro (3nd Generation)"
+        },
+        "apple_pencil_usbc_adapter": {
+            "MQLU3ZD/A": "USB-C to Apple Pencil Adapter"
+        }
+    }
+}
