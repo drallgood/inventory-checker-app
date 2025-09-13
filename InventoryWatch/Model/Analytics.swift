@@ -105,24 +105,24 @@ struct AnalyticsData: Codable, Equatable {
     }
     
     private static func postUserSettings(_ data: AnalyticsData) {
-        let urlString = "https://api.inventorywatch.app/user-settings"
-        guard let url = URL(string: urlString) else {
-            return
-        }
-        
-        Task {
-            let bodyData = data.toJsonData
-            
-            var request = URLRequest(url: url)
-            request.httpMethod = "POST"
-            request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-            request.httpBody = bodyData
-            do {
-                let (_, response) = try await URLSession.shared.data(for: request)
-                print("successfully updated analytics: response code \((response as? HTTPURLResponse)?.statusCode ?? 0)")
-            } catch {
-                print(error)
-            }
-        }
+//        let urlString = "https://api.inventorywatch.app/user-settings"
+//        guard let url = URL(string: urlString) else {
+//            return
+//        }
+//        
+//        Task {
+//            let bodyData = data.toJsonData
+//            
+//            var request = URLRequest(url: url)
+//            request.httpMethod = "POST"
+//            request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+//            request.httpBody = bodyData
+//            do {
+//                let (_, response) = try await URLSession.shared.data(for: request)
+//                print("successfully updated analytics: response code \((response as? HTTPURLResponse)?.statusCode ?? 0)")
+//            } catch {
+//                print(error)
+//            }
+//        }
     }
 }

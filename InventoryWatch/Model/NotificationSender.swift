@@ -33,38 +33,72 @@ struct NotificationSender {
         }
         
         let message = self.generateNotificationText(from: availableParts, skuData: skuData, preferredModels: preferredModels)
-        NotificationManager.shared.sendNotification(title: hasPreferredModel ? "Preferred Model Found!" : "Apple Store Inventory", body: message)
+        let title = generateNotificationTitle(hasPreferredModel: hasPreferredModel, availableParts: availableParts)
+        await NotificationManager.shared.sendNotification(title: title, body: message)
     }
     
     private func generateNotificationText(from data: [(FulfillmentStore, [PartAvailability])], skuData: SKUData, preferredModels: Set<String>) -> String {
         guard data.isEmpty == false else {
-            return "No Inventory Found"
+            return "No inventory currently available at nearby stores"
         }
         
         let customSkuData = defaultsVendor.customSkuData
         let filterForPreferredModels = defaultsVendor.notifyOnlyForPreferredModels
         
         var collector: [PartAvailability: Int] = [:]
-        for (_, parts) in data {
+        var storeNames: Set<String> = []
+        
+        for (store, parts) in data {
+            storeNames.insert(store.storeName)
             for part in parts {
-                let collect = { collector[part, default: 0] += 1 }
+                let shouldInclude = part.partNumber == customSkuData?.sku || 
+                                 (filterForPreferredModels && preferredModels.contains(part.partNumber)) ||
+                                 !filterForPreferredModels
                 
-                if part.partNumber == customSkuData?.sku {
-                    collect()
-                } else if filterForPreferredModels, preferredModels.contains(part.partNumber) {
-                    collect()
+                if shouldInclude {
+                    collector[part, default: 0] += 1
                 }
             }
         }
         
-        let combined: [String] = collector.reduce(into: []) { partialResult, next in
-            
-            let (key, value) = next
-            let name = key.partName
-            partialResult.append("\(name): \(value) found")
+        let sortedModels = collector.sorted { $0.value > $1.value }
+        let modelCount = sortedModels.count
+        let storeCount = storeNames.count
+        
+        if modelCount == 0 {
+            return "No preferred models available at this time"
         }
         
-        return combined.joined(separator: ", ")
+        let topModels = sortedModels.prefix(3).map { (part, count) in
+            let shortName = part.partName
+                .replacingOccurrences(of: "iPhone ", with: "")
+                .replacingOccurrences(of: " Pro Max", with: " Pro Max")
+            return "\(shortName) (×\(count))"
+        }
+        
+        let storeText = storeCount == 1 ? "1 store" : "\(storeCount) stores"
+        let modelText = modelCount > 3 ? "& \(modelCount - 3) more" : ""
+        
+        let message = "\(topModels.joined(separator: ", ")) \(modelText) • Available at \(storeText)"
+        return message.trimmingCharacters(in: .whitespaces)
+    }
+    
+    private func generateNotificationTitle(hasPreferredModel: Bool, availableParts: [(FulfillmentStore, [PartAvailability])]) -> String {
+        let totalModels = availableParts.reduce(0) { total, storeParts in
+            total + storeParts.1.count
+        }
+        
+        if hasPreferredModel {
+            let emojis = ["🎉", "✨", "🔥", "⚡️", "🚀"]
+            let randomEmoji = emojis.randomElement() ?? "🎉"
+            return "\(randomEmoji) Your iPhone is Available!"
+        } else if totalModels > 10 {
+            return "📱 Lots of iPhone Models Available"
+        } else if totalModels > 0 {
+            return "📱 iPhone Inventory Update"
+        } else {
+            return "📱 Inventory Check Complete"
+        }
     }
     
 }

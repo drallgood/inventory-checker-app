@@ -15,6 +15,7 @@ struct PartAvailability: Equatable, Hashable {
     let partNumber: String
     let partName: String
     let availability: PickupAvailability
+    let availabilityStorePickupQuote: String
 }
 
 extension PartAvailability: Identifiable {

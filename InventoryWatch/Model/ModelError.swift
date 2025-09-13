@@ -16,6 +16,9 @@ enum AppError: Swift.Error, LocalizedError {
     case storeUnavailable
     case invalidStoreResponse
     case unexpectedJSONStructure
+    case accessDenied
+    case resourceNotFound
+    case rateLimited
     case generic(Error?)
     
     var errorDescription: String? {
@@ -35,6 +38,12 @@ enum AppError: Swift.Error, LocalizedError {
             return "Unexpected inventory data found. Please confirm that the selected store is valid for the selected country."
         case .storeUnavailable:
             return "Apple's fulfillment API returned an internal server error and is currently unavailable."
+        case .accessDenied:
+            return "Access denied by Apple's servers. This may be due to rate limiting or geographic restrictions."
+        case .resourceNotFound:
+            return "The requested inventory resource was not found. The product may not be available in your region."
+        case .rateLimited:
+            return "Too many requests sent to Apple's servers. Please wait a few minutes before trying again."
         case .invalidLocalModelStore, .invalidProjectState, .failedToParseGithubVersion:
             return "InventoryWatch has invalid or currupted local data. Please contact the developer (@worthbak)."
         case .generic(let optional):

@@ -13,7 +13,7 @@ final class ViewModel: ObservableObject {
     private let fulfillmentModel = FulfillmentModel()
     private let githubModel = GithubModel()
     private let notificationSender = NotificationSender()
-    private var defaultsVendor = DefaultsVendor()
+    public var defaultsVendor = DefaultsVendor()
     
     private var updateTimer: Timer?
     

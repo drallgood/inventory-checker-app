@@ -55,7 +55,7 @@ struct DefaultsVendor {
         if country.shortcode == "US" {
             return ""
         } else {
-            return country.shortcode + "/"
+            return country.shortcode.lowercased() + "/"
         }
     }
     

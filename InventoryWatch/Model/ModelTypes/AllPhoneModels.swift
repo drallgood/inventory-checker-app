@@ -13,13 +13,11 @@ struct AllPhoneModels {
         let productName: String
     }
     
-    var proMax14: [PhoneModel]
-    var pro14: [PhoneModel]
-    var regular14: [PhoneModel]
-    var plus14: [PhoneModel]
-    
-    var mini13: [PhoneModel]
-    var regular13: [PhoneModel]
+    var proMax17: [PhoneModel]
+    var pro17: [PhoneModel]
+    var regular17: [PhoneModel]
+    var air: [PhoneModel]
+    var iphone16e: [PhoneModel]
     
     func toSkuData(_ keypath: KeyPath<AllPhoneModels, [AllPhoneModels.PhoneModel]>) -> SKUData {
         let models = self[keyPath: keypath]

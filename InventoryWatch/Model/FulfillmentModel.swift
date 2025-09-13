@@ -40,26 +40,53 @@ actor FulfillmentModel {
         do {
             // Try loading remote stores first
             let url = URL(string: "https://www.apple.com/rsp-web/store-list?locale=en_US")!
-            let (data, _) = try await URLSession.shared.data(from: url)
-            let jsonStores = try decoder.decode(StoreBootstrap.self, from: data)
+            var request = URLRequest(url: url)
+            request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
+            request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
+            request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
+            request.timeoutInterval = 30
             
+            let (data, response) = try await URLSession.shared.data(for: request)
+            
+            // Check if we received HTML instead of JSON
+            if let responseString = String(data: data, encoding: .utf8) {
+                if responseString.trimmingCharacters(in: .whitespacesAndNewlines).hasPrefix("<") {
+                    print("❌ Store list API returned HTML instead of JSON. Falling back to local data.")
+                    throw AppError.invalidStoreResponse
+                }
+            }
+            
+            let jsonStores = try decoder.decode(StoreBootstrap.self, from: data)
             cachedStoreData = jsonStores.countryData
             return jsonStores.countryData
         } catch {
-            print(error)
+            print("Store list API error: \(error)")
         }
         
-        // If remote stores failed to load, fallback to local bootstrap
+        // If remote stores failed to load, fallback to comprehensive global store data first
         let fileType = "json"
+        
+        // Try the comprehensive global store data first
+        if let path = Bundle.main.path(forResource: "Stores_GlobalBootstrap", ofType: fileType) {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path))
+                let jsonStores = try decoder.decode(StoreBootstrap.self, from: data)
+                print("✅ Using comprehensive global store data (536 stores across 26 countries)")
+                return jsonStores.countryData
+            } catch {
+                print("⚠️ Failed to load global store data, trying local fallback: \(error)")
+            }
+        }
+        
+        // Fallback to original local bootstrap if global data fails
         if let path = Bundle.main.path(forResource: "Stores_LocalBootstrap", ofType: fileType) {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
-                
                 let jsonStores = try decoder.decode(StoreBootstrap.self, from: data)
+                print("✅ Using local store bootstrap data")
                 return jsonStores.countryData
-                
             } catch {
-                print(error)
+                print("❌ Failed to load local store data: \(error)")
                 throw error
             }
         } else {
@@ -77,6 +104,13 @@ actor FulfillmentModel {
         
         var request = URLRequest(url: url)
         request.addValue("https://www.apple.com/shop/buy-iphone/", forHTTPHeaderField: "Referer")
+        request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
+        request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
+        request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
+        request.addValue("same-origin", forHTTPHeaderField: "Sec-Fetch-Site")
+        request.addValue("cors", forHTTPHeaderField: "Sec-Fetch-Mode")
+        request.addValue("empty", forHTTPHeaderField: "Sec-Fetch-Dest")
+        request.timeoutInterval = 30
         
         // Log the URL for debugging
         print(url.absoluteString)
@@ -138,7 +172,27 @@ actor FulfillmentModel {
             throw errorForStatusCode(response?.statusCode) ?? AppError.invalidStoreResponse
         }
         
+        // Check if we received HTML instead of JSON
+        if let responseString = String(data: responseData, encoding: .utf8) {
+            if responseString.trimmingCharacters(in: .whitespacesAndNewlines).hasPrefix("<") {
+                print("❌ Received HTML instead of JSON. Response length: \(responseData.count) bytes")
+                print("First 200 characters: \(String(responseString.prefix(200)))")
+                
+                // Check for common error patterns
+                if responseString.contains("403") || responseString.contains("Forbidden") {
+                    throw AppError.accessDenied
+                } else if responseString.contains("404") || responseString.contains("Not Found") {
+                    throw AppError.resourceNotFound
+                } else if responseString.contains("rate limit") || responseString.contains("too many requests") {
+                    throw AppError.rateLimited
+                } else {
+                    throw AppError.invalidStoreResponse
+                }
+            }
+        }
+        
         guard let json = try? JSONSerialization.jsonObject(with: responseData, options: []) as? [String : Any] else {
+            print("❌ Failed to parse JSON. Response status: \(response?.statusCode ?? -1)")
             throw errorForStatusCode(response?.statusCode) ?? AppError.invalidStoreResponse
         }
         
@@ -155,7 +209,7 @@ actor FulfillmentModel {
         }
         
         let skuData = try await skuDataForPreferredProduct
-        let collectedStores: [FulfillmentStore] = storeList.compactMap { storeJSON in
+        let collectedStores: [FulfillmentStore] = storeList.compactMap { storeJSON -> FulfillmentStore? in
             guard let name = storeJSON["storeName"] as? String else { return nil }
             guard let number = storeJSON["storeNumber"] as? String else { return nil }
             guard let city = storeJSON["city"] as? String else { return nil }
@@ -163,15 +217,19 @@ actor FulfillmentModel {
             
             guard let partsAvailability = storeJSON["partsAvailability"] as? [String: [String: Any]] else { return nil }
             let parsedParts: [PartAvailability] = partsAvailability.values.compactMap { part in
-                guard let partNumber = part["partNumber"] as? String else { return nil }
                 guard
                     let availabilityString = part["pickupDisplay"] as? String,
-                    let availability = PartAvailability.PickupAvailability(rawValue: availabilityString)
+                    let availability = PartAvailability.PickupAvailability(rawValue: availabilityString),
+                    let messageTypes = part["messageTypes"] as? [String: Any],
+                    let regular = messageTypes["regular"] as? [String: Any],
+                    let availabilityStorePickupQuote = regular["storePickupQuote"] as? String
                 else {
                     return nil
                 }
-                
-                // get name from SKU data, or custom SKU if available 
+                guard let partNumber = part["partNumber"] as? String else {
+                    return nil
+                }
+                // get name from SKU data, or custom SKU if available
                 let productName: String
                 if let name = skuData.productName(forSKU: partNumber) {
                     productName = name
@@ -181,7 +239,7 @@ actor FulfillmentModel {
                     productName = partNumber
                 }
                 
-                return PartAvailability(partNumber: partNumber, partName: productName, availability: availability)
+                return PartAvailability(partNumber: partNumber, partName: productName, availability: availability, availabilityStorePickupQuote: availabilityStorePickupQuote)
             }
             
             

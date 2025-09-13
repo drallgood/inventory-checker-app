@@ -29,17 +29,16 @@ enum ProductCategory: String, Codable, CaseIterable, Identifiable {
             ]
         case .iPhone:
             return [
-                .iPhoneRegular13,
-                .iPhoneMini13,
-                .iPhoneRegular14,
-                .iPhonePlus14,
-                .iPhonePro14,
-                .iPhoneProMax14
+                .iPhoneRegular17,
+                .iPhone16e,
+                .iPhoneAir,
+                .iPhonePro17,
+                .iPhoneProMax17
             ]
         case .AppleWatch:
             return [.AppleWatchUltra]
         case .Accessories:
-            return [.StudioDisplay, .AirPodsProGen2, .ApplePencilUSBCAdapter]
+            return [.StudioDisplay, .AirPodsProGen3, .ApplePencilUSBCAdapter]
         }
     }
 }
@@ -53,7 +52,7 @@ enum ProductType: String, Codable, CaseIterable, Identifiable {
     case MacStudio
     
     case StudioDisplay
-    case AirPodsProGen2
+    case AirPodsProGen3
     case ApplePencilUSBCAdapter
     
     case iPadMiniWifi
@@ -65,12 +64,11 @@ enum ProductType: String, Codable, CaseIterable, Identifiable {
     case iPadProM2_13in_Wifi
     case iPadProM2_13in_Cellular
     
-    case iPhoneRegular13
-    case iPhoneMini13
-    case iPhoneRegular14
-    case iPhonePlus14
-    case iPhonePro14
-    case iPhoneProMax14
+    case iPhone16e
+    case iPhoneRegular17
+    case iPhoneAir
+    case iPhonePro17
+    case iPhoneProMax17
     
     case AppleWatchUltra
     
@@ -87,7 +85,7 @@ enum ProductType: String, Codable, CaseIterable, Identifiable {
             
         case .StudioDisplay:
             return "Studio Display"
-        case .AirPodsProGen2:
+        case .AirPodsProGen3:
             return "AirPods Pro"
         case .ApplePencilUSBCAdapter:
             return "USB-C to Apple Pencil Adapter"
@@ -108,19 +106,17 @@ enum ProductType: String, Codable, CaseIterable, Identifiable {
             return "M2 iPad Pro 12.9in (Wifi)"
         case .iPadProM2_13in_Cellular:
             return "M2 iPad Pro 12.9in (Cellular)"
-            
-        case .iPhoneRegular13:
-            return "iPhone 13"
-        case .iPhoneMini13:
-            return "iPhone 13 mini"
-        case .iPhoneRegular14:
-            return "iPhone 14"
-        case .iPhonePlus14:
-            return "iPhone 14 Plus"
-        case .iPhonePro14:
-            return "iPhone 14 Pro"
-        case .iPhoneProMax14:
-            return "iPhone 14 Pro Max"
+         
+        case .iPhone16e:
+            return "iPhone 16e"
+        case .iPhoneRegular17:
+            return "iPhone 17"
+        case .iPhoneAir:
+            return "iPhone Air"
+        case .iPhonePro17:
+            return "iPhone 17 Pro"
+        case .iPhoneProMax17:
+            return "iPhone 17 Pro Max"
             
         case.AppleWatchUltra:
             return "Apple Watch Ultra"
