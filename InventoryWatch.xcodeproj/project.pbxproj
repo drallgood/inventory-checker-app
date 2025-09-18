@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3817268E273AA898003B8D76 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817268D273AA898003B8D76 /* SettingsView.swift */; };
-		382981C328E3EA54008C68F7 /* AppleWatchUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 382981C228E3EA54008C68F7 /* AppleWatchUltra-intl.json */; };
 		385886AD290827A6003D3C80 /* ModelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385886AC290827A6003D3C80 /* ModelError.swift */; };
 		385886AF290827D6003D3C80 /* SKUDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385886AE290827D6003D3C80 /* SKUDataLoader.swift */; };
 		385886B12908280E003D3C80 /* FulfillmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385886B02908280E003D3C80 /* FulfillmentModel.swift */; };
@@ -23,8 +22,6 @@
 		386FDC6A273A200000C1BAC2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FDC69273A200000C1BAC2 /* NotificationManager.swift */; };
 		3885D54C2891711E00BD6A78 /* FulfillmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885D54B2891711E00BD6A78 /* FulfillmentStore.swift */; };
 		3885D54E2891713200BD6A78 /* PartAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885D54D2891713200BD6A78 /* PartAvailability.swift */; };
-		3885D5502891714400BD6A78 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885D54F2891714400BD6A78 /* ProductType.swift */; };
-		3885D5522891718600BD6A78 /* AllPhoneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885D5512891718600BD6A78 /* AllPhoneModels.swift */; };
 		3885D5542891719600BD6A78 /* GithubTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885D5532891719600BD6A78 /* GithubTag.swift */; };
 		3891902D28E882070051FE3A /* Stores_LocalBootstrap.json in Resources */ = {isa = PBXBuildFile; fileRef = 3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */; };
 		3891902F28E8831B0051FE3A /* StoreBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891902E28E8831B0051FE3A /* StoreBootstrap.swift */; };
@@ -34,15 +31,19 @@
 		38D307DB2745E2E700A0686D /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D307DA2745E2E700A0686D /* Analytics.swift */; };
 		38E1C21A27E6714E0047703D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E1C21927E6714E0047703D /* Helpers.swift */; };
 		38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38E4279D273EF542006BF6D7 /* Credits.rtf */; };
-		464F48CD2E75AFF500561DEC /* iPhoneModels17-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 464F48CC2E75AFF500561DEC /* iPhoneModels17-intl.json */; };
-		464F48CF2E75B46E00561DEC /* iPhoneModelsAir-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 464F48CE2E75B46E00561DEC /* iPhoneModelsAir-intl.json */; };
-		46F134AB2E75C47500CBE7DB /* iPhoneModels16-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134AA2E75C47500CBE7DB /* iPhoneModels16-intl.json */; };
 		46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */; };
+		46F134CF2E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */; };
+		46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */; };
+		46F134D12E7C3B0A00CBE7DB /* Iphone-16e-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CA2E7C3B0A00CBE7DB /* Iphone-16e-intl.json */; };
+		46F134D22E7C3B0A00CBE7DB /* Iphone-Air-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */; };
+		46F134D32E7C3B0A00CBE7DB /* Iphone-16-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C92E7C3B0A00CBE7DB /* Iphone-16-intl.json */; };
+		46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */; };
+		46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */; };
+		46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3817268D273AA898003B8D76 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		382981C228E3EA54008C68F7 /* AppleWatchUltra-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatchUltra-intl.json"; sourceTree = "<group>"; };
 		385886AC290827A6003D3C80 /* ModelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelError.swift; sourceTree = "<group>"; };
 		385886AE290827D6003D3C80 /* SKUDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKUDataLoader.swift; sourceTree = "<group>"; };
 		385886B02908280E003D3C80 /* FulfillmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FulfillmentModel.swift; sourceTree = "<group>"; };
@@ -59,8 +60,6 @@
 		386FDC69273A200000C1BAC2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		3885D54B2891711E00BD6A78 /* FulfillmentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FulfillmentStore.swift; sourceTree = "<group>"; };
 		3885D54D2891713200BD6A78 /* PartAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartAvailability.swift; sourceTree = "<group>"; };
-		3885D54F2891714400BD6A78 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
-		3885D5512891718600BD6A78 /* AllPhoneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPhoneModels.swift; sourceTree = "<group>"; };
 		3885D5532891719600BD6A78 /* GithubTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTag.swift; sourceTree = "<group>"; };
 		3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stores_LocalBootstrap.json; sourceTree = "<group>"; };
 		3891902E28E8831B0051FE3A /* StoreBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreBootstrap.swift; sourceTree = "<group>"; };
@@ -70,10 +69,15 @@
 		38D307DA2745E2E700A0686D /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		38E1C21927E6714E0047703D /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		38E4279D273EF542006BF6D7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		464F48CC2E75AFF500561DEC /* iPhoneModels17-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPhoneModels17-intl.json"; sourceTree = "<group>"; };
-		464F48CE2E75B46E00561DEC /* iPhoneModelsAir-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPhoneModelsAir-intl.json"; sourceTree = "<group>"; };
-		46F134AA2E75C47500CBE7DB /* iPhoneModels16-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPhoneModels16-intl.json"; sourceTree = "<group>"; };
 		46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stores_GlobalBootstrap.json; sourceTree = "<group>"; };
+		46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatch-intl.json"; sourceTree = "<group>"; };
+		46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchSe-intl.json"; sourceTree = "<group>"; };
+		46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchUltra-intl.json"; sourceTree = "<group>"; };
+		46F134C92E7C3B0A00CBE7DB /* Iphone-16-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-16-intl.json"; sourceTree = "<group>"; };
+		46F134CA2E7C3B0A00CBE7DB /* Iphone-16e-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-16e-intl.json"; sourceTree = "<group>"; };
+		46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17-intl.json"; sourceTree = "<group>"; };
+		46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17Pro-intl.json"; sourceTree = "<group>"; };
+		46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-Air-intl.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +94,8 @@
 		3863FF54290D7F550013C1DE /* ModelTypes */ = {
 			isa = PBXGroup;
 			children = (
-				3885D54F2891714400BD6A78 /* ProductType.swift */,
 				3885D54B2891711E00BD6A78 /* FulfillmentStore.swift */,
 				3891902E28E8831B0051FE3A /* StoreBootstrap.swift */,
-				3885D5512891718600BD6A78 /* AllPhoneModels.swift */,
 				3895BE91290ACE5000FBC188 /* AppleWatchData.swift */,
 				3885D54D2891713200BD6A78 /* PartAvailability.swift */,
 				3885D5532891719600BD6A78 /* GithubTag.swift */,
@@ -120,6 +122,7 @@
 		386FDC552739DA7300C1BAC2 /* InventoryWatch */ = {
 			isa = PBXGroup;
 			children = (
+				46F134CE2E7C3B0A00CBE7DB /* Catalogs */,
 				386FDC562739DA7300C1BAC2 /* InventoryWatchApp.swift */,
 				386FDC582739DA7300C1BAC2 /* ContentView.swift */,
 				3817268D273AA898003B8D76 /* SettingsView.swift */,
@@ -127,10 +130,6 @@
 				38E1C21927E6714E0047703D /* Helpers.swift */,
 				3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */,
 				46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */,
-				464F48CC2E75AFF500561DEC /* iPhoneModels17-intl.json */,
-				46F134AA2E75C47500CBE7DB /* iPhoneModels16-intl.json */,
-				464F48CE2E75B46E00561DEC /* iPhoneModelsAir-intl.json */,
-				382981C228E3EA54008C68F7 /* AppleWatchUltra-intl.json */,
 				386FDC67273A18F800C1BAC2 /* SKUData.swift */,
 				38D0C3A1273C60B500A7DE65 /* Countries.swift */,
 				386FDC5A2739DA7300C1BAC2 /* Assets.xcassets */,
@@ -164,6 +163,21 @@
 				3863FF54290D7F550013C1DE /* ModelTypes */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		46F134CE2E7C3B0A00CBE7DB /* Catalogs */ = {
+			isa = PBXGroup;
+			children = (
+				46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */,
+				46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */,
+				46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */,
+				46F134C92E7C3B0A00CBE7DB /* Iphone-16-intl.json */,
+				46F134CA2E7C3B0A00CBE7DB /* Iphone-16e-intl.json */,
+				46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */,
+				46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */,
+				46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */,
+			);
+			path = Catalogs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,11 +240,15 @@
 			files = (
 				38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */,
 				3891902D28E882070051FE3A /* Stores_LocalBootstrap.json in Resources */,
-				464F48CF2E75B46E00561DEC /* iPhoneModelsAir-intl.json in Resources */,
-				382981C328E3EA54008C68F7 /* AppleWatchUltra-intl.json in Resources */,
-				464F48CD2E75AFF500561DEC /* iPhoneModels17-intl.json in Resources */,
 				46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */,
-				46F134AB2E75C47500CBE7DB /* iPhoneModels16-intl.json in Resources */,
+				46F134CF2E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json in Resources */,
+				46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */,
+				46F134D12E7C3B0A00CBE7DB /* Iphone-16e-intl.json in Resources */,
+				46F134D22E7C3B0A00CBE7DB /* Iphone-Air-intl.json in Resources */,
+				46F134D32E7C3B0A00CBE7DB /* Iphone-16-intl.json in Resources */,
+				46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */,
+				46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */,
+				46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */,
 				386FDC5E2739DA7300C1BAC2 /* Preview Assets.xcassets in Resources */,
 				386FDC5B2739DA7300C1BAC2 /* Assets.xcassets in Resources */,
 			);
@@ -262,9 +280,7 @@
 				3895BE92290ACE5000FBC188 /* AppleWatchData.swift in Sources */,
 				38D0C3A2273C60B500A7DE65 /* Countries.swift in Sources */,
 				385886B32908281F003D3C80 /* GithubModel.swift in Sources */,
-				3885D5522891718600BD6A78 /* AllPhoneModels.swift in Sources */,
 				386FDC572739DA7300C1BAC2 /* InventoryWatchApp.swift in Sources */,
-				3885D5502891714400BD6A78 /* ProductType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +431,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 0.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.worthbak.InventoryWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +462,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 0.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.worthbak.InventoryWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,191 @@
+{
+  "discovered_models": {
+    "at": {
+      "iphone-17-pro": {
+        "url": null,
+        "skus": {
+          "MFYU4ZD/A": {
+            "name": "iPhone 17 Pro Max 512GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYT4ZD/A": {
+            "name": "iPhone 17 Pro Max 512GB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYV4ZD/A": {
+            "name": "iPhone 17 Pro Max 1TB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYY4ZD/A": {
+            "name": "iPhone 17 Pro Max 2TB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYW4ZD/A": {
+            "name": "iPhone 17 Pro Max 1TB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYX4ZD/A": {
+            "name": "iPhone 17 Pro Max 1TB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG004ZD/A": {
+            "name": "iPhone 17 Pro Max 2TB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG014ZD/A": {
+            "name": "iPhone 17 Pro Max 2TB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYM4ZD/A": {
+            "name": "iPhone 17 Pro Max 256GB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYP4ZD/A": {
+            "name": "iPhone 17 Pro Max 256GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYQ4ZD/A": {
+            "name": "iPhone 17 Pro Max 512GB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MFYN4ZD/A": {
+            "name": "iPhone 17 Pro Max 256GB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8P4ZD/A": {
+            "name": "iPhone 17 Pro 1TB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8Q4ZD/A": {
+            "name": "iPhone 17 Pro 1TB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8N4ZD/A": {
+            "name": "iPhone 17 Pro 512GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8R4ZD/A": {
+            "name": "iPhone 17 Pro 1TB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8H4ZD/A": {
+            "name": "iPhone 17 Pro 256GB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8G4ZD/A": {
+            "name": "iPhone 17 Pro 256GB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8M4ZD/A": {
+            "name": "iPhone 17 Pro 512GB Cosmic Orange",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8J4ZD/A": {
+            "name": "iPhone 17 Pro 256GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG8K4ZD/A": {
+            "name": "iPhone 17 Pro 512GB Silver",
+            "colorKey": "deepblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-17-pro": "shop/buy-iphone/iphone-17-pro"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17-pro": "iPhone 17 Pro"
+        }
+      }
+    }
+  }
+}

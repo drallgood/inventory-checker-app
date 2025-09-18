@@ -1,0 +1,39 @@
+{
+  "discovered_models": {
+    "at": {
+      "apple-watch-ultra": {
+        "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-ultra",
+        "skus": {
+          "MF1V4QF/A": {
+            "name": "Apple Watch 49mm Natur Aluminum GPS",
+            "colorKey": "natural",
+            "colorDisplay": "Natur",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF254QF/A": {
+            "name": "Apple Watch 49mm Schwarz Aluminum GPS",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      }
+    }
+  }
+}

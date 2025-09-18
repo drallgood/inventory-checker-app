@@ -22,6 +22,7 @@ final class ViewModel: ObservableObject {
     @Published var hasLatestVersion = true
     @Published var errorState: AppError?
     @Published var preferredStoreName: String? = nil
+    @Published var pickupErrorKeys: [String] = []
     
     var skuDataForPreferredProduct: SKUData {
         get async throws {
@@ -82,6 +83,8 @@ final class ViewModel: ObservableObject {
                 updateErrorState(to: .none, deactivateLoadingState: false)
                 
                 availableParts = try await fulfillmentModel.fetchInventory()
+                // Surface any Apple pickup API error keys (e.g., invalidLocalModelStore)
+                pickupErrorKeys = await fulfillmentModel.lastPickupErrorKeys
                 try Task.checkCancellation()
                 updateErrorState(to: .none)
                 

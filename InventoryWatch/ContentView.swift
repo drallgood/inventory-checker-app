@@ -11,51 +11,12 @@ struct ContentView: View {
     @EnvironmentObject var model: ViewModel
     
     @AppStorage("lastUpdateDate") private var lastUpdateDate: String = ""
-    @AppStorage("preferredProductType") private var preferredProductType: String = "MacBookPro"
+    @AppStorage("preferredProductType") private var preferredProductType: String = ProductFamily.iphone.rawValue
+    @AppStorage("preferredWatchToken") private var preferredWatchToken: String = ""
+    @AppStorage("preferredPhoneToken") private var preferredPhoneToken: String = ""
     @AppStorage("useLargeText") private var useLargeText: Bool = false
     @AppStorage("shouldIncludeNearbyStores") private var shouldIncludeNearbyStores: Bool = true
-    
-    func getShopPath(for productType: ProductType, partName: String) -> String {
-        switch productType {
-        case .MacBookPro, .M2MacBookPro13, .M2MacBookAir:
-            return "buy-mac"
-        case .MacStudio:
-            return "buy-mac/mac-studio"
-        case .StudioDisplay:
-            return "buy-mac/studio-display"
-        case .iPadMiniWifi, .iPadMiniCellular:
-            return "buy-ipad/ipad-mini"
-        case .iPad10thGenWifi, .iPad10thGenCellular:
-            return "buy-ipad/ipad"
-        case .iPadProM2_11in_Wifi, .iPadProM2_11in_Cellular, .iPadProM2_13in_Wifi, .iPadProM2_13in_Cellular:
-            return "buy-ipad/ipad-pro"
-        case .iPhone16e, .iPhoneRegular17, .iPhoneAir, .iPhonePro17, .iPhoneProMax17:
-            return getIPhoneShopPath(for: partName)
-        case .AppleWatchUltra:
-            return "buy-watch"
-        case .AirPodsProGen3:
-            return "product/airpods-pro"
-        case .ApplePencilUSBCAdapter:
-            return "product/usb-c-to-apple-pencil-adapter"
-        }
-    }
-    
-    func getIPhoneShopPath(for partName: String) -> String {
-        let name = partName.lowercased()
-        if name.contains("16e") {
-            return "buy-iphone/iphone-16e"
-        } else if name.contains("17 pro max") || name.contains("17 promax") {
-            return "buy-iphone/iphone-17-pro-max"
-        } else if name.contains("17 pro") {
-            return "buy-iphone/iphone-17-pro"
-        } else if name.contains("17") {
-            return "buy-iphone/iphone-17"
-        } else if name.contains("air") {
-            return "buy-iphone/iphone-air"
-        } else {
-            return "buy-iphone"
-        }
-    }
+
     
     private var onlyShowingPreferredResults: Bool {
         return UserDefaults.standard.bool(forKey: "showResultsOnlyForPreferredModels")
@@ -95,9 +56,20 @@ struct ContentView: View {
                 
                 VStack {
                     let font = useLargeText ? Font.largeTitle : Font.title2
-                    
-                    if let product = ProductType(rawValue: preferredProductType) {
-                        Text("Available \(Text(product.presentableName).font(font).fontWeight(.heavy)) Models")
+                    let country = model.defaultsVendor.preferredCountry
+                    let family = ProductFamily(rawValue: preferredProductType)
+                    if let fam = family, fam.isWatch, !preferredWatchToken.isEmpty,
+                       let tokenName = displayNameForWatchToken(token: preferredWatchToken, country: country) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
+                    } else if let fam = family, fam.isIPhone, !preferredPhoneToken.isEmpty,
+                              let tokenName = ProductConfiguration.phoneTokenDisplayName(for: country, sourcePage: preferredPhoneToken) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
+                    } else if family != nil {
+                        Text("Available Models")
                             .font(font)
                             .fontWeight(.semibold)
                     } else {
@@ -132,49 +104,181 @@ struct ContentView: View {
                             .font(.subheadline)
                             .italic()
                     }
-                    
-                    let storeFont = useLargeText ? Font.largeTitle.bold() : Font.headline.bold()
-                    let cityFont = useLargeText ? Font.title : Font.subheadline.bold()
-                    let productFont = useLargeText ? Font.title.weight(.medium) : Font.body.weight(.medium)
-                    
-                    ForEach(model.availableParts, id: \.0.storeNumber) { data in
-                        Text("\(Text(data.0.storeName).font(storeFont)) \(Text(data.0.locationDescription).font(cityFont))")
-                        
-                        let sortedParts = data.1.sorted { $0.partName.localizedStandardCompare($1.partName) == .orderedAscending }
 
-                        ForEach(sortedParts, id: \.partNumber) { part in
-                            VStack(alignment: .leading, spacing: 4) {
-                                HStack {
-                                    Text(part.partName)
-                                        .font(productFont)
-                                    Spacer()
-                                    Text(part.availabilityStorePickupQuote)
-                                        .font(useLargeText ? .body : .caption)
-                                        .foregroundColor(.secondary)
-                                }
-                                
-                                Button(action: {
-                                    let productType = model.defaultsVendor.preferredProductType
-                                    let shopPath = getShopPath(for: productType, partName: part.partName)
-                                    let productURL = "https://www.apple.com/\(model.defaultsVendor.countryPathElement)shop/\(shopPath)"
-                                    if let url = URL(string: productURL) {
-                                        NSWorkspace.shared.open(url)
-                                    }
-                                }) {
-                                    Text("Order Online")
-                                        .font(useLargeText ? .caption : .caption2)
-                                        .foregroundColor(.blue)
-                                }
-                                .buttonStyle(PlainButtonStyle())
+                    let productFont = useLargeText ? Font.title.weight(.medium) : Font.body.weight(.medium)
+                    let country = model.defaultsVendor.preferredCountry
+                    let preferred = model.defaultsVendor.preferredProductFamily
+
+                    // Render only the selected Apple Watch model token (Settings -> Watch Model)
+                    if preferred.isWatch {
+                        // Build availability set from current inventory (any store)
+                        let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
+                        // Build per-SKU pickup availability details (store count and a sample quote)
+                        let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
+                            let parts = entry.1
+                            parts.forEach { part in
+                                guard part.availability == .available else { return }
+                                let current = acc[part.partNumber] ?? (0, nil)
+                                let newCount = current.count + 1
+                                let quote = current.quote ?? part.availabilityStorePickupQuote
+                                acc[part.partNumber] = (newCount, quote)
                             }
-                            .padding(.vertical, 2)
+                        }
+                        // Preferred SKUs from Settings
+                        let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
+                        // Token from Settings
+                        let token = preferredWatchToken
+                        if token.isEmpty {
+                            Text("Select a Watch Model in Settings.")
+                                .foregroundColor(.secondary)
+                        } else if let data = SKUDataLoader().watchSKUData(forToken: token, country: country) {
+                            // Filter SKUs: only those with availability AND (if preferred list set) present in preferred SKUs
+                            let filtered = data.orderedSKUs.filter { sku in
+                                let isAvailable = availableSkus.contains(sku)
+                                if preferredSkus.isEmpty { return isAvailable }
+                                return isAvailable && preferredSkus.contains(sku)
+                            }
+                            ForEach(filtered, id: \.self) { partNumber in
+                                let name = data.productName(forSKU: partNumber) ?? partNumber
+                                VStack(alignment: .leading, spacing: 4) {
+                                    HStack {
+                                        Text(name)
+                                            .font(productFont)
+                                        Spacer()
+                                    }
+                                    // PDP URL preview (resolved from JSON)
+                                    if let preview = SKUDataLoader().watchProductURL(for: partNumber, country: country)?.absoluteString {
+                                        Text(preview)
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.secondary)
+                                            .textSelection(.enabled)
+                                    }
+                                    // Pickup availability (aggregated across stores)
+                                    if let info = pickupInfo[partNumber] {
+                                        let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
+                                        let quoteText = info.quote ?? "Available for pickup"
+                                        Text("Pickup: \(quoteText) • \(countText)")
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.green)
+                                    } else {
+                                        Text("Pickup: Unavailable")
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.secondary)
+                                    }
+                                    Button(action: {
+                                        Task {
+                                            if let url = SKUDataLoader().watchProductURL(for: partNumber, country: country) {
+                                                NSWorkspace.shared.open(url)
+                                                return
+                                            }
+                                            // Fallback to generic Apple Watch root if slug URL is unavailable
+                                            let productURL = "https://www.apple.com/\(model.defaultsVendor.countryPathElement)shop/buy-watch/"
+                                            if let url = URL(string: productURL) { NSWorkspace.shared.open(url) }
+                                        }
+                                    }) {
+                                        Text("Order Online")
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.blue)
+                                    }
+                                    .buttonStyle(PlainButtonStyle())
+                                }
+                                .padding(.vertical, 2)
+                            }
+                        } else {
+                            Text("No SKUs available")
+                                .foregroundColor(.secondary)
+                        }
+                    } else if preferred.isIPhone {
+                        // iPhone tokenized rendering
+                        // Build availability set from current inventory (any store)
+                        let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
+                        // Build per-SKU pickup availability details (store count and a sample quote)
+                        let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
+                            let parts = entry.1
+                            parts.forEach { part in
+                                guard part.availability == .available else { return }
+                                let current = acc[part.partNumber] ?? (0, nil)
+                                let newCount = current.count + 1
+                                let quote = current.quote ?? part.availabilityStorePickupQuote
+                                acc[part.partNumber] = (newCount, quote)
+                            }
+                        }
+                        // Preferred SKUs from Settings
+                        let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
+                        // Token from Settings
+                        let token = preferredPhoneToken
+                        if token.isEmpty {
+                            Text("Select a Phone Model in Settings.")
+                                .foregroundColor(.secondary)
+                        } else if let data = SKUDataLoader().phoneSKUData(forToken: token, country: country) {
+                            let filtered = data.orderedSKUs.filter { sku in
+                                let isAvailable = availableSkus.contains(sku)
+                                if preferredSkus.isEmpty { return isAvailable }
+                                return isAvailable && preferredSkus.contains(sku)
+                            }
+                            ForEach(filtered, id: \.self) { partNumber in
+                                let name = data.productName(forSKU: partNumber) ?? partNumber
+                                VStack(alignment: .leading, spacing: 4) {
+                                    HStack {
+                                        Text(name)
+                                            .font(productFont)
+                                        Spacer()
+                                    }
+                                    // PDP URL preview (resolved from JSON)
+                                    if let preview = SKUDataLoader().phoneProductURL(for: partNumber, country: country)?.absoluteString {
+                                        Text(preview)
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.secondary)
+                                            .textSelection(.enabled)
+                                    }
+                                    // Pickup availability (aggregated across stores)
+                                    if let info = pickupInfo[partNumber] {
+                                        let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
+                                        let quoteText = info.quote ?? "Available for pickup"
+                                        Text("Pickup: \(quoteText) • \(countText)")
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.green)
+                                    } else {
+                                        Text("Pickup: Unavailable")
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.secondary)
+                                    }
+                                    Button(action: {
+                                        // Prefer per-SKU PDP URL, fallback to token base derived from scraped JSON
+                                        if let url = SKUDataLoader().phoneProductURL(for: partNumber, country: country) {
+                                            NSWorkspace.shared.open(url)
+                                        } else if let base = SKUDataLoader().phonePDPBaseURL(for: country, sourcePage: token) {
+                                            NSWorkspace.shared.open(base)
+                                        }
+                                    }) {
+                                        Text("Order Online")
+                                            .font(useLargeText ? .caption : .caption2)
+                                            .foregroundColor(.blue)
+                                    }
+                                    .buttonStyle(PlainButtonStyle())
+                                }
+                                .padding(.vertical, 2)
+                            }
+                        } else {
+                            Text("No SKUs available")
+                                .foregroundColor(.secondary)
+                        }
+                    } else {
+                        // Non-tokenized categories
+                        if model.availableParts.isEmpty && model.isLoading == false {
+                            Text("No models available in-store.")
+                                .foregroundColor(.secondary)
                         }
                     }
                 }
                 
-                if model.availableParts.isEmpty && model.isLoading == false {
-                    Text("No models available in-store.")
-                        .foregroundColor(.secondary)
+                // Hide legacy inventory empty-state for Apple Watch JSON-driven UI
+                let preferred = model.defaultsVendor.preferredProductFamily
+                if preferred.isWatch == false {
+                    if model.availableParts.isEmpty && model.isLoading == false {
+                        Text("No models available in-store.")
+                            .foregroundColor(.secondary)
+                    }
                 }
             }
             
@@ -222,6 +326,32 @@ struct ContentView: View {
             }
         }
     }
+}
+
+@MainActor
+private func displayNameForWatchToken(token: String, country: Country) -> String? {
+    // Derive name purely from JSON metadata; avoid any hardcoded configuration
+    if let dict = JSONCatalogAppleWatch.categoryData(for: country, sourcePage: token),
+       let md = dict.values.first {
+        var baseName: String? = nil
+        if let famName = md.familyName, famName.isEmpty == false {
+            baseName = famName
+        } else {
+            let fam = md.family
+            if fam == "apple_watch" { baseName = "Apple Watch" }
+            else if fam.isEmpty == false { baseName = fam.replacingOccurrences(of: "_", with: " ").capitalized }
+        }
+        var variant: String? = nil
+        if token.hasPrefix("apple-watch-") {
+            let suffix = String(token.dropFirst("apple-watch-".count))
+            if suffix.isEmpty == false {
+                variant = (suffix.lowercased() == "se") ? "SE" : suffix.replacingOccurrences(of: "-", with: " ").capitalized
+            }
+        }
+        if let base = baseName { return variant != nil ? "\(base) \(variant!)" : base }
+    }
+    // Last resort, prettify token
+    return token.replacingOccurrences(of: "-", with: " ").capitalized
 }
 
 //struct ContentView_Previews: PreviewProvider {

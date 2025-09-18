@@ -1,0 +1,199 @@
+{
+  "discovered_models": {
+    "at": {
+      "apple-watch": {
+        "url": "https://www.apple.com/at/shop/buy-watch/apple-watch",
+        "skus": {
+          "MF9F4ZR/A": {
+            "name": "Apple Watch 42mm Silber Aluminum GPS + Cellular",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFC14ZR/A": {
+            "name": "Apple Watch 46mm Schiefer Titanium GPS + Cellular",
+            "colorKey": "slate",
+            "colorDisplay": "Schiefer",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF9M4ZR/A": {
+            "name": "Apple Watch 42mm Gold Titanium GPS + Cellular",
+            "colorKey": "gold",
+            "colorDisplay": "Gold",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEWC4ZR/A": {
+            "name": "Apple Watch 46mm Silber Aluminum GPS",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFC34ZR/A": {
+            "name": "Apple Watch 46mm Gold Titanium GPS + Cellular",
+            "colorKey": "gold",
+            "colorDisplay": "Gold",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFAE4ZR/A": {
+            "name": "Apple Watch 46mm Space Grau Aluminum GPS + Cellular",
+            "colorKey": "space_gray",
+            "colorDisplay": "Space Grau",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFAF4ZR/A": {
+            "name": "Apple Watch 46mm Roségold Aluminum GPS + Cellular",
+            "colorKey": "rosegold",
+            "colorDisplay": "Roségold",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEW14ZR/A": {
+            "name": "Apple Watch 42mm Space Grau Aluminum GPS",
+            "colorKey": "space_gray",
+            "colorDisplay": "Space Grau",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEW04ZR/A": {
+            "name": "Apple Watch 42mm Diamantschwarz Aluminum GPS",
+            "colorKey": "jet_black",
+            "colorDisplay": "Diamantschwarz",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFAJ4ZR/A": {
+            "name": "Apple Watch 46mm Silber Aluminum GPS + Cellular",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF9H4ZR/A": {
+            "name": "Apple Watch 42mm Natur Titanium GPS + Cellular",
+            "colorKey": "natural",
+            "colorDisplay": "Natur",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFAY4ZR/A": {
+            "name": "Apple Watch 46mm Natur Titanium GPS + Cellular",
+            "colorKey": "natural",
+            "colorDisplay": "Natur",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF994ZR/A": {
+            "name": "Apple Watch 42mm Diamantschwarz Aluminum GPS + Cellular",
+            "colorKey": "jet_black",
+            "colorDisplay": "Diamantschwarz",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF9K4ZR/A": {
+            "name": "Apple Watch 42mm Schiefer Titanium GPS + Cellular",
+            "colorKey": "slate",
+            "colorDisplay": "Schiefer",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF9C4ZR/A": {
+            "name": "Apple Watch 42mm Space Grau Aluminum GPS + Cellular",
+            "colorKey": "space_gray",
+            "colorDisplay": "Space Grau",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEW34ZR/A": {
+            "name": "Apple Watch 42mm Silber Aluminum GPS",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEW94ZR/A": {
+            "name": "Apple Watch 46mm Space Grau Aluminum GPS",
+            "colorKey": "space_gray",
+            "colorDisplay": "Space Grau",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MF9E4ZR/A": {
+            "name": "Apple Watch 42mm Roségold Aluminum GPS + Cellular",
+            "colorKey": "rosegold",
+            "colorDisplay": "Roségold",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEW84ZR/A": {
+            "name": "Apple Watch 46mm Diamantschwarz Aluminum GPS",
+            "colorKey": "jet_black",
+            "colorDisplay": "Diamantschwarz",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEW24ZR/A": {
+            "name": "Apple Watch 42mm Roségold Aluminum GPS",
+            "colorKey": "rosegold",
+            "colorDisplay": "Roségold",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MFAA4ZR/A": {
+            "name": "Apple Watch 46mm Diamantschwarz Aluminum GPS + Cellular",
+            "colorKey": "jet_black",
+            "colorDisplay": "Diamantschwarz",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEWA4ZR/A": {
+            "name": "Apple Watch 46mm Roségold Aluminum GPS",
+            "colorKey": "rosegold",
+            "colorDisplay": "Roségold",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "apple-watch": "shop/buy-watch/apple-watch"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch": "Apple Watch Series 11"
+        }
+      }
+    }
+  }
+}

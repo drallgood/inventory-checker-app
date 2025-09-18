@@ -1,282 +1,237 @@
 {
+  "urlMappings": {},
+  "recognizedMaterials": [],
+  "discovered_models": {
     "at": {
-        "iphone16e": {
-            "MD1Q4ZD/A": "iPhone 16e 128GB Black",
-            "MD1R4ZD/A": "iPhone 16e 128GB White",
-            "MD1T4ZD/A": "iPhone 16e 256GB Black",
-            "MD1W4ZD/A": "iPhone 16e 256GB White",
-            "MD1X4ZD/A": "iPhone 16e 512GB Black",
-            "MD274ZD/A": "iPhone 16e 512GB White"
-        }
-    },
-    "us": {
-        "iphone16e": {
-            "MD0D4LL/A": "iPhone 16e 128GB Black",
-            "MD0E4LL/A": "iPhone 16e 128GB White",
-            "MD0F4LL/A": "iPhone 16e 256GB Black",
-            "MD0G4LL/A": "iPhone 16e 256GB White",
-            "MD0J4LL/A": "iPhone 16e 512GB Black",
-            "MD0Q4LL/A": "iPhone 16e 512GB White"
-        }
-    },
-    "uk": {
-        "iphone16e": {
-            "MD1Q4QN/A": "iPhone 16e 128GB Black",
-            "MD1R4QN/A": "iPhone 16e 128GB White",
-            "MD1T4QN/A": "iPhone 16e 256GB Black",
-            "MD1W4QN/A": "iPhone 16e 256GB White",
-            "MD1X4QN/A": "iPhone 16e 512GB Black",
-            "MD274QN/A": "iPhone 16e 512GB White"
-        }
-    },
-    "au": {
-        "iphone16e": {
-            "MD1Q4X/A": "iPhone 16e 128GB Black",
-            "MD1R4X/A": "iPhone 16e 128GB White",
-            "MD1T4X/A": "iPhone 16e 256GB Black",
-            "MD1W4X/A": "iPhone 16e 256GB White",
-            "MD1X4X/A": "iPhone 16e 512GB Black",
-            "MD274X/A": "iPhone 16e 512GB White"
-        }
-    },
-    "ca": {
-        "iphone16e": {
-            "MD1F4VC/A": "iPhone 16e 128GB Black",
-            "MD1G4VC/A": "iPhone 16e 128GB White",
-            "MD1H4VC/A": "iPhone 16e 256GB Black",
-            "MD1J4VC/A": "iPhone 16e 256GB White",
-            "MD1L4VC/A": "iPhone 16e 512GB Black",
-            "MD1P4VC/A": "iPhone 16e 512GB White"
-        }
-    },
-    "de": {
-        "iphone16e": {
-            "MD1Q4ZD/A": "iPhone 16e 128GB Black",
-            "MD1R4ZD/A": "iPhone 16e 128GB White",
-            "MD1T4ZD/A": "iPhone 16e 256GB Black",
-            "MD1W4ZD/A": "iPhone 16e 256GB White",
-            "MD1X4ZD/A": "iPhone 16e 512GB Black",
-            "MD274ZD/A": "iPhone 16e 512GB White"
-        }
-    },
-    "fr": {
-        "iphone16e": {
-            "MD1Q4F/A": "iPhone 16e 128GB Black",
-            "MD1R4F/A": "iPhone 16e 128GB White",
-            "MD1T4F/A": "iPhone 16e 256GB Black",
-            "MD1W4F/A": "iPhone 16e 256GB White",
-            "MD1X4F/A": "iPhone 16e 512GB Black",
-            "MD274F/A": "iPhone 16e 512GB White"
-        }
-    },
-    "it": {
-        "iphone16e": {
-            "MD1Q4QL/A": "iPhone 16e 128GB Black",
-            "MD1R4QL/A": "iPhone 16e 128GB White",
-            "MD1T4QL/A": "iPhone 16e 256GB Black",
-            "MD1W4QL/A": "iPhone 16e 256GB White",
-            "MD1X4QL/A": "iPhone 16e 512GB Black",
-            "MD274QL/A": "iPhone 16e 512GB White"
-        }
-    },
-    "es": {
-        "iphone16e": {
-            "MD1Q4QL/A": "iPhone 16e 128GB Black",
-            "MD1R4QL/A": "iPhone 16e 128GB White",
-            "MD1T4QL/A": "iPhone 16e 256GB Black",
-            "MD1W4QL/A": "iPhone 16e 256GB White",
-            "MD1X4QL/A": "iPhone 16e 512GB Black",
-            "MD274QL/A": "iPhone 16e 512GB White"
-        }
-    },
-    "nl": {
-        "iphone16e": {
-            "MD1Q4ZD/A": "iPhone 16e 128GB Black",
-            "MD1R4ZD/A": "iPhone 16e 128GB White",
-            "MD1T4ZD/A": "iPhone 16e 256GB Black",
-            "MD1W4ZD/A": "iPhone 16e 256GB White",
-            "MD1X4ZD/A": "iPhone 16e 512GB Black",
-            "MD274ZD/A": "iPhone 16e 512GB White"
-        }
-    },
-    "se": {
-        "iphone16e": {
-            "MD1Q4QN/A": "iPhone 16e 128GB Black",
-            "MD1R4QN/A": "iPhone 16e 128GB White",
-            "MD1T4QN/A": "iPhone 16e 256GB Black",
-            "MD1W4QN/A": "iPhone 16e 256GB White",
-            "MD1X4QN/A": "iPhone 16e 512GB Black",
-            "MD274QN/A": "iPhone 16e 512GB White"
-        }
-    },
-    "dk": {
-        "iphone16e": {
-            "MD1Q4QN/A": "iPhone 16e 128GB Black",
-            "MD1R4QN/A": "iPhone 16e 128GB White",
-            "MD1T4QN/A": "iPhone 16e 256GB Black",
-            "MD1W4QN/A": "iPhone 16e 256GB White",
-            "MD1X4QN/A": "iPhone 16e 512GB Black",
-            "MD274QN/A": "iPhone 16e 512GB White"
-        }
-    },
-    "no": {
-        "iphone16e": {
-            "MD1Q4QN/A": "iPhone 16e 128GB Black",
-            "MD1R4QN/A": "iPhone 16e 128GB White",
-            "MD1T4QN/A": "iPhone 16e 256GB Black",
-            "MD1W4QN/A": "iPhone 16e 256GB White",
-            "MD1X4QN/A": "iPhone 16e 512GB Black",
-            "MD274QN/A": "iPhone 16e 512GB White"
-        }
-    },
-    "fi": {
-        "iphone16e": {
-            "MD1Q4QN/A": "iPhone 16e 128GB Black",
-            "MD1R4QN/A": "iPhone 16e 128GB White",
-            "MD1T4QN/A": "iPhone 16e 256GB Black",
-            "MD1W4QN/A": "iPhone 16e 256GB White",
-            "MD1X4QN/A": "iPhone 16e 512GB Black",
-            "MD274QN/A": "iPhone 16e 512GB White"
-        }
-    },
-    "jp": {
-        "iphone16e": {
-            "MD1Q4J/A": "iPhone 16e 128GB Black",
-            "MD1R4J/A": "iPhone 16e 128GB White",
-            "MD1T4J/A": "iPhone 16e 256GB Black",
-            "MD1W4J/A": "iPhone 16e 256GB White",
-            "MD1X4J/A": "iPhone 16e 512GB Black",
-            "MD274J/A": "iPhone 16e 512GB White"
-        }
-    },
-    "kr": {
-        "iphone16e": {
-            "MD1Q4KH/A": "iPhone 16e 128GB Black",
-            "MD1R4KH/A": "iPhone 16e 128GB White",
-            "MD1T4KH/A": "iPhone 16e 256GB Black",
-            "MD1W4KH/A": "iPhone 16e 256GB White",
-            "MD1X4KH/A": "iPhone 16e 512GB Black",
-            "MD274KH/A": "iPhone 16e 512GB White"
-        }
-    },
-    "hk": {
-        "iphone16e": {
-            "MD1Q4ZA/A": "iPhone 16e 128GB Black",
-            "MD1R4ZA/A": "iPhone 16e 128GB White",
-            "MD1T4ZA/A": "iPhone 16e 256GB Black",
-            "MD1W4ZA/A": "iPhone 16e 256GB White",
-            "MD1X4ZA/A": "iPhone 16e 512GB Black",
-            "MD274ZA/A": "iPhone 16e 512GB White"
-        }
-    },
-    "sg": {
-        "iphone16e": {
-            "MD1Q4X/A": "iPhone 16e 128GB Black",
-            "MD1R4X/A": "iPhone 16e 128GB White",
-            "MD1T4X/A": "iPhone 16e 256GB Black",
-            "MD1W4X/A": "iPhone 16e 256GB White",
-            "MD1X4X/A": "iPhone 16e 512GB Black",
-            "MD274X/A": "iPhone 16e 512GB White"
-        }
-    },
-    "tw": {
-        "iphone16e": {
-            "MD1Q4ZP/A": "iPhone 16e 128GB Black",
-            "MD1R4ZP/A": "iPhone 16e 128GB White",
-            "MD1T4ZP/A": "iPhone 16e 256GB Black",
-            "MD1W4ZP/A": "iPhone 16e 256GB White",
-            "MD1X4ZP/A": "iPhone 16e 512GB Black",
-            "MD274ZP/A": "iPhone 16e 512GB White"
-        }
-    },
-    "th": {
-        "iphone16e": {
-            "MD1Q4ZP/A": "iPhone 16e 128GB Black",
-            "MD1R4ZP/A": "iPhone 16e 128GB White",
-            "MD1T4ZP/A": "iPhone 16e 256GB Black",
-            "MD1W4ZP/A": "iPhone 16e 256GB White",
-            "MD1X4ZP/A": "iPhone 16e 512GB Black",
-            "MD274ZP/A": "iPhone 16e 512GB White"
-        }
-    },
-    "my": {
-        "iphone16e": {
-            "MD1Q4X/A": "iPhone 16e 128GB Black",
-            "MD1R4X/A": "iPhone 16e 128GB White",
-            "MD1T4X/A": "iPhone 16e 256GB Black",
-            "MD1W4X/A": "iPhone 16e 256GB White",
-            "MD1X4X/A": "iPhone 16e 512GB Black",
-            "MD274X/A": "iPhone 16e 512GB White"
-        }
-    },
-    "in": {
-        "iphone16e": {
-            "MD1Q4HN/A": "iPhone 16e 128GB Black",
-            "MD1R4HN/A": "iPhone 16e 128GB White",
-            "MD1T4HN/A": "iPhone 16e 256GB Black",
-            "MD1W4HN/A": "iPhone 16e 256GB White",
-            "MD1X4HN/A": "iPhone 16e 512GB Black",
-            "MD274HN/A": "iPhone 16e 512GB White"
-        }
-    },
-    "ae": {
-        "iphone16e": {
-            "MD1F4AE/A": "iPhone 16e 128GB Black",
-            "MD1G4AE/A": "iPhone 16e 128GB White",
-            "MD1H4AE/A": "iPhone 16e 256GB Black",
-            "MD1J4AE/A": "iPhone 16e 256GB White",
-            "MD1L4AE/A": "iPhone 16e 512GB Black",
-            "MD1P4AE/A": "iPhone 16e 512GB White"
-        }
-    },
-    "sa": {
-        "iphone16e": {
-            "MD1F4AH/A": "iPhone 16e 128GB Black",
-            "MD1G4AH/A": "iPhone 16e 128GB White",
-            "MD1H4AH/A": "iPhone 16e 256GB Black",
-            "MD1J4AH/A": "iPhone 16e 256GB White",
-            "MD1L4AH/A": "iPhone 16e 512GB Black",
-            "MD1P4AH/A": "iPhone 16e 512GB White"
-        }
-    },
-    "tr": {
-        "iphone16e": {
-            "MD1Q4TU/A": "iPhone 16e 128GB Black",
-            "MD1R4TU/A": "iPhone 16e 128GB White",
-            "MD1T4TU/A": "iPhone 16e 256GB Black",
-            "MD1W4TU/A": "iPhone 16e 256GB White",
-            "MD1X4TU/A": "iPhone 16e 512GB Black",
-            "MD274TU/A": "iPhone 16e 512GB White"
-        }
-    },
-    "br": {
-        "iphone16e": {
-            "MD1Q4BR/A": "iPhone 16e 128GB Black",
-            "MD1R4BR/A": "iPhone 16e 128GB White",
-            "MD1T4BR/A": "iPhone 16e 256GB Black",
-            "MD1W4BR/A": "iPhone 16e 256GB White",
-            "MD1X4BR/A": "iPhone 16e 512GB Black",
-            "MD274BR/A": "iPhone 16e 512GB White"
-        }
-    },
-    "mx": {
-        "iphone16e": {
-            "MD1F4E/A": "iPhone 16e 128GB Black",
-            "MD1G4E/A": "iPhone 16e 128GB White",
-            "MD1H4E/A": "iPhone 16e 256GB Black",
-            "MD1J4E/A": "iPhone 16e 256GB White",
-            "MD1L4E/A": "iPhone 16e 512GB Black",
-            "MD1P4E/A": "iPhone 16e 512GB White"
-        }
-    },
-    "cn": {
-        "iphone16e": {
-            "MD2A4CH/A": "iPhone 16e 128GB Black",
-            "MD2C4CH/A": "iPhone 16e 128GB White",
-            "MD2D4CH/A": "iPhone 16e 256GB Black",
-            "MD2E4CH/A": "iPhone 16e 256GB White",
-            "MD2F4CH/A": "iPhone 16e 512GB Black",
-            "MD2G4CH/A": "iPhone 16e 512GB White"
-        }
+      "iphone-16": {
+        "model_name": "iphone-16",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16",
+        "region": "at",
+        "skus": {
+          "MYE73ZD/A": {
+            "name": "iPhone 16 128GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16",
+              "partNumber": "MYE73ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MYE93ZD/A": {
+            "name": "iPhone 16 128GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16",
+              "partNumber": "MYE93ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MYEA3ZD/A": {
+            "name": "iPhone 16 128GB Pink",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16",
+              "partNumber": "MYEA3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MYEC3ZD/A": {
+            "name": "iPhone 16 128GB Ultramarine",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16",
+              "partNumber": "MYEC3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MYED3ZD/A": {
+            "name": "iPhone 16 128GB Teal",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16",
+              "partNumber": "MYED3ZD/A",
+              "isRealPartNumber": true
+            }
+          }
+        },
+        "configurations": {},
+        "discovered_options": {}
+      },
+      "iphone-16-plus": {
+        "model_name": "iphone-16-plus",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16-plus",
+        "region": "at",
+        "skus": {
+          "MXVU3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16-plus",
+              "partNumber": "MXVU3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXVW3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Pink",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16-plus",
+              "partNumber": "MXVW3ZD/A",
+              "isRealPartNumber": true
+            }
+          }
+        },
+        "configurations": {},
+        "discovered_options": {}
+      },
+      "iphone-16e": {
+        "model_name": "iphone-16e",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16e",
+        "region": "at",
+        "skus": {
+          "MD1Q4ZD/A": {
+            "name": "iPhone 16e 128GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16e",
+              "partNumber": "MD1Q4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MD1R4ZD/A": {
+            "name": "iPhone 16e 128GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16e",
+              "partNumber": "MD1R4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MD1T4ZD/A": {
+            "name": "iPhone 16e 256GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16e",
+              "partNumber": "MD1T4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MD1W4ZD/A": {
+            "name": "iPhone 16e 256GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16e",
+              "partNumber": "MD1W4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MD1X4ZD/A": {
+            "name": "iPhone 16e 512GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16e",
+              "partNumber": "MD1X4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MD274ZD/A": {
+            "name": "iPhone 16e 512GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-16e",
+              "partNumber": "MD274ZD/A",
+              "isRealPartNumber": true
+            }
+          }
+        },
+        "configurations": {},
+        "discovered_options": {}
+      }
     }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16",
+        "iphone-16-plus": "shop/buy-iphone/iphone-16-plus",
+        "iphone-16e": "shop/buy-iphone/iphone-16e"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16",
+          "iphone-16-plus": "iPhone 16 Plus",
+          "iphone-16e": "iPhone 16e"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "scraping_method": "discovery_based",
+    "source": "scraper"
+  }
 }

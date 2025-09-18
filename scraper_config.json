@@ -199,192 +199,30 @@
       "code": "cn"
     }
   ],
-  "product_categories": {
-    "iphones": {
-      "name": "iPhones",
-      "products": [
-        {
-          "path": "shop/buy-iphone/iphone-17-pro",
-          "name": "iPhone 17 Pro",
-          "categories": ["pro17", "proMax17"]
-        },
-        {
-          "path": "shop/buy-iphone/iphone-17",
-          "name": "iPhone 17",
-          "categories": ["regular17"]
-        },
-        {
-          "path": "shop/buy-iphone/iphone-air",
-          "name": "iPhone Air",
-          "categories": ["air"]
-        },
-        {
-          "path": "shop/buy-iphone/iphone-16e",
-          "name": "iPhone 16e",
-          "categories": ["iphone16e"]
-        }
-      ],
-      "output_files": [
-        {
-          "filename": "InventoryWatch/iPhoneModelsAir-intl.json",
-          "categories": ["air"]
-        },
-        {
-          "filename": "InventoryWatch/iPhoneModels17-intl.json",
-          "categories": ["regular17", "pro17", "proMax17"]
-        },
-        {
-          "filename": "InventoryWatch/iPhoneModels16-intl.json",
-          "categories": ["iphone16e"]
-        }
-      ]
+  "categories": [
+    {
+      "family": "iphone",
+      "entrypoints": ["shop/buy-iphone"]
     },
-    "macs": {
-      "name": "Macs",
-      "products": [
-        {
-          "path": "shop/buy-mac/macbook-air",
-          "name": "MacBook Air",
-          "categories": ["macbook_air"]
-        },
-        {
-          "path": "shop/buy-mac/macbook-pro",
-          "name": "MacBook Pro",
-          "categories": ["macbook_pro"]
-        },
-        {
-          "path": "shop/buy-mac/imac",
-          "name": "iMac",
-          "categories": ["imac"]
-        },
-        {
-          "path": "shop/buy-mac/mac-mini",
-          "name": "Mac mini",
-          "categories": ["mac_mini"]
-        },
-        {
-          "path": "shop/buy-mac/mac-studio",
-          "name": "Mac Studio",
-          "categories": ["mac_studio"]
-        },
-        {
-          "path": "shop/buy-mac/mac-pro",
-          "name": "Mac Pro",
-          "categories": ["mac_pro"]
-        }
-      ],
-      "output_files": [
-        {
-          "filename": "InventoryWatch/MacModels-intl.json",
-          "categories": ["macbook_air", "macbook_pro", "imac", "mac_mini", "mac_studio", "mac_pro"]
-        }
-      ]
+    {
+      "family": "watch",
+      "entrypoints": ["shop/buy-watch"]
     },
-    "airpods": {
-      "name": "AirPods",
-      "products": [
-        {
-          "path": "shop/product/airpods-4",
-          "name": "AirPods 4",
-          "categories": ["airpods_4"]
-        },
-        {
-          "path": "shop/product/airpods-pro",
-          "name": "AirPods Pro",
-          "categories": ["airpods_pro"]
-        },
-        {
-          "path": "shop/product/airpods-max",
-          "name": "AirPods Max",
-          "categories": ["airpods_max"]
-        }
-      ],
-      "output_files": [
-        {
-          "filename": "InventoryWatch/AirPodsModels-intl.json",
-          "categories": ["airpods_4", "airpods_pro", "airpods_max"]
-        }
-      ]
+    {
+      "family": "mac",
+      "entrypoints": ["shop/buy-mac"]
     },
-    "ipads": {
-      "name": "iPads",
-      "products": [
-        {
-          "path": "shop/buy-ipad/ipad-pro",
-          "name": "iPad Pro",
-          "categories": ["ipad_pro"]
-        },
-        {
-          "path": "shop/buy-ipad/ipad-air",
-          "name": "iPad Air",
-          "categories": ["ipad_air"]
-        },
-        {
-          "path": "shop/buy-ipad/ipad",
-          "name": "iPad",
-          "categories": ["ipad"]
-        },
-        {
-          "path": "shop/buy-ipad/ipad-mini",
-          "name": "iPad mini",
-          "categories": ["ipad_mini"]
-        }
-      ],
-      "output_files": [
-        {
-          "filename": "InventoryWatch/iPadModels-intl.json",
-          "categories": ["ipad_pro", "ipad_air", "ipad", "ipad_mini"]
-        }
-      ]
+    {
+      "family": "ipad",
+      "entrypoints": ["shop/buy-ipad"]
     },
-    "apple_watch": {
-      "name": "Apple Watch",
-      "products": [
-        {
-          "path": "shop/buy-watch/apple-watch",
-          "name": "Apple Watch",
-          "categories": ["watch_series"]
-        },
-        {
-          "path": "shop/buy-watch/apple-watch-ultra",
-          "name": "Apple Watch Ultra",
-          "categories": ["watch_ultra"]
-        },
-        {
-          "path": "shop/buy-watch/apple-watch-se",
-          "name": "Apple Watch SE",
-          "categories": ["watch_se"]
-        }
-      ],
-      "output_files": [
-        {
-          "filename": "InventoryWatch/AppleWatchModels-intl.json",
-          "categories": ["watch_series", "watch_ultra", "watch_se"]
-        }
-      ]
+    {
+      "family": "airpods",
+      "entrypoints": ["shop/product/airpods"]
+    },
+    {
+      "family": "homepod",
+      "entrypoints": ["shop/buy-homepod"]
     }
-  },
-  "categorization_rules": {
-    "air": ["air"],
-    "proMax17": ["iphone 17 pro max", "17 pro max", "pro max 17"],
-    "pro17": ["iphone 17 pro 256gb", "iphone 17 pro 512gb", "iphone 17 pro 1tb"],
-    "regular17": ["iphone 17 256gb", "iphone 17 512gb", "iphone 17 1tb"],
-    "iphone16e": ["16e", "iphone 16e"],
-    "macbook_air": ["macbook air"],
-    "macbook_pro": ["macbook pro"],
-    "imac": ["imac"],
-    "mac_mini": ["mac mini", "mini"],
-    "mac_studio": ["mac studio", "studio"],
-    "mac_pro": ["mac pro"],
-    "airpods_4": ["airpods 4", "4th generation"],
-    "airpods_pro": ["airpods pro", "pro"],
-    "airpods_max": ["airpods max", "max"],
-    "ipad_pro": ["ipad pro", "pro"],
-    "ipad_air": ["ipad air", "air"],
-    "ipad": ["ipad"],
-    "ipad_mini": ["ipad mini", "mini"],
-    "watch_series": ["series 10", "10"],
-    "watch_ultra": ["ultra", "ultra 2", "ultra 3"],
-    "watch_se": ["se","se 2", "se 3"]
-  }
+  ]
 }

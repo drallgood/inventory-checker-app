@@ -33,7 +33,7 @@ struct NotificationSender {
         }
         
         let message = self.generateNotificationText(from: availableParts, skuData: skuData, preferredModels: preferredModels)
-        let title = generateNotificationTitle(hasPreferredModel: hasPreferredModel, availableParts: availableParts)
+        let title = await generateNotificationTitle(hasPreferredModel: hasPreferredModel, availableParts: availableParts, skuData: skuData)
         await NotificationManager.shared.sendNotification(title: title, body: message)
     }
     
@@ -83,22 +83,92 @@ struct NotificationSender {
         return message.trimmingCharacters(in: .whitespaces)
     }
     
-    private func generateNotificationTitle(hasPreferredModel: Bool, availableParts: [(FulfillmentStore, [PartAvailability])]) -> String {
+    private func generateNotificationTitle(hasPreferredModel: Bool, availableParts: [(FulfillmentStore, [PartAvailability])], skuData: SKUData) async -> String {
         let totalModels = availableParts.reduce(0) { total, storeParts in
             total + storeParts.1.count
         }
         
+        // Determine product type from active family
+        let productName = await getProductName(from: skuData)
+        let productEmoji = getProductEmojiFromSKUData(skuData)
+        
         if hasPreferredModel {
             let emojis = ["🎉", "✨", "🔥", "⚡️", "🚀"]
             let randomEmoji = emojis.randomElement() ?? "🎉"
-            return "\(randomEmoji) Your iPhone is Available!"
+            return "\(randomEmoji) Your \(productName) is Available!"
         } else if totalModels > 10 {
-            return "📱 Lots of iPhone Models Available"
+            return "\(productEmoji) Lots of \(productName) Models Available"
         } else if totalModels > 0 {
-            return "📱 iPhone Inventory Update"
+            return "\(productEmoji) \(productName) Inventory Update"
         } else {
-            return "📱 Inventory Check Complete"
+            return "\(productEmoji) Inventory Check Complete"
         }
+    }
+    
+    private func getProductName(from skuData: SKUData) async -> String {
+        // Respect the active product family for notification labeling
+        let defaults = DefaultsVendor()
+        let family = defaults.preferredProductFamily
+        if family.isWatch {
+            // If a Watch token is selected, derive the base display name from JSON (family/familyName + token variant)
+            let token = defaults.preferredWatchToken
+            if token.isEmpty == false {
+                let country = defaults.preferredCountry
+                if let display = await displayNameForWatchToken(token: token, country: country) {
+                    return display
+                }
+            }
+            return "Apple Watch"
+        }
+        if family.isIPhone {
+            return "iPhone"
+        }
+        // Fallback: infer from SKU names (should not typically be reached)
+        for sku in skuData.orderedSKUs {
+            if let productName = skuData.productName(forSKU: sku) {
+                let n = productName.lowercased()
+                if n.contains("iphone") { return "iPhone" }
+                if n.contains("apple watch") || n.contains("watch") { return "Apple Watch" }
+            }
+        }
+        return "iPhone"
+    }
+
+    private func displayNameForWatchToken(token: String, country: Country) async -> String? {
+        // MainActor for JSONCatalogAppleWatch access
+        return await MainActor.run {
+            guard let dict = JSONCatalogAppleWatch.categoryData(for: country, sourcePage: token), let md = dict.values.first else { return nil }
+            // Base name from familyName or family
+            var baseName: String? = nil
+            if let famName = md.familyName, famName.isEmpty == false {
+                baseName = famName
+            } else {
+                let fam = md.family
+                if fam == "apple_watch" {
+                    baseName = "Apple Watch"
+                } else if fam.isEmpty == false {
+                    baseName = fam.replacingOccurrences(of: "_", with: " ").capitalized
+                }
+            }
+            // Variant from token suffix
+            var variant: String? = nil
+            if token.hasPrefix("apple-watch-") {
+                let suffix = String(token.dropFirst("apple-watch-".count))
+                if suffix.isEmpty == false {
+                    variant = (suffix.lowercased() == "se") ? "SE" : suffix.replacingOccurrences(of: "-", with: " ").capitalized
+                }
+            }
+            if let base = baseName { return variant != nil ? "\(base) \(variant!)" : base }
+            return nil
+        }
+    }
+    
+    private func getProductEmojiFromSKUData(_ skuData: SKUData) -> String {
+        // Emoji should reflect the active product family
+        let family = DefaultsVendor().preferredProductFamily
+        if family.isWatch { return "⌚️" }
+        if family.isIPhone { return "📱" }
+        return "📱"
     }
     
 }

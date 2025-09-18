@@ -11,7 +11,7 @@ struct AnalyticsData: Codable, Equatable {
     let localUUID: String
     let country: String
     let storeNumber: String?
-    let productType: ProductType
+    let productFamily: String
     let preferredModels: String
     let updateInterval: Int
     let notifyOnlyForPreferredModels: Bool
@@ -23,7 +23,7 @@ struct AnalyticsData: Codable, Equatable {
             "localUUID": localUUID,
             "country": country,
             "storeNumber": storeNumber ?? "",
-            "productType": productType.rawValue,
+            "productType": productFamily,
             "preferredModels": preferredModels,
             "updateInterval": updateInterval,
             "notifyOnlyForPreferredModels": notifyOnlyForPreferredModels,
@@ -51,7 +51,7 @@ struct AnalyticsData: Codable, Equatable {
         
         let preferredCountry = defaults.string(forKey: "preferredCountry")
         let preferredStoreNumber = defaults.string(forKey: "preferredStoreNumber")
-        let preferredProductType = defaults.string(forKey: "preferredProductType") ?? "MacBookPro"
+        let preferredProductType = defaults.string(forKey: "preferredProductType") ?? ProductFamily.iphone.rawValue
         let preferredSKUsString = defaults.string(forKey: "preferredSKUs") ?? ""
         let notifyOnlyForPreferredModels = defaults.bool(forKey: "notifyOnlyForPreferredModels")
         let preferredUpdateInterval = defaults.integer(forKey: "preferredUpdateInterval")
@@ -61,7 +61,7 @@ struct AnalyticsData: Codable, Equatable {
             localUUID: localUUID!,
             country: preferredCountry ?? "US",
             storeNumber: preferredStoreNumber,
-            productType: ProductType(rawValue: preferredProductType) ?? .MacBookPro,
+            productFamily: preferredProductType,
             preferredModels: preferredSKUsString,
             updateInterval: preferredUpdateInterval,
             notifyOnlyForPreferredModels: notifyOnlyForPreferredModels,

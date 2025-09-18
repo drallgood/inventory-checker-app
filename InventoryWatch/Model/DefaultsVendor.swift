@@ -8,6 +8,15 @@
 import Foundation
 import Combine
 
+// Minimal product family selector for token-driven UI
+enum ProductFamily: String, Codable, CaseIterable, Identifiable {
+    case watch = "watch"
+    case iphone = "iphone"
+    var id: Self { self }
+    var isWatch: Bool { self == .watch }
+    var isIPhone: Bool { self == .iphone }
+}
+
 extension UserDefaults {
     
     @objc dynamic var preferredStoreNumber: String {
@@ -44,10 +53,10 @@ struct DefaultsVendor {
         return Countries[value] ?? USData
     }
     
-    var preferredProductType: ProductType {
-        let value = UserDefaults.standard.string(forKey: "preferredProductType") ?? "MacBookPro"
-        
-        return ProductType(rawValue: value) ?? .MacBookPro
+    var preferredProductFamily: ProductFamily {
+        // Reuse same storage key for backward compatibility; map any unknowns to iphone
+        let value = UserDefaults.standard.string(forKey: "preferredProductType") ?? ProductFamily.iphone.rawValue
+        return ProductFamily(rawValue: value) ?? .iphone
     }
     
     var countryPathElement: String {
@@ -113,5 +122,15 @@ struct DefaultsVendor {
     
     var notifyOnlyForPreferredModels: Bool {
         UserDefaults.standard.bool(forKey: "notifyOnlyForPreferredModels")
+    }
+
+    // Token-driven Apple Watch selection
+    var preferredWatchToken: String {
+        UserDefaults.standard.string(forKey: "preferredWatchToken") ?? ""
+    }
+
+    // Token-driven iPhone selection
+    var preferredPhoneToken: String {
+        UserDefaults.standard.string(forKey: "preferredPhoneToken") ?? ""
     }
 }

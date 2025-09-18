@@ -7,253 +7,560 @@
 
 import Foundation
 
-actor SKUDataLoader {
+// MARK: - Product Metadata Structures
+
+struct ProductConfigData: Codable {
+    let productPaths: [String: String]?
+    let urlMappings: URLMappings?
+    let recognizedMaterials: [String]?
+    let metadata: ConfigMetadata?
+}
+
+struct PhoneResolver: CategoryResolver {
+    @MainActor func productURL(for partNumber: String, country: Country) -> URL? {
+        // Lookup metadata from iPhone catalogs
+        guard let md = JSONCatalogiPhone.metadata(for: partNumber, country: country) else { return nil }
+        // Use urlSlug if present
+        guard let slug = md.urlSlug, slug.isEmpty == false else { return nil }
+        let cleanSlug = slug.trimmingCharacters(in: CharacterSet(charactersIn: "/")).replacingOccurrences(of: " ", with: "-")
+        // Determine sourcePage token
+        let sourcePage = md.metadata?.sourcePage
+        // Prefer token-aware base scraped from iPhone JSON
+        if let sp = sourcePage, let base = JSONCatalogiPhone.pdpBaseURL(for: country, sourcePage: sp) {
+            let final = base.absoluteString + cleanSlug
+            if let url = URL(string: final) { return url }
+        }
+        // Conservative fallback: generic buy-iphone base
+        let genericBase = "https://www.apple.com/\(country.shortcode.lowercased())/shop/buy-iphone/"
+        let final = genericBase + cleanSlug
+        if let url = URL(string: final) { return url }
+        return nil
+    }
+}
+
+// Minimal catalog facade over iPhone JSON emitted by scraper (AppleWatch-like shape)
+enum JSONCatalogiPhone {
+    struct Node: Codable { let url: String?; let skus: [String: ProductMetadata]? }
+    struct CountryMap: Codable { let shop_paths: [String: String]?; let localization: AWLocalization? }
+    struct PhoneRootLite: Codable { let discovered_models: [String: [String: Node]]?; let country_mappings: [String: CountryMap]? }
+
+    // Discover iPhone JSON files in the bundle dynamically (e.g., iPhoneModels*-intl.json)
+    @MainActor private static func iphoneModelJSONFiles() -> [URL] {
+        let candidates = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
+        let filtered = candidates.filter { url in
+            let name = url.deletingPathExtension().lastPathComponent
+            let lc = name.lowercased()
+            // Accept both legacy aggregate files and per-model files
+            let isLegacy = lc.hasPrefix("iphonemodels") && lc.hasSuffix("-intl")
+            let isPerModel = lc.hasPrefix("iphone-") && lc.hasSuffix("-intl")
+            return isLegacy || isPerModel
+        }
+        return filtered
+    }
+
+    // Resolve the PDP base URL for a given token using scraped JSON only (no hardcoded mapping)
+    @MainActor static func pdpBaseURL(for country: Country, sourcePage token: String) -> URL? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in iphoneModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url) else { continue }
+            if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
+                // 1) Prefer discovered_models[country][token].url if present
+                if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc],
+                   let node = byCountry[token], let nodeURL = node.url, let u = URL(string: nodeURL) {
+                    return u
+                }
+                // 2) Fall back to country_mappings.shop_paths token path
+                if let cm = root.country_mappings?[lc] ?? root.country_mappings?[uc],
+                   let path = cm.shop_paths?[token] {
+                    let full = "https://www.apple.com/\(lc)/\(path)"
+                    if let u = URL(string: full) { return u }
+                }
+            }
+        }
+        return nil
+    }
+
+    @MainActor static func loadAll() -> [String: PhoneRootLite] {
+        var out: [String: PhoneRootLite] = [:]
+        for url in iphoneModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url) else { continue }
+            if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
+                out[url.lastPathComponent] = root
+            }
+        }
+        return out
+    }
+
+    @MainActor static func categoriesSourcePages(for country: Country) -> [String] {
+        var tokens: Set<String> = []
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in iphoneModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url) else { continue }
+            if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
+                if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
+                    for (token, node) in byCountry { if let skus = node.skus, !skus.isEmpty { tokens.insert(token) } }
+                }
+            }
+        }
+        return Array(tokens).sorted()
+    }
+
+    @MainActor static func categoryData(for country: Country, sourcePage: String) -> [String: ProductMetadata]? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in iphoneModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url) else { continue }
+            if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
+                if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc],
+                   let node = byCountry[sourcePage], let skus = node.skus, skus.isEmpty == false {
+                    return skus
+                }
+            }
+        }
+        return nil
+    }
+
+    // Legacy mapping removed: UI is token-driven exclusively
+
+    // Lookup metadata for a specific SKU by scanning discovered models (new) or legacy categories (old)
+    @MainActor static func metadata(for sku: String, country: Country) -> ProductMetadata? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in iphoneModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url) else { continue }
+            if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
+                if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
+                    for (_, node) in byCountry {
+                        if let md = node.skus?[sku] { return md }
+                    }
+                }
+            }
+        }
+        return nil
+    }
+}
+
+struct URLMappings: Codable {
+    let connectivity: [String: String]?
+    let materials: [String: String]?
+    let colors: [String: String]?
+}
+
+struct ConfigMetadata: Codable {
+    let source: String?
+    let version: String?
+    let extractedFromPages: Bool?
+}
+
+struct AWLocalization: Codable { let token_display: [String: String]? }
+struct AWCountryShopPaths: Codable {
+    let shop_paths: [String: String]?
+    let localization: AWLocalization?
+}
+
+struct AppleWatchConfig: Codable {
+    let urlMappings: URLMappings?
+    let products: [String: [String: [String: ProductMetadata]]]?
+    let country_mappings: [String: AWCountryShopPaths]?
+    let metadata: ConfigMetadata?
+}
+
+class ProductConfiguration {
+    @MainActor private static var configData: ProductConfigData?
+    @MainActor private static var watchConfig: AppleWatchConfig?
     
-    private enum iPhoneModel: CaseIterable {
-        case sixteen, seventeen, air
+    // MARK: - Configuration Loading
+    @MainActor static func loadConfiguration() {
+        guard let url = Bundle.main.url(forResource: "product-config", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let config = try? JSONDecoder().decode(ProductConfigData.self, from: data) else {
+            return
+        }
+        configData = config
     }
     
-    var defaultsManager = DefaultsVendor()
+    @MainActor static func loadAppleWatchConfiguration() {
+        guard let url = Bundle.main.url(forResource: "AppleWatchModels-intl", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let config = try? JSONDecoder().decode(AppleWatchConfig.self, from: data) else {
+            return
+        }
+        watchConfig = config
+    }
     
-    private var cachediPhoneData: [Country: AllPhoneModels] = [:]
-    private var cachedAppleWatchUltraData: [CountryCode: AppleWatchData] = [:]
+    // MARK: - Helper Methods
+    static func buildProductURL(countryPath: String, shopPath: String) -> String {
+        return "https://www.apple.com/\(countryPath)shop/\(shopPath)"
+    }
+    
+    // URL component normalization using Apple Watch mappings
+    @MainActor static func normalizeConnectivity(_ connectivity: String) -> String {
+        if watchConfig == nil { loadAppleWatchConfiguration() }
+        return watchConfig?.urlMappings?.connectivity?[connectivity.lowercased()] ?? connectivity.lowercased()
+    }
+    
+    @MainActor static func normalizeMaterial(_ material: String) -> String {
+        if watchConfig == nil { loadAppleWatchConfiguration() }
+        return watchConfig?.urlMappings?.materials?[material.lowercased()] ?? material.lowercased()
+    }
+    
+    @MainActor static func normalizeColor(_ color: String) -> String {
+        if watchConfig == nil { loadAppleWatchConfiguration() }
+        return watchConfig?.urlMappings?.colors?[color.lowercased()] ?? color.lowercased()
+    }
+    
+    static var defaultSize: String { "42mm" }
+    static var defaultMaterial: String { "aluminum" }
+    static var defaultConnectivity: String { "gps" }
+
+    // MARK: - Cached shop_paths accessors
+    @MainActor static func watchShopPath(for country: Country, sourcePage: String) -> String? {
+        if watchConfig == nil { loadAppleWatchConfiguration() }
+        guard let paths = watchConfig?.country_mappings?[country.shortcode.lowercased()]?.shop_paths else { return nil }
+        // Find entry whose last path component equals sourcePage
+        for (_, path) in paths {
+            if URL(string: "https://apple.com/\(path)")?.lastPathComponent == sourcePage {
+                return path
+            }
+        }
+        return nil
+    }
+
+    @MainActor static func watchPDPBaseURL(for country: Country, sourcePage: String) -> URL? {
+        guard let path = watchShopPath(for: country, sourcePage: sourcePage) else { return nil }
+        let pathWithSlash = path.hasSuffix("/") ? path : path + "/"
+        return URL(string: "https://www.apple.com/\(country.shortcode.lowercased())/\(pathWithSlash)")
+    }
+
+    // Optional JSON-provided, per-country display name for a watch token
+    @MainActor static func watchTokenDisplayName(for country: Country, sourcePage: String) -> String? {
+        if watchConfig == nil { loadAppleWatchConfiguration() }
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        if let name = watchConfig?.country_mappings?[lc]?.localization?.token_display?[sourcePage] {
+            return name
+        }
+        if let name = watchConfig?.country_mappings?[uc]?.localization?.token_display?[sourcePage] {
+            return name
+        }
+        return nil
+    }
+
+    // MARK: - iPhone token helpers (read from iPhone JSON files)
+    @MainActor static func phonePDPBaseURL(for country: Country, sourcePage: String) -> URL? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        let all = JSONCatalogiPhone.loadAll()
+        for root in all.values {
+            if let path = root.country_mappings?[lc]?.shop_paths?[sourcePage] ?? root.country_mappings?[uc]?.shop_paths?[sourcePage] {
+                let withSlash = path.hasSuffix("/") ? path : path + "/"
+                return URL(string: "https://www.apple.com/\(lc)/\(withSlash)")
+            }
+        }
+        return nil
+    }
+
+    @MainActor static func phoneTokenDisplayName(for country: Country, sourcePage: String) -> String? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        let all = JSONCatalogiPhone.loadAll()
+        for root in all.values {
+            if let name = root.country_mappings?[lc]?.localization?.token_display?[sourcePage] ?? root.country_mappings?[uc]?.localization?.token_display?[sourcePage] {
+                return name
+            }
+        }
+        return nil
+    }
+
+    // MARK: - Apple Watch Products Accessors (read-only)
+    @MainActor static func watchProducts(for country: Country) -> [String: [String: ProductMetadata]]? {
+        if watchConfig == nil { loadAppleWatchConfiguration() }
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        return watchConfig?.products?[lc] ?? watchConfig?.products?[uc]
+    }
+
+
+}
+
+// MARK: - Category Resolver Protocols
+
+// Minimal catalog facade over Apple Watch JSON emitted by the new scraper (per-model files)
+enum JSONCatalogAppleWatch {
+    struct Node: Codable { let url: String?; let skus: [String: ProductMetadata]? }
+    struct WatchRootLite: Codable { let discovered_models: [String: [String: Node]]?; let country_mappings: [String: JSONCatalogiPhone.CountryMap]? }
+
+    // Discover Apple Watch JSON files: accept both per-model (AppleWatch-*-intl.json) and legacy aggregate (AppleWatchModels-intl.json)
+    @MainActor private static func watchModelJSONFiles() -> [URL] {
+        let candidates = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
+        return candidates.filter { url in
+            let name = url.deletingPathExtension().lastPathComponent
+            let lc = name.lowercased()
+            let isPerModel = lc.hasPrefix("applewatch-") && lc.hasSuffix("-intl")
+            let isLegacy = lc == "applewatchmodels-intl"
+            return isPerModel || isLegacy
+        }
+    }
+
+    @MainActor static func pdpBaseURL(for country: Country, sourcePage token: String) -> URL? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in watchModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url), let root = try? JSONDecoder().decode(WatchRootLite.self, from: data) else { continue }
+            if let path = root.country_mappings?[lc]?.shop_paths?[token] ?? root.country_mappings?[uc]?.shop_paths?[token] {
+                let withSlash = path.hasSuffix("/") ? path : path + "/"
+                return URL(string: "https://www.apple.com/\(lc)/\(withSlash)")
+            }
+        }
+        return nil
+    }
+
+    // Returns the ProductMetadata for a given SKU by scanning models for the country
+    @MainActor static func metadata(for sku: String, country: Country) -> ProductMetadata? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in watchModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url), let root = try? JSONDecoder().decode(WatchRootLite.self, from: data) else { continue }
+            if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
+                for (_, node) in byCountry { if let md = node.skus?[sku] { return md } }
+            }
+        }
+        return nil
+    }
+
+    // Access category data using sourcePage token (e.g., "apple-watch-ultra")
+    @MainActor static func categoryData(for country: Country, sourcePage: String) -> [String: ProductMetadata]? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in watchModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url), let root = try? JSONDecoder().decode(WatchRootLite.self, from: data) else { continue }
+            if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc], let node = byCountry[sourcePage], let skus = node.skus, skus.isEmpty == false {
+                return skus
+            }
+        }
+        return nil
+    }
+
+    // Determine which sourcePage token a given SKU belongs to
+    @MainActor static func categoryForSKU(country: Country, sku: String) -> String? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in watchModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url), let root = try? JSONDecoder().decode(WatchRootLite.self, from: data) else { continue }
+            if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
+                for (token, node) in byCountry { if node.skus?[sku] != nil { return token } }
+            }
+        }
+        return nil
+    }
+
+    // Return available sourcePage tokens for country (e.g., "apple-watch", "apple-watch-ultra", "apple-watch-se")
+    @MainActor static func categoriesSourcePages(for country: Country) -> [String] {
+        var tokens: Set<String> = []
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in watchModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url), let root = try? JSONDecoder().decode(WatchRootLite.self, from: data) else { continue }
+            if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
+                for (token, node) in byCountry { if (node.skus?.isEmpty == false) { tokens.insert(token) } }
+            }
+        }
+        return Array(tokens).sorted()
+    }
+}
+
+protocol CategoryResolver {
+    @MainActor func productURL(for partNumber: String, country: Country) -> URL?
+}
+
+struct AppleWatchResolver: CategoryResolver {
+    @MainActor func productURL(for partNumber: String, country: Country) -> URL? {
+        // Resolve metadata and sourcePage token
+        guard let md = JSONCatalogAppleWatch.metadata(for: partNumber, country: country), let slug = md.urlSlug, !slug.isEmpty else { return nil }
+        var sourcePage = md.metadata?.sourcePage
+        if sourcePage == nil { sourcePage = JSONCatalogAppleWatch.categoryForSKU(country: country, sku: partNumber) }
+        var cleanSlug = slug
+        while cleanSlug.hasPrefix("/") { cleanSlug.removeFirst() }
+        if let sp = sourcePage, let base = JSONCatalogAppleWatch.pdpBaseURL(for: country, sourcePage: sp) {
+            let final = base.absoluteString + cleanSlug
+            if let url = URL(string: final) { return url }
+        }
+        // Fallback generic path
+        let genericBase = "https://www.apple.com/\(country.shortcode.lowercased())/shop/buy-watch/"
+        let final = genericBase + cleanSlug
+        if let url = URL(string: final) { return url }
+        return nil
+    }
+}
+
+struct ProductMetadata: Codable {
+    let name: String
+    let colorKey: String
+    let colorDisplay: String
+    let capacity: String
+    let family: String
+    let familyName: String?
+    let urlSlug: String?
+    let price: Double?
+    let partNumber: String?
+    let metadata: DeviceMetadata?
+}
+
+struct DeviceMetadata: Codable {
+    let caseSize: String?
+    let caseMaterial: String?
+    let connectivity: String?
+    let color: String?
+    let isRealPartNumber: Bool?
+    let urlFormat: [String: String]?
+    let sourcePage: String?
+}
+
+actor SKUDataLoader {
+    var defaultsManager = DefaultsVendor()
     
     var skuDataForPreferredProduct: SKUData {
         get async throws {
-            return try await skuData(for: defaultsManager.preferredProductType, and: defaultsManager.preferredCountry)
+            // Token-driven app: fallback returns empty; callers primarily use token paths
+            _ = defaultsManager.preferredProductFamily
+            return SKUData(orderedSKUs: [], lookup: [:])
         }
     }
     
-    func skuData(for productType: ProductType, and country: Country) async throws -> SKUData {
-        switch productType {
-        case .MacBookPro:
-            return try loadMacModels(for: country, category: "macbook_pro_m1")
-        case .M2MacBookPro13:
-            return try loadMacModels(for: country, category: "macbook_pro_m2_13")
-        case .M2MacBookAir:
-            return try loadMacModels(for: country, category: "macbook_air_m2")
-        case .MacStudio:
-            return try loadMacModels(for: country, category: "mac_studio")
-            
-        case .StudioDisplay:
-            return try loadAccessoryModels(for: country, category: "studio_display")
-        case .AirPodsProGen3:
-            return try loadAccessoryModels(for: country, category: "airpods_pro_gen3")
-        case .ApplePencilUSBCAdapter:
-            return try loadAccessoryModels(for: country, category: "apple_pencil_usbc_adapter")
-            
-        case .iPadMiniWifi:
-            return try loadiPadModels(for: country, category: "ipad_mini_wifi")
-        case .iPadMiniCellular:
-            return try loadiPadModels(for: country, category: "ipad_mini_cellular")
-        case .iPad10thGenWifi:
-            return try loadiPadModels(for: country, category: "ipad_10th_gen_wifi")
-        case .iPad10thGenCellular:
-            return try loadiPadModels(for: country, category: "ipad_10th_gen_cellular")
-        case .iPadProM2_11in_Wifi:
-            return try loadiPadModels(for: country, category: "ipad_pro_m2_11in_wifi")
-        case .iPadProM2_11in_Cellular:
-            return try loadiPadModels(for: country, category: "ipad_pro_m2_11in_cellular")
-        case .iPadProM2_13in_Wifi:
-            return try loadiPadModels(for: country, category: "ipad_pro_m2_13in_wifi")
-        case .iPadProM2_13in_Cellular:
-            return try loadiPadModels(for: country, category: "ipad_pro_m2_13in_cellular")
-            
-        case .iPhone16e:
-            return try phoneModels(for: country).toSkuData(\.iphone16e)
-        case .iPhoneAir:
-            return try phoneModels(for: country).toSkuData(\.air)
-        case .iPhoneRegular17:
-            return try phoneModels(for: country).toSkuData(\.regular17)
-        case .iPhonePro17:
-            return try phoneModels(for: country).toSkuData(\.pro17)
-        case .iPhoneProMax17:
-            return try phoneModels(for: country).toSkuData(\.proMax17)
-            
-        case .AppleWatchUltra:
-            return try appleWatchUltraModels(for: country)
+    // (Removed) productType→token mapping helper; use watchSKUData(forToken:country:) from UI
+
+    // Token-based accessor: build SKUData directly from a sourcePage token (e.g., "apple-watch-ultra")
+    @MainActor func watchSKUData(forToken token: String, country: Country) -> SKUData? {
+        guard let dict = JSONCatalogAppleWatch.categoryData(for: country, sourcePage: token) else { return nil }
+        let validEntries = dict.filter { (_, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            if let pn = meta.partNumber {
+                return pn.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil
+            }
+            return false
         }
+        let orderedSKUs = validEntries.compactMap { (_, meta) in meta.partNumber }.sorted()
+        let skuLookup = validEntries.reduce(into: [String: String]()) { result, entry in
+            let (_, meta) = entry
+            if let part = meta.partNumber { result[part] = buildLocalizedProductName(from: meta) }
+        }
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
+    }
+
+    // Token-based accessor for iPhone: build SKUData directly from a sourcePage token (e.g., "iphone-17-pro")
+    @MainActor func phoneSKUData(forToken token: String, country: Country) -> SKUData? {
+        guard let dict = JSONCatalogiPhone.categoryData(for: country, sourcePage: token) else { return nil }
+        // Derive a normalized (sku, meta) tuple where sku uses the map key if meta.partNumber is missing
+        let normalized: [(String, ProductMetadata)] = dict.map { (key, meta) in
+            let sku = meta.partNumber ?? key
+            return (sku, meta)
+        }
+        // Filter valid entries: prefer metadata flag, else validate SKU format
+        let valid = normalized.filter { (sku, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            return sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil
+        }
+        let orderedSKUs = valid.map { $0.0 }.sorted()
+        let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
+            let (sku, meta) = tuple
+            result[sku] = buildLocalizedProductName(from: meta)
+        }
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
     }
     
-    private func generateiPhoneModelsByCountry() throws -> [Country: AllPhoneModels] {
-        if cachediPhoneData.isEmpty == false {
-            return cachediPhoneData
+    // Legacy ProductType-dependent paths removed. Use watchSKUData(forToken:country:) or phoneSKUData(forToken:country:).
+    
+    nonisolated private func buildLocalizedProductName(from metadata: ProductMetadata) -> String {
+        // Replace the English color name in the product name with the localized color display
+        let localizedColor = metadata.colorDisplay
+        
+        // Prefer the JSON-provided name universally if available (already localized and complete)
+        if metadata.name.isEmpty == false {
+            return metadata.name
         }
         
-        var rv = [Country: AllPhoneModels]()
-        
-        for phoneModel in iPhoneModel.allCases {
-            let phoneModelsJson = try loadIPhoneModels(for: phoneModel)
+        // For Apple Watch, prefer the JSON-provided name if available (handled above)
+        // Otherwise, build a descriptive name from metadata
+        if let deviceMetadata = metadata.metadata {
+            let caseSize = deviceMetadata.caseSize ?? ""
+            let caseMaterial = deviceMetadata.caseMaterial ?? metadata.colorDisplay
+            let connectivity = deviceMetadata.connectivity ?? ""
             
-            for (countryCode, phones) in phoneModelsJson {
-                guard let country = Countries[countryCode.uppercased()] else {
-                    throw AppError.invalidLocalModelStore
+            if metadata.family.contains("apple_watch") {
+                // Build a descriptive name using the metadata including color
+                // Derive base name from JSON-provided familyName if available to avoid hardcoded model strings
+                let baseName: String = metadata.familyName ?? "Apple Watch"
+                
+                // Get color from metadata, fallback to colorDisplay
+                var colorName = ""
+                if let color = deviceMetadata.color, !color.isEmpty {
+                    colorName = color.capitalized
+                } else if !metadata.colorDisplay.isEmpty && metadata.colorDisplay != caseMaterial.capitalized {
+                    colorName = metadata.colorDisplay
                 }
                 
-                let unmappedModelsData: [(String, WritableKeyPath<AllPhoneModels, [AllPhoneModels.PhoneModel]>)]
-                switch phoneModel {
-                case .sixteen:
-                    unmappedModelsData = [
-                        ("iphone16e", \AllPhoneModels.iphone16e)
-                    ]
-                case .seventeen:
-                    unmappedModelsData = [
-                        ("regular17", \AllPhoneModels.regular17),
-                        ("pro17", \AllPhoneModels.pro17),
-                        ("proMax17", \AllPhoneModels.proMax17)
-                    ]
-                case .air:
-                unmappedModelsData = [
-                    ("air", \AllPhoneModels.air),
-                ]
-                }
-                
-                let modelsData = unmappedModelsData.map { first, second in
-                    return (phones[first], second)
-                }
-                
-                var phoneModels: AllPhoneModels
-                if let existing = rv[country] {
-                    phoneModels = existing
+                // Build the full name with color if available
+                if !colorName.isEmpty {
+                    return "\(baseName) \(caseSize) \(colorName) \(caseMaterial.capitalized) \(connectivity)"
                 } else {
-                    phoneModels = AllPhoneModels(proMax17: [], pro17: [], regular17: [], air: [], iphone16e: [])
+                    return "\(baseName) \(caseSize) \(caseMaterial.capitalized) \(connectivity)"
                 }
-                
-                for (models, keyPath) in modelsData {
-                    guard let models = models else {
-                        continue
-                    }
-                    
-                    let parsed: [AllPhoneModels.PhoneModel] = models.map { modelData in
-                        return AllPhoneModels.PhoneModel(sku: modelData.key, productName: modelData.value)
-                    }.sorted { $0.sku < $1.sku }
-                    
-                    phoneModels[keyPath: keyPath] = parsed
-                }
-                
-                rv[country] = phoneModels
             }
         }
         
-        cachediPhoneData = rv
-        return rv
+        // Extract the base product name without color for iPhones
+        let familyName = metadata.familyName ?? metadata.name.components(separatedBy: " ").first ?? "Unknown"
+        let capacity = metadata.capacity.uppercased()
+        
+        // Build localized name: "iPhone 17 256GB Tiefblau" instead of "iPhone 17 256GB Deep Blue"
+        return "\(familyName) \(capacity) \(localizedColor)"
     }
     
-    private func phoneModels(for country: Country) throws -> AllPhoneModels {
-        let iPhoneModels = try generateiPhoneModelsByCountry()
-        
-        guard let models = iPhoneModels[country] else {
-            throw AppError.invalidLocalModelStore
-        }
-        
-        return models
-    }
+    // Legacy iPhone model aggregators removed (generateiPhoneModelsByCountry)
     
-                                                                 // country: type:    model:   description
-    private func loadIPhoneModels(for model: iPhoneModel) throws -> [String: [String: [String: String]]] {
-        let location: String
-        switch model {
-        case .sixteen:
-            location = "iPhoneModels16-intl"
-        case .seventeen:
-            location = "iPhoneModels17-intl"
-        case .air:
-            location = "iPhoneModelsAir-intl"
-        }
-        
-        if let path = Bundle.main.path(forResource: location, ofType: "json") {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path))
-            let decoder = JSONDecoder()
-            
-            let iphoneData = try decoder.decode([String: [String: [String: String]]].self, from: data)
-            return iphoneData
-        } else {
-            throw AppError.invalidProjectState
-        }
-    }
+    // Legacy iPhone aggregators removed (phoneModels, generateiPhoneModelsByCountry, loadIPhoneModels)
     
-    private func appleWatchUltraModels(for country: Country) throws -> SKUData {
-        let rawData = try loadAppleWatchUltraModels()
-        if rawData.isEmpty {
-            fatalError()
+                                                                 // country: type:    model:   metadata
+    // loadIPhoneModels removed (unified-only flow now)
+    
+    @MainActor private func appleWatchModels(for country: Country, category: String) throws -> SKUData {
+        // Treat `category` as a sourcePage token and use token-based JSON accessors exclusively
+        guard let categoryData = JSONCatalogAppleWatch.categoryData(for: country, sourcePage: category) else {
+            return SKUData(orderedSKUs: [], lookup: [:])
         }
-        
-        var compiled: [Country: AppleWatchData] = [:]
-        for (countryCode, models) in rawData {
-            guard let foundCountry = Countries[countryCode.uppercased()] else {
-                throw AppError.invalidLocalModelStore
+        // Filter for real Apple part numbers if indicated, else validate part number format
+        let validEntries = categoryData.filter { (_, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            if let pn = meta.partNumber {
+                return pn.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil
             }
-            
-            compiled[foundCountry] = models
+            return false
         }
-        
-        guard let countryData = compiled[country] else {
-            throw AppError.invalidLocalModelStore
+        let orderedSKUs = validEntries.compactMap { (_, meta) in meta.partNumber }.sorted()
+        let skuLookup = validEntries.reduce(into: [String: String]()) { result, entry in
+            let (_, meta) = entry
+            if let part = meta.partNumber { result[part] = buildLocalizedProductName(from: meta) }
         }
-        
-        return countryData.toSkuData()
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
+    }
+
+    @MainActor func watchProductURL(for partNumber: String, country: Country) -> URL? {
+        return AppleWatchResolver().productURL(for: partNumber, country: country)
     }
     
-    private func loadAppleWatchUltraModels() throws -> [CountryCode: AppleWatchData] {
-        if cachedAppleWatchUltraData.isEmpty == false {
-            return cachedAppleWatchUltraData
-        }
-        
-        if let path = Bundle.main.path(forResource: "AppleWatchUltra-intl", ofType: "json") {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path))
-            let decoder = JSONDecoder()
-            
-            if let appleWatchData = try? decoder.decode([String: [String: [String: String]]].self, from: data) {
-                let mapped: [CountryCode: AppleWatchData] = appleWatchData.reduce(into: [:]) { partialResult, item in
-                    let data = AppleWatchData(from: item.value)
-                    partialResult[item.key] = data
-                }
-                
-                cachedAppleWatchUltraData = mapped
-                return mapped
-            } else {
-                throw AppError.invalidLocalModelStore
-            }
-        } else {
-            throw AppError.invalidProjectState
-        }
+    @MainActor func phoneProductURL(for partNumber: String, country: Country) -> URL? {
+        return PhoneResolver().productURL(for: partNumber, country: country)
+    }
+
+    @MainActor func phonePDPBaseURL(for country: Country, sourcePage: String) -> URL? {
+        return JSONCatalogiPhone.pdpBaseURL(for: country, sourcePage: sourcePage)
     }
     
     // MARK: - JSON Loading Methods
     
-    private func loadMacModels(for country: Country, category: String) throws -> SKUData {
-        return try loadModelsFromJSON(fileName: "MacModels-intl", country: country, category: category)
-    }
-    
-    private func loadiPadModels(for country: Country, category: String) throws -> SKUData {
-        return try loadModelsFromJSON(fileName: "iPadModels-intl", country: country, category: category)
-    }
-    
-    private func loadAccessoryModels(for country: Country, category: String) throws -> SKUData {
-        return try loadModelsFromJSON(fileName: "AccessoryModels-intl", country: country, category: category)
-    }
-    
-    private func loadModelsFromJSON(fileName: String, country: Country, category: String) throws -> SKUData {
-        guard let path = Bundle.main.path(forResource: fileName, ofType: "json") else {
-            throw AppError.invalidProjectState
-        }
-        
-        let data = try Data(contentsOf: URL(fileURLWithPath: path))
-        let decoder = JSONDecoder()
-        
-        let jsonData = try decoder.decode([String: [String: [String: String]]].self, from: data)
-        
-        let countryKey = country.shortcode.lowercased()
-        guard let countryData = jsonData[countryKey],
-              let categoryData = countryData[category] else {
-            throw AppError.invalidLocalModelStore
-        }
-        
-        let orderedSKUs = categoryData.keys.sorted()
-        let skuLookup = categoryData
-        
-        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
-    }
+    // Removed hardcoded category loaders for Mac/iPad/Accessories (clean slate)
 }
 
 

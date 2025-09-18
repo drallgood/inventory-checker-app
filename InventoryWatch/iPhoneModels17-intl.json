@@ -1,1094 +1,601 @@
 {
+  "urlMappings": {},
+  "recognizedMaterials": [],
+  "discovered_models": {
     "at": {
-        "regular17": {
-            "MG6J4ZD/A": "iPhone 17 256GB Black",
-            "MG6K4ZD/A": "iPhone 17 256GB White",
-            "MG6L4ZD/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4ZD/A": "iPhone 17 256GB Lavender",
-            "MG6N4ZD/A": "iPhone 17 256GB Sage",
-            "MG6P4ZD/A": "iPhone 17 512GB Black",
-            "MG6Q4ZD/A": "iPhone 17 512GB White",
-            "MG6T4ZD/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4ZD/A": "iPhone 17 512GB Lavender",
-            "MG6V4ZD/A": "iPhone 17 512GB Sage"
+      "iphone-17": {
+        "model_name": "iphone-17",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-17",
+        "region": "at",
+        "skus": {
+          "MG6J4ZD/A": {
+            "name": "iPhone 17 256GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6J4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6K4ZD/A": {
+            "name": "iPhone 17 256GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6K4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6L4ZD/A": {
+            "name": "iPhone 17 256GB Mist Blue",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nebelblau",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6L4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6M4ZD/A": {
+            "name": "iPhone 17 256GB Lavender",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6M4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6N4ZD/A": {
+            "name": "iPhone 17 256GB Sage",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6N4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6P4ZD/A": {
+            "name": "iPhone 17 512GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6P4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6Q4ZD/A": {
+            "name": "iPhone 17 512GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6Q4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6T4ZD/A": {
+            "name": "iPhone 17 512GB Mist Blue",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nebelblau",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6T4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6U4ZD/A": {
+            "name": "iPhone 17 512GB Lavender",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6U4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG6V4ZD/A": {
+            "name": "iPhone 17 512GB Sage",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MG6V4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXVV3ZD/A": {
+            "name": "iPhone 16 Plus 128GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXVV3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXVX3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Ultramarine",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXVX3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXVY3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Teal",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXVY3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXWN3ZD/A": {
+            "name": "iPhone 16 Plus 256GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXWN3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXWV3ZD/A": {
+            "name": "iPhone 16 Plus 256GB White",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXWV3ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXY13ZD/A": {
+            "name": "iPhone 16 Plus 256GB Pink",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXY13ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXY23ZD/A": {
+            "name": "iPhone 16 Plus 256GB Ultramarine",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXY23ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MXY53ZD/A": {
+            "name": "iPhone 16 Plus 256GB Teal",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17",
+              "partNumber": "MXY53ZD/A",
+              "isRealPartNumber": true
+            }
+          }
         },
-        "pro17": {
-            "MG8G4ZD/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4ZD/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4ZD/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4ZD/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4ZD/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4ZD/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4ZD/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4ZD/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4ZD/A": "iPhone 17 Pro 1TB Deep Blue"
+        "configurations": {},
+        "discovered_options": {}
+      },
+      "iphone-17-pro": {
+        "model_name": "iphone-17-pro",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-17-pro",
+        "region": "at",
+        "skus": {
+          "MG8G4ZD/A": {
+            "name": "iPhone 17 Pro 256GB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8G4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8H4ZD/A": {
+            "name": "iPhone 17 Pro 256GB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8H4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8J4ZD/A": {
+            "name": "iPhone 17 Pro 256GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8J4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8K4ZD/A": {
+            "name": "iPhone 17 Pro 512GB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8K4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8M4ZD/A": {
+            "name": "iPhone 17 Pro 512GB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8M4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8N4ZD/A": {
+            "name": "iPhone 17 Pro 512GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8N4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8P4ZD/A": {
+            "name": "iPhone 17 Pro 1TB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8P4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8Q4ZD/A": {
+            "name": "iPhone 17 Pro 1TB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8Q4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG8R4ZD/A": {
+            "name": "iPhone 17 Pro 1TB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro",
+              "partNumber": "MG8R4ZD/A",
+              "isRealPartNumber": true
+            }
+          }
         },
-        "proMax17": {
-            "MFYM4ZD/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4ZD/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4ZD/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4ZD/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4ZD/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4ZD/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4ZD/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4ZD/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4ZD/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4ZD/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004ZD/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014ZD/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "us": {
-        "regular17": {
-            "MG464LL/A": "iPhone 17 256GB Black",
-            "MG474LL/A": "iPhone 17 256GB White",
-            "MG484LL/A": "iPhone 17 256GB Mist Blue",
-            "MG494LL/A": "iPhone 17 256GB Lavender",
-            "MG4A4LL/A": "iPhone 17 256GB Sage",
-            "MG4E4LL/A": "iPhone 17 512GB Black",
-            "MG4F4LL/A": "iPhone 17 512GB White",
-            "MG4H4LL/A": "iPhone 17 512GB Mist Blue",
-            "MG4J4LL/A": "iPhone 17 512GB Lavender",
-            "MG4Q4LL/A": "iPhone 17 512GB Sage"
+        "configurations": {},
+        "discovered_options": {}
+      },
+      "iphone-17-pro-max": {
+        "model_name": "iphone-17-pro-max",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-17-pro",
+        "region": "at",
+        "skus": {
+          "MFYM4ZD/A": {
+            "name": "iPhone 17 Pro Max 256GB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYM4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYN4ZD/A": {
+            "name": "iPhone 17 Pro Max 256GB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYN4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYP4ZD/A": {
+            "name": "iPhone 17 Pro Max 256GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYP4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYQ4ZD/A": {
+            "name": "iPhone 17 Pro Max 512GB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYQ4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYT4ZD/A": {
+            "name": "iPhone 17 Pro Max 512GB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYT4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYU4ZD/A": {
+            "name": "iPhone 17 Pro Max 512GB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYU4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYV4ZD/A": {
+            "name": "iPhone 17 Pro Max 1TB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYV4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYW4ZD/A": {
+            "name": "iPhone 17 Pro Max 1TB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYW4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYX4ZD/A": {
+            "name": "iPhone 17 Pro Max 1TB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYX4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MFYY4ZD/A": {
+            "name": "iPhone 17 Pro Max 2TB Silver",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
+            "capacity": "2tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MFYY4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG004ZD/A": {
+            "name": "iPhone 17 Pro Max 2TB Cosmic Orange",
+            "colorKey": "cosmicorange",
+            "colorDisplay": "Cosmic Orange",
+            "capacity": "2tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MG004ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG014ZD/A": {
+            "name": "iPhone 17 Pro Max 2TB Deep Blue",
+            "colorKey": "deepblue",
+            "colorDisplay": "Tiefblau",
+            "capacity": "2tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-17-pro-max",
+              "partNumber": "MG014ZD/A",
+              "isRealPartNumber": true
+            }
+          }
         },
-        "pro17": {
-            "MG7K4LL/A": "iPhone 17 Pro 256GB Silver",
-            "MG7L4LL/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG7M4LL/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG7N4LL/A": "iPhone 17 Pro 512GB Silver",
-            "MG7P4LL/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG7Q4LL/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG7R4LL/A": "iPhone 17 Pro 1TB Silver",
-            "MG7T4LL/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG7U4LL/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFXG4LL/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFXH4LL/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFXJ4LL/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFXK4LL/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFXL4LL/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFXM4LL/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFXN4LL/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFXP4LL/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFXQ4LL/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFXR4LL/A": "iPhone 17 Pro Max 2TB Silver",
-            "MFXT4LL/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MFXU4LL/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "uk": {
-        "regular17": {
-            "MG6J4QN/A": "iPhone 17 256GB Black",
-            "MG6K4QN/A": "iPhone 17 256GB White",
-            "MG6L4QN/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QN/A": "iPhone 17 256GB Lavender",
-            "MG6N4QN/A": "iPhone 17 256GB Sage",
-            "MG6P4QN/A": "iPhone 17 512GB Black",
-            "MG6Q4QN/A": "iPhone 17 512GB White",
-            "MG6T4QN/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QN/A": "iPhone 17 512GB Lavender",
-            "MG6V4QN/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QN/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QN/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QN/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QN/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QN/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QN/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QN/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QN/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QN/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QN/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QN/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QN/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QN/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QN/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QN/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QN/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QN/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QN/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QN/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QN/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QN/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "au": {
-        "regular17": {
-            "MG6J4X/A": "iPhone 17 256GB Black",
-            "MG6K4X/A": "iPhone 17 256GB White",
-            "MG6L4X/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4X/A": "iPhone 17 256GB Lavender",
-            "MG6N4X/A": "iPhone 17 256GB Sage",
-            "MG6P4X/A": "iPhone 17 512GB Black",
-            "MG6Q4X/A": "iPhone 17 512GB White",
-            "MG6T4X/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4X/A": "iPhone 17 512GB Lavender",
-            "MG6V4X/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4X/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4X/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4X/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4X/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4X/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4X/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4X/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4X/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4X/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4X/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4X/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4X/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4X/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4X/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4X/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4X/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4X/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4X/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4X/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004X/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014X/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "ca": {
-        "regular17": {
-            "MG674VC/A": "iPhone 17 256GB Black",
-            "MG684VC/A": "iPhone 17 256GB White",
-            "MG694VC/A": "iPhone 17 256GB Mist Blue",
-            "MG6A4VC/A": "iPhone 17 256GB Lavender",
-            "MG6C4VC/A": "iPhone 17 256GB Sage",
-            "MG6D4VC/A": "iPhone 17 512GB Black",
-            "MG6E4VC/A": "iPhone 17 512GB White",
-            "MG6F4VC/A": "iPhone 17 512GB Mist Blue",
-            "MG6G4VC/A": "iPhone 17 512GB Lavender",
-            "MG6H4VC/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG854VC/A": "iPhone 17 Pro 256GB Silver",
-            "MG864VC/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG874VC/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG894VC/A": "iPhone 17 Pro 512GB Silver",
-            "MG8A4VC/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8C4VC/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8D4VC/A": "iPhone 17 Pro 1TB Silver",
-            "MG8E4VC/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8F4VC/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFY84VC/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFY94VC/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYA4VC/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYC4VC/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYD4VC/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYE4VC/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYF4VC/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYG4VC/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYH4VC/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYJ4VC/A": "iPhone 17 Pro Max 2TB Silver",
-            "MFYK4VC/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MFYL4VC/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "de": {
-        "regular17": {
-            "MG6J4ZD/A": "iPhone 17 256GB Black",
-            "MG6K4ZD/A": "iPhone 17 256GB White",
-            "MG6L4ZD/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4ZD/A": "iPhone 17 256GB Lavender",
-            "MG6N4ZD/A": "iPhone 17 256GB Sage",
-            "MG6P4ZD/A": "iPhone 17 512GB Black",
-            "MG6Q4ZD/A": "iPhone 17 512GB White",
-            "MG6T4ZD/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4ZD/A": "iPhone 17 512GB Lavender",
-            "MG6V4ZD/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4ZD/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4ZD/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4ZD/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4ZD/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4ZD/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4ZD/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4ZD/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4ZD/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4ZD/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4ZD/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4ZD/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4ZD/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4ZD/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4ZD/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4ZD/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4ZD/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4ZD/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4ZD/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4ZD/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004ZD/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014ZD/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "fr": {
-        "regular17": {
-            "MG6J4F/A": "iPhone 17 256GB Black",
-            "MG6K4F/A": "iPhone 17 256GB White",
-            "MG6L4F/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4F/A": "iPhone 17 256GB Lavender",
-            "MG6N4F/A": "iPhone 17 256GB Sage",
-            "MG6P4F/A": "iPhone 17 512GB Black",
-            "MG6Q4F/A": "iPhone 17 512GB White",
-            "MG6T4F/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4F/A": "iPhone 17 512GB Lavender",
-            "MG6V4F/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4F/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4F/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4F/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4F/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4F/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4F/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4F/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4F/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4F/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4F/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4F/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4F/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4F/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4F/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4F/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4F/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4F/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4F/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4F/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004F/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014F/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "it": {
-        "regular17": {
-            "MG6J4QL/A": "iPhone 17 256GB Black",
-            "MG6K4QL/A": "iPhone 17 256GB White",
-            "MG6L4QL/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QL/A": "iPhone 17 256GB Lavender",
-            "MG6N4QL/A": "iPhone 17 256GB Sage",
-            "MG6P4QL/A": "iPhone 17 512GB Black",
-            "MG6Q4QL/A": "iPhone 17 512GB White",
-            "MG6T4QL/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QL/A": "iPhone 17 512GB Lavender",
-            "MG6V4QL/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QL/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QL/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QL/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QL/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QL/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QL/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QL/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QL/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QL/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QL/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QL/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QL/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QL/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QL/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QL/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QL/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QL/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QL/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QL/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QL/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QL/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "es": {
-        "regular17": {
-            "MG6J4QL/A": "iPhone 17 256GB Black",
-            "MG6K4QL/A": "iPhone 17 256GB White",
-            "MG6L4QL/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QL/A": "iPhone 17 256GB Lavender",
-            "MG6N4QL/A": "iPhone 17 256GB Sage",
-            "MG6P4QL/A": "iPhone 17 512GB Black",
-            "MG6Q4QL/A": "iPhone 17 512GB White",
-            "MG6T4QL/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QL/A": "iPhone 17 512GB Lavender",
-            "MG6V4QL/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QL/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QL/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QL/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QL/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QL/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QL/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QL/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QL/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QL/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QL/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QL/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QL/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QL/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QL/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QL/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QL/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QL/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QL/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QL/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QL/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QL/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "nl": {
-        "regular17": {
-            "MG6J4ZD/A": "iPhone 17 256GB Black",
-            "MG6K4ZD/A": "iPhone 17 256GB White",
-            "MG6L4ZD/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4ZD/A": "iPhone 17 256GB Lavender",
-            "MG6N4ZD/A": "iPhone 17 256GB Sage",
-            "MG6P4ZD/A": "iPhone 17 512GB Black",
-            "MG6Q4ZD/A": "iPhone 17 512GB White",
-            "MG6T4ZD/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4ZD/A": "iPhone 17 512GB Lavender",
-            "MG6V4ZD/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4ZD/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4ZD/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4ZD/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4ZD/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4ZD/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4ZD/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4ZD/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4ZD/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4ZD/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4ZD/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4ZD/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4ZD/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4ZD/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4ZD/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4ZD/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4ZD/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4ZD/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4ZD/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4ZD/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004ZD/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014ZD/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "se": {
-        "regular17": {
-            "MG6J4QN/A": "iPhone 17 256GB Black",
-            "MG6K4QN/A": "iPhone 17 256GB White",
-            "MG6L4QN/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QN/A": "iPhone 17 256GB Lavender",
-            "MG6N4QN/A": "iPhone 17 256GB Sage",
-            "MG6P4QN/A": "iPhone 17 512GB Black",
-            "MG6Q4QN/A": "iPhone 17 512GB White",
-            "MG6T4QN/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QN/A": "iPhone 17 512GB Lavender",
-            "MG6V4QN/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QN/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QN/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QN/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QN/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QN/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QN/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QN/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QN/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QN/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QN/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QN/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QN/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QN/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QN/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QN/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QN/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QN/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QN/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QN/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QN/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QN/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "dk": {
-        "regular17": {
-            "MG6J4QN/A": "iPhone 17 256GB Black",
-            "MG6K4QN/A": "iPhone 17 256GB White",
-            "MG6L4QN/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QN/A": "iPhone 17 256GB Lavender",
-            "MG6N4QN/A": "iPhone 17 256GB Sage",
-            "MG6P4QN/A": "iPhone 17 512GB Black",
-            "MG6Q4QN/A": "iPhone 17 512GB White",
-            "MG6T4QN/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QN/A": "iPhone 17 512GB Lavender",
-            "MG6V4QN/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QN/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QN/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QN/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QN/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QN/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QN/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QN/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QN/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QN/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QN/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QN/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QN/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QN/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QN/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QN/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QN/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QN/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QN/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QN/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QN/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QN/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "no": {
-        "regular17": {
-            "MG6J4QN/A": "iPhone 17 256GB Black",
-            "MG6K4QN/A": "iPhone 17 256GB White",
-            "MG6L4QN/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QN/A": "iPhone 17 256GB Lavender",
-            "MG6N4QN/A": "iPhone 17 256GB Sage",
-            "MG6P4QN/A": "iPhone 17 512GB Black",
-            "MG6Q4QN/A": "iPhone 17 512GB White",
-            "MG6T4QN/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QN/A": "iPhone 17 512GB Lavender",
-            "MG6V4QN/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QN/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QN/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QN/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QN/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QN/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QN/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QN/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QN/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QN/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QN/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QN/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QN/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QN/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QN/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QN/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QN/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QN/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QN/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QN/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QN/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QN/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "fi": {
-        "regular17": {
-            "MG6J4QN/A": "iPhone 17 256GB Black",
-            "MG6K4QN/A": "iPhone 17 256GB White",
-            "MG6L4QN/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4QN/A": "iPhone 17 256GB Lavender",
-            "MG6N4QN/A": "iPhone 17 256GB Sage",
-            "MG6P4QN/A": "iPhone 17 512GB Black",
-            "MG6Q4QN/A": "iPhone 17 512GB White",
-            "MG6T4QN/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4QN/A": "iPhone 17 512GB Lavender",
-            "MG6V4QN/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4QN/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4QN/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4QN/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4QN/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4QN/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4QN/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4QN/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4QN/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4QN/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4QN/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4QN/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4QN/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4QN/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4QN/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4QN/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4QN/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4QN/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4QN/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4QN/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004QN/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014QN/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "jp": {
-        "regular17": {
-            "MG674J/A": "iPhone 17 256GB Black",
-            "MG684J/A": "iPhone 17 256GB White",
-            "MG694J/A": "iPhone 17 256GB Mist Blue",
-            "MG6A4J/A": "iPhone 17 256GB Lavender",
-            "MG6C4J/A": "iPhone 17 256GB Sage",
-            "MG6D4J/A": "iPhone 17 512GB Black",
-            "MG6E4J/A": "iPhone 17 512GB White",
-            "MG6F4J/A": "iPhone 17 512GB Mist Blue",
-            "MG6G4J/A": "iPhone 17 512GB Lavender",
-            "MG6H4J/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG854J/A": "iPhone 17 Pro 256GB Silver",
-            "MG864J/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG874J/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG894J/A": "iPhone 17 Pro 512GB Silver",
-            "MG8A4J/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8C4J/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8D4J/A": "iPhone 17 Pro 1TB Silver",
-            "MG8E4J/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8F4J/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFY84J/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFY94J/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYA4J/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYC4J/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYD4J/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYE4J/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYF4J/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYG4J/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYH4J/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYJ4J/A": "iPhone 17 Pro Max 2TB Silver",
-            "MFYK4J/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MFYL4J/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "kr": {
-        "regular17": {
-            "MG6J4KH/A": "iPhone 17 256GB Black",
-            "MG6K4KH/A": "iPhone 17 256GB White",
-            "MG6L4KH/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4KH/A": "iPhone 17 256GB Lavender",
-            "MG6N4KH/A": "iPhone 17 256GB Sage",
-            "MG6P4KH/A": "iPhone 17 512GB Black",
-            "MG6Q4KH/A": "iPhone 17 512GB White",
-            "MG6T4KH/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4KH/A": "iPhone 17 512GB Lavender",
-            "MG6V4KH/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4KH/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4KH/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4KH/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4KH/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4KH/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4KH/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4KH/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4KH/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4KH/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4KH/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4KH/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4KH/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4KH/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4KH/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4KH/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4KH/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4KH/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4KH/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4KH/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004KH/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014KH/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "hk": {
-        "regular17": {
-            "MG6J4ZA/A": "iPhone 17 256GB Black",
-            "MG6K4ZA/A": "iPhone 17 256GB White",
-            "MG6L4ZA/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4ZA/A": "iPhone 17 256GB Lavender",
-            "MG6N4ZA/A": "iPhone 17 256GB Sage",
-            "MG6P4ZA/A": "iPhone 17 512GB Black",
-            "MG6Q4ZA/A": "iPhone 17 512GB White",
-            "MG6T4ZA/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4ZA/A": "iPhone 17 512GB Lavender",
-            "MG6V4ZA/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4ZA/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4ZA/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4ZA/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4ZA/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4ZA/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4ZA/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4ZA/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4ZA/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4ZA/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4ZA/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4ZA/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4ZA/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4ZA/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4ZA/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4ZA/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4ZA/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4ZA/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4ZA/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4ZA/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004ZA/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014ZA/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "sg": {
-        "regular17": {
-            "MG6J4X/A": "iPhone 17 256GB Black",
-            "MG6K4X/A": "iPhone 17 256GB White",
-            "MG6L4X/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4X/A": "iPhone 17 256GB Lavender",
-            "MG6N4X/A": "iPhone 17 256GB Sage",
-            "MG6P4X/A": "iPhone 17 512GB Black",
-            "MG6Q4X/A": "iPhone 17 512GB White",
-            "MG6T4X/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4X/A": "iPhone 17 512GB Lavender",
-            "MG6V4X/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4X/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4X/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4X/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4X/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4X/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4X/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4X/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4X/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4X/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4X/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4X/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4X/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4X/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4X/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4X/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4X/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4X/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4X/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4X/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004X/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014X/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "tw": {
-        "regular17": {
-            "MG6J4ZP/A": "iPhone 17 256GB Black",
-            "MG6K4ZP/A": "iPhone 17 256GB White",
-            "MG6L4ZP/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4ZP/A": "iPhone 17 256GB Lavender",
-            "MG6N4ZP/A": "iPhone 17 256GB Sage",
-            "MG6P4ZP/A": "iPhone 17 512GB Black",
-            "MG6Q4ZP/A": "iPhone 17 512GB White",
-            "MG6T4ZP/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4ZP/A": "iPhone 17 512GB Lavender",
-            "MG6V4ZP/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4ZP/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4ZP/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4ZP/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4ZP/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4ZP/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4ZP/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4ZP/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4ZP/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4ZP/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4ZP/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4ZP/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4ZP/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4ZP/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4ZP/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4ZP/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4ZP/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4ZP/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4ZP/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4ZP/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004ZP/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014ZP/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "th": {
-        "regular17": {
-            "MG6J4ZP/A": "iPhone 17 256GB Black",
-            "MG6K4ZP/A": "iPhone 17 256GB White",
-            "MG6L4ZP/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4ZP/A": "iPhone 17 256GB Lavender",
-            "MG6N4ZP/A": "iPhone 17 256GB Sage",
-            "MG6P4ZP/A": "iPhone 17 512GB Black",
-            "MG6Q4ZP/A": "iPhone 17 512GB White",
-            "MG6T4ZP/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4ZP/A": "iPhone 17 512GB Lavender",
-            "MG6V4ZP/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4ZP/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4ZP/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4ZP/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4ZP/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4ZP/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4ZP/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4ZP/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4ZP/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4ZP/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4ZP/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4ZP/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4ZP/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4ZP/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4ZP/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4ZP/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4ZP/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4ZP/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4ZP/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4ZP/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004ZP/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014ZP/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "my": {
-        "regular17": {
-            "MG6J4X/A": "iPhone 17 256GB Black",
-            "MG6K4X/A": "iPhone 17 256GB White",
-            "MG6L4X/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4X/A": "iPhone 17 256GB Lavender",
-            "MG6N4X/A": "iPhone 17 256GB Sage",
-            "MG6P4X/A": "iPhone 17 512GB Black",
-            "MG6Q4X/A": "iPhone 17 512GB White",
-            "MG6T4X/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4X/A": "iPhone 17 512GB Lavender",
-            "MG6V4X/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4X/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4X/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4X/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4X/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4X/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4X/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4X/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4X/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4X/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4X/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4X/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4X/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4X/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4X/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4X/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4X/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4X/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4X/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4X/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004X/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014X/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "in": {
-        "regular17": {
-            "MG6J4HN/A": "iPhone 17 256GB Black",
-            "MG6K4HN/A": "iPhone 17 256GB White",
-            "MG6L4HN/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4HN/A": "iPhone 17 256GB Lavender",
-            "MG6N4HN/A": "iPhone 17 256GB Sage",
-            "MG6P4HN/A": "iPhone 17 512GB Black",
-            "MG6Q4HN/A": "iPhone 17 512GB White",
-            "MG6T4HN/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4HN/A": "iPhone 17 512GB Lavender",
-            "MG6V4HN/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4HN/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4HN/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4HN/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4HN/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4HN/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4HN/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4HN/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4HN/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4HN/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4HN/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4HN/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4HN/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4HN/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4HN/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4HN/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4HN/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4HN/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4HN/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4HN/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004HN/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014HN/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "ae": {
-        "regular17": {
-            "MG674AH/A": "iPhone 17 256GB Black",
-            "MG684AH/A": "iPhone 17 256GB White",
-            "MG694AH/A": "iPhone 17 256GB Mist Blue",
-            "MG6A4AH/A": "iPhone 17 256GB Lavender",
-            "MG6C4AH/A": "iPhone 17 256GB Sage",
-            "MG6D4AH/A": "iPhone 17 512GB Black",
-            "MG6E4AH/A": "iPhone 17 512GB White",
-            "MG6F4AH/A": "iPhone 17 512GB Mist Blue",
-            "MG6G4AH/A": "iPhone 17 512GB Lavender",
-            "MG6H4AH/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG854AH/A": "iPhone 17 Pro 256GB Silver",
-            "MG864AH/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG874AH/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG894AH/A": "iPhone 17 Pro 512GB Silver",
-            "MG8A4AH/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8C4AH/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8D4AH/A": "iPhone 17 Pro 1TB Silver",
-            "MG8E4AH/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8F4AH/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFY84AH/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFY94AH/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYA4AH/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYC4AH/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYD4AH/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYE4AH/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYF4AH/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYG4AH/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYH4AH/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYJ4AH/A": "iPhone 17 Pro Max 2TB Silver",
-            "MFYK4AH/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MFYL4AH/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "sa": {
-        "regular17": {
-            "MG674AH/A": "iPhone 17 256GB Black",
-            "MG684AH/A": "iPhone 17 256GB White",
-            "MG694AH/A": "iPhone 17 256GB Mist Blue",
-            "MG6A4AH/A": "iPhone 17 256GB Lavender",
-            "MG6C4AH/A": "iPhone 17 256GB Sage",
-            "MG6D4AH/A": "iPhone 17 512GB Black",
-            "MG6E4AH/A": "iPhone 17 512GB White",
-            "MG6F4AH/A": "iPhone 17 512GB Mist Blue",
-            "MG6G4AH/A": "iPhone 17 512GB Lavender",
-            "MG6H4AH/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG854AH/A": "iPhone 17 Pro 256GB Silver",
-            "MG864AH/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG874AH/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG894AH/A": "iPhone 17 Pro 512GB Silver",
-            "MG8A4AH/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8C4AH/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8D4AH/A": "iPhone 17 Pro 1TB Silver",
-            "MG8E4AH/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8F4AH/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFY84AH/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFY94AH/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYA4AH/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYC4AH/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYD4AH/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYE4AH/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYF4AH/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYG4AH/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYH4AH/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYJ4AH/A": "iPhone 17 Pro Max 2TB Silver",
-            "MFYK4AH/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MFYL4AH/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "tr": {
-        "regular17": {
-            "MG6J4TU/A": "iPhone 17 256GB Black",
-            "MG6K4TU/A": "iPhone 17 256GB White",
-            "MG6L4TU/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4TU/A": "iPhone 17 256GB Lavender",
-            "MG6N4TU/A": "iPhone 17 256GB Sage",
-            "MG6P4TU/A": "iPhone 17 512GB Black",
-            "MG6Q4TU/A": "iPhone 17 512GB White",
-            "MG6T4TU/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4TU/A": "iPhone 17 512GB Lavender",
-            "MG6V4TU/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4TU/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4TU/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4TU/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4TU/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4TU/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4TU/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4TU/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4TU/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4TU/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4TU/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4TU/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4TU/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4TU/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4TU/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4TU/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4TU/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4TU/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4TU/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4TU/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004TU/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014TU/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "br": {
-        "regular17": {
-            "MG6J4BE/A": "iPhone 17 256GB Black",
-            "MG6K4BE/A": "iPhone 17 256GB White",
-            "MG6L4BE/A": "iPhone 17 256GB Mist Blue",
-            "MG6M4BE/A": "iPhone 17 256GB Lavender",
-            "MG6N4BE/A": "iPhone 17 256GB Sage",
-            "MG6P4BE/A": "iPhone 17 512GB Black",
-            "MG6Q4BE/A": "iPhone 17 512GB White",
-            "MG6T4BE/A": "iPhone 17 512GB Mist Blue",
-            "MG6U4BE/A": "iPhone 17 512GB Lavender",
-            "MG6V4BE/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8G4BE/A": "iPhone 17 Pro 256GB Silver",
-            "MG8H4BE/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8J4BE/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8K4BE/A": "iPhone 17 Pro 512GB Silver",
-            "MG8M4BE/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8N4BE/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8P4BE/A": "iPhone 17 Pro 1TB Silver",
-            "MG8Q4BE/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8R4BE/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFYM4BE/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFYN4BE/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYP4BE/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYQ4BE/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYT4BE/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYU4BE/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYV4BE/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYW4BE/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYX4BE/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYY4BE/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG004BE/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG014BE/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "mx": {
-        "regular17": {
-            "MG674E/A": "iPhone 17 256GB Black",
-            "MG684E/A": "iPhone 17 256GB White",
-            "MG694E/A": "iPhone 17 256GB Mist Blue",
-            "MG6A4E/A": "iPhone 17 256GB Lavender",
-            "MG6C4E/A": "iPhone 17 256GB Sage",
-            "MG6D4E/A": "iPhone 17 512GB Black",
-            "MG6E4E/A": "iPhone 17 512GB White",
-            "MG6F4E/A": "iPhone 17 512GB Mist Blue",
-            "MG6G4E/A": "iPhone 17 512GB Lavender",
-            "MG6H4E/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG854E/A": "iPhone 17 Pro 256GB Silver",
-            "MG864E/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG874E/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG894E/A": "iPhone 17 Pro 512GB Silver",
-            "MG8A4E/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8C4E/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG8D4E/A": "iPhone 17 Pro 1TB Silver",
-            "MG8E4E/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG8F4E/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MFY84E/A": "iPhone 17 Pro Max 256GB Silver",
-            "MFY94E/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MFYA4E/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MFYC4E/A": "iPhone 17 Pro Max 512GB Silver",
-            "MFYD4E/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MFYE4E/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MFYF4E/A": "iPhone 17 Pro Max 1TB Silver",
-            "MFYG4E/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MFYH4E/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MFYJ4E/A": "iPhone 17 Pro Max 2TB Silver",
-            "MFYK4E/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MFYL4E/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
-    },
-    "cn": {
-        "regular17": {
-            "MG6W4CH/A": "iPhone 17 256GB Black",
-            "MG6X4CH/A": "iPhone 17 256GB White",
-            "MG6Y4CH/A": "iPhone 17 256GB Mist Blue",
-            "MG704CH/A": "iPhone 17 256GB Lavender",
-            "MG714CH/A": "iPhone 17 256GB Sage",
-            "MG724CH/A": "iPhone 17 512GB Black",
-            "MG734CH/A": "iPhone 17 512GB White",
-            "MG744CH/A": "iPhone 17 512GB Mist Blue",
-            "MG754CH/A": "iPhone 17 512GB Lavender",
-            "MG764CH/A": "iPhone 17 512GB Sage"
-        },
-        "pro17": {
-            "MG8T4CH/A": "iPhone 17 Pro 256GB Silver",
-            "MG8U4CH/A": "iPhone 17 Pro 256GB Cosmic Orange",
-            "MG8V4CH/A": "iPhone 17 Pro 256GB Deep Blue",
-            "MG8W4CH/A": "iPhone 17 Pro 512GB Silver",
-            "MG8X4CH/A": "iPhone 17 Pro 512GB Cosmic Orange",
-            "MG8Y4CH/A": "iPhone 17 Pro 512GB Deep Blue",
-            "MG904CH/A": "iPhone 17 Pro 1TB Silver",
-            "MG914CH/A": "iPhone 17 Pro 1TB Cosmic Orange",
-            "MG924CH/A": "iPhone 17 Pro 1TB Deep Blue"
-        },
-        "proMax17": {
-            "MG034CH/A": "iPhone 17 Pro Max 256GB Silver",
-            "MG044CH/A": "iPhone 17 Pro Max 256GB Cosmic Orange",
-            "MG054CH/A": "iPhone 17 Pro Max 256GB Deep Blue",
-            "MG064CH/A": "iPhone 17 Pro Max 512GB Silver",
-            "MG074CH/A": "iPhone 17 Pro Max 512GB Cosmic Orange",
-            "MG084CH/A": "iPhone 17 Pro Max 512GB Deep Blue",
-            "MG094CH/A": "iPhone 17 Pro Max 1TB Silver",
-            "MG0A4CH/A": "iPhone 17 Pro Max 1TB Cosmic Orange",
-            "MG0E4CH/A": "iPhone 17 Pro Max 1TB Deep Blue",
-            "MG0F4CH/A": "iPhone 17 Pro Max 2TB Silver",
-            "MG0G4CH/A": "iPhone 17 Pro Max 2TB Cosmic Orange",
-            "MG0Q4CH/A": "iPhone 17 Pro Max 2TB Deep Blue"
-        }
+        "configurations": {},
+        "discovered_options": {}
+      }
     }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17",
+        "iphone-17-pro": "shop/buy-iphone/iphone-17-pro",
+        "iphone-17-pro-max": "shop/buy-iphone/iphone-17-pro"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17",
+          "iphone-17-pro": "iPhone 17 Pro",
+          "iphone-17-pro-max": "iPhone 17 Pro Max"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "scraping_method": "discovery_based",
+    "source": "scraper"
+  }
 }

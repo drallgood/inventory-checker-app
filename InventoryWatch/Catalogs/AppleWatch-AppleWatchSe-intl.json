@@ -1,0 +1,87 @@
+{
+  "discovered_models": {
+    "at": {
+      "apple-watch-se": {
+        "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se",
+        "skus": {
+          "MEHV4ZR/A": {
+            "name": "Apple Watch 40mm Polarstern Aluminum GPS",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEP34ZR/A": {
+            "name": "Apple Watch 44mm Mitternacht Aluminum GPS",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEQ24ZR/A": {
+            "name": "Apple Watch 40mm Mitternacht Aluminum GPS + Cellular",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEQ14ZR/A": {
+            "name": "Apple Watch 40mm Polarstern Aluminum GPS + Cellular",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEQ44ZR/A": {
+            "name": "Apple Watch 44mm Mitternacht Aluminum GPS + Cellular",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEP04ZR/A": {
+            "name": "Apple Watch 44mm Polarstern Aluminum GPS",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEQ34ZR/A": {
+            "name": "Apple Watch 44mm Polarstern Aluminum GPS + Cellular",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          },
+          "MEHX4ZR/A": {
+            "name": "Apple Watch 40mm Mitternacht Aluminum GPS",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "apple-watch-se": "shop/buy-watch/apple-watch-se"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-se": "Apple Watch SE"
+        }
+      }
+    }
+  }
+}

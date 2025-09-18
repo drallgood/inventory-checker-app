@@ -1,0 +1,71 @@
+{
+  "discovered_models": {
+    "at": {
+      "iphone-16e": {
+        "url": null,
+        "skus": {
+          "MD1T4ZD/A": {
+            "name": "iPhone 16e 256GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MD1R4ZD/A": {
+            "name": "iPhone 16e 128GB White",
+            "colorKey": "black",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MD1X4ZD/A": {
+            "name": "iPhone 16e 512GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MD1Q4ZD/A": {
+            "name": "iPhone 16e 128GB Black",
+            "colorKey": "black",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MD274ZD/A": {
+            "name": "iPhone 16e 512GB White",
+            "colorKey": "black",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MD1W4ZD/A": {
+            "name": "iPhone 16e 256GB White",
+            "colorKey": "black",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-16e": "shop/buy-iphone/iphone-16e"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16e": "iPhone 16E"
+        }
+      }
+    }
+  }
+}

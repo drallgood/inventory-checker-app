@@ -1,0 +1,103 @@
+{
+  "discovered_models": {
+    "at": {
+      "iphone-17": {
+        "url": null,
+        "skus": {
+          "MG6L4ZD/A": {
+            "name": "iPhone 17 256GB Mist Blue",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6M4ZD/A": {
+            "name": "iPhone 17 256GB Lavender",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6J4ZD/A": {
+            "name": "iPhone 17 256GB Black",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6K4ZD/A": {
+            "name": "iPhone 17 256GB White",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6Q4ZD/A": {
+            "name": "iPhone 17 512GB White",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6P4ZD/A": {
+            "name": "iPhone 17 512GB Black",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6N4ZD/A": {
+            "name": "iPhone 17 256GB Sage",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6U4ZD/A": {
+            "name": "iPhone 17 512GB Lavender",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6V4ZD/A": {
+            "name": "iPhone 17 512GB Sage",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG6T4ZD/A": {
+            "name": "iPhone 17 512GB Mist Blue",
+            "colorKey": "mistblue",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17"
+        }
+      }
+    }
+  }
+}

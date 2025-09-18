@@ -1,0 +1,119 @@
+{
+  "discovered_models": {
+    "at": {
+      "iphone-air": {
+        "url": null,
+        "skus": {
+          "MG2U4ZD/A": {
+            "name": "iPhone Air 512GB Light Gold",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2V4ZD/A": {
+            "name": "iPhone Air 512GB Sky Blue",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2T4ZD/A": {
+            "name": "iPhone Air 512GB Cloud White",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2Y4ZD/A": {
+            "name": "iPhone Air 1TB Light Gold",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2W4ZD/A": {
+            "name": "iPhone Air 1TB Space Black",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2X4ZD/A": {
+            "name": "iPhone Air 1TB Cloud White",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2M4ZD/A": {
+            "name": "iPhone Air 256GB Cloud White",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2L4ZD/A": {
+            "name": "iPhone Air 256GB Space Black",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2N4ZD/A": {
+            "name": "iPhone Air 256GB Light Gold",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2Q4ZD/A": {
+            "name": "iPhone Air 512GB Space Black",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG304ZD/A": {
+            "name": "iPhone Air 1TB Sky Blue",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MG2P4ZD/A": {
+            "name": "iPhone Air 256GB Sky Blue",
+            "colorKey": "lightgold",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-air": "shop/buy-iphone/iphone-air"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-air": "iPhone Air"
+        }
+      }
+    }
+  }
+}

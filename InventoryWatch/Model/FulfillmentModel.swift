@@ -19,6 +19,9 @@ actor FulfillmentModel {
     }
     
     private var cachedStoreData: [String: StoreCountry] = [:]
+    private let decoder = JSONDecoder()
+    // Latest pickup API error keys (e.g., ["invalidLocalModelStore"]) captured from Apple JSON
+    private(set) var lastPickupErrorKeys: [String] = []
     
     private var modelParsingFilter: Set<String>? {
         let filterForPreferredModels = defaultsVendor.showResultsOnlyForPreferredModels
@@ -34,9 +37,7 @@ actor FulfillmentModel {
         if cachedStoreData.isEmpty == false {
             return cachedStoreData
         }
-        
-        let decoder = JSONDecoder()
-        
+
         do {
             // Try loading remote stores first
             let url = URL(string: "https://www.apple.com/rsp-web/store-list?locale=en_US")!
@@ -46,7 +47,7 @@ actor FulfillmentModel {
             request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
             request.timeoutInterval = 30
             
-            let (data, response) = try await URLSession.shared.data(for: request)
+            let (data, _) = try await URLSession.shared.data(for: request, delegate: nil)
             
             // Check if we received HTML instead of JSON
             if let responseString = String(data: data, encoding: .utf8) {
@@ -96,14 +97,27 @@ actor FulfillmentModel {
     
     func fetchInventory() async throws -> [(FulfillmentStore, [PartAvailability])] {
         let urlRoot = "https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/fulfillment-messages?"
-        let query = try await generateQueryString()
+        // Single attempt: include explicit store parameter (previous working behavior)
+        let query = try await generateQueryString(includeStore: true, location: nil)
         
         guard let url = URL(string: urlRoot + query) else {
             throw AppError.couldNotGenerateURL
         }
         
         var request = URLRequest(url: url)
-        request.addValue("https://www.apple.com/shop/buy-iphone/", forHTTPHeaderField: "Referer")
+        // Use a token-aware Referer that respects the active product family (watch vs iphone)
+        let family = defaultsVendor.preferredProductFamily
+        if family.isWatch,
+           defaultsVendor.preferredWatchToken.isEmpty == false,
+           let base = await JSONCatalogAppleWatch.pdpBaseURL(for: defaultsVendor.preferredCountry, sourcePage: defaultsVendor.preferredWatchToken) {
+            request.addValue(base.absoluteString, forHTTPHeaderField: "Referer")
+        } else if family.isIPhone,
+                  defaultsVendor.preferredPhoneToken.isEmpty == false,
+                  let base = await SKUDataLoader().phonePDPBaseURL(for: defaultsVendor.preferredCountry, sourcePage: defaultsVendor.preferredPhoneToken) {
+            request.addValue(base.absoluteString, forHTTPHeaderField: "Referer")
+        } else {
+            request.addValue("https://www.apple.com/shop/buy-iphone/", forHTTPHeaderField: "Referer")
+        }
         request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
         request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
         request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
@@ -115,8 +129,9 @@ actor FulfillmentModel {
         // Log the URL for debugging
         print(url.absoluteString)
         
-        let (data, response) = try await URLSession.shared.data(for: request)
-        return try await parseStoreResponse(data, response: response as? HTTPURLResponse, filterForModels: modelParsingFilter)
+        let (data, response) = try await URLSession.shared.data(for: request, delegate: nil)
+        let parsed = try await parseStoreResponse(data, response: response as? HTTPURLResponse, filterForModels: modelParsingFilter)
+        return parsed
     }
     
     func getDefaultStoreForCurrentCountry() async throws -> RetailStore? {
@@ -140,15 +155,68 @@ actor FulfillmentModel {
         return stores.first(where: { $0.storeNumber == defaultStoreNumber }) ?? stores.first
     }
     
-    private func generateQueryString() async throws -> String {
-        
-        let skuData = try await skuDataLoader.skuDataForPreferredProduct
-        
-        var allSkus = skuData.orderedSKUs
-        if let customSku = defaultsVendor.customSkuData?.sku {
+    private func generateQueryString(includeStore: Bool = true, location: String?) async throws -> String {
+        // Build SKU list using token-driven path respecting active product family
+        let country = defaultsVendor.preferredCountry
+        let family = defaultsVendor.preferredProductFamily
+        let watchToken = defaultsVendor.preferredWatchToken
+        let phoneToken = defaultsVendor.preferredPhoneToken
+        var resolvedSKUs: [String] = []
+        if family.isWatch,
+           watchToken.isEmpty == false,
+           let data = await SKUDataLoader().watchSKUData(forToken: watchToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
+        } else if family.isIPhone,
+                  phoneToken.isEmpty == false,
+                  let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
+        } else {
+            // Fallback: try whichever token is set, else empty
+            if watchToken.isEmpty == false, let data = await SKUDataLoader().watchSKUData(forToken: watchToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else if phoneToken.isEmpty == false, let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else {
+                let data = try await skuDataLoader.skuDataForPreferredProduct
+                resolvedSKUs = data.orderedSKUs
+            }
+        }
+
+        // Build final SKU order depending on user preference
+        // When "Only show results for preferred models" is enabled, restrict to preferred SKUs (plus custom)
+        let preferred = defaultsVendor.preferredSKUs
+        let showOnlyPreferred = defaultsVendor.showResultsOnlyForPreferredModels
+        var allSkus: [String] = []
+        if showOnlyPreferred {
+            // Preserve deterministic order based on the user's stored CSV order
+            let preferredCsv = UserDefaults.standard.string(forKey: "preferredSKUs") ?? ""
+            let preferredList = preferredCsv.split(separator: ",").map { String($0) }.filter { !$0.isEmpty }
+            allSkus.append(contentsOf: preferredList)
+        } else {
+            // 1) All preferred SKUs exactly as the user selected (order preserved as stored, best-effort)
+            // 2) Remaining resolved SKUs (from token/product) not already included
+            if preferred.isEmpty == false {
+                let preferredCsv = UserDefaults.standard.string(forKey: "preferredSKUs") ?? ""
+                let preferredList = preferredCsv.split(separator: ",").map { String($0) }.filter { !$0.isEmpty }
+                allSkus.append(contentsOf: preferredList)
+                let remainder = resolvedSKUs.filter { sku in preferred.contains(sku) == false }
+                allSkus.append(contentsOf: remainder)
+            } else {
+                allSkus = resolvedSKUs
+            }
+        }
+        // Always append custom SKU if present
+        if let customSku = defaultsVendor.customSkuData?.sku, customSku.isEmpty == false {
             allSkus.append(customSku)
         }
-        
+        // Deduplicate while preserving order
+        var seen = Set<String>()
+        allSkus = allSkus.filter { sku in
+            if seen.contains(sku) { return false }
+            seen.insert(sku)
+            return true
+        }
+
         var queryItems: [String] = allSkus
             .enumerated()
             .compactMap { next in
@@ -162,7 +230,12 @@ actor FulfillmentModel {
             }
         
         queryItems.append("searchNearby=\(defaultsVendor.shouldIncludeNearbyStores)")
-        queryItems.append("store=\(defaultsVendor.preferredStoreNumber)")
+        if let location, location.isEmpty == false {
+            queryItems.append("location=\(location)")
+        }
+        if includeStore {
+            queryItems.append("store=\(defaultsVendor.preferredStoreNumber)")
+        }
         
         return queryItems.joined(separator: "&")
     }
@@ -203,9 +276,17 @@ actor FulfillmentModel {
         else {
             throw AppError.unexpectedJSONStructure
         }
+        // If Apple returned error keys (e.g., 'invalidLocalModelStore'), retain them for UI and log non-fatally
+        if let errors = pickupMessage["errorMessageKeys"] as? [String], errors.isEmpty == false {
+            lastPickupErrorKeys = errors
+            print("Apple pickup API errors (non-fatal): \(errors.joined(separator: ", "))")
+        } else {
+            lastPickupErrorKeys = []
+        }
         
         guard let storeList = pickupMessage["stores"] as? [[String: Any]] else {
-            throw AppError.noStoresFound
+            // Let caller decide on fallback strategy
+            return []
         }
         
         let skuData = try await skuDataForPreferredProduct

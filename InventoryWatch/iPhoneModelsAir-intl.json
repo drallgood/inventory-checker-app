@@ -1,450 +1,201 @@
 {
+  "urlMappings": {},
+  "recognizedMaterials": [],
+  "discovered_models": {
     "at": {
-        "air": {
-            "MG2L4ZD/A": "iPhone Air 256GB Space Black",
-            "MG2M4ZD/A": "iPhone Air 256GB Cloud White",
-            "MG2N4ZD/A": "iPhone Air 256GB Light Gold",
-            "MG2P4ZD/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4ZD/A": "iPhone Air 512GB Space Black",
-            "MG2T4ZD/A": "iPhone Air 512GB Cloud White",
-            "MG2U4ZD/A": "iPhone Air 512GB Light Gold",
-            "MG2V4ZD/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4ZD/A": "iPhone Air 1TB Space Black",
-            "MG2X4ZD/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4ZD/A": "iPhone Air 1TB Light Gold",
-            "MG304ZD/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "us": {
-        "air": {
-            "MG184LL/A": "iPhone Air 256GB Space Black",
-            "MG194LL/A": "iPhone Air 256GB Cloud White",
-            "MG1A4LL/A": "iPhone Air 256GB Light Gold",
-            "MG1D4LL/A": "iPhone Air 256GB Sky Blue",
-            "MG1E4LL/A": "iPhone Air 512GB Space Black",
-            "MG1G4LL/A": "iPhone Air 512GB Cloud White",
-            "MG1H4LL/A": "iPhone Air 512GB Light Gold",
-            "MG1J4LL/A": "iPhone Air 512GB Sky Blue",
-            "MG1L4LL/A": "iPhone Air 1TB Space Black",
-            "MG1N4LL/A": "iPhone Air 1TB Cloud White",
-            "MG1P4LL/A": "iPhone Air 1TB Light Gold",
-            "MG1Q4LL/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "uk": {
-        "air": {
-            "MG2L4QN/A": "iPhone Air 256GB Space Black",
-            "MG2M4QN/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QN/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QN/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QN/A": "iPhone Air 512GB Space Black",
-            "MG2T4QN/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QN/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QN/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QN/A": "iPhone Air 1TB Space Black",
-            "MG2X4QN/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QN/A": "iPhone Air 1TB Light Gold",
-            "MG304QN/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "au": {
-        "air": {
-            "MG2L4X/A": "iPhone Air 256GB Space Black",
-            "MG2M4X/A": "iPhone Air 256GB Cloud White",
-            "MG2N4X/A": "iPhone Air 256GB Light Gold",
-            "MG2P4X/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4X/A": "iPhone Air 512GB Space Black",
-            "MG2T4X/A": "iPhone Air 512GB Cloud White",
-            "MG2U4X/A": "iPhone Air 512GB Light Gold",
-            "MG2V4X/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4X/A": "iPhone Air 1TB Space Black",
-            "MG2X4X/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4X/A": "iPhone Air 1TB Light Gold",
-            "MG304X/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "ca": {
-        "air": {
-            "MG184VC/A": "iPhone Air 256GB Space Black",
-            "MG194VC/A": "iPhone Air 256GB Cloud White",
-            "MG1A4VC/A": "iPhone Air 256GB Light Gold",
-            "MG1D4VC/A": "iPhone Air 256GB Sky Blue",
-            "MG1E4VC/A": "iPhone Air 512GB Space Black",
-            "MG1G4VC/A": "iPhone Air 512GB Cloud White",
-            "MG1H4VC/A": "iPhone Air 512GB Light Gold",
-            "MG1J4VC/A": "iPhone Air 512GB Sky Blue",
-            "MG1L4VC/A": "iPhone Air 1TB Space Black",
-            "MG1N4VC/A": "iPhone Air 1TB Cloud White",
-            "MG1P4VC/A": "iPhone Air 1TB Light Gold",
-            "MG1Q4VC/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "de": {
-        "air": {
-            "MG2L4ZD/A": "iPhone Air 256GB Space Black",
-            "MG2M4ZD/A": "iPhone Air 256GB Cloud White",
-            "MG2N4ZD/A": "iPhone Air 256GB Light Gold",
-            "MG2P4ZD/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4ZD/A": "iPhone Air 512GB Space Black",
-            "MG2T4ZD/A": "iPhone Air 512GB Cloud White",
-            "MG2U4ZD/A": "iPhone Air 512GB Light Gold",
-            "MG2V4ZD/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4ZD/A": "iPhone Air 1TB Space Black",
-            "MG2X4ZD/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4ZD/A": "iPhone Air 1TB Light Gold",
-            "MG304ZD/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "fr": {
-        "air": {
-            "MG2L4F/A": "iPhone Air 256GB Space Black",
-            "MG2M4F/A": "iPhone Air 256GB Cloud White",
-            "MG2N4F/A": "iPhone Air 256GB Light Gold",
-            "MG2P4F/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4F/A": "iPhone Air 512GB Space Black",
-            "MG2T4F/A": "iPhone Air 512GB Cloud White",
-            "MG2U4F/A": "iPhone Air 512GB Light Gold",
-            "MG2V4F/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4F/A": "iPhone Air 1TB Space Black",
-            "MG2X4F/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4F/A": "iPhone Air 1TB Light Gold",
-            "MG304F/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "it": {
-        "air": {
-            "MG2L4QL/A": "iPhone Air 256GB Space Black",
-            "MG2M4QL/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QL/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QL/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QL/A": "iPhone Air 512GB Space Black",
-            "MG2T4QL/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QL/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QL/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QL/A": "iPhone Air 1TB Space Black",
-            "MG2X4QL/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QL/A": "iPhone Air 1TB Light Gold",
-            "MG304QL/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "es": {
-        "air": {
-            "MG2L4QL/A": "iPhone Air 256GB Space Black",
-            "MG2M4QL/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QL/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QL/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QL/A": "iPhone Air 512GB Space Black",
-            "MG2T4QL/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QL/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QL/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QL/A": "iPhone Air 1TB Space Black",
-            "MG2X4QL/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QL/A": "iPhone Air 1TB Light Gold",
-            "MG304QL/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "nl": {
-        "air": {
-            "MG2L4ZD/A": "iPhone Air 256GB Space Black",
-            "MG2M4ZD/A": "iPhone Air 256GB Cloud White",
-            "MG2N4ZD/A": "iPhone Air 256GB Light Gold",
-            "MG2P4ZD/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4ZD/A": "iPhone Air 512GB Space Black",
-            "MG2T4ZD/A": "iPhone Air 512GB Cloud White",
-            "MG2U4ZD/A": "iPhone Air 512GB Light Gold",
-            "MG2V4ZD/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4ZD/A": "iPhone Air 1TB Space Black",
-            "MG2X4ZD/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4ZD/A": "iPhone Air 1TB Light Gold",
-            "MG304ZD/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "se": {
-        "air": {
-            "MG2L4QN/A": "iPhone Air 256GB Space Black",
-            "MG2M4QN/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QN/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QN/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QN/A": "iPhone Air 512GB Space Black",
-            "MG2T4QN/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QN/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QN/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QN/A": "iPhone Air 1TB Space Black",
-            "MG2X4QN/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QN/A": "iPhone Air 1TB Light Gold",
-            "MG304QN/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "dk": {
-        "air": {
-            "MG2L4QN/A": "iPhone Air 256GB Space Black",
-            "MG2M4QN/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QN/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QN/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QN/A": "iPhone Air 512GB Space Black",
-            "MG2T4QN/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QN/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QN/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QN/A": "iPhone Air 1TB Space Black",
-            "MG2X4QN/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QN/A": "iPhone Air 1TB Light Gold",
-            "MG304QN/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "no": {
-        "air": {
-            "MG2L4QN/A": "iPhone Air 256GB Space Black",
-            "MG2M4QN/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QN/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QN/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QN/A": "iPhone Air 512GB Space Black",
-            "MG2T4QN/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QN/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QN/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QN/A": "iPhone Air 1TB Space Black",
-            "MG2X4QN/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QN/A": "iPhone Air 1TB Light Gold",
-            "MG304QN/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "fi": {
-        "air": {
-            "MG2L4QN/A": "iPhone Air 256GB Space Black",
-            "MG2M4QN/A": "iPhone Air 256GB Cloud White",
-            "MG2N4QN/A": "iPhone Air 256GB Light Gold",
-            "MG2P4QN/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4QN/A": "iPhone Air 512GB Space Black",
-            "MG2T4QN/A": "iPhone Air 512GB Cloud White",
-            "MG2U4QN/A": "iPhone Air 512GB Light Gold",
-            "MG2V4QN/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4QN/A": "iPhone Air 1TB Space Black",
-            "MG2X4QN/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4QN/A": "iPhone Air 1TB Light Gold",
-            "MG304QN/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "jp": {
-        "air": {
-            "MG274J/A": "iPhone Air 256GB Space Black",
-            "MG284J/A": "iPhone Air 256GB Cloud White",
-            "MG294J/A": "iPhone Air 256GB Light Gold",
-            "MG2A4J/A": "iPhone Air 256GB Sky Blue",
-            "MG2C4J/A": "iPhone Air 512GB Space Black",
-            "MG2D4J/A": "iPhone Air 512GB Cloud White",
-            "MG2E4J/A": "iPhone Air 512GB Light Gold",
-            "MG2F4J/A": "iPhone Air 512GB Sky Blue",
-            "MG2G4J/A": "iPhone Air 1TB Space Black",
-            "MG2H4J/A": "iPhone Air 1TB Cloud White",
-            "MG2J4J/A": "iPhone Air 1TB Light Gold",
-            "MG2K4J/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "kr": {
-        "air": {
-            "MG2L4KH/A": "iPhone Air 256GB Space Black",
-            "MG2M4KH/A": "iPhone Air 256GB Cloud White",
-            "MG2N4KH/A": "iPhone Air 256GB Light Gold",
-            "MG2P4KH/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4KH/A": "iPhone Air 512GB Space Black",
-            "MG2T4KH/A": "iPhone Air 512GB Cloud White",
-            "MG2U4KH/A": "iPhone Air 512GB Light Gold",
-            "MG2V4KH/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4KH/A": "iPhone Air 1TB Space Black",
-            "MG2X4KH/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4KH/A": "iPhone Air 1TB Light Gold",
-            "MG304KH/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "hk": {
-        "air": {
-            "MG2L4ZA/A": "iPhone Air 256GB Space Black",
-            "MG2M4ZA/A": "iPhone Air 256GB Cloud White",
-            "MG2N4ZA/A": "iPhone Air 256GB Light Gold",
-            "MG2P4ZA/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4ZA/A": "iPhone Air 512GB Space Black",
-            "MG2T4ZA/A": "iPhone Air 512GB Cloud White",
-            "MG2U4ZA/A": "iPhone Air 512GB Light Gold",
-            "MG2V4ZA/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4ZA/A": "iPhone Air 1TB Space Black",
-            "MG2X4ZA/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4ZA/A": "iPhone Air 1TB Light Gold",
-            "MG304ZA/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "sg": {
-        "air": {
-            "MG2L4X/A": "iPhone Air 256GB Space Black",
-            "MG2M4X/A": "iPhone Air 256GB Cloud White",
-            "MG2N4X/A": "iPhone Air 256GB Light Gold",
-            "MG2P4X/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4X/A": "iPhone Air 512GB Space Black",
-            "MG2T4X/A": "iPhone Air 512GB Cloud White",
-            "MG2U4X/A": "iPhone Air 512GB Light Gold",
-            "MG2V4X/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4X/A": "iPhone Air 1TB Space Black",
-            "MG2X4X/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4X/A": "iPhone Air 1TB Light Gold",
-            "MG304X/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "tw": {
-        "air": {
-            "MG2L4ZP/A": "iPhone Air 256GB Space Black",
-            "MG2M4ZP/A": "iPhone Air 256GB Cloud White",
-            "MG2N4ZP/A": "iPhone Air 256GB Light Gold",
-            "MG2P4ZP/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4ZP/A": "iPhone Air 512GB Space Black",
-            "MG2T4ZP/A": "iPhone Air 512GB Cloud White",
-            "MG2U4ZP/A": "iPhone Air 512GB Light Gold",
-            "MG2V4ZP/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4ZP/A": "iPhone Air 1TB Space Black",
-            "MG2X4ZP/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4ZP/A": "iPhone Air 1TB Light Gold",
-            "MG304ZP/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "th": {
-        "air": {
-            "MG2L4ZP/A": "iPhone Air 256GB Space Black",
-            "MG2M4ZP/A": "iPhone Air 256GB Cloud White",
-            "MG2N4ZP/A": "iPhone Air 256GB Light Gold",
-            "MG2P4ZP/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4ZP/A": "iPhone Air 512GB Space Black",
-            "MG2T4ZP/A": "iPhone Air 512GB Cloud White",
-            "MG2U4ZP/A": "iPhone Air 512GB Light Gold",
-            "MG2V4ZP/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4ZP/A": "iPhone Air 1TB Space Black",
-            "MG2X4ZP/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4ZP/A": "iPhone Air 1TB Light Gold",
-            "MG304ZP/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "my": {
-        "air": {
-            "MG2L4X/A": "iPhone Air 256GB Space Black",
-            "MG2M4X/A": "iPhone Air 256GB Cloud White",
-            "MG2N4X/A": "iPhone Air 256GB Light Gold",
-            "MG2P4X/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4X/A": "iPhone Air 512GB Space Black",
-            "MG2T4X/A": "iPhone Air 512GB Cloud White",
-            "MG2U4X/A": "iPhone Air 512GB Light Gold",
-            "MG2V4X/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4X/A": "iPhone Air 1TB Space Black",
-            "MG2X4X/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4X/A": "iPhone Air 1TB Light Gold",
-            "MG304X/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "in": {
-        "air": {
-            "MG2L4HN/A": "iPhone Air 256GB Space Black",
-            "MG2M4HN/A": "iPhone Air 256GB Cloud White",
-            "MG2N4HN/A": "iPhone Air 256GB Light Gold",
-            "MG2P4HN/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4HN/A": "iPhone Air 512GB Space Black",
-            "MG2T4HN/A": "iPhone Air 512GB Cloud White",
-            "MG2U4HN/A": "iPhone Air 512GB Light Gold",
-            "MG2V4HN/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4HN/A": "iPhone Air 1TB Space Black",
-            "MG2X4HN/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4HN/A": "iPhone Air 1TB Light Gold",
-            "MG304HN/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "ae": {
-        "air": {
-            "MG184AH/A": "iPhone Air 256GB Space Black",
-            "MG194AH/A": "iPhone Air 256GB Cloud White",
-            "MG1A4AH/A": "iPhone Air 256GB Light Gold",
-            "MG1D4AH/A": "iPhone Air 256GB Sky Blue",
-            "MG1E4AH/A": "iPhone Air 512GB Space Black",
-            "MG1G4AH/A": "iPhone Air 512GB Cloud White",
-            "MG1H4AH/A": "iPhone Air 512GB Light Gold",
-            "MG1J4AH/A": "iPhone Air 512GB Sky Blue",
-            "MG1L4AH/A": "iPhone Air 1TB Space Black",
-            "MG1N4AH/A": "iPhone Air 1TB Cloud White",
-            "MG1P4AH/A": "iPhone Air 1TB Light Gold",
-            "MG1Q4AH/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "sa": {
-        "air": {
-            "MG184AH/A": "iPhone Air 256GB Space Black",
-            "MG194AH/A": "iPhone Air 256GB Cloud White",
-            "MG1A4AH/A": "iPhone Air 256GB Light Gold",
-            "MG1D4AH/A": "iPhone Air 256GB Sky Blue",
-            "MG1E4AH/A": "iPhone Air 512GB Space Black",
-            "MG1G4AH/A": "iPhone Air 512GB Cloud White",
-            "MG1H4AH/A": "iPhone Air 512GB Light Gold",
-            "MG1J4AH/A": "iPhone Air 512GB Sky Blue",
-            "MG1L4AH/A": "iPhone Air 1TB Space Black",
-            "MG1N4AH/A": "iPhone Air 1TB Cloud White",
-            "MG1P4AH/A": "iPhone Air 1TB Light Gold",
-            "MG1Q4AH/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "tr": {
-        "air": {
-            "MG2L4TU/A": "iPhone Air 256GB Space Black",
-            "MG2M4TU/A": "iPhone Air 256GB Cloud White",
-            "MG2N4TU/A": "iPhone Air 256GB Light Gold",
-            "MG2P4TU/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4TU/A": "iPhone Air 512GB Space Black",
-            "MG2T4TU/A": "iPhone Air 512GB Cloud White",
-            "MG2U4TU/A": "iPhone Air 512GB Light Gold",
-            "MG2V4TU/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4TU/A": "iPhone Air 1TB Space Black",
-            "MG2X4TU/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4TU/A": "iPhone Air 1TB Light Gold",
-            "MG304TU/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "br": {
-        "air": {
-            "MG2L4BE/A": "iPhone Air 256GB Space Black",
-            "MG2M4BE/A": "iPhone Air 256GB Cloud White",
-            "MG2N4BE/A": "iPhone Air 256GB Light Gold",
-            "MG2P4BE/A": "iPhone Air 256GB Sky Blue",
-            "MG2Q4BE/A": "iPhone Air 512GB Space Black",
-            "MG2T4BE/A": "iPhone Air 512GB Cloud White",
-            "MG2U4BE/A": "iPhone Air 512GB Light Gold",
-            "MG2V4BE/A": "iPhone Air 512GB Sky Blue",
-            "MG2W4BE/A": "iPhone Air 1TB Space Black",
-            "MG2X4BE/A": "iPhone Air 1TB Cloud White",
-            "MG2Y4BE/A": "iPhone Air 1TB Light Gold",
-            "MG304BE/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "mx": {
-        "air": {
-            "MG184E/A": "iPhone Air 256GB Space Black",
-            "MG194E/A": "iPhone Air 256GB Cloud White",
-            "MG1A4E/A": "iPhone Air 256GB Light Gold",
-            "MG1D4E/A": "iPhone Air 256GB Sky Blue",
-            "MG1E4E/A": "iPhone Air 512GB Space Black",
-            "MG1G4E/A": "iPhone Air 512GB Cloud White",
-            "MG1H4E/A": "iPhone Air 512GB Light Gold",
-            "MG1J4E/A": "iPhone Air 512GB Sky Blue",
-            "MG1L4E/A": "iPhone Air 1TB Space Black",
-            "MG1N4E/A": "iPhone Air 1TB Cloud White",
-            "MG1P4E/A": "iPhone Air 1TB Light Gold",
-            "MG1Q4E/A": "iPhone Air 1TB Sky Blue"
-        }
-    },
-    "cn": {
-        "air": {
-            "MG314CH/A": "iPhone Air 256GB Space Black",
-            "MG334CH/A": "iPhone Air 256GB Cloud White",
-            "MG344CH/A": "iPhone Air 256GB Light Gold",
-            "MG364CH/A": "iPhone Air 256GB Sky Blue",
-            "MG374CH/A": "iPhone Air 512GB Space Black",
-            "MG394CH/A": "iPhone Air 512GB Cloud White",
-            "MG3A4CH/A": "iPhone Air 512GB Light Gold",
-            "MG3C4CH/A": "iPhone Air 512GB Sky Blue",
-            "MG3D4CH/A": "iPhone Air 1TB Space Black",
-            "MG3E4CH/A": "iPhone Air 1TB Cloud White",
-            "MG3F4CH/A": "iPhone Air 1TB Light Gold",
-            "MG3G4CH/A": "iPhone Air 1TB Sky Blue"
-        }
+      "iphone-air": {
+        "model_name": "iphone-air",
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-air",
+        "region": "at",
+        "skus": {
+          "MG2L4ZD/A": {
+            "name": "iPhone Air 256GB Space Black",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Schwarz",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2L4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2M4ZD/A": {
+            "name": "iPhone Air 256GB Cloud White",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Wolkenweiß",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2M4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2N4ZD/A": {
+            "name": "iPhone Air 256GB Light Gold",
+            "colorKey": "lightgold",
+            "colorDisplay": "Lichtgold",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2N4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2P4ZD/A": {
+            "name": "iPhone Air 256GB Sky Blue",
+            "colorKey": "skyblue",
+            "colorDisplay": "Himmelblau",
+            "capacity": "256gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2P4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2Q4ZD/A": {
+            "name": "iPhone Air 512GB Space Black",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Schwarz",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2Q4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2T4ZD/A": {
+            "name": "iPhone Air 512GB Cloud White",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Wolkenweiß",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2T4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2U4ZD/A": {
+            "name": "iPhone Air 512GB Light Gold",
+            "colorKey": "lightgold",
+            "colorDisplay": "Lichtgold",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2U4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2V4ZD/A": {
+            "name": "iPhone Air 512GB Sky Blue",
+            "colorKey": "skyblue",
+            "colorDisplay": "Himmelblau",
+            "capacity": "512gb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2V4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2W4ZD/A": {
+            "name": "iPhone Air 1TB Space Black",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Schwarz",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2W4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2X4ZD/A": {
+            "name": "iPhone Air 1TB Cloud White",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Wolkenweiß",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2X4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG2Y4ZD/A": {
+            "name": "iPhone Air 1TB Light Gold",
+            "colorKey": "lightgold",
+            "colorDisplay": "Lichtgold",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG2Y4ZD/A",
+              "isRealPartNumber": true
+            }
+          },
+          "MG304ZD/A": {
+            "name": "iPhone Air 1TB Sky Blue",
+            "colorKey": "skyblue",
+            "colorDisplay": "Himmelblau",
+            "capacity": "1tb",
+            "family": "unknown",
+            "familyName": "iPhone",
+            "urlSlug": "",
+            "metadata": {
+              "sourcePage": "iphone-air",
+              "partNumber": "MG304ZD/A",
+              "isRealPartNumber": true
+            }
+          }
+        },
+        "configurations": {},
+        "discovered_options": {}
+      }
     }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-air": "shop/buy-iphone/iphone-air"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-air": "iPhone Air"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "scraping_method": "discovery_based",
+    "source": "scraper"
+  }
 }

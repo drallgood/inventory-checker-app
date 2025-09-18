@@ -1,0 +1,143 @@
+{
+  "discovered_models": {
+    "at": {
+      "iphone-16": {
+        "url": null,
+        "skus": {
+          "MXY23ZD/A": {
+            "name": "iPhone 16 Plus 256GB Ultramarine",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXY13ZD/A": {
+            "name": "iPhone 16 Plus 256GB Pink",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXY53ZD/A": {
+            "name": "iPhone 16 Plus 256GB Teal",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXVV3ZD/A": {
+            "name": "iPhone 16 Plus 128GB White",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXVU3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Black",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXVY3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Teal",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXVX3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Ultramarine",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXVW3ZD/A": {
+            "name": "iPhone 16 Plus 128GB Pink",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXWN3ZD/A": {
+            "name": "iPhone 16 Plus 256GB Black",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MXWV3ZD/A": {
+            "name": "iPhone 16 Plus 256GB White",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MYE93ZD/A": {
+            "name": "iPhone 16 128GB White",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MYE73ZD/A": {
+            "name": "iPhone 16 128GB Black",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MYEA3ZD/A": {
+            "name": "iPhone 16 128GB Pink",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MYED3ZD/A": {
+            "name": "iPhone 16 128GB Teal",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          },
+          "MYEC3ZD/A": {
+            "name": "iPhone 16 128GB Ultramarine",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "family": "unknown",
+            "familyName": "Unknown"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16"
+        }
+      }
+    }
+  }
+}
