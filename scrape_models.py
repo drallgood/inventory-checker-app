@@ -102,7 +102,16 @@ class Scraper:
         try:
             print(f"[scrape] GET {url}")
             resp = self.session.get(url, timeout=20)
-            resp.raise_for_status()
+            try:
+                resp.raise_for_status()
+            except requests.exceptions.HTTPError as he:
+                # Downgrade 404 to info: some models are simply not offered in a region
+                status = getattr(getattr(he, 'response', None), 'status_code', None)
+                if status == 404:
+                    print(f"[info] 404 Not Found (not offered in this region): {url}")
+                    return None
+                # Re-raise other HTTP errors to be handled by the outer except
+                raise
             html = resp.text
             # Page title for display-name inference
             title_match = re.search(r'<title>([^<]+)</title>', html, re.IGNORECASE)
