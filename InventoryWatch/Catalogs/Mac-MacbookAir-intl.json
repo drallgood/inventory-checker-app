@@ -1,0 +1,215 @@
+{
+  "discovered_models": {
+    "at": {
+      "macbook-air": {
+        "url": "https://www.apple.com/at/shop/buy-mac/macbook-air",
+        "skus": {
+          "MC6U4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6T4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6V4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW103": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW0Y3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6A4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC654": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW0X3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW0W3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW133": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW123": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6C4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW1K3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW1J3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6K4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC7C4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC7A4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC7D4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW1H3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW1G3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6J4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW1L3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW1M3": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MC6L4": {
+            "name": "MacBook Air",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "MacBook Air"
+        }
+      }
+    }
+  }
+}

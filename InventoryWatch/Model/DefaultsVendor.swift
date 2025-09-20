@@ -12,9 +12,11 @@ import Combine
 enum ProductFamily: String, Codable, CaseIterable, Identifiable {
     case watch = "watch"
     case iphone = "iphone"
+    case mac = "mac"
     var id: Self { self }
     var isWatch: Bool { self == .watch }
     var isIPhone: Bool { self == .iphone }
+    var isMac: Bool { self == .mac }
 }
 
 extension UserDefaults {

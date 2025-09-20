@@ -1,0 +1,79 @@
+{
+  "discovered_models": {
+    "at": {
+      "apple-studio-display": {
+        "url": "https://www.apple.com/at/shop/buy-mac/apple-studio-display",
+        "skus": {
+          "SEJW2ZM/A": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYJL3": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYJG3": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYJF3": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYJK3": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYJJ3": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYJH3": {
+            "name": "Studio Display",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "apple-studio-display": "shop/buy-mac/apple-studio-display"
+      },
+      "localization": {
+        "token_display": {
+          "apple-studio-display": "Studio Display"
+        }
+      }
+    }
+  }
+}

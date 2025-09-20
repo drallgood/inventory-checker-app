@@ -31,6 +31,14 @@
 		38D307DB2745E2E700A0686D /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D307DA2745E2E700A0686D /* Analytics.swift */; };
 		38E1C21A27E6714E0047703D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E1C21927E6714E0047703D /* Helpers.swift */; };
 		38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38E4279D273EF542006BF6D7 /* Credits.rtf */; };
+		469112532E7CB945004C26BC /* Mac-Imac-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124C2E7CB945004C26BC /* Mac-Imac-intl.json */; };
+		469112542E7CB945004C26BC /* Mac-MacbookPro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */; };
+		469112552E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */; };
+		469112562E7CB945004C26BC /* Mac-Mini-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */; };
+		469112572E7CB945004C26BC /* Mac-Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112502E7CB945004C26BC /* Mac-Pro-intl.json */; };
+		469112582E7CB945004C26BC /* Mac-Studio-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112522E7CB945004C26BC /* Mac-Studio-intl.json */; };
+		469112592E7CB945004C26BC /* Mac-AppleStudioDisplay-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124B2E7CB945004C26BC /* Mac-AppleStudioDisplay-intl.json */; };
+		4691125A2E7CB945004C26BC /* Mac-MacbookAir-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124D2E7CB945004C26BC /* Mac-MacbookAir-intl.json */; };
 		46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */; };
 		46F134CF2E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */; };
 		46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */; };
@@ -69,6 +77,14 @@
 		38D307DA2745E2E700A0686D /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		38E1C21927E6714E0047703D /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		38E4279D273EF542006BF6D7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		4691124B2E7CB945004C26BC /* Mac-AppleStudioDisplay-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-AppleStudioDisplay-intl.json"; sourceTree = "<group>"; };
+		4691124C2E7CB945004C26BC /* Mac-Imac-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Imac-intl.json"; sourceTree = "<group>"; };
+		4691124D2E7CB945004C26BC /* Mac-MacbookAir-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-MacbookAir-intl.json"; sourceTree = "<group>"; };
+		4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-MacbookPro-intl.json"; sourceTree = "<group>"; };
+		4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Mini-intl.json"; sourceTree = "<group>"; };
+		469112502E7CB945004C26BC /* Mac-Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Pro-intl.json"; sourceTree = "<group>"; };
+		469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-ProDisplayXdr-intl.json"; sourceTree = "<group>"; };
+		469112522E7CB945004C26BC /* Mac-Studio-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Studio-intl.json"; sourceTree = "<group>"; };
 		46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stores_GlobalBootstrap.json; sourceTree = "<group>"; };
 		46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatch-intl.json"; sourceTree = "<group>"; };
 		46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchSe-intl.json"; sourceTree = "<group>"; };
@@ -168,6 +184,14 @@
 		46F134CE2E7C3B0A00CBE7DB /* Catalogs */ = {
 			isa = PBXGroup;
 			children = (
+				4691124B2E7CB945004C26BC /* Mac-AppleStudioDisplay-intl.json */,
+				4691124C2E7CB945004C26BC /* Mac-Imac-intl.json */,
+				4691124D2E7CB945004C26BC /* Mac-MacbookAir-intl.json */,
+				4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */,
+				4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */,
+				469112502E7CB945004C26BC /* Mac-Pro-intl.json */,
+				469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */,
+				469112522E7CB945004C26BC /* Mac-Studio-intl.json */,
 				46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */,
 				46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */,
 				46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */,
@@ -208,7 +232,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					386FDC522739DA7300C1BAC2 = {
 						CreatedOnToolsVersion = 13.1;
@@ -238,6 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469112532E7CB945004C26BC /* Mac-Imac-intl.json in Resources */,
+				469112542E7CB945004C26BC /* Mac-MacbookPro-intl.json in Resources */,
+				469112552E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json in Resources */,
+				469112562E7CB945004C26BC /* Mac-Mini-intl.json in Resources */,
+				469112572E7CB945004C26BC /* Mac-Pro-intl.json in Resources */,
+				469112582E7CB945004C26BC /* Mac-Studio-intl.json in Resources */,
+				469112592E7CB945004C26BC /* Mac-AppleStudioDisplay-intl.json in Resources */,
+				4691125A2E7CB945004C26BC /* Mac-MacbookAir-intl.json in Resources */,
 				38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */,
 				3891902D28E882070051FE3A /* Stores_LocalBootstrap.json in Resources */,
 				46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */,
@@ -347,6 +379,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -405,6 +438,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -422,8 +456,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"InventoryWatch/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -453,8 +490,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"InventoryWatch/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

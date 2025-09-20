@@ -1,0 +1,518 @@
+{
+  "discovered_models": {
+    "at": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/at/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "us": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/us/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "uk": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/uk/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "au": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/au/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "ca": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/ca/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "de": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/de/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "fr": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/fr/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "it": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/it/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "es": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/es/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "nl": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/nl/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "be-nl": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/be-nl/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "be-fr": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/be-fr/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "ch-de": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/ch-de/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "ch-fr": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "se": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/se/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "dk": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/dk/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "no": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/no/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "fi": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/fi/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "jp": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/jp/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "kr": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/kr/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "hk": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/hk/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "sg": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/sg/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "tw": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/tw/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "th": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/th/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "my": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/my/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "in": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/in/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "ae": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/ae/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "sa": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/sa/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "tr": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/tr/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "br": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/br/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "mx": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/mx/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    },
+    "cn": {
+      "carrier-offers": {
+        "url": "https://www.apple.com/cn/shop/buy-iphone/carrier-offers",
+        "skus": {}
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "carrier-offers": "shop/buy-iphone/carrier-offers"
+      },
+      "localization": {
+        "token_display": {
+          "carrier-offers": "选购 iPhone"
+        }
+      }
+    }
+  }
+}

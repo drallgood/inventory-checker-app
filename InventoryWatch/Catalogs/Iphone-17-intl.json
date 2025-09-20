@@ -2,87 +2,2699 @@
   "discovered_models": {
     "at": {
       "iphone-17": {
-        "url": null,
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-17",
         "skus": {
           "MG6L4ZD/A": {
-            "name": "iPhone 17 256GB Mist Blue",
+            "name": "",
             "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "colorDisplay": "Nebelblau",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6M4ZD/A": {
-            "name": "iPhone 17 256GB Lavender",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6J4ZD/A": {
-            "name": "iPhone 17 256GB Black",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6K4ZD/A": {
-            "name": "iPhone 17 256GB White",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6Q4ZD/A": {
-            "name": "iPhone 17 512GB White",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6P4ZD/A": {
-            "name": "iPhone 17 512GB Black",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6N4ZD/A": {
-            "name": "iPhone 17 256GB Sage",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6U4ZD/A": {
-            "name": "iPhone 17 512GB Lavender",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6V4ZD/A": {
-            "name": "iPhone 17 512GB Sage",
-            "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
           },
           "MG6T4ZD/A": {
-            "name": "iPhone 17 512GB Mist Blue",
+            "name": "",
             "colorKey": "mistblue",
-            "colorDisplay": "Unknown",
+            "colorDisplay": "Nebelblau",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "us": {
+      "iphone-17": {
+        "url": "https://www.apple.com/us/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG484LL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG4H4LL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG494LL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG464LL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG4F4LL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG474LL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG4J4LL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG4Q4LL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG4A4LL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG4E4LL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "uk": {
+      "iphone-17": {
+        "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "au": {
+      "iphone-17": {
+        "url": "https://www.apple.com/au/shop/buy-iphone/iphone-17",
+        "skus": {}
+      }
+    },
+    "ca": {
+      "iphone-17": {
+        "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6A4VC/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6D4VC/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6E4VC/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6C4VC/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG684VC/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6H4VC/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG694VC/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6F4VC/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG674VC/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6G4VC/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "de": {
+      "iphone-17": {
+        "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nebelblau",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nebelblau",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "fr": {
+      "iphone-17": {
+        "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+        "skus": {}
+      }
+    },
+    "it": {
+      "iphone-17": {
+        "url": "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Azzurro nebbia",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanda",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Nero",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Bianco",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Bianco",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Nero",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salvia",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanda",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salvia",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Azzurro nebbia",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "es": {
+      "iphone-17": {
+        "url": "https://www.apple.com/es/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Azul neblina",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanda",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Negro",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanco",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanco",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Negro",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Verde salvia",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanda",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Verde salvia",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Azul neblina",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "nl": {
+      "iphone-17": {
+        "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nevelblauw",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Saliegroen",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Saliegroen",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nevelblauw",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "iphone-17": {
+        "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nevelblauw",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Saliegroen",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Saliegroen",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nevelblauw",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "iphone-17": {
+        "url": "https://www.apple.com/be-fr/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Brume",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavande",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sauge",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZD/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavande",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZD/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sauge",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZD/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Brume",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "iphone-17": {
+        "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nebelblau",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salbei",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Nebelblau",
+            "capacity": "512GB",
+            "dimensionScreensize": "6_3inch",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "iphone-17": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Brume",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavande",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sauge",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QL/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavande",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QL/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sauge",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QL/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Brume",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "se": {
+      "iphone-17": {
+        "url": "https://www.apple.com/se/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "disblå",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "vit",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "vit",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "salvia",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "salvia",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "disblå",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "dk": {
+      "iphone-17": {
+        "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "støvet lyseblå",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "sort",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvid",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvid",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "sort",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "salviegrøn",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "salviegrøn",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "støvet lyseblå",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "no": {
+      "iphone-17": {
+        "url": "https://www.apple.com/no/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "duggblå",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "lavendel",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvit",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvit",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "salvie",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "lavendel",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "salvie",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "duggblå",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "fi": {
+      "iphone-17": {
+        "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Kuura",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Laventeli",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Musta",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Valkoinen",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Valkoinen",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Musta",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salvia",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4QN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Laventeli",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4QN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Salvia",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4QN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Kuura",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "jp": {
+      "iphone-17": {
+        "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6A4J/A": {
+            "name": "iPhone 17 256GB ミストブルー",
+            "colorKey": "mistblue",
+            "colorDisplay": "ミストブルー",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6A4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG6D4J/A": {
+            "name": "iPhone 17 256GB ブラック",
+            "colorKey": "black",
+            "colorDisplay": "ブラック",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6D4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG6E4J/A": {
+            "name": "iPhone 17 256GB ホワイト",
+            "colorKey": "white",
+            "colorDisplay": "ホワイト",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6E4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG6C4J/A": {
+            "name": "iPhone 17 256GB ラベンダー",
+            "colorKey": "lavender",
+            "colorDisplay": "ラベンダー",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6C4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG684J/A": {
+            "name": "iPhone 17 512GB ミストブルー",
+            "colorKey": "mistblue",
+            "colorDisplay": "ミストブルー",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG684J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG6H4J/A": {
+            "name": "iPhone 17 512GB ブラック",
+            "colorKey": "black",
+            "colorDisplay": "ブラック",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6H4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG694J/A": {
+            "name": "iPhone 17 512GB ホワイト",
+            "colorKey": "white",
+            "colorDisplay": "ホワイト",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG694J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG6F4J/A": {
+            "name": "iPhone 17 512GB ラベンダー",
+            "colorKey": "lavender",
+            "colorDisplay": "ラベンダー",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6F4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG674J/A": {
+            "name": "iPhone 17",
+            "colorKey": "",
+            "colorDisplay": "",
             "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG674J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MG6G4J/A": {
+            "name": "iPhone 17",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "iphone17",
+            "familyName": "iPhone 17",
+            "partNumber": "MG6G4J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          }
+        }
+      }
+    },
+    "kr": {
+      "iphone-17": {
+        "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4KH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "미스트 블루",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4KH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "라벤더",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4KH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "블랙",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4KH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "화이트",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4KH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "화이트",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4KH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "블랙",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4KH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "세이지",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4KH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "라벤더",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4KH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "세이지",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4KH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "미스트 블루",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "hk": {
+      "iphone-17": {
+        "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZA/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZA/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZA/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZA/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZA/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZA/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZA/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZA/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZA/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZA/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "sg": {
+      "iphone-17": {
+        "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-17",
+        "skus": {}
+      }
+    },
+    "tw": {
+      "iphone-17": {
+        "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZP/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "霧藍色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZP/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "薰衣草紫色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZP/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "鼠尾草綠色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZP/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "薰衣草紫色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZP/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "鼠尾草綠色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZP/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "霧藍色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "th": {
+      "iphone-17": {
+        "url": "https://www.apple.com/th/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4ZP/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "ฟ้าหมอก",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4ZP/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "ลาเวนเดอร์",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "ดำ",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "ขาว",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "ขาว",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "ดำ",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4ZP/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "เขียวเสจ",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4ZP/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "ลาเวนเดอร์",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4ZP/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "เขียวเสจ",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4ZP/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "ฟ้าหมอก",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "my": {
+      "iphone-17": {
+        "url": "https://www.apple.com/my/shop/buy-iphone/iphone-17",
+        "skus": {}
+      }
+    },
+    "in": {
+      "iphone-17": {
+        "url": "https://www.apple.com/in/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4HN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4HN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4HN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4HN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4HN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4HN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4HN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4HN/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4HN/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4HN/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "ae": {
+      "iphone-17": {
+        "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6A4AH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6D4AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6E4AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6C4AH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG684AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6H4AH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG694AH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6F4AH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG674AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6G4AH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "sa": {
+      "iphone-17": {
+        "url": "https://www.apple.com/sa/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6A4AH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6D4AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6E4AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6C4AH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG684AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6H4AH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG694AH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6F4AH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Mist Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG674AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6G4AH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavender",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "tr": {
+      "iphone-17": {
+        "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4TU/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Sis Mavisi",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4TU/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanta",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4TU/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Siyah",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4TU/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Beyaz",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4TU/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Beyaz",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4TU/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Siyah",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4TU/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Ada&nbsp;Çayı",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4TU/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanta",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4TU/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Ada&nbsp;Çayı",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4TU/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Sis Mavisi",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "br": {
+      "iphone-17": {
+        "url": "https://www.apple.com/br/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG6L4BE/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Azul-névoa",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6M4BE/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanda",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6J4BE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Preto",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6K4BE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Branco",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Q4BE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Branco",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6P4BE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Preto",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6N4BE/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sálvia",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6U4BE/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "Lavanda",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6V4BE/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "Sálvia",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6T4BE/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "Azul-névoa",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          }
+        }
+      }
+    },
+    "mx": {
+      "iphone-17": {
+        "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-17",
+        "skus": {}
+      }
+    },
+    "cn": {
+      "iphone-17": {
+        "url": "https://www.apple.com/cn/shop/buy-iphone/iphone-17",
+        "skus": {
+          "MG724CH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG714CH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "鼠尾草绿色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG734CH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG704CH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "薰衣草紫色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG764CH/A": {
+            "name": "",
+            "colorKey": "sage",
+            "colorDisplay": "鼠尾草绿色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG744CH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "青雾蓝色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG754CH/A": {
+            "name": "",
+            "colorKey": "lavender",
+            "colorDisplay": "薰衣草紫色",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6Y4CH/A": {
+            "name": "",
+            "colorKey": "mistblue",
+            "colorDisplay": "青雾蓝色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6W4CH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
+          },
+          "MG6X4CH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone 17"
           }
         }
       }
@@ -95,7 +2707,317 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17"
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "iphone-17": "shop/buy-iphone/iphone-17"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-17": "iPhone 17 512GB Black"
         }
       }
     }

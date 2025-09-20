@@ -1,0 +1,47 @@
+{
+  "discovered_models": {
+    "at": {
+      "mac-pro": {
+        "url": "https://www.apple.com/at/shop/buy-mac/mac-pro",
+        "skus": {
+          "Z1JZ": {
+            "name": "Mac Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1K0": {
+            "name": "Mac Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "mac-pro": "shop/buy-mac/mac-pro"
+      },
+      "localization": {
+        "token_display": {
+          "mac-pro": "Mac Pro"
+        }
+      }
+    }
+  }
+}

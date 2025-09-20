@@ -1,0 +1,55 @@
+{
+  "discovered_models": {
+    "at": {
+      "mac-mini": {
+        "url": "https://www.apple.com/at/shop/buy-mac/mac-mini",
+        "skus": {
+          "MCX44": {
+            "name": "Mac mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MCYT4": {
+            "name": "Mac mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MU9D3": {
+            "name": "Mac mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MU9E3": {
+            "name": "Mac mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac mini"
+        }
+      }
+    }
+  }
+}

@@ -21,6 +21,33 @@ struct ContentView: View {
     private var onlyShowingPreferredResults: Bool {
         return UserDefaults.standard.bool(forKey: "showResultsOnlyForPreferredModels")
     }
+
+@MainActor
+private func displayNameForPhoneToken(token: String, country: Country) -> String? {
+    // Prefer explicit JSON-provided token display if available
+    if let explicit = JSONCatalogiPhone.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+        return explicit
+    }
+    // Derive name from JSON metadata; fall back to prettified token
+    var baseName: String = "iPhone"
+    if let dict = JSONCatalogiPhone.categoryData(for: country, sourcePage: token),
+       let md = dict.values.first {
+        if let famName = md.familyName, famName.isEmpty == false, famName.lowercased() != "unknown" {
+            baseName = famName
+        } else if md.family.isEmpty == false {
+            baseName = md.family.replacingOccurrences(of: "_", with: " ").capitalized
+        }
+    }
+    if baseName.lowercased() == "iphone" { baseName = "iPhone" }
+    var variant = ""
+    if token.hasPrefix("iphone-") {
+        let suffix = String(token.dropFirst("iphone-".count))
+        if suffix.isEmpty == false {
+            variant = suffix.replacingOccurrences(of: "-", with: " ").capitalized
+        }
+    }
+    return variant.isEmpty ? baseName : "\(baseName) \(variant)"
+}
     
     var body: some View {
         VStack {
@@ -64,7 +91,7 @@ struct ContentView: View {
                             .font(font)
                             .fontWeight(.semibold)
                     } else if let fam = family, fam.isIPhone, !preferredPhoneToken.isEmpty,
-                              let tokenName = ProductConfiguration.phoneTokenDisplayName(for: country, sourcePage: preferredPhoneToken) {
+                              let tokenName = displayNameForPhoneToken(token: preferredPhoneToken, country: country) {
                         Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
                             .font(font)
                             .fontWeight(.semibold)

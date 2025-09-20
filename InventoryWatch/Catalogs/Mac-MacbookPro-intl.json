@@ -1,0 +1,183 @@
+{
+  "discovered_models": {
+    "at": {
+      "macbook-pro": {
+        "url": "https://www.apple.com/at/shop/buy-mac/macbook-pro",
+        "skus": {
+          "MW2X3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW2W3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MCX14": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW2V3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MW2U3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MCX04": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2K3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2J3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2H3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2G3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2F3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2E3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX313": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2Y3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2X3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX303": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2W3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2V3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2U3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MX2T3": {
+            "name": "MacBook Pro",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "macbook-pro": "shop/buy-mac/macbook-pro"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-pro": "MacBook Pro"
+        }
+      }
+    }
+  }
+}

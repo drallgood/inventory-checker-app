@@ -1,0 +1,295 @@
+{
+  "discovered_models": {
+    "at": {
+      "imac": {
+        "url": "https://www.apple.com/at/shop/buy-mac/imac",
+        "skus": {
+          "Z1E7": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1E8": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1E3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1ET": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1EV": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1EK": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1EU": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1EW": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1EL": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1K7": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1K8": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "Z1K2": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac",
+            "partNumber": "",
+            "metadata": {
+              "isRealPartNumber": false
+            }
+          },
+          "MWUE3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWV03": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWUY3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MD2Q4": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWUF3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWV33": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWV13": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MD2T4": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWUC3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWUV3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWUU3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MCR24": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWUG3": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWV43": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MWV53": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MD2U4": {
+            "name": "iMac",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "imac": "shop/buy-mac/imac"
+      },
+      "localization": {
+        "token_display": {
+          "imac": "iMac"
+        }
+      }
+    }
+  }
+}

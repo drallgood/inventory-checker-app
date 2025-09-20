@@ -1,0 +1,47 @@
+{
+  "discovered_models": {
+    "at": {
+      "pro-display-xdr": {
+        "url": "https://www.apple.com/at/shop/buy-mac/pro-display-xdr",
+        "skus": {
+          "S9739ZM/A": {
+            "name": "Pro Display XDR",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYLH3": {
+            "name": "Pro Display XDR",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MYLJ3": {
+            "name": "Pro Display XDR",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "pro-display-xdr": "shop/buy-mac/pro-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "pro-display-xdr": "Pro Display XDR"
+        }
+      }
+    }
+  }
+}

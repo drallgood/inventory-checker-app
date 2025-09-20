@@ -1,0 +1,39 @@
+{
+  "discovered_models": {
+    "at": {
+      "mac-studio": {
+        "url": "https://www.apple.com/at/shop/buy-mac/mac-studio",
+        "skus": {
+          "MU973": {
+            "name": "Mac Studio",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          },
+          "MU963": {
+            "name": "Mac Studio",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    }
+  }
+}

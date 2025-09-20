@@ -2,127 +2,4347 @@
   "discovered_models": {
     "at": {
       "iphone-16": {
-        "url": null,
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-16",
         "skus": {
           "MXY23ZD/A": {
-            "name": "iPhone 16 Plus 256GB Ultramarine",
+            "name": "",
             "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "colorDisplay": "Ultramarin",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXY13ZD/A": {
-            "name": "iPhone 16 Plus 256GB Pink",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXY53ZD/A": {
-            "name": "iPhone 16 Plus 256GB Teal",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXVV3ZD/A": {
-            "name": "iPhone 16 Plus 128GB White",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXVU3ZD/A": {
-            "name": "iPhone 16 Plus 128GB Black",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXVY3ZD/A": {
-            "name": "iPhone 16 Plus 128GB Teal",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXVX3ZD/A": {
-            "name": "iPhone 16 Plus 128GB Ultramarine",
+            "name": "",
             "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "colorDisplay": "Ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXVW3ZD/A": {
-            "name": "iPhone 16 Plus 128GB Pink",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXWN3ZD/A": {
-            "name": "iPhone 16 Plus 256GB Black",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MXWV3ZD/A": {
-            "name": "iPhone 16 Plus 256GB White",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MYE93ZD/A": {
-            "name": "iPhone 16 128GB White",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
           },
           "MYE73ZD/A": {
-            "name": "iPhone 16 128GB Black",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
           },
           "MYEA3ZD/A": {
-            "name": "iPhone 16 128GB Pink",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
           },
           "MYED3ZD/A": {
-            "name": "iPhone 16 128GB Teal",
-            "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
           },
           "MYEC3ZD/A": {
-            "name": "iPhone 16 128GB Ultramarine",
+            "name": "",
             "colorKey": "ultramarine",
-            "colorDisplay": "Unknown",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "us": {
+      "iphone-16": {
+        "url": "https://www.apple.com/us/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXUX3LL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUW3LL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUV3LL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUU3LL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUY3LL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXV13LL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXV03LL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUT3LL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXV43LL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXV33LL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYAR3LL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYAQ3LL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYAP3LL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYAT3LL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYAW3LL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "uk": {
+      "iphone-16": {
+        "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "au": {
+      "iphone-16": {
+        "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16",
+        "skus": {}
+      }
+    },
+    "ca": {
+      "iphone-16": {
+        "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXVA3VC/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVF3VC/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVE3VC/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVD3VC/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVC3VC/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVJ3VC/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVH3VC/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVG3VC/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVL3VC/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVK3VC/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYDT3VC/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYDR3VC/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDQ3VC/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDV3VC/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDU3VC/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "de": {
+      "iphone-16": {
+        "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "fr": {
+      "iphone-16": {
+        "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "it": {
+      "iphone-16": {
+        "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Blu oltremare",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde acqua",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Bianco",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Nero",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde acqua",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Blu oltremare",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Nero",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Bianco",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Bianco",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Nero",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde acqua",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Blu oltremare",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "es": {
+      "iphone-16": {
+        "url": "https://www.apple.com/es/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Azul ultramar",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde azulado",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanco",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Negro",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde azulado",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Azul ultramar",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Negro",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanco",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanco",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Negro",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde azulado",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Azul ultramar",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "nl": {
+      "iphone-16": {
+        "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarijn",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Roze",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blauwgroen",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blauwgroen",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarijn",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Roze",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Roze",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blauwgroen",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarijn",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "iphone-16": {
+        "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarijn",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Roze",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blauwgroen",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blauwgroen",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarijn",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Roze",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Wit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Zwart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Roze",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blauwgroen",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarijn",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "iphone-16": {
+        "url": "https://www.apple.com/be-fr/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZD/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZD/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZD/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZD/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZD/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "iphone-16": {
+        "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Weiß",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Schwarz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Blaugrün",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "iphone-16": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QL/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Blanc",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QL/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Noir",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QL/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rose",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QL/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sarcelle",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QL/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Outremer",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "se": {
+      "iphone-16": {
+        "url": "https://www.apple.com/se/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "rosa",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "blågrön",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "vit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "blågrön",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "vit",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "vit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "blågrön",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "dk": {
+      "iphone-16": {
+        "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "lyserød",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "grønblå",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvid",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "sort",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "grønblå",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "lyserød",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "sort",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvid",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvid",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "sort",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "lyserød",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "grønblå",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "no": {
+      "iphone-16": {
+        "url": "https://www.apple.com/no/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "rosa",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "blågrønn",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "blågrønn",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvit",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "hvit",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "svart",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "blågrønn",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "ultramarin",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "fi": {
+      "iphone-16": {
+        "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultra­mariini",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pinkki",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sini­­vihreä",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Valkoinen",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Musta",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sini­­vihreä",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultra­mariini",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pinkki",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Musta",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Valkoinen",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93QN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Valkoinen",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73QN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Musta",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3QN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pinkki",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3QN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Sini­­vihreä",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3QN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultra­mariini",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "jp": {
+      "iphone-16": {
+        "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXVA3J/A": {
+            "name": "iPhone 16 Plus 128GB ブラック",
+            "colorKey": "black",
+            "colorDisplay": "ブラック",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVA3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVF3J/A": {
+            "name": "iPhone 16 Plus 128GB ホワイト",
+            "colorKey": "white",
+            "colorDisplay": "ホワイト",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVF3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVE3J/A": {
+            "name": "iPhone 16 Plus 128GB ピンク",
+            "colorKey": "pink",
+            "colorDisplay": "ピンク",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVE3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVD3J/A": {
+            "name": "iPhone 16 Plus 256GB ブラック",
+            "colorKey": "black",
+            "colorDisplay": "ブラック",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVD3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVC3J/A": {
+            "name": "iPhone 16 Plus 256GB ホワイト",
+            "colorKey": "white",
+            "colorDisplay": "ホワイト",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVC3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVJ3J/A": {
+            "name": "iPhone 16 Plus 256GB ピンク",
+            "colorKey": "pink",
+            "colorDisplay": "ピンク",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVJ3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVH3J/A": {
+            "name": "iPhone 16 Plus",
+            "colorKey": "",
+            "colorDisplay": "",
             "capacity": "",
-            "family": "unknown",
-            "familyName": "Unknown"
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVH3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVG3J/A": {
+            "name": "iPhone 16 Plus",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVG3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVL3J/A": {
+            "name": "iPhone 16 Plus",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVL3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MXVK3J/A": {
+            "name": "iPhone 16 Plus",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "iphone16plus",
+            "familyName": "iPhone 16 Plus",
+            "partNumber": "MXVK3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MYDT3J/A": {
+            "name": "iPhone 16 128GB ブラック",
+            "colorKey": "black",
+            "colorDisplay": "ブラック",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "iphone16",
+            "familyName": "iPhone 16",
+            "partNumber": "MYDT3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MYDR3J/A": {
+            "name": "iPhone 16 128GB ホワイト",
+            "colorKey": "white",
+            "colorDisplay": "ホワイト",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "iphone16",
+            "familyName": "iPhone 16",
+            "partNumber": "MYDR3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MYDQ3J/A": {
+            "name": "iPhone 16 128GB ピンク",
+            "colorKey": "pink",
+            "colorDisplay": "ピンク",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "iphone16",
+            "familyName": "iPhone 16",
+            "partNumber": "MYDQ3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MYDV3J/A": {
+            "name": "iPhone 16 256GB ブラック",
+            "colorKey": "black",
+            "colorDisplay": "ブラック",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone16",
+            "familyName": "iPhone 16",
+            "partNumber": "MYDV3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          },
+          "MYDU3J/A": {
+            "name": "iPhone 16 256GB ホワイト",
+            "colorKey": "white",
+            "colorDisplay": "ホワイト",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone16",
+            "familyName": "iPhone 16",
+            "partNumber": "MYDU3J/A",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            }
+          }
+        }
+      }
+    },
+    "kr": {
+      "iphone-16": {
+        "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23KH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "울트라마린",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13KH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "핑크",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53KH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "틸",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3KH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "화이트",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3KH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "블랙",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3KH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "틸",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3KH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "울트라마린",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3KH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "핑크",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3KH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "블랙",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3KH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "화이트",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93KH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "화이트",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73KH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "블랙",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3KH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "핑크",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3KH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "틸",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3KH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "울트라마린",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "hk": {
+      "iphone-16": {
+        "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXU93ZA/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUD3ZA/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUC3ZA/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUA3ZA/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUH3ZA/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUG3ZA/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUF3ZA/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUE3ZA/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUK3ZA/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUJ3ZA/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYEV3ZA/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYEY3ZA/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEX3ZA/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEW3ZA/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYF03ZA/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "sg": {
+      "iphone-16": {
+        "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "tw": {
+      "iphone-16": {
+        "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "湛海藍色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "粉紅色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "湖水綠色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "湖水綠色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "湛海藍色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "粉紅色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "粉紅色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "湖水綠色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "湛海藍色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "th": {
+      "iphone-16": {
+        "url": "https://www.apple.com/th/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "น้ำเงินอัลตร้ามารีน",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "ชมพู",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "เขียวอมฟ้า",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "ขาว",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "ดำ",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "เขียวอมฟ้า",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "น้ำเงินอัลตร้ามารีน",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "ชมพู",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "ดำ",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "ขาว",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "ขาว",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "ดำ",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "ชมพู",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "เขียวอมฟ้า",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "น้ำเงินอัลตร้ามารีน",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "my": {
+      "iphone-16": {
+        "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93ZP/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73ZP/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3ZP/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3ZP/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3ZP/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "in": {
+      "iphone-16": {
+        "url": "https://www.apple.com/in/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23HN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13HN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53HN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3HN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3HN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3HN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3HN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3HN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3HN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3HN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93HN/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73HN/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3HN/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3HN/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3HN/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "ae": {
+      "iphone-16": {
+        "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXVA3AE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVF3AE/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVE3AE/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVD3AE/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVC3AE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVJ3AE/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVH3AE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVG3AE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVL3AE/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVK3AE/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYDT3AE/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYDR3AE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDQ3AE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDV3AE/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDU3AE/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "sa": {
+      "iphone-16": {
+        "url": "https://www.apple.com/sa/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXVA3AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVF3AH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVE3AH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVD3AH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVC3AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVJ3AH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVH3AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVG3AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVL3AH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVK3AH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYDT3AH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pink",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYDR3AH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "White",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDQ3AH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Black",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDV3AH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Teal",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYDU3AH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarine",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "tr": {
+      "iphone-16": {
+        "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23TU/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Laciverttaş",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13TU/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pembe",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53TU/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Deniz&nbsp;Mavisi",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3TU/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Beyaz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3TU/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Siyah",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3TU/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Deniz&nbsp;Mavisi",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3TU/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Laciverttaş",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3TU/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pembe",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3TU/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Siyah",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3TU/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Beyaz",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93TU/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Beyaz",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73TU/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Siyah",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3TU/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Pembe",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3TU/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Deniz&nbsp;Mavisi",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3TU/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Laciverttaş",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "br": {
+      "iphone-16": {
+        "url": "https://www.apple.com/br/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXY23BE/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarino",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY13BE/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXY53BE/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde-acinzentado",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVV3BE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Branco",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVU3BE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Preto",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVY3BE/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde-acinzentado",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVX3BE/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarino",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXVW3BE/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWN3BE/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Preto",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXWV3BE/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Branco",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE93BR/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "Branco",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYE73BR/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "Preto",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEA3BR/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "Rosa",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYED3BR/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "Verde-acinzentado",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEC3BR/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "Ultramarino",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          }
+        }
+      }
+    },
+    "mx": {
+      "iphone-16": {
+        "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16",
+        "skus": {}
+      }
+    },
+    "cn": {
+      "iphone-16": {
+        "url": "https://www.apple.com/cn/shop/buy-iphone/iphone-16",
+        "skus": {
+          "MXU93CH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUD3CH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "群青色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUC3CH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "粉色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUA3CH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUH3CH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "粉色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUG3CH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUF3CH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUE3CH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "深青色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUK3CH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "深青色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MXUJ3CH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "群青色",
+            "capacity": "256GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYEV3CH/A": {
+            "name": "",
+            "colorKey": "black",
+            "colorDisplay": "黑色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_7inch",
+            "family": "iphone",
+            "familyName": "iPhone 16 Plus"
+          },
+          "MYEY3CH/A": {
+            "name": "",
+            "colorKey": "ultramarine",
+            "colorDisplay": "群青色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEX3CH/A": {
+            "name": "",
+            "colorKey": "pink",
+            "colorDisplay": "粉色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYEW3CH/A": {
+            "name": "",
+            "colorKey": "white",
+            "colorDisplay": "白色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
+          },
+          "MYF03CH/A": {
+            "name": "",
+            "colorKey": "teal",
+            "colorDisplay": "深青色",
+            "capacity": "128GB",
+            "dimensionScreensize": "6_1inch",
+            "family": "iphone",
+            "familyName": "iPhone 16"
           }
         }
       }
@@ -135,7 +4355,317 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16"
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      },
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16 Plus 128GB Black"
         }
       }
     }

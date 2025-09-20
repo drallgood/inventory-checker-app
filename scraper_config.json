@@ -224,5 +224,93 @@
       "family": "homepod",
       "entrypoints": ["shop/buy-homepod"]
     }
-  ]
+  ],
+  "model_variants": {
+    "iphone": {
+      "variant_patterns": [
+        {
+          "family_key": "promax",
+          "suffix": "Pro Max",
+          "priority": 1
+        },
+        {
+          "family_key": "pro",
+          "suffix": "Pro",
+          "priority": 2
+        },
+        {
+          "family_key": "plus",
+          "suffix": "Plus",
+          "priority": 3
+        },
+        {
+          "family_key": "air",
+          "suffix": "Air",
+          "priority": 4
+        },
+        {
+          "family_key": "mini",
+          "suffix": "mini",
+          "priority": 5
+        }
+      ]
+    },
+    "ipad": {
+      "variant_patterns": [
+        {
+          "family_key": "pro",
+          "suffix": "Pro",
+          "priority": 1
+        },
+        {
+          "family_key": "air",
+          "suffix": "Air",
+          "priority": 2
+        },
+        {
+          "family_key": "mini",
+          "suffix": "mini",
+          "priority": 3
+        }
+      ]
+    },
+    "mac": {
+      "variant_patterns": [
+        {
+          "family_key": "pro",
+          "suffix": "Pro",
+          "priority": 1
+        },
+        {
+          "family_key": "air",
+          "suffix": "Air",
+          "priority": 2
+        },
+        {
+          "family_key": "studio",
+          "suffix": "Studio",
+          "priority": 3
+        },
+        {
+          "family_key": "mini",
+          "suffix": "mini",
+          "priority": 4
+        }
+      ]
+    },
+    "watch": {
+      "variant_patterns": [
+        {
+          "family_key": "ultra",
+          "suffix": "Ultra",
+          "priority": 1
+        },
+        {
+          "family_key": "se",
+          "suffix": "SE",
+          "priority": 2
+        }
+      ]
+    }
+  }
 }
