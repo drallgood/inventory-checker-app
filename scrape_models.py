@@ -1922,6 +1922,56 @@ class Scraper:
                     if applied_combo:
                         print(f"[debug] Filled dimensionScreensize for {applied_combo} SKU(s) from variant hrefs")
 
+                # Watch-only enrichment: infer case size/material/connectivity by proximity to partNumber
+                # Do NOT affect iPhone or other families.
+                if skus and html and ('/buy-watch/' in html or (family_hint or '').lower() == 'watch'):
+                    pn_to_dims: Dict[str, Dict[str, str]] = {}
+                    # partNumber before dimensions
+                    for m in re.finditer(
+                        r'"partNumber"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{2}/[A-Z])"[\s\S]{0,1000}?"watch_cases-dimensionCaseSize"\s*:\s*"([^"]+)"[\s\S]{0,400}?"watch_cases-dimensionCaseMaterial"\s*:\s*"([^"]+)"[\s\S]{0,400}?"watch_cases-dimensionConnection"\s*:\s*"([^"]+)"',
+                        html, re.IGNORECASE):
+                        pn, sz, mat, conn = m.group(1), m.group(2), m.group(3), m.group(4)
+                        pn_to_dims[pn] = {"caseSize": sz, "caseMaterial": mat, "connectivity": conn}
+                    # dimensions before partNumber
+                    for m in re.finditer(
+                        r'"watch_cases-dimensionCaseSize"\s*:\s*"([^"]+)"[\s\S]{0,600}?"watch_cases-dimensionCaseMaterial"\s*:\s*"([^"]+)"[\s\S]{0,600}?"watch_cases-dimensionConnection"\s*:\s*"([^"]+)"[\s\S]{0,1000}?"partNumber"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{2}/[A-Z])"',
+                        html, re.IGNORECASE):
+                        sz, mat, conn, pn = m.group(1), m.group(2), m.group(3), m.group(4)
+                        pn_to_dims[pn] = {"caseSize": sz, "caseMaterial": mat, "connectivity": conn}
+                    corrected_watch = 0
+                    case_counts: Dict[str, int] = {}
+                    conn_counts: Dict[str, int] = {}
+                    if pn_to_dims:
+                        for sku, sku_data in skus.items():
+                            if not isinstance(sku_data, dict):
+                                continue
+                            if sku not in pn_to_dims:
+                                continue
+                            dims = pn_to_dims[sku]
+                            # Merge into metadata
+                            md = sku_data.get('metadata') if isinstance(sku_data.get('metadata'), dict) else {}
+                            before = (md.get('caseSize') or '') + (md.get('caseMaterial') or '') + (md.get('connectivity') or '')
+                            for k in ('caseSize', 'caseMaterial', 'connectivity'):
+                                v = (dims.get(k) or '').strip()
+                                if v:
+                                    md[k] = v
+                            if md and md != sku_data.get('metadata'):
+                                sku_data['metadata'] = md
+                                corrected_watch += 1
+                            # Count distributions
+                            cs = (md.get('caseSize') or '').strip()
+                            co = (md.get('connectivity') or '').strip()
+                            if cs:
+                                case_counts[cs] = case_counts.get(cs, 0) + 1
+                            if co:
+                                conn_counts[co] = conn_counts.get(co, 0) + 1
+                        if corrected_watch:
+                            print(f"[debug][watch] Corrected dimensions for {corrected_watch} SKU(s) via nearby partNumber/dimensions")
+                            if case_counts:
+                                print(f"[debug][watch] Case size distribution: {case_counts}")
+                            if conn_counts:
+                                print(f"[debug][watch] Connectivity distribution: {conn_counts}")
+
                 # If no displayValues mapping was found, derive size->model mapping from decision section displayText now
                 if (not size_to_model) and html:
                     derived_map: Dict[str, str] = {}
