@@ -13,6 +13,8 @@ final class NotificationManager: NSObject, @unchecked Sendable {
     
     static let shared = NotificationManager()
     
+    private let defaultsVendor = DefaultsVendor()
+    
     func requestNotificationPermissions() {
         let center = UNUserNotificationCenter.current()
         center.delegate = self
@@ -34,9 +36,9 @@ final class NotificationManager: NSObject, @unchecked Sendable {
         // Get existing notification history
         var notificationHistory = UserDefaults.standard.dictionary(forKey: notificationHistoryKey) as? [String: Date] ?? [:]
         
-        // Check if this notification was sent recently (within 24 hours)
+        // Check if this notification was sent recently
         if let lastTime = notificationHistory[notificationKey],
-           Date().timeIntervalSince(lastTime) < 86400 { // 24 hours
+           Date().timeIntervalSince(lastTime) < Double(defaultsVendor.notificationCooldownHours * 3600) {
             print("Skipping duplicate notification within 24 hours: \(title)")
             return
         }

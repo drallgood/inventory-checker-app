@@ -1,86 +1,68 @@
 # SKU Data Refactoring Documentation
 
 ## Overview
-This document describes the major refactoring completed to externalize hardcoded SKU data into JSON files and add multi-language support for Belgian and Swiss stores.
+This document describes the hardcoded data cleanup: externalizing country data to JSON, removing dead code (`ProductConfiguration`, `SafariFulfillmentFetcher`), and making the notification cooldown configurable.
 
 ## Changes Made
 
-### 1. SKU Data Externalization
+### 1. Hardcoded Data Removal & Externalization
 
-**Problem**: All SKU data was hardcoded in Swift functions within `SKUData.swift`, making it difficult to maintain and update product information.
+**Problem**: Country data was hardcoded in Swift, `ProductConfiguration` referenced non-existent JSON files, and notification cooldown was a magic number.
 
-**Solution**: Moved all hardcoded SKU data to external JSON files.
+**Solution**: Externalized countries to JSON, removed dead code, made cooldown configurable.
+
+### 2. Country Data Externalization
 
 #### Files Created/Modified:
-- **NEW**: `InventoryWatch/iPadModels-intl.json` - Contains all iPad SKU data
-- **NEW**: `InventoryWatch/AccessoryModels-intl.json` - Contains accessory SKU data
-- **UPDATED**: `InventoryWatch/MacModels-intl.json` - Added missing Mac models from hardcoded functions
-- **UPDATED**: `InventoryWatch/Model/SKUDataLoader.swift` - Refactored to load from JSON files
-- **UPDATED**: `InventoryWatch/SKUData.swift` - Removed 300+ lines of hardcoded functions
-
-#### JSON Structure:
+- **NEW**: `InventoryWatch/Catalogs/countries.json` - Externalized country data (35 countries) replacing hardcoded list
+- **DELETED**: `InventoryWatch/Model/WebViewFulfillmentFetcher.swift` - Dead code with zero callers
+- **DELETED**: `InventoryWatch/watch_product_selection.json` - Debug dump with zero references
+- **UPDATED**: `InventoryWatch/Countries.swift` - Loads country data from `countries.json` with USData fallback
+- **UPDATED**: `InventoryWatch/Model/SKUDataLoader.swift` - Removed `ProductConfiguration` class and dead structs; simplified watch token display fallback
+- **UPDATED**: `InventoryWatch/Model/FulfillmentModel.swift` - Removed hardcoded default store per country; defaults to first store
+- **UPDATED**: `InventoryWatch/Model/DefaultsVendor.swift` - Added `notificationCooldownHours` and `ProductFamily.displayName`
+- **UPDATED**: `InventoryWatch/Model/NotificationManager.swift` - Notification cooldown uses configurable hours instead of hardcoded 86400
+- **UPDATED**: `InventoryWatch/SettingsView.swift` - Product picker uses `ProductFamily.allCases` + `displayName`
+#### JSON Structure (`countries.json`):
 ```json
 {
-  "country_code": {
-    "product_category": {
-      "SKU_CODE": "Product Description"
-    }
-  }
+  "countries": [
+    { "name": "United States", "shortcode": "US", "locale": "en_US", "skuCode": "LL" },
+    ...
+  ]
 }
 ```
 
-### 2. Multi-Language Store Support
+### 3. Dead Code Removal
+- `ProductConfiguration` class (~117 lines) removed — referenced non-existent JSON files (`product-config.json`, `AppleWatchModels-intl.json`).
+- `ProductConfigData`, `URLMappings`, `ConfigMetadata`, `AWCountryShopPaths`, `AppleWatchConfig` structs removed.
+- `SafariFulfillmentFetcher` (`WebViewFulfillmentFetcher.swift`) deleted — zero callers.
+- `watch_product_selection.json` deleted — debug dump with zero Swift references.
+- Hardcoded default store numbers per country removed from `FulfillmentModel.swift` — defaults to first store.
 
-**Problem**: Belgian and Swiss Apple Stores have multiple language variants that weren't properly supported.
+### 4. Notification Cooldown Configurable
+- Added `notificationCooldownHours` to `DefaultsVendor` (defaults to 24, reads from `UserDefaults`).
+- `NotificationManager.sendNotification()` replaces hardcoded `86400` with `Double(defaultsVendor.notificationCooldownHours * 3600)`.
 
-**Solution**: Added dedicated entries for each language variant.
-
-#### Regions Added:
-- `be-nl` - Belgium (Dutch)
-- `be-fr` - Belgium (French) 
-- `ch-de` - Switzerland (German)
-- `ch-fr` - Switzerland (French)
-
-#### Files Updated:
-- **scraper_config.json**: Already contained multi-language configurations
-- **All JSON files**: Added entries for `be-nl`, `be-fr`, `ch-de`, `ch-fr`
-- **Countries.swift**: Added Country structs for multi-language variants
-
-### 3. Technical Implementation Details
-
-#### SKU Code Mapping:
-- **US**: `LL/A`
-- **UK**: `B/A` 
-- **Belgium/Switzerland**: `ZD/A`
-- **Other regions**: Various suffixes as configured
-
-#### JSON Loading Method:
-```swift
-private func loadModelsFromJSON(fileName: String, country: Country, category: String) throws -> SKUData {
-    // Loads JSON file and extracts data for specific country/category
-    let countryKey = country.shortcode.lowercased()
-    guard let countryData = jsonData[countryKey],
-          let categoryData = countryData[category] else {
-        throw AppError.invalidLocalModelStore
-    }
-    return SKUData(orderedSKUs: categoryData.keys.sorted(), lookup: categoryData)
-}
-```
+### 5. ProductFamily Extensibility
+- Added `displayName` computed property to `ProductFamily` enum.
+- `SettingsView` product picker now uses `ProductFamily.allCases` + `displayName` — adding iPad later only requires a new enum case.
 
 ## Benefits
 
-1. **Maintainability**: SKU data can be updated without code changes
-2. **Scalability**: Easy to add new regions and products
-3. **Consistency**: Uniform JSON structure across all product categories
-4. **Multi-language Support**: Proper handling of Belgian and Swiss language variants
-5. **Code Cleanliness**: Eliminated 300+ lines of hardcoded data
+1. **Maintainability**: Country data can be updated without code changes
+2. **Cleanliness**: 200+ lines of dead code removed
+3. **Configurability**: Notification cooldown is now user-configurable
+4. **Extensibility**: Adding new product families (iPad, AirPods) requires minimal changes
+5. **Code Cleanliness**: Eliminated hardcoded strings and magic numbers
 
 ## Validation
 
 - ✅ All JSON files are valid JSON format
-- ✅ Swift project builds successfully
-- ✅ Multi-language regions recognized by scraper
-- ✅ Backward compatibility maintained
+- ✅ Country picker shows all 35 entries
+- ✅ Store selection defaults to first store per country
+- ✅ Watch/iPhone/Mac token selection works
+- ✅ Notifications respect configured cooldown
 
 ## Future Considerations
 

@@ -14,6 +14,7 @@ struct ContentView: View {
     @AppStorage("preferredProductType") private var preferredProductType: String = ProductFamily.iphone.rawValue
     @AppStorage("preferredWatchToken") private var preferredWatchToken: String = ""
     @AppStorage("preferredPhoneToken") private var preferredPhoneToken: String = ""
+    @AppStorage("preferredMacToken") private var preferredMacToken: String = ""
     @AppStorage("useLargeText") private var useLargeText: Bool = false
     @AppStorage("shouldIncludeNearbyStores") private var shouldIncludeNearbyStores: Bool = true
 
@@ -165,51 +166,61 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
                                 if preferredSkus.isEmpty { return isAvailable }
                                 return isAvailable && preferredSkus.contains(sku)
                             }
-                            ForEach(filtered, id: \.self) { partNumber in
-                                let name = data.productName(forSKU: partNumber) ?? partNumber
-                                VStack(alignment: .leading, spacing: 4) {
-                                    HStack {
-                                        Text(name)
-                                            .font(productFont)
-                                        Spacer()
-                                    }
-                                    // PDP URL preview (resolved from JSON)
-                                    if let preview = SKUDataLoader().watchProductURL(for: partNumber, country: country)?.absoluteString {
-                                        Text(preview)
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.secondary)
-                                            .textSelection(.enabled)
-                                    }
-                                    // Pickup availability (aggregated across stores)
-                                    if let info = pickupInfo[partNumber] {
-                                        let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
-                                        let quoteText = info.quote ?? "Available for pickup"
-                                        Text("Pickup: \(quoteText) • \(countText)")
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.green)
-                                    } else {
-                                        Text("Pickup: Unavailable")
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.secondary)
-                                    }
-                                    Button(action: {
-                                        Task {
-                                            if let url = SKUDataLoader().watchProductURL(for: partNumber, country: country) {
-                                                NSWorkspace.shared.open(url)
-                                                return
-                                            }
-                                            // Fallback to generic Apple Watch root if slug URL is unavailable
-                                            let productURL = "https://www.apple.com/\(model.defaultsVendor.countryPathElement)shop/buy-watch/"
-                                            if let url = URL(string: productURL) { NSWorkspace.shared.open(url) }
+                            if filtered.isEmpty {
+                                Text("No models available in-store.")
+                                    .foregroundColor(.secondary)
+                            } else {
+                                ForEach(filtered, id: \.self) { partNumber in
+                                    let name = data.productName(forSKU: partNumber) ?? partNumber
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        HStack {
+                                            Text(name)
+                                                .font(productFont)
+                                            Spacer()
                                         }
-                                    }) {
-                                        Text("Order Online")
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.blue)
+                                        // PDP URL preview (resolved from JSON)
+                                        if let preview = SKUDataLoader().watchProductURL(for: partNumber, country: country)?.absoluteString {
+                                            Text(preview)
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.secondary)
+                                                .textSelection(.enabled)
+                                        }
+                                        // Pickup availability (aggregated across stores)
+                                        if let info = pickupInfo[partNumber] {
+                                            let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
+                                            let quoteText = info.quote ?? "Available for pickup"
+                                            Text("Pickup: \(quoteText) • \(countText)")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.green)
+                                        } else {
+                                            Text("Pickup: Unavailable")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.secondary)
+                                        }
+                                        Button(action: {
+                                            Task {
+                                                if let url = SKUDataLoader().watchProductURL(for: partNumber, country: country) {
+                                                    NSWorkspace.shared.open(url)
+                                                    return
+                                                }
+                                                // Fallback: token/category-level buy page URL from our JSON catalogs
+                                                // (e.g. /shop/buy-watch/apple-watch-ultra). Avoid hardcoded product URLs.
+                                                if let url = SKUDataLoader().watchCategoryURL(for: country, sourcePage: token) {
+                                                    NSWorkspace.shared.open(url)
+                                                    return
+                                                }
+
+                                                print("⚠️ Could not resolve watch order URL for sku=\(partNumber), token=\(token)")
+                                            }
+                                        }) {
+                                            Text("Order Online")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.blue)
+                                        }
+                                        .buttonStyle(PlainButtonStyle())
                                     }
-                                    .buttonStyle(PlainButtonStyle())
+                                    .padding(.vertical, 2)
                                 }
-                                .padding(.vertical, 2)
                             }
                         } else {
                             Text("No SKUs available")
@@ -243,48 +254,119 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
                                 if preferredSkus.isEmpty { return isAvailable }
                                 return isAvailable && preferredSkus.contains(sku)
                             }
-                            ForEach(filtered, id: \.self) { partNumber in
-                                let name = data.productName(forSKU: partNumber) ?? partNumber
-                                VStack(alignment: .leading, spacing: 4) {
-                                    HStack {
-                                        Text(name)
-                                            .font(productFont)
-                                        Spacer()
-                                    }
-                                    // PDP URL preview (resolved from JSON)
-                                    if let preview = SKUDataLoader().phoneProductURL(for: partNumber, country: country)?.absoluteString {
-                                        Text(preview)
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.secondary)
-                                            .textSelection(.enabled)
-                                    }
-                                    // Pickup availability (aggregated across stores)
-                                    if let info = pickupInfo[partNumber] {
-                                        let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
-                                        let quoteText = info.quote ?? "Available for pickup"
-                                        Text("Pickup: \(quoteText) • \(countText)")
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.green)
-                                    } else {
-                                        Text("Pickup: Unavailable")
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.secondary)
-                                    }
-                                    Button(action: {
-                                        // Prefer per-SKU PDP URL, fallback to token base derived from scraped JSON
-                                        if let url = SKUDataLoader().phoneProductURL(for: partNumber, country: country) {
-                                            NSWorkspace.shared.open(url)
-                                        } else if let base = SKUDataLoader().phonePDPBaseURL(for: country, sourcePage: token) {
-                                            NSWorkspace.shared.open(base)
+                            if filtered.isEmpty {
+                                Text("No models available in-store.")
+                                    .foregroundColor(.secondary)
+                            } else {
+                                ForEach(filtered, id: \.self) { partNumber in
+                                    let name = data.productName(forSKU: partNumber) ?? partNumber
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        HStack {
+                                            Text(name)
+                                                .font(productFont)
+                                            Spacer()
                                         }
-                                    }) {
-                                        Text("Order Online")
-                                            .font(useLargeText ? .caption : .caption2)
-                                            .foregroundColor(.blue)
+                                        // PDP URL preview (resolved from JSON)
+                                        if let preview = SKUDataLoader().phoneProductURL(for: partNumber, country: country)?.absoluteString {
+                                            Text(preview)
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.secondary)
+                                                .textSelection(.enabled)
+                                        }
+                                        // Pickup availability (aggregated across stores)
+                                        if let info = pickupInfo[partNumber] {
+                                            let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
+                                            let quoteText = info.quote ?? "Available for pickup"
+                                            Text("Pickup: \(quoteText) • \(countText)")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.green)
+                                        } else {
+                                            Text("Pickup: Unavailable")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.secondary)
+                                        }
+                                        Button(action: {
+                                            // Prefer per-SKU PDP URL, fallback to token base derived from scraped JSON
+                                            if let url = SKUDataLoader().phoneProductURL(for: partNumber, country: country) {
+                                                NSWorkspace.shared.open(url)
+                                            } else if let base = SKUDataLoader().phonePDPBaseURL(for: country, sourcePage: token) {
+                                                NSWorkspace.shared.open(base)
+                                            }
+                                        }) {
+                                            Text("Order Online")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.blue)
+                                        }
+                                        .buttonStyle(PlainButtonStyle())
                                     }
-                                    .buttonStyle(PlainButtonStyle())
+                                    .padding(.vertical, 2)
                                 }
-                                .padding(.vertical, 2)
+                            }
+                        } else {
+                            Text("No SKUs available")
+                                .foregroundColor(.secondary)
+                        }
+                    } else if preferred.isMac {
+                        // Mac tokenized rendering
+                        let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
+                        let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
+                            let parts = entry.1
+                            parts.forEach { part in
+                                guard part.availability == .available else { return }
+                                let current = acc[part.partNumber] ?? (0, nil)
+                                let newCount = current.count + 1
+                                let quote = current.quote ?? part.availabilityStorePickupQuote
+                                acc[part.partNumber] = (newCount, quote)
+                            }
+                        }
+                        let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
+                        let token = preferredMacToken
+                        if token.isEmpty {
+                            Text("Select a Mac Model in Settings.")
+                                .foregroundColor(.secondary)
+                        } else if let data = SKUDataLoader().macSKUData(forToken: token, country: country) {
+                            let filtered = data.orderedSKUs.filter { sku in
+                                let isAvailable = availableSkus.contains(sku)
+                                if preferredSkus.isEmpty { return isAvailable }
+                                return isAvailable && preferredSkus.contains(sku)
+                            }
+                            if filtered.isEmpty {
+                                Text("No models available in-store.")
+                                    .foregroundColor(.secondary)
+                            } else {
+                                ForEach(filtered, id: \.self) { partNumber in
+                                    let name = data.productName(forSKU: partNumber) ?? partNumber
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        HStack {
+                                            Text(name)
+                                                .font(productFont)
+                                            Spacer()
+                                        }
+                                        if let info = pickupInfo[partNumber] {
+                                            let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
+                                            let quoteText = info.quote ?? "Available for pickup"
+                                            Text("Pickup: \(quoteText) • \(countText)")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.green)
+                                        } else {
+                                            Text("Pickup: Unavailable")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.secondary)
+                                        }
+                                        Button(action: {
+                                            // Mac catalogs currently provide token-level buy URLs.
+                                            if let url = JSONCatalogMac.pdpBaseURL(for: country, sourcePage: token) {
+                                                NSWorkspace.shared.open(url)
+                                            }
+                                        }) {
+                                            Text("Order Online")
+                                                .font(useLargeText ? .caption : .caption2)
+                                                .foregroundColor(.blue)
+                                        }
+                                        .buttonStyle(PlainButtonStyle())
+                                    }
+                                    .padding(.vertical, 2)
+                                }
                             }
                         } else {
                             Text("No SKUs available")

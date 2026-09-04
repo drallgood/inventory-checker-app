@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct SettingsView: View {
     
@@ -16,6 +17,17 @@ struct SettingsView: View {
         var isFavorite: Bool
         
         var id: String { sku }
+    }
+
+    // Strip capacity and common color suffixes from any incoming iPhone model title
+    private func sanitizeModelTitle(_ title: String) -> String {
+        var s = title
+        // Remove capacity and anything after it (e.g., " 256GB Black")
+        if let re = try? NSRegularExpression(pattern: "(?i)\\s[0-9]{2,4}\\s?(?:GB|TB).*", options: []) {
+            let range = NSRange(location: 0, length: (s as NSString).length)
+            s = re.stringByReplacingMatches(in: s, options: [], range: range, withTemplate: "")
+        }
+        return s.trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
     private struct StoreWithSelection: Identifiable, Equatable {
@@ -237,9 +249,9 @@ struct SettingsView: View {
         }()
         // Dropdown to switch between product families
         Picker("Product Type", selection: $preferredProductType) {
-            Text("Apple Watch").tag(ProductFamily.watch.rawValue)
-            Text("iPhone").tag(ProductFamily.iphone.rawValue)
-            Text("Mac").tag(ProductFamily.mac.rawValue)
+            ForEach(ProductFamily.allCases) { family in
+                Text(family.displayName).tag(family.rawValue)
+            }
         }
         .pickerStyle(.menu)
         .frame(minWidth: 260)
@@ -253,7 +265,8 @@ struct SettingsView: View {
         } else if isPhone {
             // Selected token display name beside the picker label
             let selectedDisplayName: String = {
-                return phoneTokenNames[preferredPhoneToken] ?? preferredPhoneToken
+                let raw = phoneTokenNames[preferredPhoneToken] ?? preferredPhoneToken
+                return sanitizeModelTitle(raw)
             }()
             HStack {
                 Text("Phone Model")
@@ -274,7 +287,8 @@ struct SettingsView: View {
             }
             Picker("", selection: $preferredPhoneToken) {
                 ForEach(availablePhoneTokens, id: \.self) { token in
-                    Text(phoneTokenNames[token] ?? token).tag(token)
+                    let label = sanitizeModelTitle(phoneTokenNames[token] ?? token)
+                    Text(label).tag(token)
                 }
             }
             .id("phonepicker-\(preferredCountry)-\(preferredProductType)-\(availablePhoneTokens.joined(separator: ","))")
@@ -333,6 +347,7 @@ struct SettingsView: View {
             if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()],
                preferredWatchToken.isEmpty == false,
                let skuData = SKUDataLoader().watchSKUData(forToken: preferredWatchToken, country: country) {
+                // Use labels computed by SKUDataLoader (which already apply token display/familyName + watch metadata)
                 allModels = skuData.orderedSKUs.map { sku in
                     let name = skuData.productName(forSKU: sku) ?? sku
                     return ProductModel(sku: sku, name: name, isFavorite: favoriteSkus.contains(sku))
@@ -345,6 +360,18 @@ struct SettingsView: View {
             if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()],
                preferredPhoneToken.isEmpty == false,
                let skuData = SKUDataLoader().phoneSKUData(forToken: preferredPhoneToken, country: country) {
+                allModels = skuData.orderedSKUs.map { sku in
+                    let name = skuData.productName(forSKU: sku) ?? sku
+                    return ProductModel(sku: sku, name: name, isFavorite: favoriteSkus.contains(sku))
+                }
+                return
+            }
+        }
+        // When Mac is selected and a token is chosen, use Mac token path
+        if family?.isMac == true {
+            if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()],
+               preferredMacToken.isEmpty == false,
+               let skuData = SKUDataLoader().macSKUData(forToken: preferredMacToken, country: country) {
                 allModels = skuData.orderedSKUs.map { sku in
                     let name = skuData.productName(forSKU: sku) ?? sku
                     return ProductModel(sku: sku, name: name, isFavorite: favoriteSkus.contains(sku))
@@ -366,12 +393,7 @@ struct SettingsView: View {
         // Build human-friendly names for tokens from JSON metadata
         var names: [String: String] = [:]
         for token in availableWatchTokens {
-            // 1) Prefer explicit per-country token display from JSON if available
-            if let explicit = JSONCatalogAppleWatch.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
-                names[token] = explicit
-                continue
-            }
-            // 2) Derive from metadata
+            // Derive from metadata and token (avoid using scraped token_display to prevent CTA/noise)
             if let dict = JSONCatalogAppleWatch.categoryData(for: country, sourcePage: token),
                let md = dict.values.first {
                 var baseName: String? = nil
@@ -389,7 +411,12 @@ struct SettingsView: View {
                 if token.hasPrefix("apple-watch-") {
                     let suffix = String(token.dropFirst("apple-watch-".count))
                     if suffix.isEmpty == false {
-                        variant = (suffix.lowercased() == "se") ? "SE" : suffix.replacingOccurrences(of: "-", with: " ").capitalized
+                        var v = suffix.replacingOccurrences(of: "-", with: " ").capitalized
+                        // Normalize special cases like SE
+                        if v.lowercased().hasPrefix("se") {
+                            v = v.replacingOccurrences(of: "Se", with: "SE")
+                        }
+                        variant = v
                     }
                 }
                 if let base = baseName { names[token] = variant != nil ? "\(base) \(variant!)" : base }
@@ -404,12 +431,36 @@ struct SettingsView: View {
 
     @MainActor func loadPhoneTokens() async {
         guard let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()] else { return }
-        availablePhoneTokens = JSONCatalogiPhone.categoriesSourcePages(for: country)
+        // Load tokens from JSON catalogs
+        let rawTokens = JSONCatalogiPhone.categoriesSourcePages(for: country)
+        // Guard against accidental SKU lists by filtering to iphone-* tokens.
+        var tokenLike = rawTokens.filter { $0.lowercased().hasPrefix("iphone-") }
+        // Fallback: if none found (e.g., only legacy aggregate JSON present), derive tokens from any bundled iPhone JSONs
+        if tokenLike.isEmpty {
+            let all = JSONCatalogiPhone.loadAll()
+            var union: Set<String> = []
+            for root in all.values {
+                if let cm = root.country_mappings {
+                    for (_, map) in cm {
+                        if let paths = map.shop_paths {
+                            for key in paths.keys where key.lowercased().hasPrefix("iphone-") { union.insert(key) }
+                        }
+                    }
+                }
+                if union.isEmpty, let dm = root.discovered_models {
+                    for (_, byToken) in dm {
+                        for key in byToken.keys where key.lowercased().hasPrefix("iphone-") { union.insert(key) }
+                    }
+                }
+            }
+            tokenLike = Array(union).sorted()
+        }
+        availablePhoneTokens = tokenLike
         var names: [String: String] = [:]
         for token in availablePhoneTokens {
             // 1) Prefer explicit per-country token display from JSON if available
             if let explicit = JSONCatalogiPhone.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
-                names[token] = explicit
+                names[token] = sanitizeModelTitle(explicit)
                 continue
             }
             // 2) Derive base name from JSON (familyName or family)
@@ -429,7 +480,7 @@ struct SettingsView: View {
             if baseName.lowercased() == "iphone" { baseName = "iPhone" }
             // Derive variant from token suffix (e.g., "iphone-17-pro" -> "17 Pro")
             var variant: String = ""
-            if token.hasPrefix("iphone-") {
+            if token.lowercased().hasPrefix("iphone-") {
                 let suffix = String(token.dropFirst("iphone-".count))
                 if suffix.isEmpty == false {
                     variant = suffix.replacingOccurrences(of: "-", with: " ").capitalized
@@ -437,7 +488,7 @@ struct SettingsView: View {
             }
             // Compose final name
             let finalName = variant.isEmpty ? baseName : "\(baseName) \(variant)"
-            names[token] = finalName
+            names[token] = sanitizeModelTitle(finalName)
         }
         phoneTokenNames = names
         // Load any previously-saved per-country token selection

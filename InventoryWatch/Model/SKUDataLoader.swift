@@ -9,13 +9,6 @@ import Foundation
 
 // MARK: - Product Metadata Structures
 
-struct ProductConfigData: Codable {
-    let productPaths: [String: String]?
-    let urlMappings: URLMappings?
-    let recognizedMaterials: [String]?
-    let metadata: ConfigMetadata?
-}
-
 // Minimal catalog facade over Mac JSON emitted by scraper (per-model files)
 enum JSONCatalogMac {
     struct Node: Codable { let url: String?; let skus: [String: ProductMetadata]? }
@@ -122,33 +115,6 @@ struct PhoneResolver: CategoryResolver {
             let final = base.absoluteString + cleanSlug
             if let url = URL(string: final) { return url }
         }
-
-    // Token-based accessor for Mac
-    @MainActor func macSKUData(forToken token: String, country: Country) -> SKUData? {
-        guard let dict = JSONCatalogMac.categoryData(for: country, sourcePage: token) else { return nil }
-        let normalized: [(String, ProductMetadata)] = dict.map { (key, meta) in
-            let sku = meta.partNumber ?? key
-            return (sku, meta)
-        }
-        let valid = normalized.filter { (sku, meta) in
-            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
-            // Accept full Apple part numbers e.g. MWUE3D/A
-            if sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil { return true }
-            // Interim: accept base codes (e.g., MX2J3) so UI can display while scrapers evolve
-            if sku.range(of: "^[A-Z0-9]{3,6}$", options: .regularExpression) != nil { return true }
-            return false
-        }
-        let orderedSKUs = valid.map { $0.0 }.sorted()
-        let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
-            let (sku, meta) = tuple
-            // Localized name fallback without depending on SKUDataLoader helper
-            let base = (meta.familyName?.isEmpty == false) ? meta.familyName! : (meta.name.isEmpty ? "Mac" : meta.name)
-            let cap = meta.capacity.isEmpty ? "" : " \(meta.capacity)"
-            let color = meta.colorDisplay.isEmpty ? "" : " \(meta.colorDisplay)"
-            result[sku] = base + cap + color
-        }
-        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
-    }
         // Conservative fallback: generic buy-iphone base
         let genericBase = "https://www.apple.com/\(country.shortcode.lowercased())/shop/buy-iphone/"
         let final = genericBase + cleanSlug
@@ -215,23 +181,24 @@ enum JSONCatalogiPhone {
         var tokens: Set<String> = []
         let lc = country.shortcode.lowercased()
         let uc = country.shortcode.uppercased()
-        var anyTokens: Set<String> = []
+        var fallbackTokens: Set<String> = []
         for url in iphoneModelJSONFiles() {
             guard let data = try? Data(contentsOf: url) else { continue }
             if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
-                // Selected country
-                if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
-                    for (token, node) in byCountry { if let skus = node.skus, !skus.isEmpty { tokens.insert(token) } }
+                // 1) Prefer explicit token keys in country_mappings.shop_paths
+                if let paths = root.country_mappings?[lc]?.shop_paths ?? root.country_mappings?[uc]?.shop_paths {
+                    for key in paths.keys { if key.lowercased().hasPrefix("iphone-") { tokens.insert(key) } }
                 }
-                // Any country (fallback)
-                if let all = root.discovered_models {
-                    for (_, dict) in all {
-                        for (token, node) in dict { if let skus = node.skus, !skus.isEmpty { anyTokens.insert(token) } }
+                // 2) Fallback: discovered_models keys that look like real tokens
+                if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc] {
+                    for (key, node) in byCountry {
+                        if key.lowercased().hasPrefix("iphone-"), let skus = node.skus, !skus.isEmpty { tokens.insert(key) }
+                        else if let skus = node.skus, !skus.isEmpty { fallbackTokens.insert(key) }
                     }
                 }
             }
         }
-        let result = tokens.isEmpty ? anyTokens : tokens
+        let result = tokens.isEmpty ? fallbackTokens : tokens
         return Array(result).sorted()
     }
 
@@ -242,8 +209,14 @@ enum JSONCatalogiPhone {
         for url in iphoneModelJSONFiles() {
             guard let data = try? Data(contentsOf: url) else { continue }
             if let root = try? JSONDecoder().decode(PhoneRootLite.self, from: data) {
-                if let name = root.country_mappings?[lc]?.localization?.token_display?[sourcePage] { return name }
-                if let name = root.country_mappings?[uc]?.localization?.token_display?[sourcePage] { return name }
+                // Prefer per-country token display but sanitize away per-SKU noise (capacity)
+                if let raw = root.country_mappings?[lc]?.localization?.token_display?[sourcePage] ?? root.country_mappings?[uc]?.localization?.token_display?[sourcePage] {
+                    let bad = raw.lowercased()
+                    // Heuristics: reject if contains storage units; avoid hardcoded color lists
+                    let hasStorage = bad.contains("gb") || bad.contains("tb") || bad.range(of: "\\b[0-9]{2,4}\\s?gb\\b", options: .regularExpression) != nil
+                    if hasStorage { return nil }
+                    return raw
+                }
             }
         }
         return nil
@@ -284,148 +257,7 @@ enum JSONCatalogiPhone {
     }
 }
 
-struct URLMappings: Codable {
-    let connectivity: [String: String]?
-    let materials: [String: String]?
-    let colors: [String: String]?
-}
-
-struct ConfigMetadata: Codable {
-    let source: String?
-    let version: String?
-    let extractedFromPages: Bool?
-}
-
 struct AWLocalization: Codable { let token_display: [String: String]? }
-struct AWCountryShopPaths: Codable {
-    let shop_paths: [String: String]?
-    let localization: AWLocalization?
-}
-
-struct AppleWatchConfig: Codable {
-    let urlMappings: URLMappings?
-    let products: [String: [String: [String: ProductMetadata]]]?
-    let country_mappings: [String: AWCountryShopPaths]?
-    let metadata: ConfigMetadata?
-}
-
-class ProductConfiguration {
-    @MainActor private static var configData: ProductConfigData?
-    @MainActor private static var watchConfig: AppleWatchConfig?
-    
-    // MARK: - Configuration Loading
-    @MainActor static func loadConfiguration() {
-        guard let url = Bundle.main.url(forResource: "product-config", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let config = try? JSONDecoder().decode(ProductConfigData.self, from: data) else {
-            return
-        }
-        configData = config
-    }
-    
-    @MainActor static func loadAppleWatchConfiguration() {
-        guard let url = Bundle.main.url(forResource: "AppleWatchModels-intl", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let config = try? JSONDecoder().decode(AppleWatchConfig.self, from: data) else {
-            return
-        }
-        watchConfig = config
-    }
-    
-    // MARK: - Helper Methods
-    static func buildProductURL(countryPath: String, shopPath: String) -> String {
-        return "https://www.apple.com/\(countryPath)shop/\(shopPath)"
-    }
-    
-    // URL component normalization using Apple Watch mappings
-    @MainActor static func normalizeConnectivity(_ connectivity: String) -> String {
-        if watchConfig == nil { loadAppleWatchConfiguration() }
-        return watchConfig?.urlMappings?.connectivity?[connectivity.lowercased()] ?? connectivity.lowercased()
-    }
-    
-    @MainActor static func normalizeMaterial(_ material: String) -> String {
-        if watchConfig == nil { loadAppleWatchConfiguration() }
-        return watchConfig?.urlMappings?.materials?[material.lowercased()] ?? material.lowercased()
-    }
-    
-    @MainActor static func normalizeColor(_ color: String) -> String {
-        if watchConfig == nil { loadAppleWatchConfiguration() }
-        return watchConfig?.urlMappings?.colors?[color.lowercased()] ?? color.lowercased()
-    }
-    
-    static var defaultSize: String { "42mm" }
-    static var defaultMaterial: String { "aluminum" }
-    static var defaultConnectivity: String { "gps" }
-
-    // MARK: - Cached shop_paths accessors
-    @MainActor static func watchShopPath(for country: Country, sourcePage: String) -> String? {
-        if watchConfig == nil { loadAppleWatchConfiguration() }
-        guard let paths = watchConfig?.country_mappings?[country.shortcode.lowercased()]?.shop_paths else { return nil }
-        // Find entry whose last path component equals sourcePage
-        for (_, path) in paths {
-            if URL(string: "https://apple.com/\(path)")?.lastPathComponent == sourcePage {
-                return path
-            }
-        }
-        return nil
-    }
-
-    @MainActor static func watchPDPBaseURL(for country: Country, sourcePage: String) -> URL? {
-        guard let path = watchShopPath(for: country, sourcePage: sourcePage) else { return nil }
-        let pathWithSlash = path.hasSuffix("/") ? path : path + "/"
-        return URL(string: "https://www.apple.com/\(country.shortcode.lowercased())/\(pathWithSlash)")
-    }
-
-    // Optional JSON-provided, per-country display name for a watch token
-    @MainActor static func watchTokenDisplayName(for country: Country, sourcePage: String) -> String? {
-        if watchConfig == nil { loadAppleWatchConfiguration() }
-        let lc = country.shortcode.lowercased()
-        let uc = country.shortcode.uppercased()
-        if let name = watchConfig?.country_mappings?[lc]?.localization?.token_display?[sourcePage] {
-            return name
-        }
-        if let name = watchConfig?.country_mappings?[uc]?.localization?.token_display?[sourcePage] {
-            return name
-        }
-        return nil
-    }
-
-    // MARK: - iPhone token helpers (read from iPhone JSON files)
-    @MainActor static func phonePDPBaseURL(for country: Country, sourcePage: String) -> URL? {
-        let lc = country.shortcode.lowercased()
-        let uc = country.shortcode.uppercased()
-        let all = JSONCatalogiPhone.loadAll()
-        for root in all.values {
-            if let path = root.country_mappings?[lc]?.shop_paths?[sourcePage] ?? root.country_mappings?[uc]?.shop_paths?[sourcePage] {
-                let withSlash = path.hasSuffix("/") ? path : path + "/"
-                return URL(string: "https://www.apple.com/\(lc)/\(withSlash)")
-            }
-        }
-        return nil
-    }
-
-    @MainActor static func phoneTokenDisplayName(for country: Country, sourcePage: String) -> String? {
-        let lc = country.shortcode.lowercased()
-        let uc = country.shortcode.uppercased()
-        let all = JSONCatalogiPhone.loadAll()
-        for root in all.values {
-            if let name = root.country_mappings?[lc]?.localization?.token_display?[sourcePage] ?? root.country_mappings?[uc]?.localization?.token_display?[sourcePage] {
-                return name
-            }
-        }
-        return nil
-    }
-
-    // MARK: - Apple Watch Products Accessors (read-only)
-    @MainActor static func watchProducts(for country: Country) -> [String: [String: ProductMetadata]]? {
-        if watchConfig == nil { loadAppleWatchConfiguration() }
-        let lc = country.shortcode.lowercased()
-        let uc = country.shortcode.uppercased()
-        return watchConfig?.products?[lc] ?? watchConfig?.products?[uc]
-    }
-
-
-}
 
 // MARK: - Category Resolver Protocols
 
@@ -454,6 +286,24 @@ enum JSONCatalogAppleWatch {
             if let path = root.country_mappings?[lc]?.shop_paths?[token] ?? root.country_mappings?[uc]?.shop_paths?[token] {
                 let withSlash = path.hasSuffix("/") ? path : path + "/"
                 return URL(string: "https://www.apple.com/\(lc)/\(withSlash)")
+            }
+        }
+        return nil
+    }
+
+    /// Returns the per-category buy page URL (e.g. /shop/buy-watch/apple-watch-ultra)
+    /// as provided by the scraper JSON (`discovered_models.<country>.<token>.url`).
+    /// This is our primary fallback when per-SKU deep links are not present.
+    @MainActor static func categoryURL(for country: Country, sourcePage: String) -> URL? {
+        let lc = country.shortcode.lowercased()
+        let uc = country.shortcode.uppercased()
+        for url in watchModelJSONFiles() {
+            guard let data = try? Data(contentsOf: url), let root = try? JSONDecoder().decode(WatchRootLite.self, from: data) else { continue }
+            if let byCountry = root.discovered_models?[lc] ?? root.discovered_models?[uc],
+               let node = byCountry[sourcePage],
+               let raw = node.url,
+               let resolved = URL(string: raw) {
+                return resolved
             }
         }
         return nil
@@ -537,19 +387,28 @@ protocol CategoryResolver {
 struct AppleWatchResolver: CategoryResolver {
     @MainActor func productURL(for partNumber: String, country: Country) -> URL? {
         // Resolve metadata and sourcePage token
-        guard let md = JSONCatalogAppleWatch.metadata(for: partNumber, country: country), let slug = md.urlSlug, !slug.isEmpty else { return nil }
+        guard let md = JSONCatalogAppleWatch.metadata(for: partNumber, country: country) else { return nil }
         var sourcePage = md.metadata?.sourcePage
         if sourcePage == nil { sourcePage = JSONCatalogAppleWatch.categoryForSKU(country: country, sku: partNumber) }
-        var cleanSlug = slug
-        while cleanSlug.hasPrefix("/") { cleanSlug.removeFirst() }
-        if let sp = sourcePage, let base = JSONCatalogAppleWatch.pdpBaseURL(for: country, sourcePage: sp) {
-            let final = base.absoluteString + cleanSlug
-            if let url = URL(string: final) { return url }
+
+        // Preferred: per-SKU deep link if the JSON provides it.
+        if let slug = md.urlSlug, slug.isEmpty == false {
+            var cleanSlug = slug
+            while cleanSlug.hasPrefix("/") { cleanSlug.removeFirst() }
+            if let sp = sourcePage, let base = JSONCatalogAppleWatch.pdpBaseURL(for: country, sourcePage: sp) {
+                let final = base.absoluteString + cleanSlug
+                if let url = URL(string: final) { return url }
+            }
+            // Last-resort: generic path + slug
+            let genericBase = "https://www.apple.com/\(country.shortcode.lowercased())/shop/buy-watch/"
+            if let url = URL(string: genericBase + cleanSlug) { return url }
         }
-        // Fallback generic path
-        let genericBase = "https://www.apple.com/\(country.shortcode.lowercased())/shop/buy-watch/"
-        let final = genericBase + cleanSlug
-        if let url = URL(string: final) { return url }
+
+        // Fallback: open the per-category buy page from JSON (token-based).
+        if let sp = sourcePage, let url = JSONCatalogAppleWatch.categoryURL(for: country, sourcePage: sp) {
+            return url
+        }
+
         return nil
     }
 }
@@ -598,15 +457,54 @@ actor SKUDataLoader {
             let sku = meta.partNumber ?? key
             return (sku, meta)
         }
-        // Filter valid entries: prefer metadata flag, else validate SKU format on the resolved sku
+        // Filter valid entries: prefer metadata flag, else validate SKU format, and exclude non-watch accessories
         let valid = normalized.filter { (sku, meta) in
-            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
-            return sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil
+            // Require a real Apple part number OR explicit isRealPartNumber
+            // Accept Apple part numbers with 1-3 letter regional suffixes before the slash.
+            // Examples: MFYT4ZD/A (2 letters), MX2X3D/A (1 letter)
+            let isRealPN = sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil
+            let okPN = meta.metadata?.isRealPartNumber ?? isRealPN
+            if okPN == false { return false }
+            // Exclude accessories (e.g., bands/AppleCare) that slip into Apple Watch pages: keep SKUs that include a case size
+            if let hasSize = meta.metadata?.caseSize, hasSize.isEmpty == false { return true }
+            return false
         }
         let orderedSKUs = valid.map { $0.0 }.sorted()
+        // Determine a robust base display name for this token
+        // Priority: (1) majority familyName across SKUs, (2) per-country token display from per-model JSON,
+        // (3) per-country token display from legacy AppleWatchModels-intl.json, (4) generic "Apple Watch".
+        let famNames = valid.compactMap { (_, meta) -> String? in
+            if let fn = meta.familyName, fn.isEmpty == false, fn.lowercased() != "unknown" { return fn }
+            return nil
+        }
+        let majorityFamilyName: String? = {
+            guard famNames.isEmpty == false else { return nil }
+            var counts: [String: Int] = [:]
+            famNames.forEach { counts[$0, default: 0] += 1 }
+            return counts.max(by: { $0.value < $1.value })?.key
+        }()
+        let tokenDisplayPrimary = JSONCatalogAppleWatch.tokenDisplayName(for: country, sourcePage: token)
+        let baseDisplay = majorityFamilyName ?? tokenDisplayPrimary ?? "Apple Watch"
+
         let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
             let (sku, meta) = tuple
-            result[sku] = buildLocalizedProductName(from: meta)
+            let dm = meta.metadata
+            // Use resolved base display consistently across the list
+            let baseName = baseDisplay
+            var parts: [String] = [baseName]
+            if let size = dm?.caseSize, !size.isEmpty { parts.append(size) }
+            // Prefer explicit color from metadata, then colorDisplay
+            var colorName = ""
+            if let c = dm?.color, !c.isEmpty { colorName = c.capitalized }
+            else if meta.colorDisplay.isEmpty == false { colorName = meta.colorDisplay }
+            if !colorName.isEmpty { parts.append(colorName) }
+            if let material = dm?.caseMaterial, !material.isEmpty { parts.append(material.capitalized) }
+            if let conn = dm?.connectivity, !conn.isEmpty {
+                let connPretty = conn.lowercased() == "gpscell" ? "GPS + Cellular" : conn.uppercased()
+                parts.append(connPretty)
+            }
+            let label = parts.joined(separator: " ").replacingOccurrences(of: "  ", with: " ").trimmingCharacters(in: .whitespaces)
+            result[sku] = label
         }
         return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
     }
@@ -622,9 +520,44 @@ actor SKUDataLoader {
         // Filter valid entries: prefer metadata flag, else validate SKU format
         let valid = normalized.filter { (sku, meta) in
             if let isReal = meta.metadata?.isRealPartNumber { return isReal }
-            return sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil
+            return sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil
         }
         let orderedSKUs = valid.map { $0.0 }.sorted()
+        let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
+            let (sku, meta) = tuple
+            result[sku] = buildLocalizedProductName(from: meta)
+        }
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
+    }
+
+    // Token-based accessor for Mac: build SKUData directly from a sourcePage token (e.g., "macbook-pro")
+    @MainActor func macSKUData(forToken token: String, country: Country) -> SKUData? {
+        guard let dict = JSONCatalogMac.categoryData(for: country, sourcePage: token) else { return nil }
+        let normalized: [(String, ProductMetadata)] = dict.map { (key, meta) in
+            let sku = meta.partNumber ?? key
+            return (sku, meta)
+        }
+
+        // Keep entries that look like plausible Apple SKUs so the Settings UI can display them.
+        // For inventory queries, callers should prefer full part numbers (contain a '/').
+        let valid = normalized.filter { (sku, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            // Full Apple part numbers like MWUE3D/A
+            if sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil { return true }
+            // Base codes like MW2X3 (may exist in some catalogs but are not sufficient for pickup-message queries)
+            if sku.range(of: "^[A-Z0-9]{3,6}$", options: .regularExpression) != nil { return true }
+            return false
+        }
+
+        let orderedSKUs = valid
+            .map { $0.0 }
+            .sorted { a, b in
+                let aIsFull = a.contains("/")
+                let bIsFull = b.contains("/")
+                if aIsFull != bIsFull { return aIsFull && !bIsFull }
+                return a < b
+            }
+
         let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
             let (sku, meta) = tuple
             result[sku] = buildLocalizedProductName(from: meta)
@@ -696,7 +629,7 @@ actor SKUDataLoader {
         let validEntries = categoryData.filter { (_, meta) in
             if let isReal = meta.metadata?.isRealPartNumber { return isReal }
             if let pn = meta.partNumber {
-                return pn.range(of: "^[A-Z0-9]{4,8}[A-Z]{2}/[A-Z]$", options: .regularExpression) != nil
+                return pn.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil
             }
             return false
         }
@@ -711,6 +644,12 @@ actor SKUDataLoader {
     @MainActor func watchProductURL(for partNumber: String, country: Country) -> URL? {
         return AppleWatchResolver().productURL(for: partNumber, country: country)
     }
+
+    /// Token/category-level buy page URL, derived entirely from our JSON catalogs.
+    /// Useful fallback when per-SKU URLs are not present.
+    @MainActor func watchCategoryURL(for country: Country, sourcePage: String) -> URL? {
+        return JSONCatalogAppleWatch.categoryURL(for: country, sourcePage: sourcePage)
+    }
     
     @MainActor func phoneProductURL(for partNumber: String, country: Country) -> URL? {
         return PhoneResolver().productURL(for: partNumber, country: country)
@@ -718,6 +657,10 @@ actor SKUDataLoader {
 
     @MainActor func phonePDPBaseURL(for country: Country, sourcePage: String) -> URL? {
         return JSONCatalogiPhone.pdpBaseURL(for: country, sourcePage: sourcePage)
+    }
+
+    @MainActor func macCategoryURL(for country: Country, sourcePage: String) -> URL? {
+        return JSONCatalogMac.pdpBaseURL(for: country, sourcePage: sourcePage)
     }
     
     // MARK: - JSON Loading Methods

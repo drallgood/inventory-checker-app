@@ -11,6 +11,7 @@ enum AppError: Swift.Error, LocalizedError {
     case failedToParseGithubVersion
     case invalidLocalModelStore
     case invalidProjectState
+    case invalidCatalogData
     case couldNotGenerateURL
     case noStoresFound
     case storeUnavailable
@@ -34,6 +35,8 @@ enum AppError: Swift.Error, LocalizedError {
         switch self {
         case .couldNotGenerateURL:
             return "InventoryWatch failed to construct a valid URL for your search."
+        case .invalidCatalogData:
+            return "The bundled model catalog JSON is missing required part numbers for this product. Please update the catalog files (they must include full Apple part numbers like MWUE3D/A, not only base codes like MWUE3D)."
         case .invalidStoreResponse, .unexpectedJSONStructure, .noStoresFound:
             return "Unexpected inventory data found. Please confirm that the selected store is valid for the selected country."
         case .storeUnavailable:

@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 actor FulfillmentModel {
     
     let defaultsVendor = DefaultsVendor()
@@ -22,6 +23,20 @@ actor FulfillmentModel {
     private let decoder = JSONDecoder()
     // Latest pickup API error keys (e.g., ["invalidLocalModelStore"]) captured from Apple JSON
     private(set) var lastPickupErrorKeys: [String] = []
+    
+    // Cookie-aware URLSession for Apple Store requests
+    private lazy var cookieEnabledSession: URLSession = {
+        let config = URLSessionConfiguration.default
+        config.httpCookieAcceptPolicy = .always
+        config.httpCookieStorage = HTTPCookieStorage.shared
+        config.httpShouldSetCookies = true
+        
+        // Force HTTP/1.1 to match curl behavior
+        config.httpMaximumConnectionsPerHost = 1
+        config.httpShouldUsePipelining = false
+        
+        return URLSession(configuration: config)
+    }()
     
     private var modelParsingFilter: Set<String>? {
         let filterForPreferredModels = defaultsVendor.showResultsOnlyForPreferredModels
@@ -47,7 +62,7 @@ actor FulfillmentModel {
             request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
             request.timeoutInterval = 30
             
-            let (data, _) = try await URLSession.shared.data(for: request, delegate: nil)
+            let (data, _) = try await cookieEnabledSession.data(for: request, delegate: nil)
             
             // Check if we received HTML instead of JSON
             if let responseString = String(data: data, encoding: .utf8) {
@@ -96,41 +111,29 @@ actor FulfillmentModel {
     }
     
     func fetchInventory() async throws -> [(FulfillmentStore, [PartAvailability])] {
-        let urlRoot = "https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/fulfillment-messages?"
-        // Single attempt: include explicit store parameter (previous working behavior)
+        // Use /shop/retail/pickup-message which is not behind Akamai's anti-bot challenge
+        // (unlike /shop/fulfillment-messages which returns 541).
+        let urlRoot = "https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/retail/pickup-message?"
         let query = try await generateQueryString(includeStore: true, location: nil)
         
         guard let url = URL(string: urlRoot + query) else {
             throw AppError.couldNotGenerateURL
         }
         
+        print("🌐 Pickup URL: \(url.absoluteString)")
+
         var request = URLRequest(url: url)
-        // Use a token-aware Referer that respects the active product family (watch vs iphone)
-        let family = defaultsVendor.preferredProductFamily
-        if family.isWatch,
-           defaultsVendor.preferredWatchToken.isEmpty == false,
-           let base = await JSONCatalogAppleWatch.pdpBaseURL(for: defaultsVendor.preferredCountry, sourcePage: defaultsVendor.preferredWatchToken) {
-            request.addValue(base.absoluteString, forHTTPHeaderField: "Referer")
-        } else if family.isIPhone,
-                  defaultsVendor.preferredPhoneToken.isEmpty == false,
-                  let base = await SKUDataLoader().phonePDPBaseURL(for: defaultsVendor.preferredCountry, sourcePage: defaultsVendor.preferredPhoneToken) {
-            request.addValue(base.absoluteString, forHTTPHeaderField: "Referer")
-        } else {
-            request.addValue("https://www.apple.com/shop/buy-iphone/", forHTTPHeaderField: "Referer")
-        }
         request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
         request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
         request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
-        request.addValue("same-origin", forHTTPHeaderField: "Sec-Fetch-Site")
-        request.addValue("cors", forHTTPHeaderField: "Sec-Fetch-Mode")
-        request.addValue("empty", forHTTPHeaderField: "Sec-Fetch-Dest")
         request.timeoutInterval = 30
-        
-        // Log the URL for debugging
-        print(url.absoluteString)
-        
+
         let (data, response) = try await URLSession.shared.data(for: request, delegate: nil)
-        let parsed = try await parseStoreResponse(data, response: response as? HTTPURLResponse, filterForModels: modelParsingFilter)
+        let httpResponse = response as? HTTPURLResponse
+        let status = httpResponse?.statusCode ?? 0
+        print("📥 Pickup response: status=\(status), bytes=\(data.count)")
+
+        let parsed = try await parseStoreResponse(data, response: httpResponse, filterForModels: modelParsingFilter)
         return parsed
     }
     
@@ -140,19 +143,7 @@ actor FulfillmentModel {
             throw AppError.invalidProjectState
         }
         
-        let defaultStoreNumber: String
-        switch defaultsVendor.preferredCountry.locale {
-        case "en_US": defaultStoreNumber = "R032"
-        case "fr_FR": defaultStoreNumber = "R277"
-        case "en_CA": defaultStoreNumber = "R121"
-        case "en_AU": defaultStoreNumber = "R238"
-        case "de_DE": defaultStoreNumber = "R443"
-        case "en_GB": defaultStoreNumber = "R092"
-        default:
-            return stores.first
-        }
-        
-        return stores.first(where: { $0.storeNumber == defaultStoreNumber }) ?? stores.first
+        return stores.first
     }
     
     private func generateQueryString(includeStore: Bool = true, location: String?) async throws -> String {
@@ -161,6 +152,7 @@ actor FulfillmentModel {
         let family = defaultsVendor.preferredProductFamily
         let watchToken = defaultsVendor.preferredWatchToken
         let phoneToken = defaultsVendor.preferredPhoneToken
+        let macToken = defaultsVendor.preferredMacToken
         var resolvedSKUs: [String] = []
         if family.isWatch,
            watchToken.isEmpty == false,
@@ -170,11 +162,17 @@ actor FulfillmentModel {
                   phoneToken.isEmpty == false,
                   let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
             resolvedSKUs = data.orderedSKUs
+        } else if family.isMac,
+                  macToken.isEmpty == false,
+                  let data = await SKUDataLoader().macSKUData(forToken: macToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
         } else {
             // Fallback: try whichever token is set, else empty
             if watchToken.isEmpty == false, let data = await SKUDataLoader().watchSKUData(forToken: watchToken, country: country) {
                 resolvedSKUs = data.orderedSKUs
             } else if phoneToken.isEmpty == false, let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else if macToken.isEmpty == false, let data = await SKUDataLoader().macSKUData(forToken: macToken, country: country) {
                 resolvedSKUs = data.orderedSKUs
             } else {
                 let data = try await skuDataLoader.skuDataForPreferredProduct
@@ -217,7 +215,26 @@ actor FulfillmentModel {
             return true
         }
 
-        var queryItems: [String] = allSkus
+        // Mac-specific: pickup-message requires full Apple part numbers (contain a '/').
+        // Many Mac catalogs encode only base codes (e.g., MW2X3) which produce empty results.
+        if family.isMac {
+            let full = allSkus.filter { $0.contains("/") }
+            if full.isEmpty {
+                print("⚠️ Mac catalog SKUs are missing full part numbers. First few SKUs: \(allSkus.prefix(5).joined(separator: ", "))")
+                throw AppError.invalidCatalogData
+            }
+            allSkus = full
+        }
+
+        var queryItems: [String] = ["fae=true"]
+
+        if includeStore {
+            queryItems.append("store=\(defaultsVendor.preferredStoreNumber)")
+        }
+
+        queryItems.append("little=false")
+
+        queryItems.append(contentsOf: allSkus
             .enumerated()
             .compactMap { next in
                 guard next.element.isEmpty == false else {
@@ -227,15 +244,11 @@ actor FulfillmentModel {
                 let count = next.offset
                 let sku = next.element
                 return "parts.\(count)=\(sku)"
-            }
-        
-        queryItems.append("searchNearby=\(defaultsVendor.shouldIncludeNearbyStores)")
-        if let location, location.isEmpty == false {
-            queryItems.append("location=\(location)")
-        }
-        if includeStore {
-            queryItems.append("store=\(defaultsVendor.preferredStoreNumber)")
-        }
+            })
+
+        queryItems.append("mts.0=regular")
+        queryItems.append("mts.1=sticky")
+        queryItems.append("fts=true")
         
         return queryItems.joined(separator: "&")
     }
@@ -266,27 +279,33 @@ actor FulfillmentModel {
         
         guard let json = try? JSONSerialization.jsonObject(with: responseData, options: []) as? [String : Any] else {
             print("❌ Failed to parse JSON. Response status: \(response?.statusCode ?? -1)")
+            if let responseString = String(data: responseData, encoding: .utf8) {
+                print("Response preview: \(String(responseString.prefix(200)))")
+            }
             throw errorForStatusCode(response?.statusCode) ?? AppError.invalidStoreResponse
         }
         
-        guard
-            let body = json["body"] as? [String: Any],
-            let content = body["content"] as? [String: Any],
-            let pickupMessage = content["pickupMessage"] as? [String: Any]
-        else {
+        guard let body = json["body"] as? [String: Any] else {
             throw AppError.unexpectedJSONStructure
         }
-        // If Apple returned error keys (e.g., 'invalidLocalModelStore'), retain them for UI and log non-fatally
-        if let errors = pickupMessage["errorMessageKeys"] as? [String], errors.isEmpty == false {
-            lastPickupErrorKeys = errors
-            print("Apple pickup API errors (non-fatal): \(errors.joined(separator: ", "))")
+
+        // Support both API response formats:
+        // - /shop/retail/pickup-message: body.stores[]
+        // - /shop/fulfillment-messages: body.content.pickupMessage.stores[]
+        let storeList: [[String: Any]]
+        if let stores = body["stores"] as? [[String: Any]] {
+            storeList = stores
+        } else if let content = body["content"] as? [String: Any],
+                  let pickupMessage = content["pickupMessage"] as? [String: Any] {
+            if let errors = pickupMessage["errorMessageKeys"] as? [String], errors.isEmpty == false {
+                lastPickupErrorKeys = errors
+                print("Apple pickup API errors (non-fatal): \(errors.joined(separator: ", "))")
+            } else {
+                lastPickupErrorKeys = []
+            }
+            storeList = pickupMessage["stores"] as? [[String: Any]] ?? []
         } else {
-            lastPickupErrorKeys = []
-        }
-        
-        guard let storeList = pickupMessage["stores"] as? [[String: Any]] else {
-            // Let caller decide on fallback strategy
-            return []
+            throw AppError.unexpectedJSONStructure
         }
         
         let skuData = try await skuDataForPreferredProduct

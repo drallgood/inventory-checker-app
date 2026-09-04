@@ -31,6 +31,7 @@
 		38D307DB2745E2E700A0686D /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D307DA2745E2E700A0686D /* Analytics.swift */; };
 		38E1C21A27E6714E0047703D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E1C21927E6714E0047703D /* Helpers.swift */; };
 		38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38E4279D273EF542006BF6D7 /* Credits.rtf */; };
+		46F138010000000000000001 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F138020000000000000002 /* countries.json */; };
 		469112532E7CB945004C26BC /* Mac-Imac-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124C2E7CB945004C26BC /* Mac-Imac-intl.json */; };
 		469112542E7CB945004C26BC /* Mac-MacbookPro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */; };
 		469112552E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */; };
@@ -94,6 +95,7 @@
 		46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17-intl.json"; sourceTree = "<group>"; };
 		46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17Pro-intl.json"; sourceTree = "<group>"; };
 		46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-Air-intl.json"; sourceTree = "<group>"; };
+		46F138020000000000000002 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */,
 				46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */,
 				46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */,
+				46F138020000000000000002 /* countries.json */,
 			);
 			path = Catalogs;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */,
 				386FDC5E2739DA7300C1BAC2 /* Preview Assets.xcassets in Resources */,
 				386FDC5B2739DA7300C1BAC2 /* Assets.xcassets in Resources */,
+				46F138010000000000000001 /* countries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,11 +460,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"InventoryWatch/Preview Content\"";
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -490,11 +492,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"InventoryWatch/Preview Content\"";
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

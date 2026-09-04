@@ -1,0 +1,839 @@
+{
+  "discovered_models": {
+    "us": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/us/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXEW2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXEX2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SN7W2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4LW/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Natural",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "uk": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4DH/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Natural",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "au": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "MW5G3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "ca": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "MW5G3CL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4VC/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "de": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4FD/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natur",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Natur",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "fr": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4FD/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Naturel",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Naturel",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4QL/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Naturale",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Naturale",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "es": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4QL/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Natural",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4FD/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natur",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4FD/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Naturel",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "se": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4KS/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "naturlig",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "naturlig",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "jp": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2JZ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2JZ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "kr": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3KH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4KH/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "내추럴",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "내추럴",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "hk": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4ZP/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Natural",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "sg": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "tw": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "MW5G3TA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4TA/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "原色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "th": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4SA/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "ธรรมชาติ",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "ธรรมชาติ",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "my": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2ZX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "sa": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/sa/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXDG2AE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "SXAX2AE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MW5G3ZE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3"
+          },
+          "MF2A4AF/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "color": "Natural",
+              "caseSize": "49mm"
+            }
+          }
+        }
+      }
+    },
+    "mx": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "MF2A4LZ/A": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "Natural",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch Ultra 3"
+          }
+        }
+      }
+    },
+    "cn": {
+      "apple-watch-hermes-ultra": {
+        "url": "https://www.apple.com/cn/shop/buy-watch/apple-watch-hermes-ultra",
+        "skus": {
+          "SXAX2CH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "watch",
+            "familyName": "如何折抵你的设备"
+          },
+          "MF2C4CH/B": {
+            "name": "",
+            "colorKey": "natural",
+            "colorDisplay": "原色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "如何折抵你的设备"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "us": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "apple-watch-hermes-ultra": "shop/buy-watch/apple-watch-hermes-ultra"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes-ultra": "如何折抵你的设备"
+        }
+      }
+    }
+  }
+}

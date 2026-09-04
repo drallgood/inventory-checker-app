@@ -186,92 +186,7 @@
     "au": {
       "iphone-16e": {
         "url": "https://www.apple.com/au/shop/buy-iphone/iphone-16e",
-        "skus": {
-          "MD1T4X/A": {
-            "name": "iPhone 17 256GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1T4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1R4X/A": {
-            "name": "iPhone 17 128GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1R4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1X4X/A": {
-            "name": "iPhone 17 512GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1X4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1Q4X/A": {
-            "name": "iPhone 17 128GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1Q4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD274X/A": {
-            "name": "iPhone 17 512GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD274X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1W4X/A": {
-            "name": "iPhone 17 256GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1W4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "ca": {
@@ -399,92 +314,7 @@
     "fr": {
       "iphone-16e": {
         "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16e",
-        "skus": {
-          "MD1T4F/A": {
-            "name": "iPhone 17 256 Go Noir",
-            "colorKey": "black",
-            "colorDisplay": "Noir",
-            "capacity": "256 Go",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1T4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1R4F/A": {
-            "name": "iPhone 17 128 Go Blanc",
-            "colorKey": "white",
-            "colorDisplay": "Blanc",
-            "capacity": "128 Go",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1R4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1X4F/A": {
-            "name": "iPhone 17 512 Go Noir",
-            "colorKey": "black",
-            "colorDisplay": "Noir",
-            "capacity": "512 Go",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1X4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1Q4F/A": {
-            "name": "iPhone 17 128 Go Noir",
-            "colorKey": "black",
-            "colorDisplay": "Noir",
-            "capacity": "128 Go",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1Q4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD274F/A": {
-            "name": "iPhone 17 512 Go Blanc",
-            "colorKey": "white",
-            "colorDisplay": "Blanc",
-            "capacity": "512 Go",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD274F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1W4F/A": {
-            "name": "iPhone 17 256 Go Blanc",
-            "colorKey": "white",
-            "colorDisplay": "Blanc",
-            "capacity": "256 Go",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1W4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "it": {
@@ -1161,92 +991,7 @@
     "jp": {
       "iphone-16e": {
         "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16e",
-        "skus": {
-          "MD1T4J/A": {
-            "name": "iPhone 17 128GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1T4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1R4J/A": {
-            "name": "iPhone 17 128GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1R4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1X4J/A": {
-            "name": "iPhone 17 256GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1X4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1Q4J/A": {
-            "name": "iPhone 17 256GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1Q4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD274J/A": {
-            "name": "iPhone 17 512GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD274J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1W4J/A": {
-            "name": "iPhone 17 512GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1W4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
@@ -1374,92 +1119,7 @@
     "sg": {
       "iphone-16e": {
         "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-16e",
-        "skus": {
-          "MD1T4X/A": {
-            "name": "iPhone 17 256GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1T4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1R4X/A": {
-            "name": "iPhone 17 128GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1R4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1X4X/A": {
-            "name": "iPhone 17 512GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1X4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1Q4X/A": {
-            "name": "iPhone 17 128GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1Q4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD274X/A": {
-            "name": "iPhone 17 512GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD274X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1W4X/A": {
-            "name": "iPhone 17 256GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1W4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "tw": {
@@ -1587,92 +1247,7 @@
     "my": {
       "iphone-16e": {
         "url": "https://www.apple.com/my/shop/buy-iphone/iphone-16e",
-        "skus": {
-          "MD1T4X/A": {
-            "name": "iPhone 17 256GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1T4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1R4X/A": {
-            "name": "iPhone 17 128GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1R4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1X4X/A": {
-            "name": "iPhone 17 512GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1X4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1Q4X/A": {
-            "name": "iPhone 17 128GB Black",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1Q4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD274X/A": {
-            "name": "iPhone 17 512GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD274X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1W4X/A": {
-            "name": "iPhone 17 256GB White",
-            "colorKey": "white",
-            "colorDisplay": "White",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1W4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "in": {
@@ -1983,92 +1558,7 @@
     "mx": {
       "iphone-16e": {
         "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-16e",
-        "skus": {
-          "MD1L4E/A": {
-            "name": "iPhone 17 512 GB Negro",
-            "colorKey": "black",
-            "colorDisplay": "Negro",
-            "capacity": "512 GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1L4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1J4E/A": {
-            "name": "iPhone 17 256 GB Blanco",
-            "colorKey": "white",
-            "colorDisplay": "Blanco",
-            "capacity": "256 GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1J4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1P4E/A": {
-            "name": "iPhone 17 512 GB Blanco",
-            "colorKey": "white",
-            "colorDisplay": "Blanco",
-            "capacity": "512 GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1P4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1G4E/A": {
-            "name": "iPhone 17 128 GB Blanco",
-            "colorKey": "white",
-            "colorDisplay": "Blanco",
-            "capacity": "128 GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1G4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1H4E/A": {
-            "name": "iPhone 17 256 GB Negro",
-            "colorKey": "black",
-            "colorDisplay": "Negro",
-            "capacity": "256 GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1H4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MD1F4E/A": {
-            "name": "iPhone 17 128 GB Negro",
-            "colorKey": "black",
-            "colorDisplay": "Negro",
-            "capacity": "128 GB",
-            "dimensionScreensize": "",
-            "family": "iphone16e",
-            "familyName": "iPhone 17",
-            "partNumber": "MD1F4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "cn": {
@@ -2140,7 +1630,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2150,7 +1640,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2160,7 +1650,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2170,7 +1660,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2180,7 +1670,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2190,7 +1680,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2200,7 +1690,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2210,7 +1700,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2220,7 +1710,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2230,7 +1720,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2240,7 +1730,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2250,7 +1740,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2260,7 +1750,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2270,7 +1760,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2280,7 +1770,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2290,7 +1780,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2300,7 +1790,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2310,7 +1800,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2320,7 +1810,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2330,7 +1820,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2340,7 +1830,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2350,7 +1840,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2360,7 +1850,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2370,7 +1860,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2380,7 +1870,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2390,7 +1880,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2400,7 +1890,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2410,7 +1900,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2420,7 +1910,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2430,7 +1920,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2440,7 +1930,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     },
@@ -2450,7 +1940,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16e": "iPhone 16e 256GB White"
+          "iphone-16e": "iPhone 16e"
         }
       }
     }

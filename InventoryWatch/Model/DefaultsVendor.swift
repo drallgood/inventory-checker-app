@@ -17,6 +17,13 @@ enum ProductFamily: String, Codable, CaseIterable, Identifiable {
     var isWatch: Bool { self == .watch }
     var isIPhone: Bool { self == .iphone }
     var isMac: Bool { self == .mac }
+    var displayName: String {
+        switch self {
+        case .watch: return "Apple Watch"
+        case .iphone: return "iPhone"
+        case .mac: return "Mac"
+        }
+    }
 }
 
 extension UserDefaults {
@@ -126,6 +133,11 @@ struct DefaultsVendor {
         UserDefaults.standard.bool(forKey: "notifyOnlyForPreferredModels")
     }
 
+    var notificationCooldownHours: Int {
+        let val = UserDefaults.standard.integer(forKey: "notificationCooldownHours")
+        return val > 0 ? val : 24
+    }
+
     // Token-driven Apple Watch selection
     var preferredWatchToken: String {
         UserDefaults.standard.string(forKey: "preferredWatchToken") ?? ""
@@ -134,5 +146,10 @@ struct DefaultsVendor {
     // Token-driven iPhone selection
     var preferredPhoneToken: String {
         UserDefaults.standard.string(forKey: "preferredPhoneToken") ?? ""
+    }
+
+    // Token-driven Mac selection
+    var preferredMacToken: String {
+        UserDefaults.standard.string(forKey: "preferredMacToken") ?? ""
     }
 }

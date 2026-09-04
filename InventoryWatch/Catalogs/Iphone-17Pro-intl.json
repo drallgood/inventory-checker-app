@@ -3151,302 +3151,7 @@
     "jp": {
       "iphone-17-pro": {
         "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
-        "skus": {
-          "MFY84J/A": {
-            "name": "iPhone 17 Pro Max 256GB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFY84J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFY94J/A": {
-            "name": "iPhone 17 Pro Max 256GB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFY94J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYA4J/A": {
-            "name": "iPhone 17 Pro Max 256GB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYA4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYD4J/A": {
-            "name": "iPhone 17 Pro Max 512GB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYD4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYE4J/A": {
-            "name": "iPhone 17 Pro Max 512GB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYE4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYC4J/A": {
-            "name": "iPhone 17 Pro Max 512GB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYC4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYH4J/A": {
-            "name": "iPhone 17 Pro Max 1TB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYH4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYF4J/A": {
-            "name": "iPhone 17 Pro Max 1TB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYF4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYG4J/A": {
-            "name": "iPhone 17 Pro Max 1TB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYG4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYL4J/A": {
-            "name": "iPhone 17 Pro Max 2TB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "2TB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYL4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYJ4J/A": {
-            "name": "iPhone 17 Pro Max 2TB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "2TB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYJ4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MFYK4J/A": {
-            "name": "iPhone 17 Pro Max 2TB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "2TB",
-            "dimensionScreensize": "",
-            "family": "iphone17promax",
-            "familyName": "iPhone 17 Pro Max",
-            "partNumber": "MFYK4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG854J/A": {
-            "name": "iPhone 17 Pro 256GB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG854J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG894J/A": {
-            "name": "iPhone 17 Pro 256GB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG894J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG864J/A": {
-            "name": "iPhone 17 Pro 256GB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG864J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG874J/A": {
-            "name": "iPhone 17 Pro 512GB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG874J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG8A4J/A": {
-            "name": "iPhone 17 Pro 512GB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG8A4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG8D4J/A": {
-            "name": "iPhone 17 Pro 512GB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG8D4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG8E4J/A": {
-            "name": "iPhone 17 Pro 1TB コズミックオレンジ",
-            "colorKey": "cosmicorange",
-            "colorDisplay": "コズミックオレンジ",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG8E4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG8C4J/A": {
-            "name": "iPhone 17 Pro 1TB ディープブルー",
-            "colorKey": "deepblue",
-            "colorDisplay": "ディープブルー",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG8C4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG8F4J/A": {
-            "name": "iPhone 17 Pro 1TB シルバー",
-            "colorKey": "silver",
-            "colorDisplay": "シルバー",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphone17pro",
-            "familyName": "iPhone 17 Pro",
-            "partNumber": "MG8F4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
@@ -5435,7 +5140,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5445,7 +5150,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5455,7 +5160,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5465,7 +5170,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5475,7 +5180,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5485,7 +5190,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5495,7 +5200,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5505,7 +5210,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5515,7 +5220,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5525,7 +5230,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5535,7 +5240,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5545,7 +5250,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5555,7 +5260,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5565,7 +5270,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5575,7 +5280,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5585,7 +5290,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5595,7 +5300,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5605,7 +5310,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5615,7 +5320,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5625,7 +5330,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5635,7 +5340,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5645,7 +5350,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5655,7 +5360,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5665,7 +5370,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5675,7 +5380,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5685,7 +5390,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5695,7 +5400,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5705,7 +5410,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5715,7 +5420,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5725,7 +5430,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5735,7 +5440,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     },
@@ -5745,7 +5450,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17-pro": "iPhone 17 Pro Max 1TB Cosmic Orange"
+          "iphone-17-pro": "iPhone 17 Pro"
         }
       }
     }

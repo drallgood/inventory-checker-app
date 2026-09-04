@@ -348,176 +348,7 @@
     "au": {
       "iphone-air": {
         "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air",
-        "skus": {
-          "MG2U4X/A": {
-            "name": "iPhone 17 Air 512GB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2U4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2V4X/A": {
-            "name": "iPhone 17 Air 512GB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2V4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2T4X/A": {
-            "name": "iPhone 17 Air 512GB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2T4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Y4X/A": {
-            "name": "iPhone 17 Air 1TB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Y4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2W4X/A": {
-            "name": "iPhone 17 Air 1TB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2W4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2X4X/A": {
-            "name": "iPhone 17 Air 1TB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2X4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2M4X/A": {
-            "name": "iPhone 17 Air 256GB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2M4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2L4X/A": {
-            "name": "iPhone 17 Air 256GB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2L4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2N4X/A": {
-            "name": "iPhone 17 Air 256GB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2N4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Q4X/A": {
-            "name": "iPhone 17 Air 512GB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Q4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG304X/A": {
-            "name": "iPhone 17 Air 1TB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG304X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2P4X/A": {
-            "name": "iPhone 17 Air 256GB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2P4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "ca": {
@@ -753,176 +584,7 @@
     "fr": {
       "iphone-air": {
         "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
-        "skus": {
-          "MG2U4F/A": {
-            "name": "iPhone 17 Air 512 Go Or clair",
-            "colorKey": "lightgold",
-            "colorDisplay": "Or clair",
-            "capacity": "512 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2U4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2V4F/A": {
-            "name": "iPhone 17 Air 512 Go Bleu ciel",
-            "colorKey": "skyblue",
-            "colorDisplay": "Bleu ciel",
-            "capacity": "512 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2V4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2T4F/A": {
-            "name": "iPhone 17 Air 512 Go Blanc nuage",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Blanc nuage",
-            "capacity": "512 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2T4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Y4F/A": {
-            "name": "iPhone 17 Air 1 To Or clair",
-            "colorKey": "lightgold",
-            "colorDisplay": "Or clair",
-            "capacity": "1 To",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Y4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2W4F/A": {
-            "name": "iPhone 17 Air 1 To Noir sidéral",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
-            "capacity": "1 To",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2W4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2X4F/A": {
-            "name": "iPhone 17 Air 1 To Blanc nuage",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Blanc nuage",
-            "capacity": "1 To",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2X4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2M4F/A": {
-            "name": "iPhone 17 Air 256 Go Blanc nuage",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Blanc nuage",
-            "capacity": "256 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2M4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2L4F/A": {
-            "name": "iPhone 17 Air 256 Go Noir sidéral",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
-            "capacity": "256 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2L4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2N4F/A": {
-            "name": "iPhone 17 Air 256 Go Or clair",
-            "colorKey": "lightgold",
-            "colorDisplay": "Or clair",
-            "capacity": "256 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2N4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Q4F/A": {
-            "name": "iPhone 17 Air 512 Go Noir sidéral",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
-            "capacity": "512 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Q4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG304F/A": {
-            "name": "iPhone 17 Air 1 To Bleu ciel",
-            "colorKey": "skyblue",
-            "colorDisplay": "Bleu ciel",
-            "capacity": "1 To",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG304F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2P4F/A": {
-            "name": "iPhone 17 Air 256 Go Bleu ciel",
-            "colorKey": "skyblue",
-            "colorDisplay": "Bleu ciel",
-            "capacity": "256 Go",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2P4F/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "it": {
@@ -2193,176 +1855,7 @@
     "jp": {
       "iphone-air": {
         "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-        "skus": {
-          "MG2D4J/A": {
-            "name": "iPhone 17 Air 256GB スカイブルー",
-            "colorKey": "skyblue",
-            "colorDisplay": "スカイブルー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2D4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2E4J/A": {
-            "name": "iPhone 17 Air 256GB ライトゴールド",
-            "colorKey": "lightgold",
-            "colorDisplay": "ライトゴールド",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2E4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2C4J/A": {
-            "name": "iPhone 17 Air 256GB クラウドホワイト",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "クラウドホワイト",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2C4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG284J/A": {
-            "name": "iPhone 17 Air 256GB スペースブラック",
-            "colorKey": "spaceblack",
-            "colorDisplay": "スペースブラック",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG284J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2H4J/A": {
-            "name": "iPhone 17 Air 512GB スカイブルー",
-            "colorKey": "skyblue",
-            "colorDisplay": "スカイブルー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2H4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG294J/A": {
-            "name": "iPhone 17 Air 512GB ライトゴールド",
-            "colorKey": "lightgold",
-            "colorDisplay": "ライトゴールド",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG294J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2F4J/A": {
-            "name": "iPhone 17 Air 512GB クラウドホワイト",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "クラウドホワイト",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2F4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG274J/A": {
-            "name": "iPhone 17 Air 512GB スペースブラック",
-            "colorKey": "spaceblack",
-            "colorDisplay": "スペースブラック",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG274J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2G4J/A": {
-            "name": "iPhone 17 Air 1TB スカイブルー",
-            "colorKey": "skyblue",
-            "colorDisplay": "スカイブルー",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2G4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2J4J/A": {
-            "name": "iPhone 17 Air 1TB ライトゴールド",
-            "colorKey": "lightgold",
-            "colorDisplay": "ライトゴールド",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2J4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2K4J/A": {
-            "name": "iPhone 17 Air 1TB クラウドホワイト",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "クラウドホワイト",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2K4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2A4J/A": {
-            "name": "iPhone 17 Air 1TB スペースブラック",
-            "colorKey": "spaceblack",
-            "colorDisplay": "スペースブラック",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2A4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
@@ -2598,176 +2091,7 @@
     "sg": {
       "iphone-air": {
         "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air",
-        "skus": {
-          "MG2U4X/A": {
-            "name": "iPhone 17 Air 512GB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2U4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2V4X/A": {
-            "name": "iPhone 17 Air 512GB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2V4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2T4X/A": {
-            "name": "iPhone 17 Air 512GB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2T4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Y4X/A": {
-            "name": "iPhone 17 Air 1TB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Y4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2W4X/A": {
-            "name": "iPhone 17 Air 1TB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2W4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2X4X/A": {
-            "name": "iPhone 17 Air 1TB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2X4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2M4X/A": {
-            "name": "iPhone 17 Air 256GB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2M4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2L4X/A": {
-            "name": "iPhone 17 Air 256GB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2L4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2N4X/A": {
-            "name": "iPhone 17 Air 256GB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2N4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Q4X/A": {
-            "name": "iPhone 17 Air 512GB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Q4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG304X/A": {
-            "name": "iPhone 17 Air 1TB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG304X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2P4X/A": {
-            "name": "iPhone 17 Air 256GB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2P4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "tw": {
@@ -3003,176 +2327,7 @@
     "my": {
       "iphone-air": {
         "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air",
-        "skus": {
-          "MG2U4X/A": {
-            "name": "iPhone 17 Air 512GB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2U4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2V4X/A": {
-            "name": "iPhone 17 Air 512GB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2V4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2T4X/A": {
-            "name": "iPhone 17 Air 512GB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2T4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Y4X/A": {
-            "name": "iPhone 17 Air 1TB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Y4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2W4X/A": {
-            "name": "iPhone 17 Air 1TB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2W4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2X4X/A": {
-            "name": "iPhone 17 Air 1TB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2X4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2M4X/A": {
-            "name": "iPhone 17 Air 256GB Cloud White",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Cloud White",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2M4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2L4X/A": {
-            "name": "iPhone 17 Air 256GB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2L4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2N4X/A": {
-            "name": "iPhone 17 Air 256GB Light Gold",
-            "colorKey": "lightgold",
-            "colorDisplay": "Light Gold",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2N4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2Q4X/A": {
-            "name": "iPhone 17 Air 512GB Space Black",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Space Black",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2Q4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG304X/A": {
-            "name": "iPhone 17 Air 1TB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "1TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG304X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG2P4X/A": {
-            "name": "iPhone 17 Air 256GB Sky Blue",
-            "colorKey": "skyblue",
-            "colorDisplay": "Sky Blue",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG2P4X/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "in": {
@@ -3753,176 +2908,7 @@
     "mx": {
       "iphone-air": {
         "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air",
-        "skus": {
-          "MG1Q4E/A": {
-            "name": "iPhone 17 Air 1 TB Azul cielo",
-            "colorKey": "skyblue",
-            "colorDisplay": "Azul cielo",
-            "capacity": "1 TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1Q4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1A4E/A": {
-            "name": "iPhone 17 Air 256 GB Oro claro",
-            "colorKey": "lightgold",
-            "colorDisplay": "Oro claro",
-            "capacity": "256 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1A4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1G4E/A": {
-            "name": "iPhone 17 Air 512 GB Blanco nube",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Blanco nube",
-            "capacity": "512 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1G4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1D4E/A": {
-            "name": "iPhone 17 Air 256 GB Azul cielo",
-            "colorKey": "skyblue",
-            "colorDisplay": "Azul cielo",
-            "capacity": "256 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1D4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1E4E/A": {
-            "name": "iPhone 17 Air 512 GB Negro espacial",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Negro espacial",
-            "capacity": "512 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1E4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1J4E/A": {
-            "name": "iPhone 17 Air 512 GB Azul cielo",
-            "colorKey": "skyblue",
-            "colorDisplay": "Azul cielo",
-            "capacity": "512 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1J4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1L4E/A": {
-            "name": "iPhone 17 Air 1 TB Negro espacial",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Negro espacial",
-            "capacity": "1 TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1L4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG184E/A": {
-            "name": "iPhone 17 Air 256 GB Negro espacial",
-            "colorKey": "spaceblack",
-            "colorDisplay": "Negro espacial",
-            "capacity": "256 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG184E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1H4E/A": {
-            "name": "iPhone 17 Air 512 GB Oro claro",
-            "colorKey": "lightgold",
-            "colorDisplay": "Oro claro",
-            "capacity": "512 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1H4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG194E/A": {
-            "name": "iPhone 17 Air 256 GB Blanco nube",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Blanco nube",
-            "capacity": "256 GB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG194E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1P4E/A": {
-            "name": "iPhone 17 Air 1 TB Oro claro",
-            "colorKey": "lightgold",
-            "colorDisplay": "Oro claro",
-            "capacity": "1 TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1P4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG1N4E/A": {
-            "name": "iPhone 17 Air 1 TB Blanco nube",
-            "colorKey": "cloudwhite",
-            "colorDisplay": "Blanco nube",
-            "capacity": "1 TB",
-            "dimensionScreensize": "",
-            "family": "iphoneair",
-            "familyName": "iPhone 17 Air",
-            "partNumber": "MG1N4E/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "cn": {
@@ -4048,7 +3034,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4058,7 +3044,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4068,7 +3054,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4078,7 +3064,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4088,7 +3074,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4098,7 +3084,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4108,7 +3094,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4118,7 +3104,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4128,7 +3114,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4138,7 +3124,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4148,7 +3134,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4158,7 +3144,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4168,7 +3154,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4178,7 +3164,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4188,7 +3174,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4198,7 +3184,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4208,7 +3194,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4218,7 +3204,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4228,7 +3214,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4238,7 +3224,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4248,7 +3234,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4258,7 +3244,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4268,7 +3254,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4278,7 +3264,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4288,7 +3274,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4298,7 +3284,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4308,7 +3294,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4318,7 +3304,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4328,7 +3314,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4338,7 +3324,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4348,7 +3334,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     },
@@ -4358,7 +3344,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-air": "iPhone Air 256GB Sky Blue"
+          "iphone-air": "iPhone Air"
         }
       }
     }

@@ -1567,148 +1567,7 @@
     "jp": {
       "iphone-17": {
         "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-        "skus": {
-          "MG6A4J/A": {
-            "name": "iPhone 17 256GB ミストブルー",
-            "colorKey": "mistblue",
-            "colorDisplay": "ミストブルー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6A4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG6D4J/A": {
-            "name": "iPhone 17 256GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6D4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG6E4J/A": {
-            "name": "iPhone 17 256GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6E4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG6C4J/A": {
-            "name": "iPhone 17 256GB ラベンダー",
-            "colorKey": "lavender",
-            "colorDisplay": "ラベンダー",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6C4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG684J/A": {
-            "name": "iPhone 17 512GB ミストブルー",
-            "colorKey": "mistblue",
-            "colorDisplay": "ミストブルー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG684J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG6H4J/A": {
-            "name": "iPhone 17 512GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6H4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG694J/A": {
-            "name": "iPhone 17 512GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG694J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG6F4J/A": {
-            "name": "iPhone 17 512GB ラベンダー",
-            "colorKey": "lavender",
-            "colorDisplay": "ラベンダー",
-            "capacity": "512GB",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6F4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG674J/A": {
-            "name": "iPhone 17",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG674J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MG6G4J/A": {
-            "name": "iPhone 17",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "iphone17",
-            "familyName": "iPhone 17",
-            "partNumber": "MG6G4J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
@@ -2707,7 +2566,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2717,7 +2576,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2727,7 +2586,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2737,7 +2596,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2747,7 +2606,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2757,7 +2616,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2767,7 +2626,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2777,7 +2636,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2787,7 +2646,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2797,7 +2656,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2807,7 +2666,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2817,7 +2676,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2827,7 +2686,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2837,7 +2696,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2847,7 +2706,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2857,7 +2716,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2867,7 +2726,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2877,7 +2736,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2887,7 +2746,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2897,7 +2756,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2907,7 +2766,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2917,7 +2776,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2927,7 +2786,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2937,7 +2796,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2947,7 +2806,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2957,7 +2816,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2967,7 +2826,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2977,7 +2836,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2987,7 +2846,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -2997,7 +2856,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -3007,7 +2866,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     },
@@ -3017,7 +2876,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-17": "iPhone 17 512GB Black"
+          "iphone-17": "iPhone 17"
         }
       }
     }

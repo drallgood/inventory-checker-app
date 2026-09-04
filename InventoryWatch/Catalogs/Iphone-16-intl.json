@@ -2423,218 +2423,7 @@
     "jp": {
       "iphone-16": {
         "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-        "skus": {
-          "MXVA3J/A": {
-            "name": "iPhone 16 Plus 128GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVA3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVF3J/A": {
-            "name": "iPhone 16 Plus 128GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVF3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVE3J/A": {
-            "name": "iPhone 16 Plus 128GB ピンク",
-            "colorKey": "pink",
-            "colorDisplay": "ピンク",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVE3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVD3J/A": {
-            "name": "iPhone 16 Plus 256GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVD3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVC3J/A": {
-            "name": "iPhone 16 Plus 256GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVC3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVJ3J/A": {
-            "name": "iPhone 16 Plus 256GB ピンク",
-            "colorKey": "pink",
-            "colorDisplay": "ピンク",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVJ3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVH3J/A": {
-            "name": "iPhone 16 Plus",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVH3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVG3J/A": {
-            "name": "iPhone 16 Plus",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVG3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVL3J/A": {
-            "name": "iPhone 16 Plus",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVL3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MXVK3J/A": {
-            "name": "iPhone 16 Plus",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "iphone16plus",
-            "familyName": "iPhone 16 Plus",
-            "partNumber": "MXVK3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MYDT3J/A": {
-            "name": "iPhone 16 128GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16",
-            "familyName": "iPhone 16",
-            "partNumber": "MYDT3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MYDR3J/A": {
-            "name": "iPhone 16 128GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16",
-            "familyName": "iPhone 16",
-            "partNumber": "MYDR3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MYDQ3J/A": {
-            "name": "iPhone 16 128GB ピンク",
-            "colorKey": "pink",
-            "colorDisplay": "ピンク",
-            "capacity": "128GB",
-            "dimensionScreensize": "",
-            "family": "iphone16",
-            "familyName": "iPhone 16",
-            "partNumber": "MYDQ3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MYDV3J/A": {
-            "name": "iPhone 16 256GB ブラック",
-            "colorKey": "black",
-            "colorDisplay": "ブラック",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16",
-            "familyName": "iPhone 16",
-            "partNumber": "MYDV3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          },
-          "MYDU3J/A": {
-            "name": "iPhone 16 256GB ホワイト",
-            "colorKey": "white",
-            "colorDisplay": "ホワイト",
-            "capacity": "256GB",
-            "dimensionScreensize": "",
-            "family": "iphone16",
-            "familyName": "iPhone 16",
-            "partNumber": "MYDU3J/A",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "iphone"
-            }
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
@@ -4355,7 +4144,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4365,7 +4154,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4375,7 +4164,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4385,7 +4174,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4395,7 +4184,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4405,7 +4194,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4415,7 +4204,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4425,7 +4214,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4435,7 +4224,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4445,7 +4234,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4455,7 +4244,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4465,7 +4254,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4475,7 +4264,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4485,7 +4274,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4495,7 +4284,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4505,7 +4294,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4515,7 +4304,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4525,7 +4314,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4535,7 +4324,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4545,7 +4334,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4555,7 +4344,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4565,7 +4354,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4575,7 +4364,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4585,7 +4374,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4595,7 +4384,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4605,7 +4394,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4615,7 +4404,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4625,7 +4414,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4635,7 +4424,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4645,7 +4434,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4655,7 +4444,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     },
@@ -4665,7 +4454,7 @@
       },
       "localization": {
         "token_display": {
-          "iphone-16": "iPhone 16 Plus 128GB Black"
+          "iphone-16": "iPhone 16"
         }
       }
     }
