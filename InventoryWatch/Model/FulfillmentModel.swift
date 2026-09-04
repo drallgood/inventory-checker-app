@@ -151,20 +151,25 @@ actor FulfillmentModel {
         let country = defaultsVendor.preferredCountry
         let family = defaultsVendor.preferredProductFamily
         let watchToken = defaultsVendor.preferredWatchToken
-        let phoneToken = defaultsVendor.preferredPhoneToken
+let phoneToken = defaultsVendor.preferredPhoneToken
         let macToken = defaultsVendor.preferredMacToken
+        let iPadToken = defaultsVendor.preferrediPadToken
         var resolvedSKUs: [String] = []
         if family.isWatch,
            watchToken.isEmpty == false,
            let data = await SKUDataLoader().watchSKUData(forToken: watchToken, country: country) {
             resolvedSKUs = data.orderedSKUs
         } else if family.isIPhone,
-                  phoneToken.isEmpty == false,
-                  let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
+                   phoneToken.isEmpty == false,
+                   let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
             resolvedSKUs = data.orderedSKUs
         } else if family.isMac,
-                  macToken.isEmpty == false,
-                  let data = await SKUDataLoader().macSKUData(forToken: macToken, country: country) {
+                   macToken.isEmpty == false,
+                   let data = await SKUDataLoader().macSKUData(forToken: macToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
+        } else if family.isIPad,
+                   iPadToken.isEmpty == false,
+                   let data = await SKUDataLoader().ipadSKUData(forToken: iPadToken, country: country) {
             resolvedSKUs = data.orderedSKUs
         } else {
             // Fallback: try whichever token is set, else empty

@@ -9,6 +9,7 @@ Entry-point driven Apple models scraper (per-model JSON emitter)
 """
 from __future__ import annotations
 import argparse
+from datetime import datetime, timezone
 from typing import Any
 try:
     # Legacy, more robust extractor (used as a fallback for Watch)
@@ -532,6 +533,37 @@ class Scraper:
                     mappings.setdefault(key_norm, val_clean)
             if mappings:
                 break
+
+        return mappings
+
+    def _extract_select_header_mappings_from_html(self, html: str) -> dict:
+        """
+        Extract localized variant labels from Apple buy pages.
+
+        Many pages embed swatch/selector metadata like:
+          "midnight-select-202503_SW_COLOR" ... "header":"Mitternacht"
+
+        We parse these (without hardcoding translations) into:
+          { "midnight": "Mitternacht" }
+
+        Keys are normalized to lowercase alnum.
+        """
+        if not html:
+            return {}
+
+        mappings: dict = {}
+        # Allow tokens like "space-black", "nano_texture", "midnight".
+        # Keep window bounded to avoid pathological backtracking.
+        sel_re = re.compile(
+            r'"([a-z0-9_-]{3,40})-select-[^"]+"[\s\S]{0,500}?"header"\s*:\s*"([^"]{1,120})"',
+            re.IGNORECASE
+        )
+        for m in sel_re.finditer(html):
+            raw_key, raw_header = m.group(1), m.group(2)
+            key_norm = re.sub(r'[^a-z0-9]', '', (raw_key or '').lower())
+            header_clean = re.sub(r'<[^>]+>', '', (raw_header or '')).strip()
+            if key_norm and header_clean:
+                mappings.setdefault(key_norm, header_clean)
 
         return mappings
 
@@ -1468,29 +1500,55 @@ class Scraper:
                 except Exception:
                     pass
 
-                out.setdefault(pn, {
-                    "name": "",  # filled later in run() once token display is known
-                    "colorKey": "",
-                    "colorDisplay": "",
-                    "capacity": "",
-                    "dimensionScreensize": size,
-                    "family": "mac",
-                    "familyName": "Mac",
-                    "metadata": {
-                        "isRealPartNumber": True,
-                        "processor": proc,
-                        "displayFinish": finish,
-                        "containerPartNumber": container,
-                        "colorHint": color_hint,
-                    }
-                })
+                # Merge/enrich existing entry if it was created earlier by generic regexes.
+                existing = out.get(pn)
+                if not isinstance(existing, dict):
+                    existing = {}
+                # Preserve any existing name if present (some pages may have a better one);
+                # otherwise keep it empty and we will generate a human-friendly one later.
+                existing.setdefault("name", "")
+                existing.setdefault("colorKey", "")
+                existing.setdefault("colorDisplay", "")
+                existing.setdefault("capacity", "")
+                existing.setdefault("family", "mac")
+                existing.setdefault("familyName", "Mac")
+                if size:
+                    existing["dimensionScreensize"] = size
+
+                md = existing.get("metadata") if isinstance(existing.get("metadata"), dict) else {}
+                md.setdefault("isRealPartNumber", True)
+                if proc:
+                    md["processor"] = proc
+                if finish:
+                    md["displayFinish"] = finish
+                if container:
+                    md["containerPartNumber"] = container
+                if color_hint:
+                    md["colorHint"] = color_hint
+                if md:
+                    existing["metadata"] = md
+
+                out[pn] = existing
 
             # 4b) As a catch-all, also scan the compacted scope for any full part numbers
             # that the normal HTML regex might miss due to inserted whitespace.
             for m in re.finditer(r'([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])', compact_html):
                 pn = m.group(1)
-                if pn:
-                    out.setdefault(pn, {"name": "", "colorKey": "", "colorDisplay": "", "capacity": "", "family": "mac", "familyName": "Mac", "metadata": {"isRealPartNumber": True}})
+                if not pn:
+                    continue
+                existing = out.get(pn)
+                if not isinstance(existing, dict):
+                    existing = {}
+                existing.setdefault("name", "")
+                existing.setdefault("colorKey", "")
+                existing.setdefault("colorDisplay", "")
+                existing.setdefault("capacity", "")
+                existing.setdefault("family", "mac")
+                existing.setdefault("familyName", "Mac")
+                md = existing.get("metadata") if isinstance(existing.get("metadata"), dict) else {}
+                md.setdefault("isRealPartNumber", True)
+                existing["metadata"] = md
+                out[pn] = existing
 
             # Try both orders: partNumber then name, or name then partNumber
             pair_patterns = [
@@ -1554,7 +1612,7 @@ class Scraper:
         pretty = ''.join(p.capitalize() for p in parts)
         return pretty or token
 
-    def emit_model_file(self, family: str, token: str, country_to_data: Dict[str, Tuple[str, Dict[str, dict]]], token_display_override: Optional[str] = None) -> str:
+    def emit_model_file(self, family: str, token: str, country_to_data: Dict[str, Tuple[str, Dict[str, dict]]], token_display_override: Optional[str] = None, regions_count: int = 0) -> str:
         """
         country_to_data: country_code -> (shop_path, skus_dict)
         """
@@ -1634,6 +1692,13 @@ class Scraper:
         root = {
             "discovered_models": discovered,
             "country_mappings": country_mappings
+        }
+        root["_meta"] = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "scraper_version": "1.0",
+            "family": family,
+            "token": token,
+            "regions_scraped": regions_count
         }
         fam_map = {
             'iphone': 'iPhone',
@@ -2060,6 +2125,7 @@ class Scraper:
                     # Many locales provide translated finish names inside displayValues blocks.
                     localized_finish_map = self._extract_display_value_mappings_from_html(html, 'dimensionFinish') if html else {}
                     localized_color_map = self._extract_display_value_mappings_from_html(html, 'dimensionColor') if html else {}
+                    select_header_map = self._extract_select_header_mappings_from_html(html) if html else {}
 
                     def _norm_key(s: str) -> str:
                         return re.sub(r'[^a-z0-9]', '', (s or '').lower())
@@ -2088,6 +2154,10 @@ class Scraper:
                         f = (raw or '').strip()
                         if not f or f.lower() == 'standard':
                             return ''
+                        # Prefer localized label from selector headers when present.
+                        fk = _norm_key(f)
+                        if fk and fk in select_header_map:
+                            return select_header_map[fk]
                         return f.replace('_', ' ').replace('-', ' ').title()
 
                     def _pretty_color(md: dict) -> str:
@@ -2112,6 +2182,8 @@ class Scraper:
                             k = _norm_key(c)
                             if not k:
                                 continue
+                            if k in select_header_map:
+                                return select_header_map[k]
                             if k in localized_color_map:
                                 return localized_color_map[k]
                             if k in localized_finish_map:
@@ -2807,7 +2879,7 @@ class Scraper:
                 
                 country_to_data[r["code"].upper()] = (shop_path, skus or {})
             if country_to_data:
-                self.emit_model_file(family, token, country_to_data, token_display_override=inferred_display)
+                self.emit_model_file(family, token, country_to_data, token_display_override=inferred_display, regions_count=len(regions))
             else:
                 print(f"[warn] no data for token {token} in selected regions")
 

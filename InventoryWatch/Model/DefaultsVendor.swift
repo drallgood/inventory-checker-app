@@ -13,15 +13,18 @@ enum ProductFamily: String, Codable, CaseIterable, Identifiable {
     case watch = "watch"
     case iphone = "iphone"
     case mac = "mac"
+    case ipad = "ipad"
     var id: Self { self }
     var isWatch: Bool { self == .watch }
     var isIPhone: Bool { self == .iphone }
     var isMac: Bool { self == .mac }
+    var isIPad: Bool { self == .ipad }
     var displayName: String {
         switch self {
         case .watch: return "Apple Watch"
         case .iphone: return "iPhone"
         case .mac: return "Mac"
+        case .ipad: return "iPad"
         }
     }
 }
@@ -151,5 +154,9 @@ struct DefaultsVendor {
     // Token-driven Mac selection
     var preferredMacToken: String {
         UserDefaults.standard.string(forKey: "preferredMacToken") ?? ""
+    }
+
+    var preferrediPadToken: String {
+        UserDefaults.standard.string(forKey: "preferrediPadToken") ?? ""
     }
 }

@@ -123,6 +123,20 @@ struct NotificationSender {
         if family.isIPhone {
             return "iPhone"
         }
+        if family.isMac {
+            return "Mac"
+        }
+        if family.isIPad {
+            // If an iPad token is selected, derive display name from JSON
+            let token = defaults.preferrediPadToken
+            if token.isEmpty == false {
+                let country = defaults.preferredCountry
+                if let display = await displayNameForiPadToken(token: token, country: country) {
+                    return display
+                }
+            }
+            return "iPad"
+        }
         // Fallback: infer from SKU names (should not typically be reached)
         for sku in skuData.orderedSKUs {
             if let productName = skuData.productName(forSKU: sku) {
@@ -162,12 +176,27 @@ struct NotificationSender {
             return nil
         }
     }
+
+    private func displayNameForiPadToken(token: String, country: Country) async -> String? {
+        return await MainActor.run {
+            guard let dict = JSONCatalogiPad.categoryData(for: country, sourcePage: token), let md = dict.values.first else { return nil }
+            if let famName = md.familyName, famName.isEmpty == false, famName.lowercased() != "unknown" {
+                return famName
+            }
+            if md.family.isEmpty == false {
+                return md.family.replacingOccurrences(of: "_", with: " ").capitalized
+            }
+            return token.replacingOccurrences(of: "-", with: " ").capitalized
+        }
+    }
     
     private func getProductEmojiFromSKUData(_ skuData: SKUData) -> String {
         // Emoji should reflect the active product family
         let family = DefaultsVendor().preferredProductFamily
         if family.isWatch { return "⌚️" }
         if family.isIPhone { return "📱" }
+        if family.isMac { return "💻" }
+        if family.isIPad { return "📱" }
         return "📱"
     }
     

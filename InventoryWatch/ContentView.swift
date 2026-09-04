@@ -15,9 +15,9 @@ struct ContentView: View {
     @AppStorage("preferredWatchToken") private var preferredWatchToken: String = ""
     @AppStorage("preferredPhoneToken") private var preferredPhoneToken: String = ""
     @AppStorage("preferredMacToken") private var preferredMacToken: String = ""
+    @AppStorage("preferrediPadToken") private var preferrediPadToken: String = ""
     @AppStorage("useLargeText") private var useLargeText: Bool = false
     @AppStorage("shouldIncludeNearbyStores") private var shouldIncludeNearbyStores: Bool = true
-
     
     private var onlyShowingPreferredResults: Bool {
         return UserDefaults.standard.bool(forKey: "showResultsOnlyForPreferredModels")
@@ -25,11 +25,9 @@ struct ContentView: View {
 
 @MainActor
 private func displayNameForPhoneToken(token: String, country: Country) -> String? {
-    // Prefer explicit JSON-provided token display if available
     if let explicit = JSONCatalogiPhone.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
         return explicit
     }
-    // Derive name from JSON metadata; fall back to prettified token
     var baseName: String = "iPhone"
     if let dict = JSONCatalogiPhone.categoryData(for: country, sourcePage: token),
        let md = dict.values.first {
@@ -48,6 +46,22 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
         }
     }
     return variant.isEmpty ? baseName : "\(baseName) \(variant)"
+}
+
+@MainActor
+private func displayNameForMacToken(token: String, country: Country) -> String? {
+    if let explicit = JSONCatalogMac.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+        return explicit
+    }
+    return token.replacingOccurrences(of: "-", with: " ").capitalized
+}
+
+@MainActor
+private func displayNameForiPadToken(token: String, country: Country) -> String? {
+    if let explicit = JSONCatalogiPad.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+        return explicit
+    }
+    return token.replacingOccurrences(of: "-", with: " ").capitalized
 }
     
     var body: some View {
@@ -96,6 +110,16 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
                         Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
                             .font(font)
                             .fontWeight(.semibold)
+                    } else if let fam = family, fam.isMac, !preferredMacToken.isEmpty,
+                              let tokenName = displayNameForMacToken(token: preferredMacToken, country: country) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
+                    } else if let fam = family, fam.isIPad, !preferrediPadToken.isEmpty,
+                              let tokenName = displayNameForiPadToken(token: preferrediPadToken, country: country) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
                     } else if family != nil {
                         Text("Available Models")
                             .font(font)
@@ -105,7 +129,6 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
                             .font(font)
                             .fontWeight(.semibold)
                     }
-                    
                     
                     if let preferredStoreName = model.preferredStoreName {
                         Text("\(shouldIncludeNearbyStores ? "near" : "at") \(preferredStoreName)")
@@ -124,8 +147,6 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
             }
             
             ZStack(alignment:.center) {
-                
-                
                 List {
                     if let error = model.errorState {
                         Text(error.errorMessage)
@@ -133,247 +154,75 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
                             .italic()
                     }
 
-                    let productFont = useLargeText ? Font.title.weight(.medium) : Font.body.weight(.medium)
                     let country = model.defaultsVendor.preferredCountry
                     let preferred = model.defaultsVendor.preferredProductFamily
 
-                    // Render only the selected Apple Watch model token (Settings -> Watch Model)
-                    if preferred.isWatch {
-                        // Build availability set from current inventory (any store)
-                        let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
-                        // Build per-SKU pickup availability details (store count and a sample quote)
-                        let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
-                            let parts = entry.1
-                            parts.forEach { part in
-                                guard part.availability == .available else { return }
-                                let current = acc[part.partNumber] ?? (0, nil)
-                                let newCount = current.count + 1
-                                let quote = current.quote ?? part.availabilityStorePickupQuote
-                                acc[part.partNumber] = (newCount, quote)
-                            }
+                    let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
+                    let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
+                        let parts = entry.1
+                        parts.forEach { part in
+                            guard part.availability == .available else { return }
+                            let current = acc[part.partNumber] ?? (0, nil)
+                            let newCount = current.count + 1
+                            let quote = current.quote ?? part.availabilityStorePickupQuote
+                            acc[part.partNumber] = (newCount, quote)
                         }
-                        // Preferred SKUs from Settings
-                        let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
-                        // Token from Settings
-                        let token = preferredWatchToken
-                        if token.isEmpty {
-                            Text("Select a Watch Model in Settings.")
-                                .foregroundColor(.secondary)
-                        } else if let data = SKUDataLoader().watchSKUData(forToken: token, country: country) {
-                            // Filter SKUs: only those with availability AND (if preferred list set) present in preferred SKUs
-                            let filtered = data.orderedSKUs.filter { sku in
-                                let isAvailable = availableSkus.contains(sku)
-                                if preferredSkus.isEmpty { return isAvailable }
-                                return isAvailable && preferredSkus.contains(sku)
-                            }
-                            if filtered.isEmpty {
-                                Text("No models available in-store.")
-                                    .foregroundColor(.secondary)
-                            } else {
-                                ForEach(filtered, id: \.self) { partNumber in
-                                    let name = data.productName(forSKU: partNumber) ?? partNumber
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        HStack {
-                                            Text(name)
-                                                .font(productFont)
-                                            Spacer()
-                                        }
-                                        // PDP URL preview (resolved from JSON)
-                                        if let preview = SKUDataLoader().watchProductURL(for: partNumber, country: country)?.absoluteString {
-                                            Text(preview)
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.secondary)
-                                                .textSelection(.enabled)
-                                        }
-                                        // Pickup availability (aggregated across stores)
-                                        if let info = pickupInfo[partNumber] {
-                                            let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
-                                            let quoteText = info.quote ?? "Available for pickup"
-                                            Text("Pickup: \(quoteText) • \(countText)")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.green)
-                                        } else {
-                                            Text("Pickup: Unavailable")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.secondary)
-                                        }
-                                        Button(action: {
-                                            Task {
-                                                if let url = SKUDataLoader().watchProductURL(for: partNumber, country: country) {
-                                                    NSWorkspace.shared.open(url)
-                                                    return
-                                                }
-                                                // Fallback: token/category-level buy page URL from our JSON catalogs
-                                                // (e.g. /shop/buy-watch/apple-watch-ultra). Avoid hardcoded product URLs.
-                                                if let url = SKUDataLoader().watchCategoryURL(for: country, sourcePage: token) {
-                                                    NSWorkspace.shared.open(url)
-                                                    return
-                                                }
+                    }
+                    let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
 
-                                                print("⚠️ Could not resolve watch order URL for sku=\(partNumber), token=\(token)")
-                                            }
-                                        }) {
-                                            Text("Order Online")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.blue)
-                                        }
-                                        .buttonStyle(PlainButtonStyle())
-                                    }
-                                    .padding(.vertical, 2)
-                                }
-                            }
-                        } else {
-                            Text("No SKUs available")
-                                .foregroundColor(.secondary)
-                        }
+                    if preferred.isWatch {
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferredWatchToken,
+                            emptyTokenMessage: "Select a Watch Model in Settings.",
+                            skuData: SKUDataLoader().watchSKUData(forToken: preferredWatchToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { SKUDataLoader().watchProductURL(for: $0, country: country) },
+                            categoryURL: { SKUDataLoader().watchCategoryURL(for: country, sourcePage: preferredWatchToken) },
+                            showPDPPreview: true
+                        )
                     } else if preferred.isIPhone {
-                        // iPhone tokenized rendering
-                        // Build availability set from current inventory (any store)
-                        let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
-                        // Build per-SKU pickup availability details (store count and a sample quote)
-                        let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
-                            let parts = entry.1
-                            parts.forEach { part in
-                                guard part.availability == .available else { return }
-                                let current = acc[part.partNumber] ?? (0, nil)
-                                let newCount = current.count + 1
-                                let quote = current.quote ?? part.availabilityStorePickupQuote
-                                acc[part.partNumber] = (newCount, quote)
-                            }
-                        }
-                        // Preferred SKUs from Settings
-                        let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
-                        // Token from Settings
-                        let token = preferredPhoneToken
-                        if token.isEmpty {
-                            Text("Select a Phone Model in Settings.")
-                                .foregroundColor(.secondary)
-                        } else if let data = SKUDataLoader().phoneSKUData(forToken: token, country: country) {
-                            let filtered = data.orderedSKUs.filter { sku in
-                                let isAvailable = availableSkus.contains(sku)
-                                if preferredSkus.isEmpty { return isAvailable }
-                                return isAvailable && preferredSkus.contains(sku)
-                            }
-                            if filtered.isEmpty {
-                                Text("No models available in-store.")
-                                    .foregroundColor(.secondary)
-                            } else {
-                                ForEach(filtered, id: \.self) { partNumber in
-                                    let name = data.productName(forSKU: partNumber) ?? partNumber
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        HStack {
-                                            Text(name)
-                                                .font(productFont)
-                                            Spacer()
-                                        }
-                                        // PDP URL preview (resolved from JSON)
-                                        if let preview = SKUDataLoader().phoneProductURL(for: partNumber, country: country)?.absoluteString {
-                                            Text(preview)
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.secondary)
-                                                .textSelection(.enabled)
-                                        }
-                                        // Pickup availability (aggregated across stores)
-                                        if let info = pickupInfo[partNumber] {
-                                            let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
-                                            let quoteText = info.quote ?? "Available for pickup"
-                                            Text("Pickup: \(quoteText) • \(countText)")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.green)
-                                        } else {
-                                            Text("Pickup: Unavailable")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.secondary)
-                                        }
-                                        Button(action: {
-                                            // Prefer per-SKU PDP URL, fallback to token base derived from scraped JSON
-                                            if let url = SKUDataLoader().phoneProductURL(for: partNumber, country: country) {
-                                                NSWorkspace.shared.open(url)
-                                            } else if let base = SKUDataLoader().phonePDPBaseURL(for: country, sourcePage: token) {
-                                                NSWorkspace.shared.open(base)
-                                            }
-                                        }) {
-                                            Text("Order Online")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.blue)
-                                        }
-                                        .buttonStyle(PlainButtonStyle())
-                                    }
-                                    .padding(.vertical, 2)
-                                }
-                            }
-                        } else {
-                            Text("No SKUs available")
-                                .foregroundColor(.secondary)
-                        }
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferredPhoneToken,
+                            emptyTokenMessage: "Select a Phone Model in Settings.",
+                            skuData: SKUDataLoader().phoneSKUData(forToken: preferredPhoneToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { SKUDataLoader().phoneProductURL(for: $0, country: country) },
+                            categoryURL: { SKUDataLoader().phonePDPBaseURL(for: country, sourcePage: preferredPhoneToken) },
+                            showPDPPreview: true
+                        )
                     } else if preferred.isMac {
-                        // Mac tokenized rendering
-                        let availableSkus: Set<String> = Set(model.availableParts.flatMap { $0.1.map { $0.partNumber } })
-                        let pickupInfo: [String: (count: Int, quote: String?)] = model.availableParts.reduce(into: [:]) { (acc: inout [String: (count: Int, quote: String?)], entry) in
-                            let parts = entry.1
-                            parts.forEach { part in
-                                guard part.availability == .available else { return }
-                                let current = acc[part.partNumber] ?? (0, nil)
-                                let newCount = current.count + 1
-                                let quote = current.quote ?? part.availabilityStorePickupQuote
-                                acc[part.partNumber] = (newCount, quote)
-                            }
-                        }
-                        let preferredSkus = Set((UserDefaults.standard.string(forKey: "preferredSKUs") ?? "").split(separator: ",").map { String($0) }.filter { !$0.isEmpty })
-                        let token = preferredMacToken
-                        if token.isEmpty {
-                            Text("Select a Mac Model in Settings.")
-                                .foregroundColor(.secondary)
-                        } else if let data = SKUDataLoader().macSKUData(forToken: token, country: country) {
-                            let filtered = data.orderedSKUs.filter { sku in
-                                let isAvailable = availableSkus.contains(sku)
-                                if preferredSkus.isEmpty { return isAvailable }
-                                return isAvailable && preferredSkus.contains(sku)
-                            }
-                            if filtered.isEmpty {
-                                Text("No models available in-store.")
-                                    .foregroundColor(.secondary)
-                            } else {
-                                ForEach(filtered, id: \.self) { partNumber in
-                                    let name = data.productName(forSKU: partNumber) ?? partNumber
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        HStack {
-                                            Text(name)
-                                                .font(productFont)
-                                            Spacer()
-                                        }
-                                        if let info = pickupInfo[partNumber] {
-                                            let countText = info.count == 1 ? "1 store" : "\(info.count) stores"
-                                            let quoteText = info.quote ?? "Available for pickup"
-                                            Text("Pickup: \(quoteText) • \(countText)")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.green)
-                                        } else {
-                                            Text("Pickup: Unavailable")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.secondary)
-                                        }
-                                        Button(action: {
-                                            // Mac catalogs currently provide token-level buy URLs.
-                                            if let url = JSONCatalogMac.pdpBaseURL(for: country, sourcePage: token) {
-                                                NSWorkspace.shared.open(url)
-                                            }
-                                        }) {
-                                            Text("Order Online")
-                                                .font(useLargeText ? .caption : .caption2)
-                                                .foregroundColor(.blue)
-                                        }
-                                        .buttonStyle(PlainButtonStyle())
-                                    }
-                                    .padding(.vertical, 2)
-                                }
-                            }
-                        } else {
-                            Text("No SKUs available")
-                                .foregroundColor(.secondary)
-                        }
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferredMacToken,
+                            emptyTokenMessage: "Select a Mac Model in Settings.",
+                            skuData: SKUDataLoader().macSKUData(forToken: preferredMacToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { _ in nil },
+                            categoryURL: { JSONCatalogMac.pdpBaseURL(for: country, sourcePage: preferredMacToken) },
+                            showPDPPreview: false
+                        )
+                    } else if preferred.isIPad {
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferrediPadToken,
+                            emptyTokenMessage: "Select an iPad Model in Settings.",
+                            skuData: SKUDataLoader().ipadSKUData(forToken: preferrediPadToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { _ in nil },
+                            categoryURL: { JSONCatalogiPad.pdpBaseURL(for: country, sourcePage: preferrediPadToken) },
+                            showPDPPreview: false
+                        )
                     } else {
-                        // Non-tokenized categories
                         if model.availableParts.isEmpty && model.isLoading == false {
                             Text("No models available in-store.")
                                 .foregroundColor(.secondary)
@@ -381,7 +230,6 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
                     }
                 }
                 
-                // Hide legacy inventory empty-state for Apple Watch JSON-driven UI
                 let preferred = model.defaultsVendor.preferredProductFamily
                 if preferred.isWatch == false {
                     if model.availableParts.isEmpty && model.isLoading == false {
@@ -439,7 +287,6 @@ private func displayNameForPhoneToken(token: String, country: Country) -> String
 
 @MainActor
 private func displayNameForWatchToken(token: String, country: Country) -> String? {
-    // Derive name purely from JSON metadata; avoid any hardcoded configuration
     if let dict = JSONCatalogAppleWatch.categoryData(for: country, sourcePage: token),
        let md = dict.values.first {
         var baseName: String? = nil
@@ -459,13 +306,5 @@ private func displayNameForWatchToken(token: String, country: Country) -> String
         }
         if let base = baseName { return variant != nil ? "\(base) \(variant!)" : base }
     }
-    // Last resort, prettify token
     return token.replacingOccurrences(of: "-", with: " ").capitalized
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//            .environmentObject(Model.testData)
-//    }
-//}

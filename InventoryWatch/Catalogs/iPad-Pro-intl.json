@@ -1,0 +1,5907 @@
+{
+  "discovered_models": {
+    "us": {
+      "ipad-pro": {
+        "url": "https://www.apple.com/us/shop/buy-ipad/ipad-pro",
+        "skus": {
+          "MDWU4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWK4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWM4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWP4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWV4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWN4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWL4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWQ4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWX4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWT4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWW4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWR4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2X4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6D4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2W4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6C4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2N4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Q4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2U4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Y4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2P4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2T4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2V4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6A4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDYR4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDYW4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYQ4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYV4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYK4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYM4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYP4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYU4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYJ4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYN4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYL4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYT4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8G4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8M4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8H4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8N4LL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7Y4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7W4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8D4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8J4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7X4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8C4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8F4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8K4LL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MX2D3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MUWA3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23J/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03E/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23E/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03J/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23KU/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03KU/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43KU/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53E/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53J/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53KU/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43E/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43J/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXU72LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXUG2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SN7W2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXU82LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXUJ2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "PWR33AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          },
+          "ENGLISH/C": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "uk": {
+      "ipad-pro": {
+        "url": "https://www.apple.com/uk/shop/buy-ipad/ipad-pro",
+        "skus": {
+          "MDWU4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWK4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWM4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWP4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWV4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWN4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWL4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWQ4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWX4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWT4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWW4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWR4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2X4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6D4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2W4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6C4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2N4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Q4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2U4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Y4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2P4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2T4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2V4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6A4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDYR4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYW4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYQ4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYV4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYK4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYM4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYP4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYU4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYJ4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYN4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYL4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYT4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8G4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8M4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8H4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8N4KN/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7Y4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7W4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8D4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8J4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7X4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8C4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8F4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8K4KN/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MX2D3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MUWA3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXU72ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXUG2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SN7W2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXU82ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXUJ2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "PWR33ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "au": {
+      "ipad-pro": {
+        "url": "https://www.apple.com/au/shop/buy-ipad/ipad-pro",
+        "skus": {
+          "MDWU4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWK4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWM4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWP4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWV4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWN4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWL4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWQ4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWX4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWT4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWW4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWR4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2X4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6D4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2W4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6C4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2N4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Q4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2U4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Y4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2P4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2T4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2V4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6A4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDYR4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYW4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYQ4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYV4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYK4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYM4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYP4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYU4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYJ4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYN4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYL4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYT4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8G4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8M4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8H4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8N4X/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7Y4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7W4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8D4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8J4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7X4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8C4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8F4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8K4X/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MX2D3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MUWA3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03CV/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03BX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03AX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23AX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03TH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23BX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23TH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23CV/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23JX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23KX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03KX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03JX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43TH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43CV/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43BX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53TH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43KX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43JX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53CV/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43AX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53AX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53BX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53KX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53JX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "PWR33ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          },
+          "ARABIC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          },
+          "BRITISH/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          },
+          "JAPANESE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          },
+          "KOREAN/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "ca": {
+      "ipad-pro": {
+        "url": "https://www.apple.com/ca/shop/buy-ipad/ipad-pro",
+        "skus": {
+          "MDWU4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWK4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWM4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWP4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWV4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWN4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWL4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWQ4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWX4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWT4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWW4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDWR4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2X4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6D4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2W4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6C4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2N4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Q4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2U4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2Y4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2P4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2T4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME2V4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "ME6A4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11-inch iPad Pro"
+          },
+          "MDYR4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYW4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYQ4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYV4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYK4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYM4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYP4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYU4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYJ4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYN4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYL4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MDYT4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8G4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8M4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8H4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8N4CL/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7Y4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7W4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8D4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8J4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME7X4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8C4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8F4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "ME8K4CL/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13-inch iPad Pro"
+          },
+          "MX2D3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MUWA3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03C/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23C/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR23EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR03EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53C/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43C/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43LC/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR43AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "MWR53EQ/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXTA2Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SDPR3Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SXTD2Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "SDPX3Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11-inch (M5)"
+          },
+          "PWR33AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          },
+          "ENGLISH/C": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "de": {
+      "ipad-pro": {
+        "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+        "skus": {
+          "MDWU4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWK4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWM4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWP4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWV4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWN4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWL4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWQ4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWX4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWT4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWW4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDWR4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2X4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME6D4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2W4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME6C4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2N4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2Q4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2U4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2Y4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2P4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2T4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME2V4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "ME6A4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "11"
+          },
+          "MDYR4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYW4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYQ4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYV4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYK4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYM4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYP4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYU4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYJ4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYN4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYL4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MDYT4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8G4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8M4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8H4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8N4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME7Y4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME7W4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8D4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8J4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME7X4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8C4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8F4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "ME8K4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "13” iPad Pro"
+          },
+          "MX2D3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MUWA3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR03CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR23RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43MG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR53TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "MWR43SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "SXU72ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "SXUG2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "SN7W2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "SXU82ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "SXUJ2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "11\" iPad Pro (M5)"
+          },
+          "PWR33ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "fr": {
+      "ipad-pro": {
+        "url": "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+        "skus": {
+          "MDWU4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWK4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWM4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWP4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWV4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWN4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWL4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWQ4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWX4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWT4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWW4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDWR4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2X4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME6D4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2W4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME6C4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2N4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2Q4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2U4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2Y4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2P4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2T4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME2V4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "ME6A4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "11inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces"
+          },
+          "MDYR4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYW4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYQ4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYV4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYK4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYM4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYP4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYU4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYJ4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYN4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYL4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MDYT4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8G4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8M4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-spaceblack",
+            "colorDisplay": "with nano-texture glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8H4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8N4TY/A": {
+            "name": "",
+            "colorKey": "withnano-textureglass-silver",
+            "colorDisplay": "with nano-texture glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME7Y4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME7W4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8D4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8J4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-spaceblack",
+            "colorDisplay": "with standard glass - Space Black",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME7X4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "256GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8C4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "512GB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8F4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "1TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "ME8K4TY/A": {
+            "name": "",
+            "colorKey": "withstandardglass-silver",
+            "colorDisplay": "with standard glass - Silver",
+            "capacity": "2TB",
+            "dimensionScreensize": "13inch",
+            "family": "ipad",
+            "familyName": "iPad Pro 13 pouces"
+          },
+          "MX2D3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MUWA3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR03CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR23RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43PO/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53LB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43N/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43DK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43S/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43H/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43UA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53T/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43F/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53Y/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43D/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43B/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43AB/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43CG/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53RS/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR53TX/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "MWR43SM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "SXU72ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "SXUG2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "SN7W2ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "SXU82ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "SXUJ2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad Pro 11 pouces (M5)"
+          },
+          "PWR33ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "us": {
+      "shop_paths": {
+        "ipad-pro": "shop/buy-ipad/ipad-pro"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-pro": "iPad Pro 11 pouces (M5)"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "ipad-pro": "shop/buy-ipad/ipad-pro"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-pro": "iPad Pro 11 pouces (M5)"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "ipad-pro": "shop/buy-ipad/ipad-pro"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-pro": "iPad Pro 11 pouces (M5)"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "ipad-pro": "shop/buy-ipad/ipad-pro"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-pro": "iPad Pro 11 pouces (M5)"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "ipad-pro": "shop/buy-ipad/ipad-pro"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-pro": "iPad Pro 11 pouces (M5)"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "ipad-pro": "shop/buy-ipad/ipad-pro"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-pro": "iPad Pro 11 pouces (M5)"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T13:22:41.730708+00:00",
+    "scraper_version": "1.0",
+    "family": "ipad",
+    "token": "ipad-pro",
+    "regions_scraped": 6
+  }
+}

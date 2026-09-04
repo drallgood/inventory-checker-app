@@ -1,0 +1,1859 @@
+{
+  "discovered_models": {
+    "us": {
+      "ipad-mini": {
+        "url": "https://www.apple.com/us/shop/buy-ipad/ipad-mini",
+        "skus": {
+          "MXN93LL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNE3LL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH33LL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN83LL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXND3LL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH23LL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYGY3LL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN63LL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNA3LL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN73LL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNC3LL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH13LL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHF3LL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPR3LL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPY3LL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHC3LL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPN3LL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPT3LL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHE3LL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPQ3LL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPX3LL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHD3LL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPP3LL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPW3LL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MX2D3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MUWA3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2T4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2V4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2U4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2Q4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SVW82LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SW1J2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SN7W2LL/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "PWR33AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "uk": {
+      "ipad-mini": {
+        "url": "https://www.apple.com/uk/shop/buy-ipad/ipad-mini",
+        "skus": {
+          "MXN93NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNE3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH33NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN83NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXND3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH23NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYGY3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN63NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNA3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN73NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNC3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH13NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHF3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPR3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPY3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHC3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPN3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPT3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHE3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPQ3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPX3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHD3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPP3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPW3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MX2D3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MUWA3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2T4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2V4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2U4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2Q4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SVW82ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SW1J2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SN7W2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "PWR33ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "au": {
+      "ipad-mini": {
+        "url": "https://www.apple.com/au/shop/buy-ipad/ipad-mini",
+        "skus": {
+          "MXN93X/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNE3X/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH33X/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN83X/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXND3X/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH23X/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYGY3X/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN63X/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNA3X/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN73X/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNC3X/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH13X/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHF3X/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPR3X/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPY3X/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHC3X/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPN3X/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPT3X/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHE3X/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPQ3X/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPX3X/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHD3X/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPP3X/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPW3X/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MX2D3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MUWA3ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2Q4FE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2V4FE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2U4FE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2T4FE/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "PWR33ZA/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "ca": {
+      "ipad-mini": {
+        "url": "https://www.apple.com/ca/shop/buy-ipad/ipad-mini",
+        "skus": {
+          "MXN93CL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNE3CL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH33CL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN83CL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXND3CL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH23CL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYGY3CL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN63CL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNA3CL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN73CL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNC3CL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH13CL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHF3CL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPR3CL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPY3CL/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHC3CL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPN3CL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPT3CL/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHE3CL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPQ3CL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPX3CL/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHD3CL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPP3CL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPW3CL/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MX2D3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MUWA3AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2T4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2V4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2U4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2Q4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SNGX2Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "STTY2Z/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "PWR33AM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "de": {
+      "ipad-mini": {
+        "url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
+        "skus": {
+          "MXN93NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNE3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH33NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN83NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXND3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH23NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYGY3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN63NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNA3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN73NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNC3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH13NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHF3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPR3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPY3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHC3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPN3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPT3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHE3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPQ3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPX3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHD3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPP3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPW3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MX2D3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MUWA3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2T4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2V4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2U4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2Q4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SVW82ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SW1J2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SN7W2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "PWR33ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    },
+    "fr": {
+      "ipad-mini": {
+        "url": "https://www.apple.com/fr/shop/buy-ipad/ipad-mini",
+        "skus": {
+          "MXN93NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNE3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH33NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN83NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXND3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH23NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYGY3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN63NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNA3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXN73NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXNC3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYH13NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHF3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPR3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPY3NF/A": {
+            "name": "",
+            "colorKey": "-purple",
+            "colorDisplay": "- Purple",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHC3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPN3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPT3NF/A": {
+            "name": "",
+            "colorKey": "-spacegray",
+            "colorDisplay": "- Space Gray",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHE3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPQ3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPX3NF/A": {
+            "name": "",
+            "colorKey": "-starlight",
+            "colorDisplay": "- Starlight",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MYHD3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPP3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "128GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MXPW3NF/A": {
+            "name": "",
+            "colorKey": "-blue",
+            "colorDisplay": "- Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "ipad",
+            "familyName": "ipad"
+          },
+          "MX2D3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MUWA3ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2T4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2V4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2U4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "MC2Q4ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SVW82ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SW1J2ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "SN7W2ZK/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "iPad mini (A17 Pro)"
+          },
+          "PWR33ZM/A": {
+            "name": "",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "ipad",
+            "familyName": "Ipad"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "us": {
+      "shop_paths": {
+        "ipad-mini": "shop/buy-ipad/ipad-mini"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-mini": "iPad mini (A17 Pro)"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "ipad-mini": "shop/buy-ipad/ipad-mini"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-mini": "iPad mini (A17 Pro)"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "ipad-mini": "shop/buy-ipad/ipad-mini"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-mini": "iPad mini (A17 Pro)"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "ipad-mini": "shop/buy-ipad/ipad-mini"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-mini": "iPad mini (A17 Pro)"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "ipad-mini": "shop/buy-ipad/ipad-mini"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-mini": "iPad mini (A17 Pro)"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "ipad-mini": "shop/buy-ipad/ipad-mini"
+      },
+      "localization": {
+        "token_display": {
+          "ipad-mini": "iPad mini (A17 Pro)"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T13:22:53.468229+00:00",
+    "scraper_version": "1.0",
+    "family": "ipad",
+    "token": "ipad-mini",
+    "regions_scraped": 6
+  }
+}

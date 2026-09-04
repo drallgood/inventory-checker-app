@@ -54,6 +54,7 @@ struct SettingsView: View {
     @AppStorage("preferredWatchToken") private var preferredWatchToken: String = ""
     @AppStorage("preferredPhoneToken") private var preferredPhoneToken: String = ""
     @AppStorage("preferredMacToken") private var preferredMacToken: String = ""
+    @AppStorage("preferrediPadToken") private var preferrediPadToken: String = ""
     @AppStorage("notifyOnlyForPreferredModels") private var notifyOnlyForPreferredModels: Bool = false
     @AppStorage("showResultsOnlyForPreferredModels") private var showResultsOnlyForPreferredModels: Bool = false
     @AppStorage("customSku") private var customSku = ""
@@ -71,7 +72,9 @@ struct SettingsView: View {
     @State private var availableMacTokens: [String] = []
     @State private var watchTokenNames: [String: String] = [:]
     @State private var phoneTokenNames: [String: String] = [:]
-    @State private var macTokenNames: [String: String] = [:]
+@State private var macTokenNames: [String: String] = [:]
+    @State private var availableiPadTokens: [String] = []
+    @State private var iPadTokenNames: [String: String] = [:]
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -109,6 +112,7 @@ struct SettingsView: View {
         .onChange(of: preferredWatchToken) { _ in handlePreferredWatchTokenChange() }
         .onChange(of: preferredPhoneToken) { _ in handlePreferredPhoneTokenChange() }
         .onChange(of: preferredMacToken) { _ in handlePreferredMacTokenChange() }
+        .onChange(of: preferrediPadToken) { _ in handlePreferrediPadTokenChange() }
     }
 
     // Break complex views into smaller computed blocks to assist the type-checker
@@ -247,6 +251,10 @@ struct SettingsView: View {
             guard let fam = ProductFamily(rawValue: preferredProductType) else { return false }
             return fam.isMac
         }()
+        let isIPad: Bool = {
+            guard let fam = ProductFamily(rawValue: preferredProductType) else { return false }
+            return fam.isIPad
+        }()
         // Dropdown to switch between product families
         Picker("Product Type", selection: $preferredProductType) {
             ForEach(ProductFamily.allCases) { family in
@@ -327,6 +335,39 @@ struct SettingsView: View {
             .id("macpicker-\(preferredCountry)-\(preferredProductType)-\(availableMacTokens.joined(separator: ","))")
             .pickerStyle(.menu)
             .frame(minWidth: 260)
+        } else if isIPad {
+            let selectediPadDisplayName: String = {
+                if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()],
+                   preferrediPadToken.isEmpty == false,
+                   let name = JSONCatalogiPad.tokenDisplayName(for: country, sourcePage: preferrediPadToken) {
+                    return name
+                }
+                return iPadTokenNames[preferrediPadToken] ?? preferrediPadToken
+            }()
+            HStack {
+                Text("iPad Model")
+                Spacer()
+                Text(selectediPadDisplayName).foregroundColor(.secondary)
+            }
+            if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()] {
+                let pdpBase = JSONCatalogiPad.pdpBaseURL(for: country, sourcePage: preferrediPadToken)
+                HStack(spacing: 8) {
+                    Text("PDP Base")
+                    Spacer()
+                    Text(pdpBase?.absoluteString ?? "—")
+                        .foregroundColor(.secondary)
+                        .lineLimit(1)
+                        .truncationMode(.middle)
+                }
+            }
+            Picker("", selection: $preferrediPadToken) {
+                ForEach(availableiPadTokens, id: \.self) { token in
+                    Text(iPadTokenNames[token] ?? token).tag(token)
+                }
+            }
+            .id("iPadpicker-\(preferredCountry)-\(preferredProductType)-\(availableiPadTokens.joined(separator: ","))")
+            .pickerStyle(.menu)
+            .frame(minWidth: 260)
         }
     }
     
@@ -372,6 +413,18 @@ struct SettingsView: View {
             if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()],
                preferredMacToken.isEmpty == false,
                let skuData = SKUDataLoader().macSKUData(forToken: preferredMacToken, country: country) {
+                allModels = skuData.orderedSKUs.map { sku in
+                    let name = skuData.productName(forSKU: sku) ?? sku
+                    return ProductModel(sku: sku, name: name, isFavorite: favoriteSkus.contains(sku))
+                }
+                return
+            }
+        }
+        // When iPad is selected and a token is chosen, use iPad token path
+        if family?.isIPad == true {
+            if let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()],
+               preferrediPadToken.isEmpty == false,
+               let skuData = SKUDataLoader().ipadSKUData(forToken: preferrediPadToken, country: country) {
                 allModels = skuData.orderedSKUs.map { sku in
                     let name = skuData.productName(forSKU: sku) ?? sku
                     return ProductModel(sku: sku, name: name, isFavorite: favoriteSkus.contains(sku))
@@ -524,6 +577,26 @@ struct SettingsView: View {
         }
     }
 
+    @MainActor func loadiPadTokens() async {
+        guard let country = Countries[preferredCountry] ?? Countries[preferredCountry.uppercased()] else { return }
+        availableiPadTokens = JSONCatalogiPad.categoriesSourcePages(for: country)
+        var names: [String: String] = [:]
+        for token in availableiPadTokens {
+            if let explicit = JSONCatalogiPad.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+                names[token] = explicit
+                continue
+            }
+            names[token] = token.replacingOccurrences(of: "-", with: " ").capitalized
+        }
+        iPadTokenNames = names
+        let perCountryKey = "preferrediPadToken.\(preferredCountry.uppercased())"
+        if let saved = UserDefaults.standard.string(forKey: perCountryKey), availableiPadTokens.contains(saved) {
+            preferrediPadToken = saved
+        } else if preferrediPadToken.isEmpty || availableiPadTokens.contains(preferrediPadToken) == false {
+            preferrediPadToken = availableiPadTokens.first ?? ""
+        }
+    }
+
     private func displayName(forToken token: String) -> String {
         if let name = watchTokenNames[token], name.isEmpty == false { return name }
         // Fallback: prettify token string
@@ -593,6 +666,7 @@ struct SettingsView: View {
         Task { await loadWatchTokens() }
         Task { await loadPhoneTokens() }
         Task { await loadMacTokens() }
+        Task { await loadiPadTokens() }
     }
 
     private func handleSelectedCountryIndexChange(_ newValue: Int) {
@@ -601,6 +675,7 @@ struct SettingsView: View {
         Task { await loadWatchTokens() }
         Task { await loadPhoneTokens() }
         Task { await loadMacTokens() }
+        Task { await loadiPadTokens() }
     }
 
     private func handleAllModelsChange(_ models: [ProductModel]) {
@@ -633,6 +708,7 @@ struct SettingsView: View {
         Task { await loadWatchTokens() }
         Task { await loadPhoneTokens() }
         Task { await loadMacTokens() }
+        Task { await loadiPadTokens() }
     }
 
     private func handlePreferredStoreNumberChange() {
@@ -652,6 +728,7 @@ struct SettingsView: View {
         Task { await loadWatchTokens() }
         Task { await loadPhoneTokens() }
         Task { await loadMacTokens() }
+        Task { await loadiPadTokens() }
     }
 
     private func handleReloadInventory() {
@@ -677,6 +754,15 @@ struct SettingsView: View {
         // Persist per-country selection for Mac token
         let perCountryKey = "preferredMacToken.\(preferredCountry.uppercased())"
         UserDefaults.standard.set(preferredMacToken, forKey: perCountryKey)
+        Task { await loadSkus() }
+        model.clearCurrentAvailableParts()
+        Task { await model.fetchLatestInventory() }
+    }
+
+    private func handlePreferrediPadTokenChange() {
+        // Persist per-country selection for iPad token
+        let perCountryKey = "preferrediPadToken.\(preferredCountry.uppercased())"
+        UserDefaults.standard.set(preferrediPadToken, forKey: perCountryKey)
         Task { await loadSkus() }
         model.clearCurrentAvailableParts()
         Task { await model.fetchLatestInventory() }

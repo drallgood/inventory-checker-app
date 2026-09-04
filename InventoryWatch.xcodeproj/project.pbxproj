@@ -33,6 +33,12 @@
 		38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38E4279D273EF542006BF6D7 /* Credits.rtf */; };
 		46F138010000000000000001 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F138020000000000000002 /* countries.json */; };
 		469112532E7CB945004C26BC /* Mac-Imac-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124C2E7CB945004C26BC /* Mac-Imac-intl.json */; };
+		46F13B012E80001000CBE7DB /* CatalogTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B002E80001000CBE7DB /* CatalogTypes.swift */; };
+		46F13B032E80002000CBE7DB /* JSONCatalogMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B022E80002000CBE7DB /* JSONCatalogMac.swift */; };
+		46F13B052E80003000CBE7DB /* JSONCatalogiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B042E80003000CBE7DB /* JSONCatalogiPhone.swift */; };
+		46F13B072E80004000CBE7DB /* JSONCatalogAppleWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B062E80004000CBE7DB /* JSONCatalogAppleWatch.swift */; };
+		46F13B092E80005000CBE7DB /* ProductAvailabilityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B082E80005000CBE7DB /* ProductAvailabilityList.swift */; };
+		46F13B0B2E80006000CBE7DB /* JSONCatalogiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B0A2E80006000CBE7DB /* JSONCatalogiPad.swift */; };
 		469112542E7CB945004C26BC /* Mac-MacbookPro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */; };
 		469112552E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */; };
 		469112562E7CB945004C26BC /* Mac-Mini-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */; };
@@ -49,6 +55,10 @@
 		46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */; };
 		46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */; };
 		46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */; };
+		46F13B0D2E80008000CBE7DB /* iPad-Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B0C2E80008000CBE7DB /* iPad-Pro-intl.json */; };
+		46F13B112E80009000CBE7DB /* iPad-Air-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B102E80009000CBE7DB /* iPad-Air-intl.json */; };
+		46F13B132E8000A000CBE7DB /* iPad-Ipad-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B122E8000A000CBE7DB /* iPad-Ipad-intl.json */; };
+		46F13B152E8000B000CBE7DB /* iPad-Mini-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B142E8000B000CBE7DB /* iPad-Mini-intl.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +105,16 @@
 		46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17-intl.json"; sourceTree = "<group>"; };
 		46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17Pro-intl.json"; sourceTree = "<group>"; };
 		46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-Air-intl.json"; sourceTree = "<group>"; };
+		46F13B002E80001000CBE7DB /* CatalogTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTypes.swift; sourceTree = "<group>"; };
+		46F13B022E80002000CBE7DB /* JSONCatalogMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogMac.swift; sourceTree = "<group>"; };
+		46F13B042E80003000CBE7DB /* JSONCatalogiPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogiPhone.swift; sourceTree = "<group>"; };
+		46F13B062E80004000CBE7DB /* JSONCatalogAppleWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogAppleWatch.swift; sourceTree = "<group>"; };
+		46F13B082E80005000CBE7DB /* ProductAvailabilityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAvailabilityList.swift; sourceTree = "<group>"; };
+		46F13B0A2E80006000CBE7DB /* JSONCatalogiPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogiPad.swift; sourceTree = "<group>"; };
+		46F13B0C2E80008000CBE7DB /* iPad-Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Pro-intl.json"; sourceTree = "<group>"; };
+		46F13B102E80009000CBE7DB /* iPad-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Air-intl.json"; sourceTree = "<group>"; };
+		46F13B122E8000A000CBE7DB /* iPad-Ipad-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Ipad-intl.json"; sourceTree = "<group>"; };
+		46F13B142E8000B000CBE7DB /* iPad-Mini-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Mini-intl.json"; sourceTree = "<group>"; };
 		46F138020000000000000002 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +164,7 @@
 				386FDC562739DA7300C1BAC2 /* InventoryWatchApp.swift */,
 				386FDC582739DA7300C1BAC2 /* ContentView.swift */,
 				3817268D273AA898003B8D76 /* SettingsView.swift */,
+				46F13B0F2E80007000CBE7DB /* Views */,
 				3885D54A289170E700BD6A78 /* Model */,
 				38E1C21927E6714E0047703D /* Helpers.swift */,
 				3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */,
@@ -178,6 +199,11 @@
 				385886AE290827D6003D3C80 /* SKUDataLoader.swift */,
 				385886B02908280E003D3C80 /* FulfillmentModel.swift */,
 				3895BE93290B101B00FBC188 /* NotificationSender.swift */,
+				46F13B002E80001000CBE7DB /* CatalogTypes.swift */,
+				46F13B022E80002000CBE7DB /* JSONCatalogMac.swift */,
+				46F13B042E80003000CBE7DB /* JSONCatalogiPhone.swift */,
+				46F13B062E80004000CBE7DB /* JSONCatalogAppleWatch.swift */,
+				46F13B0A2E80006000CBE7DB /* JSONCatalogiPad.swift */,
 				3863FF54290D7F550013C1DE /* ModelTypes */,
 			);
 			path = Model;
@@ -202,9 +228,21 @@
 				46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */,
 				46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */,
 				46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */,
+				46F13B0C2E80008000CBE7DB /* iPad-Pro-intl.json */,
+				46F13B102E80009000CBE7DB /* iPad-Air-intl.json */,
+				46F13B122E8000A000CBE7DB /* iPad-Ipad-intl.json */,
+				46F13B142E8000B000CBE7DB /* iPad-Mini-intl.json */,
 				46F138020000000000000002 /* countries.json */,
 			);
 			path = Catalogs;
+			sourceTree = "<group>";
+		};
+		46F13B0F2E80007000CBE7DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F13B082E80005000CBE7DB /* ProductAvailabilityList.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +322,10 @@
 				46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */,
 				46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */,
 				46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */,
+				46F13B0D2E80008000CBE7DB /* iPad-Pro-intl.json in Resources */,
+				46F13B112E80009000CBE7DB /* iPad-Air-intl.json in Resources */,
+				46F13B132E8000A000CBE7DB /* iPad-Ipad-intl.json in Resources */,
+				46F13B152E8000B000CBE7DB /* iPad-Mini-intl.json in Resources */,
 				386FDC5E2739DA7300C1BAC2 /* Preview Assets.xcassets in Resources */,
 				386FDC5B2739DA7300C1BAC2 /* Assets.xcassets in Resources */,
 				46F138010000000000000001 /* countries.json in Resources */,
@@ -311,6 +353,12 @@
 				385886B529082831003D3C80 /* ViewModel.swift in Sources */,
 				386FDC592739DA7300C1BAC2 /* ContentView.swift in Sources */,
 				385886AF290827D6003D3C80 /* SKUDataLoader.swift in Sources */,
+				46F13B012E80001000CBE7DB /* CatalogTypes.swift in Sources */,
+				46F13B032E80002000CBE7DB /* JSONCatalogMac.swift in Sources */,
+				46F13B052E80003000CBE7DB /* JSONCatalogiPhone.swift in Sources */,
+				46F13B072E80004000CBE7DB /* JSONCatalogAppleWatch.swift in Sources */,
+				46F13B092E80005000CBE7DB /* ProductAvailabilityList.swift in Sources */,
+				46F13B0B2E80006000CBE7DB /* JSONCatalogiPad.swift in Sources */,
 				385886B12908280E003D3C80 /* FulfillmentModel.swift in Sources */,
 				3885D5542891719600BD6A78 /* GithubTag.swift in Sources */,
 				3895BE92290ACE5000FBC188 /* AppleWatchData.swift in Sources */,
