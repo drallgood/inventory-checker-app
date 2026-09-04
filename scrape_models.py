@@ -1626,23 +1626,43 @@ class Scraper:
         return out
 
     @staticmethod
-    def _derive_numeric_size_names(size_map: Dict[str, str]) -> None:
-        """Mutate size_map in-place: replace numeric-only values by substituting numbers from remaining entries."""
+    def _token_base_name(family: str, token: str) -> str:
+        base_map = {'iphone': 'iPhone', 'watch': 'Apple Watch', 'mac': 'Mac', 'ipad': 'iPad'}
+        base = base_map.get((family or '').lower(), (family or '').title())
+        t = token
+        if t.lower().startswith((family or '').lower() + "-"):
+            t = t[len(family) + 1:]
+        parts = [p.capitalize() for p in t.split('-') if p]
+        pretty = ' '.join(parts)
+        if pretty.lower() == base.lower():
+            return base
+        return f'{base} {pretty}'.strip() if pretty else base
+
+    @staticmethod
+    def _derive_numeric_size_names(size_map: Dict[str, str], base_name: str = '') -> None:
+        """Mutate size_map in-place: replace numeric-only values by substituting numbers from remaining entries.
+        When all entries are numeric, rebuild using base_name and key numbers if provided."""
         numeric_keys = {k for k, v in size_map.items() if not re.search(r'[A-Za-z]', v)}
-        if not numeric_keys or len(size_map) <= len(numeric_keys):
+        if not numeric_keys:
             return
         remaining = {k: v for k, v in size_map.items() if k not in numeric_keys}
-        ref_size, ref_name = next(iter(remaining.items()))
-        ref_num = re.search(r'(\d+)', ref_size)
-        if not ref_num:
-            return
-        ref_num_str = ref_num.group(1)
-        for nk in numeric_keys:
-            nk_num = re.search(r'(\d+)', nk)
-            if nk_num and nk_num.group(1) != ref_num_str:
-                derived = ref_name.replace(ref_num_str, nk_num.group(1))
-                if derived != ref_name:
-                    size_map[nk] = derived
+        if remaining:
+            ref_size, ref_name = next(iter(remaining.items()))
+            ref_num = re.search(r'(\d+)', ref_size)
+            if ref_num:
+                ref_num_str = ref_num.group(1)
+                for nk in numeric_keys:
+                    nk_num = re.search(r'(\d+)', nk)
+                    if nk_num and nk_num.group(1) != ref_num_str:
+                        derived = ref_name.replace(ref_num_str, nk_num.group(1))
+                        if derived != ref_name:
+                            size_map[nk] = derived
+        elif base_name:
+            # All entries numeric — build from keys: "11inch" -> "11-inch iPad Air"
+            for nk in numeric_keys:
+                nk_num = re.search(r'(\d+)', nk)
+                if nk_num:
+                    size_map[nk] = f'{nk_num.group(1)}-inch {base_name}'
         # Remove any remaining numeric-only entries that couldn't be derived
         for nk in list(size_map):
             if not re.search(r'[A-Za-z]', size_map[nk]):
@@ -2313,7 +2333,7 @@ class Scraper:
                                             size_to_model[key] = clean_val
 
                 if skus and size_to_model:
-                    self._derive_numeric_size_names(size_to_model)
+                    self._derive_numeric_size_names(size_to_model, self._token_base_name(family, token))
                     if not size_to_model:
                         print(f"[debug] size_to_model all entries were numeric-only — clearing to fall back")
                 if skus and size_to_model:
@@ -2751,7 +2771,7 @@ class Scraper:
                         best = sorted(counts.items(), key=lambda kv: (kv[1], len(kv[0])), reverse=True)[0][0]
                         base_map[base_k] = best
                     if base_map:
-                        self._derive_numeric_size_names(base_map)
+                        self._derive_numeric_size_names(base_map, self._token_base_name(family, token))
                         if base_map:
                             size_to_model.update(base_map)
                     if derived_map:
