@@ -348,7 +348,116 @@
     "au": {
       "iphone-air": {
         "url": "https://www.apple.com/au/shop/buy-iphone/iphone-air",
-        "skus": {}
+        "skus": {
+          "MG2U4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2V4X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2T4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Y4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2W4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2X4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2M4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2L4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2N4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Q4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG304X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2P4X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          }
+        }
       }
     },
     "ca": {
@@ -584,7 +693,116 @@
     "fr": {
       "iphone-air": {
         "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
-        "skus": {}
+        "skus": {
+          "MG2U4F/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Or clair",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2V4F/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Bleu ciel",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2T4F/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Blanc nuage",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Y4F/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Or clair",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2W4F/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Noir&nbsp;sidéral",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2X4F/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Blanc nuage",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2M4F/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Blanc nuage",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2L4F/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Noir&nbsp;sidéral",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2N4F/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Or clair",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Q4F/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Noir&nbsp;sidéral",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG304F/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Bleu ciel",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2P4F/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Bleu ciel",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          }
+        }
       }
     },
     "it": {
@@ -745,7 +963,7 @@
           "MG2W4QL/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Negro espacial",
+            "colorDisplay": "Negro&nbsp;espacial",
             "capacity": "1TB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -772,7 +990,7 @@
           "MG2L4QL/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Negro espacial",
+            "colorDisplay": "Negro&nbsp;espacial",
             "capacity": "256GB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -790,7 +1008,7 @@
           "MG2Q4QL/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Negro espacial",
+            "colorDisplay": "Negro&nbsp;espacial",
             "capacity": "512GB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1090,7 +1308,7 @@
           "MG2W4ZD/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
+            "colorDisplay": "Noir&nbsp;sidéral",
             "capacity": "1TB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1117,7 +1335,7 @@
           "MG2L4ZD/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
+            "colorDisplay": "Noir&nbsp;sidéral",
             "capacity": "256GB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1135,7 +1353,7 @@
           "MG2Q4ZD/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
+            "colorDisplay": "Noir&nbsp;sidéral",
             "capacity": "512GB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1320,7 +1538,7 @@
           "MG2W4QL/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
+            "colorDisplay": "Noir&nbsp;sidéral",
             "capacity": "1TB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1347,7 +1565,7 @@
           "MG2L4QL/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
+            "colorDisplay": "Noir&nbsp;sidéral",
             "capacity": "256GB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1365,7 +1583,7 @@
           "MG2Q4QL/A": {
             "name": "",
             "colorKey": "spaceblack",
-            "colorDisplay": "Noir sidéral",
+            "colorDisplay": "Noir&nbsp;sidéral",
             "capacity": "512GB",
             "dimensionScreensize": "",
             "family": "iphone",
@@ -1855,7 +2073,116 @@
     "jp": {
       "iphone-air": {
         "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-        "skus": {}
+        "skus": {
+          "MG2D4J/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "クラウドホワイト",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2E4J/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "ライトゴールド",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2C4J/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "スペースブラック",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG284J/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "クラウドホワイト",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2H4J/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "クラウドホワイト",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG294J/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "ライトゴールド",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2F4J/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "スカイブルー",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG274J/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "スペースブラック",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2G4J/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "スペースブラック",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2J4J/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "ライトゴールド",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2K4J/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "スカイブルー",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2A4J/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "スカイブルー",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          }
+        }
       }
     },
     "kr": {
@@ -2091,7 +2418,116 @@
     "sg": {
       "iphone-air": {
         "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-air",
-        "skus": {}
+        "skus": {
+          "MG2U4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2V4X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2T4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Y4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2W4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2X4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2M4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2L4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2N4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Q4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG304X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2P4X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          }
+        }
       }
     },
     "tw": {
@@ -2327,7 +2763,116 @@
     "my": {
       "iphone-air": {
         "url": "https://www.apple.com/my/shop/buy-iphone/iphone-air",
-        "skus": {}
+        "skus": {
+          "MG2U4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2V4X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2T4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Y4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2W4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2X4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2M4X/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Cloud White",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2L4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2N4X/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Light Gold",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2Q4X/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Space Black",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG304X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG2P4X/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Sky Blue",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          }
+        }
       }
     },
     "in": {
@@ -2908,7 +3453,116 @@
     "mx": {
       "iphone-air": {
         "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-air",
-        "skus": {}
+        "skus": {
+          "MG1Q4E/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Azul cielo",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1A4E/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Oro claro",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1G4E/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Blanco nube",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1D4E/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Azul cielo",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1E4E/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Negro espacial",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1J4E/A": {
+            "name": "",
+            "colorKey": "skyblue",
+            "colorDisplay": "Azul cielo",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1L4E/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Negro espacial",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG184E/A": {
+            "name": "",
+            "colorKey": "spaceblack",
+            "colorDisplay": "Negro espacial",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1H4E/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Oro claro",
+            "capacity": "512GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG194E/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Blanco nube",
+            "capacity": "256GB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1P4E/A": {
+            "name": "",
+            "colorKey": "lightgold",
+            "colorDisplay": "Oro claro",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          },
+          "MG1N4E/A": {
+            "name": "",
+            "colorKey": "cloudwhite",
+            "colorDisplay": "Blanco nube",
+            "capacity": "1TB",
+            "dimensionScreensize": "",
+            "family": "iphone",
+            "familyName": "Phone Air"
+          }
+        }
       }
     },
     "cn": {
@@ -3348,5 +4002,12 @@
         }
       }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T21:47:03.867511+00:00",
+    "scraper_version": "1.0",
+    "family": "iphone",
+    "token": "iphone-air",
+    "regions_scraped": 33
   }
 }

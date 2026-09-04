@@ -69,10 +69,13 @@ struct NotificationSender {
             return "No preferred models available at this time"
         }
         
+        let family = DefaultsVendor().preferredProductFamily
         let topModels = sortedModels.prefix(3).map { (part, count) in
-            let shortName = part.partName
-                .replacingOccurrences(of: "iPhone ", with: "")
-                .replacingOccurrences(of: " Pro Max", with: " Pro Max")
+            var shortName = part.partName
+            let prefix = "\(family.displayName) "
+            if shortName.hasPrefix(prefix) {
+                shortName = String(shortName.dropFirst(prefix.count))
+            }
             return "\(shortName) (×\(count))"
         }
         

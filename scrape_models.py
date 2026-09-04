@@ -783,7 +783,14 @@ class Scraper:
                     sku = p.get('part')
             if not sku or not isinstance(sku, str):
                 return
-            # Maintain base->name map for later offer stitching
+            # Validate part number format — skip non-product entries (keyboard layouts, accessories)
+            if not re.match(r'^[A-Z0-9]{2,6}[A-Z]{1,3}/[A-Z]$', sku):
+                # Accept bare base part numbers from metrics (e.g., MX2J3) for Watch enrichment
+                if not re.match(r'^[A-Z0-9]{4,6}$', sku):
+                    return
+            # Skip all-letter SKUs (keyboard/language bundles like ENGLISH/C, ARABIC/A)
+            if re.match(r'^[A-Z]{4,}/[A-Z]$', sku):
+                return
             try:
                 m = re.match(r'^([A-Z0-9]{3,6})', sku)
                 if m:
@@ -804,8 +811,14 @@ class Scraper:
                     p.get('screenSize') or
                     ''
                 )
-            # For localized products, keep name empty so app builds localized name
+# For localized products, keep name empty so app builds localized name
             final_name = name if not p.get('_localized_processed') else ""
+            # Skip entries with no product data — keyboard/language bundles
+            # Exempt Mac family (part numbers alone are sufficient for inventory tracking)
+            if (family_hint or '').lower() != 'mac':
+                has_data = bool((capacity or '').strip()) or bool((screensize or '').strip()) or (bool((color_display or '').strip()) and color_display != 'Unknown')
+                if not has_data:
+                    return
             out[sku] = {
                 "name": final_name,
                 "colorKey": color_key or "unknown",
@@ -1598,8 +1611,42 @@ class Scraper:
         except Exception:
             pass
         
+        # Post-filter: drop entries with no actual product data (keyboard bundles, etc.)
+        # Skip for Mac family (part numbers alone are sufficient for inventory tracking)
+        if (family_hint or '').lower() != 'mac':
+            out = {
+                sku: data for sku, data in out.items()
+                if isinstance(data, dict) and any(
+                    isinstance(v, str) and v.strip()
+                    for k, v in data.items()
+                    if k not in ('name', 'family', 'familyName', 'partNumber', 'part', 'metadata')
+                )
+            }
         
         return out
+
+    @staticmethod
+    def _derive_numeric_size_names(size_map: Dict[str, str]) -> None:
+        """Mutate size_map in-place: replace numeric-only values by substituting numbers from remaining entries."""
+        numeric_keys = {k for k, v in size_map.items() if not re.search(r'[A-Za-z]', v)}
+        if not numeric_keys or len(size_map) <= len(numeric_keys):
+            return
+        remaining = {k: v for k, v in size_map.items() if k not in numeric_keys}
+        ref_size, ref_name = next(iter(remaining.items()))
+        ref_num = re.search(r'(\d+)', ref_size)
+        if not ref_num:
+            return
+        ref_num_str = ref_num.group(1)
+        for nk in numeric_keys:
+            nk_num = re.search(r'(\d+)', nk)
+            if nk_num and nk_num.group(1) != ref_num_str:
+                derived = ref_name.replace(ref_num_str, nk_num.group(1))
+                if derived != ref_name:
+                    size_map[nk] = derived
+        # Remove any remaining numeric-only entries that couldn't be derived
+        for nk in list(size_map):
+            if not re.search(r'[A-Za-z]', size_map[nk]):
+                del size_map[nk]
 
     def _pretty_token_name(self, family: str, token: str) -> str:
         """Convert 'iphone-17-pro' -> '17Pro'; 'iphone-air' -> 'Air'."""
@@ -1612,30 +1659,13 @@ class Scraper:
         pretty = ''.join(p.capitalize() for p in parts)
         return pretty or token
 
-    def emit_model_file(self, family: str, token: str, country_to_data: Dict[str, Tuple[str, Dict[str, dict]]], token_display_override: Optional[str] = None, regions_count: int = 0) -> str:
+    def emit_model_file(self, family: str, token: str, country_to_data: Dict[str, Tuple[str, Dict[str, dict]]], regions_count: int = 0) -> str:
         """
         country_to_data: country_code -> (shop_path, skus_dict)
         """
         discovered: Dict[str, Dict[str, dict]] = {}
         country_mappings: Dict[str, dict] = {}
-        # Derive a friendly display name per token for Settings
-        def _display_name(fam: str, tok: str) -> str:
-            # Try to use token_display_override if provided (contains dynamic extraction)
-            if token_display_override:
-                return token_display_override
-            
-            # Generic fallbacks only if no dynamic extraction
-            f = fam.lower()
-            if f == 'iphone':
-                return 'iPhone'
-            elif f == 'watch':
-                return 'Apple Watch'
-            elif f == 'mac':
-                return 'Mac'
-            else:
-                return fam.title()
-        # iPhone: do not rely on heuristics; derive a clean, stable display from the token itself
-        token_display_raw = token_display_override or _display_name(family, token)
+        # Derive a clean, stable display from the family+token
         if (family or '').lower() == 'iphone':
             # token like 'iphone-17-pro' -> 'iPhone 17 Pro'
             t = token
@@ -1644,7 +1674,17 @@ class Scraper:
             human = ' '.join(p.capitalize() for p in t.split('-') if p)
             token_display = f'iPhone {human}'.strip() if human else 'iPhone'
         else:
-            token_display = token_display_raw
+            base_map = {'iphone': 'iPhone', 'watch': 'Apple Watch', 'mac': 'Mac', 'ipad': 'iPad'}
+            base = base_map.get((family or '').lower(), (family or '').title())
+            t = token
+            if t.lower().startswith((family or '').lower() + "-"):
+                t = t[len((family or '') + "-"):]
+            parts = [p for p in t.split('-') if p]
+            pretty = ' '.join(p.capitalize() for p in parts)
+            if pretty.lower() == base.lower():
+                token_display = base
+            else:
+                token_display = f'{base} {pretty}'.strip() if pretty else base
         for cc, (shop_path, skus) in country_to_data.items():
             cc_l = cc.lower()
             # Provide a PDP url constructed from shop_path for convenience
@@ -1762,6 +1802,9 @@ class Scraper:
                 capacity = (md.get('capacity') or '').strip()
                 family_val = (md.get('family') or '').strip()
                 familyName = (md.get('familyName') or '').strip()
+                # Skip all-letter SKUs (keyboard/language bundles like ENGLISH/C)
+                if re.match(r'^[A-Z]{4,}/[A-Z]$', sku):
+                    continue
                 md_meta = md.get('metadata') if isinstance(md.get('metadata'), dict) else {}
                 # Watch-specific: treat caseSize/material/connectivity as product details
                 has_watch_dims = any((md_meta.get(k) or '').strip() for k in ('caseSize', 'caseMaterial', 'connectivity'))
@@ -1771,6 +1814,7 @@ class Scraper:
                 except UnboundLocalError:
                     overall_family = ''
                 is_watch = ('watch' in (family_val or '').lower()) or (overall_family == 'watch')
+                fam_display = display_name_for(overall_family, '')
 
                 # Mac-specific: drop accessories and services that show up on buy pages.
                 # Actual Mac hardware part numbers almost always start with 'M' (e.g., MX2X3D/A, MW1L3D/A).
@@ -1800,7 +1844,7 @@ class Scraper:
                 # Never drop Apple Watch SKUs purely for missing color/capacity/name — app derives names dynamically.
                 # For Macs, we often only have the part number; keep those and generate names later.
                 if (overall_family != 'mac' and
-                    name in ['iPhone', 'Mac', 'Apple Watch'] and  # Generic name
+                    name in ('', fam_display) and
                     not colorKey and not colorDisplay and not capacity and
                     not is_watch and  # keep watch SKUs even if generic
                     not (is_watch and has_watch_dims)):  # No product details (allow watch dims)
@@ -1811,9 +1855,9 @@ class Scraper:
                 # discard Mac SKUs just because those fields are empty.
                 # Only drop entries that look like placeholders (empty/generic name) *and* lack dimensions.
                 if (overall_family != 'mac' and
-                    family_val in ['iphone', 'watch'] and  # Generic family (exclude mac)
+                    family_val in (overall_family, '') and
                     not colorKey and not capacity and
-                    (name.strip() in ['', 'iPhone', 'Mac', 'Apple Watch']) and
+                    (name.strip() in ('', fam_display)) and
                     not is_watch and  # keep watch SKUs
                     not (is_watch and has_watch_dims)):  # No specific attributes (allow watch dims)
                     continue
@@ -2269,6 +2313,10 @@ class Scraper:
                                             size_to_model[key] = clean_val
 
                 if skus and size_to_model:
+                    self._derive_numeric_size_names(size_to_model)
+                    if not size_to_model:
+                        print(f"[debug] size_to_model all entries were numeric-only — clearing to fall back")
+                if skus and size_to_model:
                     for sku, sku_data in skus.items():
                         if isinstance(sku_data, dict):
                             sz = (sku_data.get('dimensionScreensize') or sku_data.get('screensize') or sku_data.get('dimensionScreenSize') or sku_data.get('screenSize') or sku_data.get('size') or '').strip()
@@ -2703,7 +2751,9 @@ class Scraper:
                         best = sorted(counts.items(), key=lambda kv: (kv[1], len(kv[0])), reverse=True)[0][0]
                         base_map[base_k] = best
                     if base_map:
-                        size_to_model.update(base_map)
+                        self._derive_numeric_size_names(base_map)
+                        if base_map:
+                            size_to_model.update(base_map)
                     if derived_map:
                         print(f"[debug] Derived size_to_model from decision section: {size_to_model}")
 
@@ -2726,7 +2776,6 @@ class Scraper:
                         best = sorted(counts.items(), key=lambda kv: (kv[1], kv[0]), reverse=True)[0][0]
                         base_majority[base] = best
                     propagated = 0
-                    corrected_mismatch = 0
                     if base_majority:
                         for sku, sku_data in skus.items():
                             if not isinstance(sku_data, dict):
@@ -2742,12 +2791,8 @@ class Scraper:
                             if not have:
                                 sku_data['dimensionScreensize'] = want
                                 propagated += 1
-                            elif have != want:
-                                # If conflicting, enforce majority to keep families balanced
-                                sku_data['dimensionScreensize'] = want
-                                corrected_mismatch += 1
-                    if propagated or corrected_mismatch:
-                        print(f"[debug] Enforced base-prefix size consistency: propagated={propagated}, corrected_mismatch={corrected_mismatch}")
+                    if propagated:
+                        print(f"[debug] Enforced base-prefix size consistency: propagated={propagated}")
 
                 # If we now have a size_to_model and filled dimensionScreensize, apply names and report counts
                 if skus and size_to_model:
@@ -2771,6 +2816,26 @@ class Scraper:
                     print(f"[debug] Size distribution after assignment: {size_counts}")
                     if name_counts:
                         print(f"[debug] Name distribution after assignment: {name_counts}")
+
+                # Fallback: if SKUs still have generic familyName matching the family keyword (e.g., "ipad"), use majority from bootstrap entries
+                if skus:
+                    fam_key = (family or '').strip().lower()
+                    generic_skus = [sku for sku, d in skus.items() if isinstance(d, dict) and (d.get('familyName') or '').strip().lower() in ('', fam_key)]
+                    proper_skus = [sku for sku, d in skus.items() if isinstance(d, dict) and (d.get('familyName') or '').strip() and (d.get('familyName') or '').strip().lower() not in ('', fam_key)]
+                    if generic_skus and proper_skus:
+                        # Find majority proper name
+                        name_counts_fb: Dict[str, int] = {}
+                        for sku in proper_skus:
+                            fn = (skus[sku].get('familyName') or '').strip()
+                            if fn:
+                                name_counts_fb[fn] = name_counts_fb.get(fn, 0) + 1
+                        if name_counts_fb:
+                            majority_fn = max(name_counts_fb, key=name_counts_fb.get)
+                            applied_fb = 0
+                            for sku in generic_skus:
+                                skus[sku]['familyName'] = majority_fn
+                                applied_fb += 1
+                            print(f"[debug] Applied familyName fallback from majority bootstrap name for {applied_fb} SKU(s); name=\"{majority_fn}\"")
 
                 # Validator: compare variant anchors (capacity,color -> set(size)) vs emitted SKUs
                 if skus and html:
@@ -2862,8 +2927,8 @@ class Scraper:
                             if sz and (sz in size_to_model):
                                 skipped_due_to_size += 1
                                 continue
-                            # Only apply if name is empty or generic
-                            if fam_before and fam_before.lower() not in ['', 'iphone']:
+                            # Only apply if name is empty or matches the bare family keyword
+                            if fam_before and fam_before.lower() not in ('', fam_key):
                                 continue
                             if key in pair_to_model:
                                 sku_data['familyName'] = pair_to_model[key]
@@ -2872,14 +2937,15 @@ class Scraper:
                         print(f"[debug] Applied familyName via capacity+color pairs for {applied_pairs} SKU(s); pairs={len(pair_to_model)}; skipped_due_to_size={skipped_due_to_size}")
 
                 # Fallback: Update familyName with inferred display name if available
-                if skus and inferred_display and inferred_display != 'iPhone':
+                fam_cap = (family or '').strip().capitalize()
+                if skus and inferred_display and inferred_display != fam_cap:
                     for k, v in skus.items():
-                        if isinstance(v, dict) and (v.get('familyName') or '').strip() in ['iPhone', 'iphone']:
+                        if isinstance(v, dict) and (v.get('familyName') or '').strip().lower() in ('', fam_cap.lower()):
                             v['familyName'] = inferred_display
                 
                 country_to_data[r["code"].upper()] = (shop_path, skus or {})
             if country_to_data:
-                self.emit_model_file(family, token, country_to_data, token_display_override=inferred_display, regions_count=len(regions))
+                self.emit_model_file(family, token, country_to_data, regions_count=len(regions))
             else:
                 print(f"[warn] no data for token {token} in selected regions")
 

@@ -39,7 +39,7 @@ final class NotificationManager: NSObject, @unchecked Sendable {
         // Check if this notification was sent recently
         if let lastTime = notificationHistory[notificationKey],
            Date().timeIntervalSince(lastTime) < Double(defaultsVendor.notificationCooldownHours * 3600) {
-            print("Skipping duplicate notification within 24 hours: \(title)")
+            print("Skipping duplicate notification within \(defaultsVendor.notificationCooldownHours) hour(s): \(title)")
             return
         }
         

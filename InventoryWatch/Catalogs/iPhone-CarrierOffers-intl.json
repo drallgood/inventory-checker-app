@@ -514,5 +514,12 @@
         }
       }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T21:46:16.354281+00:00",
+    "scraper_version": "1.0",
+    "family": "iphone",
+    "token": "carrier-offers",
+    "regions_scraped": 33
   }
 }

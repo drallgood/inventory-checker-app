@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,14 +31,7 @@
 		38D307DB2745E2E700A0686D /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D307DA2745E2E700A0686D /* Analytics.swift */; };
 		38E1C21A27E6714E0047703D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E1C21927E6714E0047703D /* Helpers.swift */; };
 		38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38E4279D273EF542006BF6D7 /* Credits.rtf */; };
-		46F138010000000000000001 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F138020000000000000002 /* countries.json */; };
 		469112532E7CB945004C26BC /* Mac-Imac-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124C2E7CB945004C26BC /* Mac-Imac-intl.json */; };
-		46F13B012E80001000CBE7DB /* CatalogTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B002E80001000CBE7DB /* CatalogTypes.swift */; };
-		46F13B032E80002000CBE7DB /* JSONCatalogMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B022E80002000CBE7DB /* JSONCatalogMac.swift */; };
-		46F13B052E80003000CBE7DB /* JSONCatalogiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B042E80003000CBE7DB /* JSONCatalogiPhone.swift */; };
-		46F13B072E80004000CBE7DB /* JSONCatalogAppleWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B062E80004000CBE7DB /* JSONCatalogAppleWatch.swift */; };
-		46F13B092E80005000CBE7DB /* ProductAvailabilityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B082E80005000CBE7DB /* ProductAvailabilityList.swift */; };
-		46F13B0B2E80006000CBE7DB /* JSONCatalogiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B0A2E80006000CBE7DB /* JSONCatalogiPad.swift */; };
 		469112542E7CB945004C26BC /* Mac-MacbookPro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */; };
 		469112552E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */; };
 		469112562E7CB945004C26BC /* Mac-Mini-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */; };
@@ -55,11 +48,28 @@
 		46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */; };
 		46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */; };
 		46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */; };
+		46F138010000000000000001 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F138020000000000000002 /* countries.json */; };
+		46F13B012E80001000CBE7DB /* CatalogTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B002E80001000CBE7DB /* CatalogTypes.swift */; };
+		46F13B032E80002000CBE7DB /* JSONCatalogMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B022E80002000CBE7DB /* JSONCatalogMac.swift */; };
+		46F13B052E80003000CBE7DB /* JSONCatalogiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B042E80003000CBE7DB /* JSONCatalogiPhone.swift */; };
+		46F13B072E80004000CBE7DB /* JSONCatalogAppleWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B062E80004000CBE7DB /* JSONCatalogAppleWatch.swift */; };
+		46F13B092E80005000CBE7DB /* ProductAvailabilityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B082E80005000CBE7DB /* ProductAvailabilityList.swift */; };
+		46F13B0B2E80006000CBE7DB /* JSONCatalogiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F13B0A2E80006000CBE7DB /* JSONCatalogiPad.swift */; };
 		46F13B0D2E80008000CBE7DB /* iPad-Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B0C2E80008000CBE7DB /* iPad-Pro-intl.json */; };
 		46F13B112E80009000CBE7DB /* iPad-Air-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B102E80009000CBE7DB /* iPad-Air-intl.json */; };
 		46F13B132E8000A000CBE7DB /* iPad-Ipad-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B122E8000A000CBE7DB /* iPad-Ipad-intl.json */; };
 		46F13B152E8000B000CBE7DB /* iPad-Mini-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F13B142E8000B000CBE7DB /* iPad-Mini-intl.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F11C5C304B78510000EBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386FDC4B2739DA7300C1BAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386FDC522739DA7300C1BAC2;
+			remoteInfo = InventoryWatch;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3817268D273AA898003B8D76 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -96,6 +106,7 @@
 		469112502E7CB945004C26BC /* Mac-Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Pro-intl.json"; sourceTree = "<group>"; };
 		469112512E7CB945004C26BC /* Mac-ProDisplayXdr-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-ProDisplayXdr-intl.json"; sourceTree = "<group>"; };
 		469112522E7CB945004C26BC /* Mac-Studio-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Studio-intl.json"; sourceTree = "<group>"; };
+		46F11C58304B78510000EBF2 /* InventoryWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stores_GlobalBootstrap.json; sourceTree = "<group>"; };
 		46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatch-intl.json"; sourceTree = "<group>"; };
 		46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchSe-intl.json"; sourceTree = "<group>"; };
@@ -105,6 +116,7 @@
 		46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17-intl.json"; sourceTree = "<group>"; };
 		46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17Pro-intl.json"; sourceTree = "<group>"; };
 		46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-Air-intl.json"; sourceTree = "<group>"; };
+		46F138020000000000000002 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		46F13B002E80001000CBE7DB /* CatalogTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTypes.swift; sourceTree = "<group>"; };
 		46F13B022E80002000CBE7DB /* JSONCatalogMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogMac.swift; sourceTree = "<group>"; };
 		46F13B042E80003000CBE7DB /* JSONCatalogiPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogiPhone.swift; sourceTree = "<group>"; };
@@ -115,11 +127,21 @@
 		46F13B102E80009000CBE7DB /* iPad-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Air-intl.json"; sourceTree = "<group>"; };
 		46F13B122E8000A000CBE7DB /* iPad-Ipad-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Ipad-intl.json"; sourceTree = "<group>"; };
 		46F13B142E8000B000CBE7DB /* iPad-Mini-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPad-Mini-intl.json"; sourceTree = "<group>"; };
-		46F138020000000000000002 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46F11C59304B78510000EBF2 /* InventoryWatchTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = InventoryWatchTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		386FDC502739DA7300C1BAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F11C55304B78510000EBF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				386FDC552739DA7300C1BAC2 /* InventoryWatch */,
+				46F11C59304B78510000EBF2 /* InventoryWatchTests */,
 				386FDC542739DA7300C1BAC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				386FDC532739DA7300C1BAC2 /* InventoryWatch.app */,
+				46F11C58304B78510000EBF2 /* InventoryWatchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,6 +289,29 @@
 			productReference = 386FDC532739DA7300C1BAC2 /* InventoryWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		46F11C57304B78510000EBF2 /* InventoryWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F11C60304B78510000EBF2 /* Build configuration list for PBXNativeTarget "InventoryWatchTests" */;
+			buildPhases = (
+				46F11C54304B78510000EBF2 /* Sources */,
+				46F11C55304B78510000EBF2 /* Frameworks */,
+				46F11C56304B78510000EBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F11C5D304B78510000EBF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46F11C59304B78510000EBF2 /* InventoryWatchTests */,
+			);
+			name = InventoryWatchTests;
+			packageProductDependencies = (
+			);
+			productName = InventoryWatchTests;
+			productReference = 46F11C58304B78510000EBF2 /* InventoryWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -272,11 +319,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					386FDC522739DA7300C1BAC2 = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					46F11C57304B78510000EBF2 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 386FDC522739DA7300C1BAC2;
 					};
 				};
 			};
@@ -294,6 +345,7 @@
 			projectRoot = "";
 			targets = (
 				386FDC522739DA7300C1BAC2 /* InventoryWatch */,
+				46F11C57304B78510000EBF2 /* InventoryWatchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,6 +381,13 @@
 				386FDC5E2739DA7300C1BAC2 /* Preview Assets.xcassets in Resources */,
 				386FDC5B2739DA7300C1BAC2 /* Assets.xcassets in Resources */,
 				46F138010000000000000001 /* countries.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F11C56304B78510000EBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +427,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46F11C54304B78510000EBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F11C5D304B78510000EBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386FDC522739DA7300C1BAC2 /* InventoryWatch */;
+			targetProxy = 46F11C5C304B78510000EBF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		386FDC602739DA7300C1BAC2 /* Debug */ = {
@@ -560,6 +634,55 @@
 			};
 			name = Release;
 		};
+		46F11C5E304B78510000EBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8ESC95K4S;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.brendamour.app.InventoryWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InventoryWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InventoryWatch";
+			};
+			name = Debug;
+		};
+		46F11C5F304B78510000EBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8ESC95K4S;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.brendamour.app.InventoryWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InventoryWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InventoryWatch";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,6 +700,15 @@
 			buildConfigurations = (
 				386FDC632739DA7300C1BAC2 /* Debug */,
 				386FDC642739DA7300C1BAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F11C60304B78510000EBF2 /* Build configuration list for PBXNativeTarget "InventoryWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F11C5E304B78510000EBF2 /* Debug */,
+				46F11C5F304B78510000EBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

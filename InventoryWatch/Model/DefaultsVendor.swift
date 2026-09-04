@@ -32,7 +32,7 @@ enum ProductFamily: String, Codable, CaseIterable, Identifiable {
 extension UserDefaults {
     
     @objc dynamic var preferredStoreNumber: String {
-        get { string(forKey: "preferredStoreNumber") ?? "R032" }
+        get { string(forKey: "preferredStoreNumber") ?? "" }
         set { setValue(newValue, forKey: "preferredStoreNumber") }
     }
     

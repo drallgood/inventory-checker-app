@@ -55,7 +55,7 @@ actor FulfillmentModel {
 
         do {
             // Try loading remote stores first
-            let url = URL(string: "https://www.apple.com/rsp-web/store-list?locale=en_US")!
+            let url = URL(string: "https://www.apple.com/rsp-web/store-list?locale=\(defaultsVendor.preferredCountry.locale)")!
             var request = URLRequest(url: url)
             request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
             request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
@@ -233,7 +233,7 @@ let phoneToken = defaultsVendor.preferredPhoneToken
 
         var queryItems: [String] = ["fae=true"]
 
-        if includeStore {
+        if includeStore && !defaultsVendor.preferredStoreNumber.isEmpty {
             queryItems.append("store=\(defaultsVendor.preferredStoreNumber)")
         }
 
@@ -349,7 +349,9 @@ let phoneToken = defaultsVendor.preferredPhoneToken
             
             
             
-            return FulfillmentStore(storeName: name, storeNumber: number, city: city, state: state, partsAvailability: parsedParts)
+            let storeAddress = StoreAddress(city: city, address1: nil, address2: nil, stateName: state, stateCode: nil, postalCode: nil)
+            let retailStore = RetailStore(id: number, name: name, telephone: "", slug: "", address: storeAddress)
+            return FulfillmentStore(store: retailStore, partsAvailability: parsedParts)
         }
         
         return self.parseAvailableModels(from: collectedStores, filterForModels: filterForModels)

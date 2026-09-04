@@ -48,6 +48,23 @@ This document describes the hardcoded data cleanup: externalizing country data t
 - Added `displayName` computed property to `ProductFamily` enum.
 - `SettingsView` product picker now uses `ProductFamily.allCases` + `displayName` — adding iPad later only requires a new enum case.
 
+### 6. Phase 3: Deduplication & Unification
+- **Catalog deduplication**: `JSONCatalogiPad.swift` and `JSONCatalogMac.swift` reduced from 94+96 lines to 1-line conformances via `CategoryCatalog` protocol with default implementations in `CatalogTypes.swift`.
+- **Store unification**: `FulfillmentStore` now wraps `RetailStore` instead of duplicating fields (`storeName`, `storeNumber`, `city`, `state` become computed properties).
+- **Locale fix**: Store list API now uses `preferredCountry.locale` instead of hardcoded `en_US`.
+- **R032 removal**: Default store number removed; `generateQueryString()` guards against empty store number.
+- **Notification improvements**: Cooldown print message is now dynamic; name stripping is family-aware.
+
+## Known Intentional Hardcodes
+
+| Value | Location | Rationale |
+|-------|----------|-----------|
+| `timeoutInterval = 30` | `FulfillmentModel.swift:63,129` | Reasonable network timeout for Apple API |
+| `httpMaximumConnectionsPerHost = 1` | `FulfillmentModel.swift:35` | Forces HTTP/1.1 to match curl behavior for Akamai |
+| Apple API query params (`fae=true`, `little=false`, `mts.*`, `fts=true`) | `FulfillmentModel.swift:240-258` | Apple's pickup API protocol — these are API contract, not configuration |
+| User-Agent / Accept headers | `FulfillmentModel.swift:60-62, 126-128` | Required to pass Akamai anti-bot checks |
+| Notification history cleanup (7 days) | `NotificationManager.swift:47` | Reasonable default; low priority to externalize |
+
 ## Benefits
 
 1. **Maintainability**: Country data can be updated without code changes

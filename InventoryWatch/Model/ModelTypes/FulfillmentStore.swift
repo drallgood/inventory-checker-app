@@ -7,16 +7,13 @@
 
 import Foundation
 
-#warning("Would be good to unify this model with `RetailStore`")
 struct FulfillmentStore: Equatable {
-    let storeName: String
-    let storeNumber: String
-    let city: String
-    let state: String?
-    
-    var locationDescription: String {
-        return [city, state].compactMap { $0 }.joined(separator: ", ")
-    }
-    
+    let store: RetailStore
     let partsAvailability: [PartAvailability]
+
+    var storeName: String { store.name }
+    var storeNumber: String { store.storeNumber }
+    var city: String { store.address.city }
+    var state: String? { store.address.stateName }
+    var locationDescription: String { store.address.cityStateDisplay }
 }
