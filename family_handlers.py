@@ -387,13 +387,12 @@ class MacHandler(FamilyHandler):
             hint = (md.get('colorHint') or '').strip()
             if hint:
                 candidates.append(hint)
+            color_from_container = None
             container = (md.get('containerPartNumber') or '').strip()
             if container:
                 for tok in re.findall(r'\b[A-Z]{3,}(?:_[A-Z]{3,})+\b', container):
                     candidates.append(tok)
                 candidates.append(container)
-                # Try to extract color from known patterns in container part numbers
-                color_from_container = None
                 color_words = ['PINK', 'BLUE', 'GREEN', 'YELLOW', 'ORANGE', 'PURPLE', 'SILVER',
                                'BLACK', 'WHITE', 'GOLD', 'RED', 'GREY', 'GRAY', 'MIDNIGHT',
                                'STARLIGHT', 'SPACE', 'SIERRA', 'SKY']

@@ -813,15 +813,28 @@ class Scraper:
                 has_data = bool((capacity or '').strip()) or bool((screensize or '').strip()) or (bool((color_display or '').strip()) and color_display != 'Unknown') or has_watch_dims
                 if not has_data:
                     return
-            out[sku] = {
-                "name": final_name,
-                "colorKey": color_key or "unknown",
-                "colorDisplay": color_display or "Unknown",
-                "capacity": capacity or "",
-                "dimensionScreensize": screensize or "",
-                "family": family or "unknown",
-                "familyName": family_name or "Unknown"
-            }
+            existing = out.get(sku)
+            if existing and isinstance(existing, dict):
+                if not existing.get('colorDisplay') or (color_display and len(color_display) > len(existing.get('colorDisplay', ''))):
+                    existing['colorDisplay'] = color_display
+                if not existing.get('colorKey'):
+                    existing['colorKey'] = color_key or ''
+                if not existing.get('capacity'):
+                    existing['capacity'] = capacity or ''
+                if not existing.get('dimensionScreensize'):
+                    existing['dimensionScreensize'] = screensize or ''
+                if not existing.get('familyName'):
+                    existing['familyName'] = family_name or ''
+            else:
+                out[sku] = {
+                    "name": final_name,
+                    "colorKey": color_key or "",
+                    "colorDisplay": color_display or "",
+                    "capacity": capacity or "",
+                    "dimensionScreensize": screensize or "",
+                    "family": family or "",
+                    "familyName": family_name or ""
+                }
         # Prefer metrics products first when present (often include capacity/color-rich names)
         try:
             prods = (metrics or {}).get('data', {}).get('products')
@@ -1092,7 +1105,7 @@ class Scraper:
                         full_name = (fam_name or '').strip()
                     
                     
-                    out.setdefault(pn, {
+                    out[pn] = {
                         "name": full_name or (p.get('name') or ''),
                         "colorKey": ck or (p.get('dimensionColor') or ''),
                         "colorDisplay": cd or (p.get('color') or ''),
@@ -1102,7 +1115,7 @@ class Scraper:
                         "familyName": fam_name or 'iPhone',
                         "partNumber": pn,
                         "metadata": {"isRealPartNumber": True, "sourcePage": (family_hint or '').lower()}
-                    })
+                    }
                     
         except Exception:
             pass
@@ -1945,6 +1958,14 @@ class Scraper:
                                     clean_val = re.sub(r'&nbsp;', ' ', clean_val)
                                     clean_val = re.sub(r'&[a-zA-Z0-9#]+;', '', clean_val)
                                     clean_val = re.sub(r'\s+', ' ', clean_val).strip()
+                                    # Strip multilingual footnote markers (e.g., "Fußnote 2", "Footnote 2", "脚注 2")
+                                    clean_val = re.sub(
+                                        r'\s+(?:Footnote|Fußnote|Note\s+de\s+bas\s+de\s+page|'
+                                        r'Nota\s+a\s+pie\s+de\s+página|Nota\s+al\s+pie|'
+                                        r'Dipnot|Voetnoot|Fodnote|Fotnote|Alaviite|'
+                                        r'각주|脚注|註腳|เชิงอรรถ|Nota\s+de\s+rodapé|Nota)\s+\d+$',
+                                        '', clean_val, flags=re.IGNORECASE)
+                                    clean_val = clean_val.strip()
                                     if clean_val:
                                         size_to_model[key] = clean_val
                     # Fallback to SSR script tag if present
@@ -1961,6 +1982,14 @@ class Scraper:
                                         clean_val = re.sub(r'&nbsp;', ' ', clean_val)
                                         clean_val = re.sub(r'&[a-zA-Z0-9#]+;', '', clean_val)
                                         clean_val = re.sub(r'\s+', ' ', clean_val).strip()
+                                        # Strip multilingual footnote markers (e.g., "Fußnote 2", "Footnote 2", "脚注 2")
+                                        clean_val = re.sub(
+                                            r'\s+(?:Footnote|Fußnote|Note\s+de\s+bas\s+de\s+page|'
+                                            r'Nota\s+a\s+pie\s+de\s+página|Nota\s+al\s+pie|'
+                                            r'Dipnot|Voetnoot|Fodnote|Fotnote|Alaviite|'
+                                            r'각주|脚注|註腳|เชิงอรรถ|Nota\s+de\s+rodapé|Nota)\s+\d+$',
+                                            '', clean_val, flags=re.IGNORECASE)
+                                        clean_val = clean_val.strip()
                                         if clean_val:
                                             size_to_model[key] = clean_val
 
@@ -2379,8 +2408,10 @@ class Scraper:
                         print(f"[debug] Filled dimensionScreensize for {applied_combo} SKU(s) from variant hrefs")
 
 
-                # If no displayValues mapping was found, derive size->model mapping from decision section displayText now
-                if (not size_to_model) and html:
+                # Derive size->model mapping from decision section displayText
+                # Always attempt this even when displayValues already gave us names —
+                # the decision section produces cleaner names without footnote markers.
+                if html:
                     derived_map: Dict[str, str] = {}
                     for m in re.finditer(r'dimensionScreensize_([a-z0-9_]+)\s*:\s*\{[^}]*?displayText:\s*[\'\"]([^\'\"]+)[\'\"]', html, re.IGNORECASE | re.DOTALL):
                         key = m.group(1)
