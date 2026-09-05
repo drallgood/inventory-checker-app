@@ -99,6 +99,33 @@ class Scraper:
         print(f"[discover] {region['code']}/{family}: found {len(models)} models")
         return models
 
+    @staticmethod
+    def _extract_balanced_braces(text: str, start_pos: int) -> Optional[str]:
+        """Extract a JavaScript/JSON object by counting braces from start_pos."""
+        depth = 0
+        in_string = False
+        escape_next = False
+        for i in range(start_pos, len(text)):
+            c = text[i]
+            if escape_next:
+                escape_next = False
+                continue
+            if c == '\\':
+                escape_next = True
+                continue
+            if c == '"' and not escape_next:
+                in_string = not in_string
+                continue
+            if in_string:
+                continue
+            if c == '{':
+                depth += 1
+            elif c == '}':
+                depth -= 1
+                if depth == 0:
+                    return text[start_pos:i + 1]
+        return None
+
     def _extract_product_data(self, url: str) -> Optional[dict]:
         try:
             print(f"[scrape] GET {url}")
@@ -132,30 +159,31 @@ class Scraper:
                     pass
             # Extract bootstrap data using JSON parsing
             bootstrap = None
-            mb = re.search(r'window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*({.*?});', html, re.DOTALL)
-            if mb:
-                raw = mb.group(1)
-                try:
-                    bootstrap = json.loads(raw)
-                except Exception:
-                    # Convert JavaScript object notation to JSON
-                    js_to_json = raw
-                    # Add quotes around unquoted keys
-                    js_to_json = re.sub(r'([{,]\s*)([a-zA-Z_$][a-zA-Z0-9_$]*)\s*:', r'\1"\2":', js_to_json)
-                    # Fix boolean values
-                    js_to_json = re.sub(r'\bfalse\b', 'false', js_to_json)
-                    js_to_json = re.sub(r'\btrue\b', 'true', js_to_json)
-                    js_to_json = re.sub(r'\bnull\b', 'null', js_to_json)
-                    # Remove trailing commas
-                    js_to_json = re.sub(r',\s*([}\]])', r'\1', js_to_json)
+            bs_match = re.search(r'window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*\{', html, re.DOTALL)
+            if bs_match:
+                raw = self._extract_balanced_braces(html, bs_match.end() - 1)
+                if raw is not None:
                     try:
-                        bootstrap = json.loads(js_to_json)
+                        bootstrap = json.loads(raw)
                     except Exception:
-                        bootstrap = None
+                        # Convert JavaScript object notation to JSON
+                        js_to_json = raw
+                        # Add quotes around unquoted keys
+                        js_to_json = re.sub(r'([{,]\s*)([a-zA-Z_$][a-zA-Z0-9_$]*)\s*:', r'\1"\2":', js_to_json)
+                        # Fix boolean values
+                        js_to_json = re.sub(r'\bfalse\b', 'false', js_to_json)
+                        js_to_json = re.sub(r'\btrue\b', 'true', js_to_json)
+                        js_to_json = re.sub(r'\bnull\b', 'null', js_to_json)
+                        # Remove trailing commas
+                        js_to_json = re.sub(r',\s*([}\]])', r'\1', js_to_json)
+                        try:
+                            bootstrap = json.loads(js_to_json)
+                        except Exception:
+                            bootstrap = None
                 
             # If bootstrap extraction failed, try to extract displayValues from the raw text
-            if not bootstrap and mb:
-                bootstrap_text = mb.group(1)
+            if not bootstrap and bs_match:
+                bootstrap_text = raw if raw is not None else ""
                 bootstrap = {"productSelectionData": {"products": [], "displayValues": {}}}
                 
                 # Extract product data from the raw bootstrap text
@@ -201,9 +229,9 @@ class Scraper:
                                 color_values[key] = value
                         psd["displayValues"]["dimensionColor"] = color_values
                         
-                elif mb:
+                elif bs_match:
                     # Fallback: extract from raw bootstrap text
-                    raw_bootstrap = mb.group(1)
+                    raw_bootstrap = raw if raw is not None else ""
                     
                     # Look for dimensionColor anywhere in the bootstrap text
                     if "dimensionColor" in raw_bootstrap:
@@ -1355,26 +1383,27 @@ class Scraper:
         # Fallback 2b (Mac/iPhone): parse window.pageLevelData productSelectionTabSlots JS blocks
         # e.g., window.pageLevelData.productSelectionTabSlots.productSelection1 = { ... }
         if (family_hint or '').lower() in ('mac','iphone'):
-            mb = re.search(r'window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*({.*?});', html, re.DOTALL)
-            if mb:
-                raw = mb.group(1)
-                try:
-                    bootstrap = json.loads(raw)
-                except Exception:
-                    # Convert JavaScript object notation to JSON
-                    js_to_json = raw
-                    # Add quotes around unquoted keys
-                    js_to_json = re.sub(r'([{,]\s*)([a-zA-Z_$][a-zA-Z0-9_$]*)\s*:', r'\1"\2":', js_to_json)
-                    # Fix boolean values
-                    js_to_json = re.sub(r'\bfalse\b', 'false', js_to_json)
-                    js_to_json = re.sub(r'\btrue\b', 'true', js_to_json)
-                    js_to_json = re.sub(r'\bnull\b', 'null', js_to_json)
-                    # Remove trailing commas
-                    js_to_json = re.sub(r',\s*([}\]])', r'\1', js_to_json)
+            bs_match2 = re.search(r'window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*\{', html, re.DOTALL)
+            if bs_match2:
+                raw2 = self._extract_balanced_braces(html, bs_match2.end() - 1)
+                if raw2 is not None:
                     try:
-                        bootstrap = json.loads(js_to_json)
+                        bootstrap = json.loads(raw2)
                     except Exception:
-                        bootstrap = None
+                        # Convert JavaScript object notation to JSON
+                        js_to_json = raw2
+                        # Add quotes around unquoted keys
+                        js_to_json = re.sub(r'([{,]\s*)([a-zA-Z_$][a-zA-Z0-9_$]*)\s*:', r'\1"\2":', js_to_json)
+                        # Fix boolean values
+                        js_to_json = re.sub(r'\bfalse\b', 'false', js_to_json)
+                        js_to_json = re.sub(r'\btrue\b', 'true', js_to_json)
+                        js_to_json = re.sub(r'\bnull\b', 'null', js_to_json)
+                        # Remove trailing commas
+                        js_to_json = re.sub(r',\s*([}\]])', r'\1', js_to_json)
+                        try:
+                            bootstrap = json.loads(js_to_json)
+                        except Exception:
+                            bootstrap = None
                 if bootstrap:
                     # Attempt to parse and locate products arrays recursively
                     def iter_products(obj):

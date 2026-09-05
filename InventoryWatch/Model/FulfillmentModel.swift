@@ -24,17 +24,11 @@ actor FulfillmentModel {
     // Latest pickup API error keys (e.g., ["invalidLocalModelStore"]) captured from Apple JSON
     private(set) var lastPickupErrorKeys: [String] = []
     
-    // Cookie-aware URLSession for Apple Store requests
-    private lazy var cookieEnabledSession: URLSession = {
+    private lazy var storeSession: URLSession = {
         let config = URLSessionConfiguration.default
         config.httpCookieAcceptPolicy = .always
         config.httpCookieStorage = HTTPCookieStorage.shared
         config.httpShouldSetCookies = true
-        
-        // Force HTTP/1.1 to match curl behavior
-        config.httpMaximumConnectionsPerHost = 1
-        config.httpShouldUsePipelining = false
-        
         return URLSession(configuration: config)
     }()
     
@@ -60,9 +54,10 @@ actor FulfillmentModel {
             request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
             request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
             request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
+            request.addValue("https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/buy-mac", forHTTPHeaderField: "Referer")
             request.timeoutInterval = 30
             
-            let (data, _) = try await cookieEnabledSession.data(for: request, delegate: nil)
+            let (data, _) = try await storeSession.data(for: request, delegate: nil)
             
             // Check if we received HTML instead of JSON
             if let responseString = String(data: data, encoding: .utf8) {
@@ -111,8 +106,6 @@ actor FulfillmentModel {
     }
     
     func fetchInventory() async throws -> [(FulfillmentStore, [PartAvailability])] {
-        // Use /shop/retail/pickup-message which is not behind Akamai's anti-bot challenge
-        // (unlike /shop/fulfillment-messages which returns 541).
         let urlRoot = "https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/retail/pickup-message?"
         let query = try await generateQueryString(includeStore: true, location: nil)
         
@@ -126,9 +119,10 @@ actor FulfillmentModel {
         request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
         request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
         request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
+        request.addValue("https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/buy-mac", forHTTPHeaderField: "Referer")
         request.timeoutInterval = 30
 
-        let (data, response) = try await URLSession.shared.data(for: request, delegate: nil)
+        let (data, response) = try await storeSession.data(for: request, delegate: nil)
         let httpResponse = response as? HTTPURLResponse
         let status = httpResponse?.statusCode ?? 0
         print("📥 Pickup response: status=\(status), bytes=\(data.count)")
