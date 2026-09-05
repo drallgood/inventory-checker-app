@@ -1,2861 +1,3245 @@
 {
-  "discovered_models": {
-    "at": {
-      "studio-display": {
-        "url": "https://www.apple.com/at/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24FD/A": {
-            "name": "Studio Display (MFF24FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04FD/A": {
-            "name": "Studio Display (MFF04FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14FD/A": {
-            "name": "Studio Display (MFF14FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4FD/A": {
-            "name": "Studio Display (MFEY4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4FD/A": {
-            "name": "Studio Display (MFEW4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4FD/A": {
-            "name": "Studio Display (MFEX4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "us": {
-      "studio-display": {
-        "url": "https://www.apple.com/us/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24LL/A": {
-            "name": "Studio Display (MFF24LL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04LL/A": {
-            "name": "Studio Display (MFF04LL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14LL/A": {
-            "name": "Studio Display (MFF14LL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4LL/A": {
-            "name": "Studio Display (MFEY4LL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4LL/A": {
-            "name": "Studio Display (MFEW4LL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4LL/A": {
-            "name": "Studio Display (MFEX4LL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "uk": {
-      "studio-display": {
-        "url": "https://www.apple.com/uk/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24B/A": {
-            "name": "Studio Display (MFF24B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04B/A": {
-            "name": "Studio Display (MFF04B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14B/A": {
-            "name": "Studio Display (MFF14B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4B/A": {
-            "name": "Studio Display (MFEY4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4B/A": {
-            "name": "Studio Display (MFEW4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4B/A": {
-            "name": "Studio Display (MFEX4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "au": {
-      "studio-display": {
-        "url": "https://www.apple.com/au/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24X/A": {
-            "name": "Studio Display (MFF24X/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04X/A": {
-            "name": "Studio Display (MFF04X/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14X/A": {
-            "name": "Studio Display (MFF14X/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4X/A": {
-            "name": "Studio Display (MFEY4X/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4X/A": {
-            "name": "Studio Display (MFEW4X/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4X/A": {
-            "name": "Studio Display (MFEX4X/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "ca": {
-      "studio-display": {
-        "url": "https://www.apple.com/ca/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24CL/A": {
-            "name": "Studio Display (MFF24CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04CL/A": {
-            "name": "Studio Display (MFF04CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14CL/A": {
-            "name": "Studio Display (MFF14CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4CL/A": {
-            "name": "Studio Display (MFEY4CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4CL/A": {
-            "name": "Studio Display (MFEW4CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4CL/A": {
-            "name": "Studio Display (MFEX4CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "de": {
-      "studio-display": {
-        "url": "https://www.apple.com/de/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24FD/A": {
-            "name": "Studio Display (MFF24FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04FD/A": {
-            "name": "Studio Display (MFF04FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14FD/A": {
-            "name": "Studio Display (MFF14FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4FD/A": {
-            "name": "Studio Display (MFEY4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4FD/A": {
-            "name": "Studio Display (MFEW4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4FD/A": {
-            "name": "Studio Display (MFEX4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "fr": {
-      "studio-display": {
-        "url": "https://www.apple.com/fr/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24FD/A": {
-            "name": "Studio Display (MFF24FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04FD/A": {
-            "name": "Studio Display (MFF04FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14FD/A": {
-            "name": "Studio Display (MFF14FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4FD/A": {
-            "name": "Studio Display (MFEY4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4FD/A": {
-            "name": "Studio Display (MFEW4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4FD/A": {
-            "name": "Studio Display (MFEX4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "it": {
-      "studio-display": {
-        "url": "https://www.apple.com/it/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24T/A": {
-            "name": "Studio Display (MFF24T/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04T/A": {
-            "name": "Studio Display (MFF04T/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14T/A": {
-            "name": "Studio Display (MFF14T/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4T/A": {
-            "name": "Studio Display (MFEY4T/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4T/A": {
-            "name": "Studio Display (MFEW4T/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4T/A": {
-            "name": "Studio Display (MFEX4T/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "es": {
-      "studio-display": {
-        "url": "https://www.apple.com/es/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24YP/A": {
-            "name": "Studio Display (MFF24YP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04YP/A": {
-            "name": "Studio Display (MFF04YP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14YP/A": {
-            "name": "Studio Display (MFF14YP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4YP/A": {
-            "name": "Studio Display (MFEY4YP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4YP/A": {
-            "name": "Studio Display (MFEW4YP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4YP/A": {
-            "name": "Studio Display (MFEX4YP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "nl": {
-      "studio-display": {
-        "url": "https://www.apple.com/nl/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24FD/A": {
-            "name": "Studio Display (MFF24FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04FD/A": {
-            "name": "Studio Display (MFF04FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14FD/A": {
-            "name": "Studio Display (MFF14FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4FD/A": {
-            "name": "Studio Display (MFEY4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4FD/A": {
-            "name": "Studio Display (MFEW4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4FD/A": {
-            "name": "Studio Display (MFEX4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "be-nl": {
-      "studio-display": {
-        "url": "https://www.apple.com/be-nl/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24FD/A": {
-            "name": "Studio Display (MFF24FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04FD/A": {
-            "name": "Studio Display (MFF04FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14FD/A": {
-            "name": "Studio Display (MFF14FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4FD/A": {
-            "name": "Studio Display (MFEY4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4FD/A": {
-            "name": "Studio Display (MFEW4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4FD/A": {
-            "name": "Studio Display (MFEX4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "be-fr": {
-      "studio-display": {
-        "url": "https://www.apple.com/be-fr/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24FD/A": {
-            "name": "Studio Display (MFF24FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04FD/A": {
-            "name": "Studio Display (MFF04FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14FD/A": {
-            "name": "Studio Display (MFF14FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4FD/A": {
-            "name": "Studio Display (MFEY4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4FD/A": {
-            "name": "Studio Display (MFEW4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4FD/A": {
-            "name": "Studio Display (MFEX4FD/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "ch-de": {
-      "studio-display": {
-        "url": "https://www.apple.com/ch-de/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24SM/A": {
-            "name": "Studio Display (MFF24SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04SM/A": {
-            "name": "Studio Display (MFF04SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14SM/A": {
-            "name": "Studio Display (MFF14SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4SM/A": {
-            "name": "Studio Display (MFEY4SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4SM/A": {
-            "name": "Studio Display (MFEW4SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4SM/A": {
-            "name": "Studio Display (MFEX4SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "ch-fr": {
-      "studio-display": {
-        "url": "https://www.apple.com/ch-fr/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24SM/A": {
-            "name": "Studio Display (MFF24SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04SM/A": {
-            "name": "Studio Display (MFF04SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14SM/A": {
-            "name": "Studio Display (MFF14SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4SM/A": {
-            "name": "Studio Display (MFEY4SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4SM/A": {
-            "name": "Studio Display (MFEW4SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4SM/A": {
-            "name": "Studio Display (MFEX4SM/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "se": {
-      "studio-display": {
-        "url": "https://www.apple.com/se/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24KS/A": {
-            "name": "Studio Display (MFF24KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04KS/A": {
-            "name": "Studio Display (MFF04KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14KS/A": {
-            "name": "Studio Display (MFF14KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4KS/A": {
-            "name": "Studio Display (MFEY4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4KS/A": {
-            "name": "Studio Display (MFEW4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4KS/A": {
-            "name": "Studio Display (MFEX4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "dk": {
-      "studio-display": {
-        "url": "https://www.apple.com/dk/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24DK/A": {
-            "name": "Studio Display (MFF24DK/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04DK/A": {
-            "name": "Studio Display (MFF04DK/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14DK/A": {
-            "name": "Studio Display (MFF14DK/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4DK/A": {
-            "name": "Studio Display (MFEY4DK/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4DK/A": {
-            "name": "Studio Display (MFEW4DK/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4DK/A": {
-            "name": "Studio Display (MFEX4DK/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "no": {
-      "studio-display": {
-        "url": "https://www.apple.com/no/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24KS/A": {
-            "name": "Studio Display (MFF24KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04KS/A": {
-            "name": "Studio Display (MFF04KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14KS/A": {
-            "name": "Studio Display (MFF14KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4KS/A": {
-            "name": "Studio Display (MFEY4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4KS/A": {
-            "name": "Studio Display (MFEW4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4KS/A": {
-            "name": "Studio Display (MFEX4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "fi": {
-      "studio-display": {
-        "url": "https://www.apple.com/fi/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24KS/A": {
-            "name": "Studio Display (MFF24KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04KS/A": {
-            "name": "Studio Display (MFF04KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14KS/A": {
-            "name": "Studio Display (MFF14KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4KS/A": {
-            "name": "Studio Display (MFEY4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4KS/A": {
-            "name": "Studio Display (MFEW4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4KS/A": {
-            "name": "Studio Display (MFEX4KS/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "jp": {
-      "studio-display": {
-        "url": "https://www.apple.com/jp/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24J/A": {
-            "name": "Studio Display (MFF24J/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04J/A": {
-            "name": "Studio Display (MFF04J/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14J/A": {
-            "name": "Studio Display (MFF14J/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4J/A": {
-            "name": "Studio Display (MFEY4J/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4J/A": {
-            "name": "Studio Display (MFEW4J/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4J/A": {
-            "name": "Studio Display (MFEX4J/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "kr": {
-      "studio-display": {
-        "url": "https://www.apple.com/kr/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24KH/A": {
-            "name": "Studio Display (MFF24KH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04KH/A": {
-            "name": "Studio Display (MFF04KH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14KH/A": {
-            "name": "Studio Display (MFF14KH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4KH/A": {
-            "name": "Studio Display (MFEY4KH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4KH/A": {
-            "name": "Studio Display (MFEW4KH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4KH/A": {
-            "name": "Studio Display (MFEX4KH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "hk": {
-      "studio-display": {
-        "url": "https://www.apple.com/hk/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24ZP/A": {
-            "name": "Studio Display (MFF24ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04ZP/A": {
-            "name": "Studio Display (MFF04ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14ZP/A": {
-            "name": "Studio Display (MFF14ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4ZP/A": {
-            "name": "Studio Display (MFEY4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4ZP/A": {
-            "name": "Studio Display (MFEW4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4ZP/A": {
-            "name": "Studio Display (MFEX4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "sg": {
-      "studio-display": {
-        "url": "https://www.apple.com/sg/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24ZP/A": {
-            "name": "Studio Display (MFF24ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04ZP/A": {
-            "name": "Studio Display (MFF04ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14ZP/A": {
-            "name": "Studio Display (MFF14ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4ZP/A": {
-            "name": "Studio Display (MFEY4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4ZP/A": {
-            "name": "Studio Display (MFEW4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4ZP/A": {
-            "name": "Studio Display (MFEX4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "tw": {
-      "studio-display": {
-        "url": "https://www.apple.com/tw/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24TA/A": {
-            "name": "Studio Display (MFF24TA/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04TA/A": {
-            "name": "Studio Display (MFF04TA/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14TA/A": {
-            "name": "Studio Display (MFF14TA/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4TA/A": {
-            "name": "Studio Display (MFEY4TA/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4TA/A": {
-            "name": "Studio Display (MFEW4TA/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4TA/A": {
-            "name": "Studio Display (MFEX4TA/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "th": {
-      "studio-display": {
-        "url": "https://www.apple.com/th/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24TH/A": {
-            "name": "Studio Display (MFF24TH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04TH/A": {
-            "name": "Studio Display (MFF04TH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14TH/A": {
-            "name": "Studio Display (MFF14TH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4TH/A": {
-            "name": "Studio Display (MFEY4TH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4TH/A": {
-            "name": "Studio Display (MFEW4TH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4TH/A": {
-            "name": "Studio Display (MFEX4TH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "my": {
-      "studio-display": {
-        "url": "https://www.apple.com/my/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24ZP/A": {
-            "name": "Studio Display (MFF24ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04ZP/A": {
-            "name": "Studio Display (MFF04ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14ZP/A": {
-            "name": "Studio Display (MFF14ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4ZP/A": {
-            "name": "Studio Display (MFEY4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4ZP/A": {
-            "name": "Studio Display (MFEW4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4ZP/A": {
-            "name": "Studio Display (MFEX4ZP/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "in": {
-      "studio-display": {
-        "url": "https://www.apple.com/in/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24HN/A": {
-            "name": "Studio Display (MFF24HN/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04HN/A": {
-            "name": "Studio Display (MFF04HN/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14HN/A": {
-            "name": "Studio Display (MFF14HN/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4HN/A": {
-            "name": "Studio Display (MFEY4HN/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4HN/A": {
-            "name": "Studio Display (MFEW4HN/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4HN/A": {
-            "name": "Studio Display (MFEX4HN/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "ae": {
-      "studio-display": {
-        "url": "https://www.apple.com/ae/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24B/A": {
-            "name": "Studio Display (MFF24B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04B/A": {
-            "name": "Studio Display (MFF04B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14B/A": {
-            "name": "Studio Display (MFF14B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4B/A": {
-            "name": "Studio Display (MFEY4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4B/A": {
-            "name": "Studio Display (MFEW4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4B/A": {
-            "name": "Studio Display (MFEX4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "sa": {
-      "studio-display": {
-        "url": "https://www.apple.com/sa/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24B/A": {
-            "name": "Studio Display (MFF24B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04B/A": {
-            "name": "Studio Display (MFF04B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14B/A": {
-            "name": "Studio Display (MFF14B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4B/A": {
-            "name": "Studio Display (MFEY4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4B/A": {
-            "name": "Studio Display (MFEW4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4B/A": {
-            "name": "Studio Display (MFEX4B/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "tr": {
-      "studio-display": {
-        "url": "https://www.apple.com/tr/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24TU/A": {
-            "name": "Studio Display (MFF24TU/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04TU/A": {
-            "name": "Studio Display (MFF04TU/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14TU/A": {
-            "name": "Studio Display (MFF14TU/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4TU/A": {
-            "name": "Studio Display (MFEY4TU/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4TU/A": {
-            "name": "Studio Display (MFEW4TU/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4TU/A": {
-            "name": "Studio Display (MFEX4TU/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "br": {
-      "studio-display": {
-        "url": "https://www.apple.com/br/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24BZ/A": {
-            "name": "Studio Display (MFF24BZ/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04BZ/A": {
-            "name": "Studio Display (MFF04BZ/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14BZ/A": {
-            "name": "Studio Display (MFF14BZ/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4BZ/A": {
-            "name": "Studio Display (MFEY4BZ/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4BZ/A": {
-            "name": "Studio Display (MFEW4BZ/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4BZ/A": {
-            "name": "Studio Display (MFEX4BZ/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "mx": {
-      "studio-display": {
-        "url": "https://www.apple.com/mx/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24CL/A": {
-            "name": "Studio Display (MFF24CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04CL/A": {
-            "name": "Studio Display (MFF04CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14CL/A": {
-            "name": "Studio Display (MFF14CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4CL/A": {
-            "name": "Studio Display (MFEY4CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4CL/A": {
-            "name": "Studio Display (MFEW4CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4CL/A": {
-            "name": "Studio Display (MFEX4CL/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    },
-    "cn": {
-      "studio-display": {
-        "url": "https://www.apple.com/cn/shop/buy-mac/studio-display",
-        "skus": {
-          "MFF24CH/A": {
-            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFF24CH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF04CH/A": {
-            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFF04CH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFF14CH/A": {
-            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFF14CH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEY4CH/A": {
-            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFEY4CH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEW4CH/A": {
-            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFEW4CH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          },
-          "MFEX4CH/A": {
-            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFEX4CH/A)",
-            "colorKey": "unknown",
-            "colorDisplay": "Unknown",
-            "capacity": "",
-            "dimensionScreensize": "",
-            "family": "studiodisplay",
-            "familyName": "studiodisplay",
-            "metadata": {
-              "isRealPartNumber": true
-            }
-          }
-        }
-      }
-    }
+  "_meta": {
+    "family": "mac",
+    "generated_at": "2026-09-05T19:25:40.766897+00:00",
+    "regions_scraped": 33,
+    "scraper_version": "1.0",
+    "token": "studio-display"
   },
   "country_mappings": {
+    "ae": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
     "at": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
-      }
-    },
-    "us": {
+      },
       "shop_paths": {
         "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "uk": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
       }
     },
     "au": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
-      }
-    },
-    "ca": {
+      },
       "shop_paths": {
         "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "de": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "fr": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "it": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "es": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "nl": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "be-nl": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
       }
     },
     "be-fr": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
       }
     },
-    "ch-de": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
+    "be-nl": {
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
-      }
-    },
-    "ch-fr": {
+      },
       "shop_paths": {
         "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "se": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "dk": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "no": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "fi": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "jp": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "kr": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "hk": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "sg": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "tw": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "th": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "my": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "in": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "ae": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "sa": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
-      }
-    },
-    "tr": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
-      "localization": {
-        "token_display": {
-          "studio-display": "Mac Studio Display"
-        }
       }
     },
     "br": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
       }
     },
-    "mx": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
+    "ca": {
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "ch-de": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "ch-fr": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
       }
     },
     "cn": {
-      "shop_paths": {
-        "studio-display": "shop/buy-mac/studio-display"
-      },
       "localization": {
         "token_display": {
-          "studio-display": "Mac Studio Display"
+          "studio-display": "Studio Display"
         }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "de": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "dk": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "es": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "fi": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "fr": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "hk": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "in": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "it": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "jp": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "kr": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "mx": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "my": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "nl": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "no": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "sa": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "se": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "sg": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "th": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "tr": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "tw": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "uk": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
+      }
+    },
+    "us": {
+      "localization": {
+        "token_display": {
+          "studio-display": "Studio Display"
+        }
+      },
+      "shop_paths": {
+        "studio-display": "shop/buy-mac/studio-display"
       }
     }
   },
-  "_meta": {
-    "generated_at": "2026-09-04T22:37:51.718072+00:00",
-    "scraper_version": "1.0",
-    "family": "mac",
-    "token": "studio-display",
-    "regions_scraped": 33
+  "discovered_models": {
+    "ae": {
+      "studio-display": {
+        "skus": {
+          "MFEW4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4B/A)",
+            "partNumber": "MFEW4B/A"
+          },
+          "MFEX4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4B/A)",
+            "partNumber": "MFEX4B/A"
+          },
+          "MFEY4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4B/A)",
+            "partNumber": "MFEY4B/A"
+          },
+          "MFF04B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04B/A)",
+            "partNumber": "MFF04B/A"
+          },
+          "MFF14B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14B/A)",
+            "partNumber": "MFF14B/A"
+          },
+          "MFF24B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24B/A)",
+            "partNumber": "MFF24B/A"
+          }
+        },
+        "url": "https://www.apple.com/ae/shop/buy-mac/studio-display"
+      }
+    },
+    "at": {
+      "studio-display": {
+        "skus": {
+          "MFEW4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4FD/A)",
+            "partNumber": "MFEW4FD/A"
+          },
+          "MFEX4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4FD/A)",
+            "partNumber": "MFEX4FD/A"
+          },
+          "MFEY4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4FD/A)",
+            "partNumber": "MFEY4FD/A"
+          },
+          "MFF04FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04FD/A)",
+            "partNumber": "MFF04FD/A"
+          },
+          "MFF14FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14FD/A)",
+            "partNumber": "MFF14FD/A"
+          },
+          "MFF24FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24FD/A)",
+            "partNumber": "MFF24FD/A"
+          }
+        },
+        "url": "https://www.apple.com/at/shop/buy-mac/studio-display"
+      }
+    },
+    "au": {
+      "studio-display": {
+        "skus": {
+          "MFEW4X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4X/A)",
+            "partNumber": "MFEW4X/A"
+          },
+          "MFEX4X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4X/A)",
+            "partNumber": "MFEX4X/A"
+          },
+          "MFEY4X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4X/A)",
+            "partNumber": "MFEY4X/A"
+          },
+          "MFF04X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04X/A)",
+            "partNumber": "MFF04X/A"
+          },
+          "MFF14X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14X/A)",
+            "partNumber": "MFF14X/A"
+          },
+          "MFF24X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24X/A)",
+            "partNumber": "MFF24X/A"
+          }
+        },
+        "url": "https://www.apple.com/au/shop/buy-mac/studio-display"
+      }
+    },
+    "be-fr": {
+      "studio-display": {
+        "skus": {
+          "MFEW4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4FD/A)",
+            "partNumber": "MFEW4FD/A"
+          },
+          "MFEX4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4FD/A)",
+            "partNumber": "MFEX4FD/A"
+          },
+          "MFEY4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4FD/A)",
+            "partNumber": "MFEY4FD/A"
+          },
+          "MFF04FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04FD/A)",
+            "partNumber": "MFF04FD/A"
+          },
+          "MFF14FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14FD/A)",
+            "partNumber": "MFF14FD/A"
+          },
+          "MFF24FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24FD/A)",
+            "partNumber": "MFF24FD/A"
+          }
+        },
+        "url": "https://www.apple.com/be-fr/shop/buy-mac/studio-display"
+      }
+    },
+    "be-nl": {
+      "studio-display": {
+        "skus": {
+          "MFEW4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4FD/A)",
+            "partNumber": "MFEW4FD/A"
+          },
+          "MFEX4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4FD/A)",
+            "partNumber": "MFEX4FD/A"
+          },
+          "MFEY4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4FD/A)",
+            "partNumber": "MFEY4FD/A"
+          },
+          "MFF04FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04FD/A)",
+            "partNumber": "MFF04FD/A"
+          },
+          "MFF14FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14FD/A)",
+            "partNumber": "MFF14FD/A"
+          },
+          "MFF24FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24FD/A)",
+            "partNumber": "MFF24FD/A"
+          }
+        },
+        "url": "https://www.apple.com/be-nl/shop/buy-mac/studio-display"
+      }
+    },
+    "br": {
+      "studio-display": {
+        "skus": {
+          "MFEW4BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4BZ/A)",
+            "partNumber": "MFEW4BZ/A"
+          },
+          "MFEX4BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4BZ/A)",
+            "partNumber": "MFEX4BZ/A"
+          },
+          "MFEY4BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4BZ/A)",
+            "partNumber": "MFEY4BZ/A"
+          },
+          "MFF04BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04BZ/A)",
+            "partNumber": "MFF04BZ/A"
+          },
+          "MFF14BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14BZ/A)",
+            "partNumber": "MFF14BZ/A"
+          },
+          "MFF24BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24BZ/A)",
+            "partNumber": "MFF24BZ/A"
+          }
+        },
+        "url": "https://www.apple.com/br/shop/buy-mac/studio-display"
+      }
+    },
+    "ca": {
+      "studio-display": {
+        "skus": {
+          "MFEW4CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4CL/A)",
+            "partNumber": "MFEW4CL/A"
+          },
+          "MFEX4CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4CL/A)",
+            "partNumber": "MFEX4CL/A"
+          },
+          "MFEY4CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4CL/A)",
+            "partNumber": "MFEY4CL/A"
+          },
+          "MFF04CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04CL/A)",
+            "partNumber": "MFF04CL/A"
+          },
+          "MFF14CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14CL/A)",
+            "partNumber": "MFF14CL/A"
+          },
+          "MFF24CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24CL/A)",
+            "partNumber": "MFF24CL/A"
+          }
+        },
+        "url": "https://www.apple.com/ca/shop/buy-mac/studio-display"
+      }
+    },
+    "ch-de": {
+      "studio-display": {
+        "skus": {
+          "MFEW4SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4SM/A)",
+            "partNumber": "MFEW4SM/A"
+          },
+          "MFEX4SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4SM/A)",
+            "partNumber": "MFEX4SM/A"
+          },
+          "MFEY4SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4SM/A)",
+            "partNumber": "MFEY4SM/A"
+          },
+          "MFF04SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04SM/A)",
+            "partNumber": "MFF04SM/A"
+          },
+          "MFF14SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14SM/A)",
+            "partNumber": "MFF14SM/A"
+          },
+          "MFF24SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24SM/A)",
+            "partNumber": "MFF24SM/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-de/shop/buy-mac/studio-display"
+      }
+    },
+    "ch-fr": {
+      "studio-display": {
+        "skus": {
+          "MFEW4SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4SM/A)",
+            "partNumber": "MFEW4SM/A"
+          },
+          "MFEX4SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4SM/A)",
+            "partNumber": "MFEX4SM/A"
+          },
+          "MFEY4SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4SM/A)",
+            "partNumber": "MFEY4SM/A"
+          },
+          "MFF04SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04SM/A)",
+            "partNumber": "MFF04SM/A"
+          },
+          "MFF14SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14SM/A)",
+            "partNumber": "MFF14SM/A"
+          },
+          "MFF24SM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24SM/A)",
+            "partNumber": "MFF24SM/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-fr/shop/buy-mac/studio-display"
+      }
+    },
+    "cn": {
+      "studio-display": {
+        "skus": {
+          "MFEW4CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display - Nano-texture glass - VESA mount adapter",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFEW4CH/A)",
+            "partNumber": "MFEW4CH/A"
+          },
+          "MFEX4CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display - Nano-texture glass - VESA mount adapter",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFEX4CH/A)",
+            "partNumber": "MFEX4CH/A"
+          },
+          "MFEY4CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display - Nano-texture glass - VESA mount adapter",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFEY4CH/A)",
+            "partNumber": "MFEY4CH/A"
+          },
+          "MFF04CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display - Nano-texture glass - VESA mount adapter",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFF04CH/A)",
+            "partNumber": "MFF04CH/A"
+          },
+          "MFF14CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display - Nano-texture glass - VESA mount adapter",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFF14CH/A)",
+            "partNumber": "MFF14CH/A"
+          },
+          "MFF24CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display - Nano-texture glass - VESA mount adapter",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display - Nano-texture glass - VESA mount adapter (MFF24CH/A)",
+            "partNumber": "MFF24CH/A"
+          }
+        },
+        "url": "https://www.apple.com/cn/shop/buy-mac/studio-display"
+      }
+    },
+    "de": {
+      "studio-display": {
+        "skus": {
+          "MFEW4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4FD/A)",
+            "partNumber": "MFEW4FD/A"
+          },
+          "MFEX4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4FD/A)",
+            "partNumber": "MFEX4FD/A"
+          },
+          "MFEY4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4FD/A)",
+            "partNumber": "MFEY4FD/A"
+          },
+          "MFF04FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04FD/A)",
+            "partNumber": "MFF04FD/A"
+          },
+          "MFF14FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14FD/A)",
+            "partNumber": "MFF14FD/A"
+          },
+          "MFF24FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24FD/A)",
+            "partNumber": "MFF24FD/A"
+          }
+        },
+        "url": "https://www.apple.com/de/shop/buy-mac/studio-display"
+      }
+    },
+    "dk": {
+      "studio-display": {
+        "skus": {
+          "MFEW4DK/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4DK/A)",
+            "partNumber": "MFEW4DK/A"
+          },
+          "MFEX4DK/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4DK/A)",
+            "partNumber": "MFEX4DK/A"
+          },
+          "MFEY4DK/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4DK/A)",
+            "partNumber": "MFEY4DK/A"
+          },
+          "MFF04DK/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04DK/A)",
+            "partNumber": "MFF04DK/A"
+          },
+          "MFF14DK/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14DK/A)",
+            "partNumber": "MFF14DK/A"
+          },
+          "MFF24DK/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24DK/A)",
+            "partNumber": "MFF24DK/A"
+          }
+        },
+        "url": "https://www.apple.com/dk/shop/buy-mac/studio-display"
+      }
+    },
+    "es": {
+      "studio-display": {
+        "skus": {
+          "MFEW4YP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4YP/A)",
+            "partNumber": "MFEW4YP/A"
+          },
+          "MFEX4YP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4YP/A)",
+            "partNumber": "MFEX4YP/A"
+          },
+          "MFEY4YP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4YP/A)",
+            "partNumber": "MFEY4YP/A"
+          },
+          "MFF04YP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04YP/A)",
+            "partNumber": "MFF04YP/A"
+          },
+          "MFF14YP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14YP/A)",
+            "partNumber": "MFF14YP/A"
+          },
+          "MFF24YP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24YP/A)",
+            "partNumber": "MFF24YP/A"
+          }
+        },
+        "url": "https://www.apple.com/es/shop/buy-mac/studio-display"
+      }
+    },
+    "fi": {
+      "studio-display": {
+        "skus": {
+          "MFEW4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4KS/A)",
+            "partNumber": "MFEW4KS/A"
+          },
+          "MFEX4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4KS/A)",
+            "partNumber": "MFEX4KS/A"
+          },
+          "MFEY4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4KS/A)",
+            "partNumber": "MFEY4KS/A"
+          },
+          "MFF04KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04KS/A)",
+            "partNumber": "MFF04KS/A"
+          },
+          "MFF14KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14KS/A)",
+            "partNumber": "MFF14KS/A"
+          },
+          "MFF24KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24KS/A)",
+            "partNumber": "MFF24KS/A"
+          }
+        },
+        "url": "https://www.apple.com/fi/shop/buy-mac/studio-display"
+      }
+    },
+    "fr": {
+      "studio-display": {
+        "skus": {
+          "MFEW4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4FD/A)",
+            "partNumber": "MFEW4FD/A"
+          },
+          "MFEX4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4FD/A)",
+            "partNumber": "MFEX4FD/A"
+          },
+          "MFEY4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4FD/A)",
+            "partNumber": "MFEY4FD/A"
+          },
+          "MFF04FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04FD/A)",
+            "partNumber": "MFF04FD/A"
+          },
+          "MFF14FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14FD/A)",
+            "partNumber": "MFF14FD/A"
+          },
+          "MFF24FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24FD/A)",
+            "partNumber": "MFF24FD/A"
+          }
+        },
+        "url": "https://www.apple.com/fr/shop/buy-mac/studio-display"
+      }
+    },
+    "hk": {
+      "studio-display": {
+        "skus": {
+          "MFEW4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4ZP/A)",
+            "partNumber": "MFEW4ZP/A"
+          },
+          "MFEX4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4ZP/A)",
+            "partNumber": "MFEX4ZP/A"
+          },
+          "MFEY4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4ZP/A)",
+            "partNumber": "MFEY4ZP/A"
+          },
+          "MFF04ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04ZP/A)",
+            "partNumber": "MFF04ZP/A"
+          },
+          "MFF14ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14ZP/A)",
+            "partNumber": "MFF14ZP/A"
+          },
+          "MFF24ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24ZP/A)",
+            "partNumber": "MFF24ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/hk/shop/buy-mac/studio-display"
+      }
+    },
+    "in": {
+      "studio-display": {
+        "skus": {
+          "MFEW4HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4HN/A)",
+            "partNumber": "MFEW4HN/A"
+          },
+          "MFEX4HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4HN/A)",
+            "partNumber": "MFEX4HN/A"
+          },
+          "MFEY4HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4HN/A)",
+            "partNumber": "MFEY4HN/A"
+          },
+          "MFF04HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04HN/A)",
+            "partNumber": "MFF04HN/A"
+          },
+          "MFF14HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14HN/A)",
+            "partNumber": "MFF14HN/A"
+          },
+          "MFF24HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24HN/A)",
+            "partNumber": "MFF24HN/A"
+          }
+        },
+        "url": "https://www.apple.com/in/shop/buy-mac/studio-display"
+      }
+    },
+    "it": {
+      "studio-display": {
+        "skus": {
+          "MFEW4T/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4T/A)",
+            "partNumber": "MFEW4T/A"
+          },
+          "MFEX4T/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4T/A)",
+            "partNumber": "MFEX4T/A"
+          },
+          "MFEY4T/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4T/A)",
+            "partNumber": "MFEY4T/A"
+          },
+          "MFF04T/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04T/A)",
+            "partNumber": "MFF04T/A"
+          },
+          "MFF14T/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14T/A)",
+            "partNumber": "MFF14T/A"
+          },
+          "MFF24T/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24T/A)",
+            "partNumber": "MFF24T/A"
+          }
+        },
+        "url": "https://www.apple.com/it/shop/buy-mac/studio-display"
+      }
+    },
+    "jp": {
+      "studio-display": {
+        "skus": {
+          "MFEW4J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4J/A)",
+            "partNumber": "MFEW4J/A"
+          },
+          "MFEX4J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4J/A)",
+            "partNumber": "MFEX4J/A"
+          },
+          "MFEY4J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4J/A)",
+            "partNumber": "MFEY4J/A"
+          },
+          "MFF04J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04J/A)",
+            "partNumber": "MFF04J/A"
+          },
+          "MFF14J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14J/A)",
+            "partNumber": "MFF14J/A"
+          },
+          "MFF24J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24J/A)",
+            "partNumber": "MFF24J/A"
+          }
+        },
+        "url": "https://www.apple.com/jp/shop/buy-mac/studio-display"
+      }
+    },
+    "kr": {
+      "studio-display": {
+        "skus": {
+          "MFEW4KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4KH/A)",
+            "partNumber": "MFEW4KH/A"
+          },
+          "MFEX4KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4KH/A)",
+            "partNumber": "MFEX4KH/A"
+          },
+          "MFEY4KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4KH/A)",
+            "partNumber": "MFEY4KH/A"
+          },
+          "MFF04KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04KH/A)",
+            "partNumber": "MFF04KH/A"
+          },
+          "MFF14KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14KH/A)",
+            "partNumber": "MFF14KH/A"
+          },
+          "MFF24KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24KH/A)",
+            "partNumber": "MFF24KH/A"
+          }
+        },
+        "url": "https://www.apple.com/kr/shop/buy-mac/studio-display"
+      }
+    },
+    "mx": {
+      "studio-display": {
+        "skus": {
+          "MFEW4CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4CL/A)",
+            "partNumber": "MFEW4CL/A"
+          },
+          "MFEX4CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4CL/A)",
+            "partNumber": "MFEX4CL/A"
+          },
+          "MFEY4CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4CL/A)",
+            "partNumber": "MFEY4CL/A"
+          },
+          "MFF04CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04CL/A)",
+            "partNumber": "MFF04CL/A"
+          },
+          "MFF14CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14CL/A)",
+            "partNumber": "MFF14CL/A"
+          },
+          "MFF24CL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24CL/A)",
+            "partNumber": "MFF24CL/A"
+          }
+        },
+        "url": "https://www.apple.com/mx/shop/buy-mac/studio-display"
+      }
+    },
+    "my": {
+      "studio-display": {
+        "skus": {
+          "MFEW4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4ZP/A)",
+            "partNumber": "MFEW4ZP/A"
+          },
+          "MFEX4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4ZP/A)",
+            "partNumber": "MFEX4ZP/A"
+          },
+          "MFEY4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4ZP/A)",
+            "partNumber": "MFEY4ZP/A"
+          },
+          "MFF04ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04ZP/A)",
+            "partNumber": "MFF04ZP/A"
+          },
+          "MFF14ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14ZP/A)",
+            "partNumber": "MFF14ZP/A"
+          },
+          "MFF24ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24ZP/A)",
+            "partNumber": "MFF24ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/my/shop/buy-mac/studio-display"
+      }
+    },
+    "nl": {
+      "studio-display": {
+        "skus": {
+          "MFEW4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4FD/A)",
+            "partNumber": "MFEW4FD/A"
+          },
+          "MFEX4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4FD/A)",
+            "partNumber": "MFEX4FD/A"
+          },
+          "MFEY4FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4FD/A)",
+            "partNumber": "MFEY4FD/A"
+          },
+          "MFF04FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04FD/A)",
+            "partNumber": "MFF04FD/A"
+          },
+          "MFF14FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14FD/A)",
+            "partNumber": "MFF14FD/A"
+          },
+          "MFF24FD/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24FD/A)",
+            "partNumber": "MFF24FD/A"
+          }
+        },
+        "url": "https://www.apple.com/nl/shop/buy-mac/studio-display"
+      }
+    },
+    "no": {
+      "studio-display": {
+        "skus": {
+          "MFEW4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4KS/A)",
+            "partNumber": "MFEW4KS/A"
+          },
+          "MFEX4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4KS/A)",
+            "partNumber": "MFEX4KS/A"
+          },
+          "MFEY4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4KS/A)",
+            "partNumber": "MFEY4KS/A"
+          },
+          "MFF04KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04KS/A)",
+            "partNumber": "MFF04KS/A"
+          },
+          "MFF14KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14KS/A)",
+            "partNumber": "MFF14KS/A"
+          },
+          "MFF24KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24KS/A)",
+            "partNumber": "MFF24KS/A"
+          }
+        },
+        "url": "https://www.apple.com/no/shop/buy-mac/studio-display"
+      }
+    },
+    "sa": {
+      "studio-display": {
+        "skus": {
+          "MFEW4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4B/A)",
+            "partNumber": "MFEW4B/A"
+          },
+          "MFEX4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4B/A)",
+            "partNumber": "MFEX4B/A"
+          },
+          "MFEY4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4B/A)",
+            "partNumber": "MFEY4B/A"
+          },
+          "MFF04B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04B/A)",
+            "partNumber": "MFF04B/A"
+          },
+          "MFF14B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14B/A)",
+            "partNumber": "MFF14B/A"
+          },
+          "MFF24B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24B/A)",
+            "partNumber": "MFF24B/A"
+          }
+        },
+        "url": "https://www.apple.com/sa/shop/buy-mac/studio-display"
+      }
+    },
+    "se": {
+      "studio-display": {
+        "skus": {
+          "MFEW4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4KS/A)",
+            "partNumber": "MFEW4KS/A"
+          },
+          "MFEX4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4KS/A)",
+            "partNumber": "MFEX4KS/A"
+          },
+          "MFEY4KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4KS/A)",
+            "partNumber": "MFEY4KS/A"
+          },
+          "MFF04KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04KS/A)",
+            "partNumber": "MFF04KS/A"
+          },
+          "MFF14KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14KS/A)",
+            "partNumber": "MFF14KS/A"
+          },
+          "MFF24KS/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24KS/A)",
+            "partNumber": "MFF24KS/A"
+          }
+        },
+        "url": "https://www.apple.com/se/shop/buy-mac/studio-display"
+      }
+    },
+    "sg": {
+      "studio-display": {
+        "skus": {
+          "MFEW4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4ZP/A)",
+            "partNumber": "MFEW4ZP/A"
+          },
+          "MFEX4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4ZP/A)",
+            "partNumber": "MFEX4ZP/A"
+          },
+          "MFEY4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4ZP/A)",
+            "partNumber": "MFEY4ZP/A"
+          },
+          "MFF04ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04ZP/A)",
+            "partNumber": "MFF04ZP/A"
+          },
+          "MFF14ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14ZP/A)",
+            "partNumber": "MFF14ZP/A"
+          },
+          "MFF24ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24ZP/A)",
+            "partNumber": "MFF24ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/sg/shop/buy-mac/studio-display"
+      }
+    },
+    "th": {
+      "studio-display": {
+        "skus": {
+          "MFEW4TH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4TH/A)",
+            "partNumber": "MFEW4TH/A"
+          },
+          "MFEX4TH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4TH/A)",
+            "partNumber": "MFEX4TH/A"
+          },
+          "MFEY4TH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4TH/A)",
+            "partNumber": "MFEY4TH/A"
+          },
+          "MFF04TH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04TH/A)",
+            "partNumber": "MFF04TH/A"
+          },
+          "MFF14TH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14TH/A)",
+            "partNumber": "MFF14TH/A"
+          },
+          "MFF24TH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24TH/A)",
+            "partNumber": "MFF24TH/A"
+          }
+        },
+        "url": "https://www.apple.com/th/shop/buy-mac/studio-display"
+      }
+    },
+    "tr": {
+      "studio-display": {
+        "skus": {
+          "MFEW4TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4TU/A)",
+            "partNumber": "MFEW4TU/A"
+          },
+          "MFEX4TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4TU/A)",
+            "partNumber": "MFEX4TU/A"
+          },
+          "MFEY4TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4TU/A)",
+            "partNumber": "MFEY4TU/A"
+          },
+          "MFF04TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04TU/A)",
+            "partNumber": "MFF04TU/A"
+          },
+          "MFF14TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14TU/A)",
+            "partNumber": "MFF14TU/A"
+          },
+          "MFF24TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24TU/A)",
+            "partNumber": "MFF24TU/A"
+          }
+        },
+        "url": "https://www.apple.com/tr/shop/buy-mac/studio-display"
+      }
+    },
+    "tw": {
+      "studio-display": {
+        "skus": {
+          "MFEW4TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4TA/A)",
+            "partNumber": "MFEW4TA/A"
+          },
+          "MFEX4TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4TA/A)",
+            "partNumber": "MFEX4TA/A"
+          },
+          "MFEY4TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4TA/A)",
+            "partNumber": "MFEY4TA/A"
+          },
+          "MFF04TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04TA/A)",
+            "partNumber": "MFF04TA/A"
+          },
+          "MFF14TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14TA/A)",
+            "partNumber": "MFF14TA/A"
+          },
+          "MFF24TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24TA/A)",
+            "partNumber": "MFF24TA/A"
+          }
+        },
+        "url": "https://www.apple.com/tw/shop/buy-mac/studio-display"
+      }
+    },
+    "uk": {
+      "studio-display": {
+        "skus": {
+          "MFEW4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4B/A)",
+            "partNumber": "MFEW4B/A"
+          },
+          "MFEX4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4B/A)",
+            "partNumber": "MFEX4B/A"
+          },
+          "MFEY4B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4B/A)",
+            "partNumber": "MFEY4B/A"
+          },
+          "MFF04B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04B/A)",
+            "partNumber": "MFF04B/A"
+          },
+          "MFF14B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14B/A)",
+            "partNumber": "MFF14B/A"
+          },
+          "MFF24B/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24B/A)",
+            "partNumber": "MFF24B/A"
+          }
+        },
+        "url": "https://www.apple.com/uk/shop/buy-mac/studio-display"
+      }
+    },
+    "us": {
+      "studio-display": {
+        "skus": {
+          "MFEW4LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEW4LL/A)",
+            "partNumber": "MFEW4LL/A"
+          },
+          "MFEX4LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEX4LL/A)",
+            "partNumber": "MFEX4LL/A"
+          },
+          "MFEY4LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFEY4LL/A)",
+            "partNumber": "MFEY4LL/A"
+          },
+          "MFF04LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF04LL/A)",
+            "partNumber": "MFF04LL/A"
+          },
+          "MFF14LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF14LL/A)",
+            "partNumber": "MFF14LL/A"
+          },
+          "MFF24LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplay",
+            "familyName": "Studio Display",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "mac"
+            },
+            "name": "Studio Display (MFF24LL/A)",
+            "partNumber": "MFF24LL/A"
+          }
+        },
+        "url": "https://www.apple.com/us/shop/buy-mac/studio-display"
+      }
+    }
   }
 }

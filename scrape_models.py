@@ -151,6 +151,18 @@ class Scraper:
                 # Re-raise other HTTP errors to be handled by the outer except
                 raise
             html = resp.text
+            # Detect redirect to main store page (product not offered in region)
+            # e.g., https://www.apple.com/at/shop/buy-vision/apple-vision-pro → https://www.apple.com/at/store
+            orig_path = url.split('apple.com', 1)[-1] if 'apple.com' in url else url
+            final_path = resp.url.split('apple.com', 1)[-1] if 'apple.com' in resp.url else resp.url
+            # Extract the last meaningful path segment from original (e.g., "apple-vision-pro")
+            orig_token = re.search(r'/([a-z0-9\-]+)$', orig_path.strip('/'), re.IGNORECASE)
+            if orig_token:
+                token_slug = orig_token.group(1).lower()
+                # If redirected to a completely different page (not containing the token), it's unsold
+                if token_slug not in final_path.lower() and final_path.lower().endswith('/store'):
+                    print(f"[info] Redirected to main store (not offered in this region): {url} -> {resp.url}")
+                    return None
             # Page title for display-name inference
             title_match = re.search(r'<title>([^<]+)</title>', html, re.IGNORECASE)
             page_title = title_match.group(1).strip() if title_match else ''
@@ -613,7 +625,7 @@ class Scraper:
                     name = re.sub(purchase_re, '', name, flags=re.IGNORECASE)
                     name = re.sub(r'\s+', ' ', name).strip()  # Normalize whitespace
                     if name and len(name) > 3:
-                        return name
+                        return self._clean_product_name(name)
 
             # Try to find product names in nested structures
             def find_product_names(obj, path=""):
@@ -634,7 +646,7 @@ class Scraper:
                             name = re.sub(purchase_re, '', name, flags=re.IGNORECASE)
                             name = re.sub(r'\s+', ' ', name).strip()  # Normalize whitespace
                             if name and len(name) > 3:
-                                return name
+                                return self._clean_product_name(name)
                         elif isinstance(v, (dict, list)):
                             result = find_product_names(v, f"{path}.{k}")
                             if result:
@@ -669,7 +681,7 @@ class Scraper:
                             if isinstance(item, dict) and item.get('@type') == 'Product':
                                 name = item.get('name', '').strip()
                                 if name and len(name) > 6:
-                                    return name
+                                    return self._clean_product_name(name)
                     except (json.JSONDecodeError, KeyError):
                         continue
 
@@ -685,7 +697,7 @@ class Scraper:
                             if isinstance(product, dict):
                                 name = product.get('name', '').strip()
                                 if name and len(name) > 10:  # More than just "iPhone"
-                                    return name
+                                    return self._clean_product_name(name)
                 except (json.JSONDecodeError, KeyError):
                     pass
 
@@ -710,7 +722,7 @@ class Scraper:
                             # Look for model names in display values
                             if len(clean_name) > 6:
                                 # Extract clean product name from display value
-                                return clean_name
+                                return self._clean_product_name(clean_name)
                 except (json.JSONDecodeError, KeyError, AttributeError):
                     pass
 
@@ -732,11 +744,44 @@ class Scraper:
                 # Remove leading "Shop "/"Buy "/"Kaufen " etc. from Mac/other pages
                 h1_text = re.sub(r'^(Shop|Buy|Kaufen|Acheter|Comprar|Comprare|Kopen|Köp|Osta|購買|購入|구매|选购|立即选购)\s+', '', h1_text, flags=re.IGNORECASE)
                 h1_text = re.sub(r'\s+', ' ', h1_text).strip()  # Normalize whitespace
-                if h1_text and len(h1_text) > 3:
-                    return h1_text
+                _BOGUS_NAMES = {'der store', 'shop', 'buy', 'kaufen', 'acheter', 'store', 'loja', 'tienda', 'negozio'}
+                if h1_text and len(h1_text) > 3 and h1_text.lower() not in _BOGUS_NAMES:
+                    return self._clean_product_name(h1_text)
 
         # No fallbacks - leave empty until proper extraction is implemented
         return None
+
+    def _clean_product_name(self, raw: str) -> str:
+        """Sanitize a product name: remove PDF metadata, purchase verbs, separators, etc."""
+        if not raw:
+            return raw
+        name = raw
+        name = name.replace('\xa0', ' ')
+        name = re.sub(r'&nbsp;', ' ', name)
+        name = re.sub(r'&[a-zA-Z0-9#]+;', '', name)
+        name = re.sub(r'<[^>]+>', '', name)
+        name = re.sub(r'\s*-\s*Apple\s*.*$', '', name, flags=re.IGNORECASE)
+        # Remove trailing PDF/document metadata
+        name = re.sub(r'\s*[,;]\s*Produktdatenblatt\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[\u2013\u2014\-—–-]\s*Produktdatenblatt\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*Produktdatenblatt\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[,;]\s*Ficha técnica\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[\u2013\u2014\-—–-]\s*Ficha técnica\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[,;]\s*Scheda tecnica\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[\u2013\u2014\-—–-]\s*Scheda tecnica\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[,;]\s*Fiche technique\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[\u2013\u2014\-—–-]\s*Fiche technique\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[,;]\s*Data sheet\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[\u2013\u2014\-—–-]\s*Data sheet\s*PDF\s*$', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*[,;\u2013\u2014\-—–-]*\s*$', '', name)
+        # Strip PDF metadata prefixes (e.g., "Produktdatenblatt PDF, iPad")
+        name = re.sub(r'^Produktdatenblatt\s*PDF\s*[,;\u2013\u2014\-—–-]*\s*', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'^Ficha técnica\s*PDF\s*[,;\u2013\u2014\-—–-]*\s*', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'^Scheda tecnica\s*PDF\s*[,;\u2013\u2014\-—–-]*\s*', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'^Fiche technique\s*PDF\s*[,;\u2013\u2014\-—–-]*\s*', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'^Data sheet\s*PDF\s*[,;\u2013\u2014\-—–-]*\s*', '', name, flags=re.IGNORECASE)
+        name = name.strip()
+        return name
 
     def extract_product_selection_data(self, html, family):
         """Extract product selection data from the page HTML."""
@@ -979,10 +1024,36 @@ class Scraper:
                     # Skip localized products that were already processed
                     if p.get('_localized_processed'):
                         continue
+                    # Extract nested dimensions for watch products (Apple Watch v10 structure)
+                    nested_dims = p.get('dimensions')
+                    if isinstance(nested_dims, dict):
+                        for dk, dv in nested_dims.items():
+                            if dk.startswith('watch_cases-'):
+                                if dk.endswith('dimensionColor') and not p.get('dimensionColor'):
+                                    p['dimensionColor'] = dv
+                                elif dk.endswith('dimensionCaseSize') and not p.get('_watch_caseSize'):
+                                    p['_watch_caseSize'] = dv
+                                elif dk.endswith('dimensionCaseMaterial') and not p.get('_watch_caseMaterial'):
+                                    p['_watch_caseMaterial'] = dv
+                                elif dk.endswith('dimensionConnection') and not p.get('_watch_connection'):
+                                    p['_watch_connection'] = dv
                     cap_key = p.get('dimensionCapacity')
                     color_key = p.get('dimensionColor')
                     cap = resolve_capacity(cap_key)
-                    ck, cd = resolve_color(color_key)
+                    # Resolve watch-specific colors via displayValues when available
+                    watch_color_disp = disp.get('watch_cases-dimensionColor', {})
+                    if color_key and watch_color_disp:
+                        entry = watch_color_disp.get(color_key, {})
+                        pretty = ''
+                        if isinstance(entry, dict):
+                            pretty = entry.get('value') or entry.get('text') or entry.get('header') or ''
+                            pretty = re.sub(r'<[^>]+>', '', pretty).replace('\u00a0', ' ').strip()
+                        if not pretty:
+                            pretty = color_key.replace('_', ' ').title()
+                        ck = color_key.lower().replace(' ', '')
+                        cd = pretty
+                    else:
+                        ck, cd = resolve_color(color_key)
                     
                     # If no color/capacity from product data, try to infer from part number or name
                     if not ck and not cap:
@@ -1360,6 +1431,29 @@ class Scraper:
                                 except Exception:
                                     pass
                                 fam = (family_hint or '').lower()
+                                offer_name = offer.get('name') or ''
+                                # Strip bare family-keyword names (e.g., "airpods" → "AirPods Max")
+                                if offer_name.strip().lower() in (fam, fam + 's', ''):
+                                    offer_name = ''
+                                fam_name = self.extract_product_family_name(html, bootstrap, family_hint) or self._family_display_name(family_hint) or ''
+                                # If offer_name is still empty, use the extracted family name
+                                if not offer_name.strip():
+                                    offer_name = fam_name
+                                # Create or enrich entry with name from ld+json offer
+                                existing = out.get(sku)
+                                if not isinstance(existing, dict):
+                                    out[sku] = {
+                                        "name": offer_name,
+                                        "colorKey": "",
+                                        "colorDisplay": "",
+                                        "capacity": "",
+                                        "family": fam or "",
+                                        "familyName": fam_name
+                                    }
+                                elif offer_name and not (existing.get('name') or '').strip():
+                                    existing['name'] = offer_name
+                                    if not (existing.get('familyName') or '').strip():
+                                        existing['familyName'] = fam_name
         # Fallback 2b (Mac/iPhone): parse window.pageLevelData productSelectionTabSlots JS blocks
         # e.g., window.pageLevelData.productSelectionTabSlots.productSelection1 = { ... }
         if (family_hint or '').lower() in ('mac','iphone'):
@@ -1631,6 +1725,13 @@ class Scraper:
                     if k not in ('name', 'family', 'familyName', 'partNumber', 'part', 'metadata')
                 )
             }
+
+        # Clean familyName values at the end (strip PDF metadata, purchase verbs etc.)
+        for sku, data in out.items():
+            if isinstance(data, dict) and (data.get('familyName') or '').strip():
+                data['familyName'] = self._clean_product_name(data['familyName'])
+            if isinstance(data, dict) and (data.get('name') or '').strip():
+                data['name'] = self._clean_product_name(data['name'])
         
         return out
 
@@ -1690,8 +1791,10 @@ class Scraper:
         if t.lower().startswith(fam + "-"):
             t = t[len(fam) + 1:]
         parts = [p for p in t.split('-') if p]
-        # TitleCase each segment, but keep numbers as-is
         pretty = ''.join(p.capitalize() for p in parts)
+        overrides = self.config.get("token_display_overrides", {})
+        if token.lower() in overrides:
+            return overrides[token.lower()]
         return pretty or token
 
     def emit_model_file(self, family: str, token: str, country_to_data: Dict[str, Tuple[str, Dict[str, dict]]], regions_count: int = 0) -> str:
@@ -1711,6 +1814,9 @@ class Scraper:
             t = t[len(disp_slug) + 1:]
         parts = [p for p in t.split('-') if p]
         pretty = ' '.join(p.capitalize() for p in parts)
+        overrides = self.config.get("token_display_overrides", {})
+        if token.lower() in overrides:
+            pretty = overrides[token.lower()]
         pretty_raw = pretty.lower()
         if pretty_raw == base.lower():
             token_display = base
@@ -1758,7 +1864,7 @@ class Scraper:
             pass
         out_path = os.path.join(models_dir if os.path.isdir(models_dir) else (out_dir if os.path.isdir(out_dir) else "."), fname)
         with open(out_path, 'w', encoding='utf-8') as f:
-            json.dump(root, f, ensure_ascii=False, indent=2)
+            json.dump(root, f, ensure_ascii=False, indent=2, sort_keys=True)
         print(f"[write] {out_path}")
         return out_path
 
@@ -1881,8 +1987,18 @@ class Scraper:
                     # Discover per-region if not found globally
                     local = self.discover_models(family, r)
                     shop_path = local.get(token)
-                    if not shop_path:
-                        continue
+                if not shop_path:
+                    # Fallback: token may itself be a product page (e.g., airpods-4 is an entrypoint)
+                    for cat in self._categories(family):
+                        for ep in cat.get("entrypoints", []):
+                            t_ep = ep.rsplit("/", 1)[-1] if "/" in ep else ep
+                            if t_ep == token or ep.endswith("/" + token):
+                                shop_path = ep
+                                break
+                        if shop_path:
+                            break
+                if not shop_path:
+                    continue
                 base = r["url_prefix"].rstrip('/') + '/'
                 url = base + shop_path
                 payload = self._extract_product_data(url)
@@ -1937,6 +2053,32 @@ class Scraper:
                 skus = _prune_skus(skus, family)
                 print(f"[debug] after_prune {r['code']}/{family}:{token} -> {len(skus)} skus")
 
+                # Drop regions where all SKUs have clearly bogus data (e.g. AVP page in unsupported region)
+                if skus:
+                    _BOGUS_NAMES = {'shop', 'buy', 'kaufen', 'acheter', 'store', 'der store', 'loja', 'tienda', 'negozio'}
+                    name_counts: Dict[str, int] = {}
+                    has_capacity = False
+                    has_color = False
+                    has_nonempty_name = False
+                    for d in skus.values():
+                        if isinstance(d, dict):
+                            fn = (d.get('familyName') or '').strip().lower()
+                            name_counts[fn] = name_counts.get(fn, 0) + 1
+                            if (d.get('capacity') or '').strip():
+                                has_capacity = True
+                            if (d.get('colorDisplay') or '').strip():
+                                has_color = True
+                            if (d.get('name') or '').strip():
+                                has_nonempty_name = True
+                    total = len(skus)
+                    undifferentiated = (not has_capacity and not has_color and not has_nonempty_name and total >= 4)
+                    total_nameless = sum(c for n, c in name_counts.items() if (not n or n in _BOGUS_NAMES))
+                    bogus = total_nameless
+                    if total > 0 and (bogus == total or (undifferentiated and total >= 4)):
+                        reason = 'bogus names' if bogus == total else 'undifferentiated (no capacity/color/name)'
+                        print(f"[warn] {r['code']}/{family}:{token} all {total} SKUs are {reason} ({set(name_counts.keys())}) — dropping region")
+                        continue
+
                 # Handler: post-pruning (e.g. Mac name building)
                 skus = h.post_process_skus(skus, payload, token, inferred_display, self._family_config(family))
 
@@ -1966,6 +2108,7 @@ class Scraper:
                                         r'각주|脚注|註腳|เชิงอรรถ|Nota\s+de\s+rodapé|Nota)\s+\d+$',
                                         '', clean_val, flags=re.IGNORECASE)
                                     clean_val = clean_val.strip()
+                                    clean_val = self._clean_product_name(clean_val)
                                     if clean_val:
                                         size_to_model[key] = clean_val
                     # Fallback to SSR script tag if present
@@ -1990,6 +2133,7 @@ class Scraper:
                                             r'각주|脚注|註腳|เชิงอรรถ|Nota\s+de\s+rodapé|Nota)\s+\d+$',
                                             '', clean_val, flags=re.IGNORECASE)
                                         clean_val = clean_val.strip()
+                                        clean_val = self._clean_product_name(clean_val)
                                         if clean_val:
                                             size_to_model[key] = clean_val
 
@@ -2420,6 +2564,7 @@ class Scraper:
                         text = re.sub(r'&[a-zA-Z0-9#]+;', '', text)
                         text = re.sub(r'\s+', ' ', text).strip()
                         if key and text:
+                            text = self._clean_product_name(text)
                             derived_map[key] = text
                     # Normalize composite keys to base size key as well (e.g., 6_9inch_dimensionColor_silver -> 6_9inch)
                     # Choose the most frequent displayText per base size; on ties, pick the longer text
@@ -2525,7 +2670,8 @@ class Scraper:
 
                 # Additional data-driven fallback: derive model by (capacity, color) pairs found in HTML text
                 # e.g., "iPhone 17 Pro Max 512GB Tiefblau" / "iPhone 17 Pro 256GB Silber"
-                if skus and html:
+                # Only run for iPhone — regex matches produce unreliable results on other families
+                if skus and html and (family or '').strip().lower() == 'iphone':
                     pair_to_model: Dict[Tuple[str, str], str] = {}
                     # Build mapping from localized color display -> colorKey using bootstrap when available
                     color_display_to_key: Dict[str, str] = {}
@@ -2594,6 +2740,32 @@ class Scraper:
                     for k, v in skus.items():
                         if isinstance(v, dict) and (v.get('familyName') or '').strip().lower() in ('', fam_cap.lower()):
                             v['familyName'] = inferred_display
+
+                # Final cleanup pass: sanitize familyName, name, capacity, colorDisplay before writing
+                fam_disp = self._family_config(family).get('display_name', family.title()) if family else ''
+                for k, v in (skus or {}).items():
+                    if isinstance(v, dict):
+                        if (v.get('familyName') or '').strip():
+                            v['familyName'] = self._clean_product_name(v['familyName'])
+                        if (v.get('name') or '').strip():
+                            v['name'] = self._clean_product_name(v['name'])
+                        if (v.get('capacity') or '').strip():
+                            cap = v['capacity']
+                            cap = re.sub(r'&nbsp;', ' ', cap)
+                            cap = re.sub(r'&[a-zA-Z0-9#]+;', '', cap)
+                            cap = re.sub(r'<[^>]+>', '', cap)
+                            cap = re.sub(r'\s+(?:Speicher|storage|Stockage|Memoria|Armazenamento|Lagring|Tallennustila|저장\s*용량|ストレージ|存储容量|儲存容量)\s*$', '', cap, flags=re.IGNORECASE)
+                            cap = cap.strip()
+                            # Normalize: "256 GB" -> "256GB", "1 TB" -> "1TB"
+                            cap = re.sub(r'\s+(GB|TB)', r'\1', cap, flags=re.IGNORECASE)
+                            v['capacity'] = cap
+                        if (v.get('colorDisplay') or '').strip():
+                            cd = v['colorDisplay']
+                            cd = re.sub(r'&nbsp;', ' ', cd)
+                            cd = re.sub(r'&[a-zA-Z0-9#]+;', '', cd)
+                            cd = re.sub(r'<[^>]+>', '', cd)
+                            cd = cd.strip()
+                            v['colorDisplay'] = cd
                 
                 country_to_data[r["code"].upper()] = (shop_path, skus or {})
             if country_to_data:

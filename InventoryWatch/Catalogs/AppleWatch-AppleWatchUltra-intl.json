@@ -1,1001 +1,1581 @@
 {
-  "discovered_models": {
-    "at": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natur",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Schwarz",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "us": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/us/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254LW/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4LW/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "uk": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254DH/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4DH/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "au": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-ultra",
-        "skus": {}
-      }
-    },
-    "ca": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4CL/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254CL/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "de": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natur",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Schwarz",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "fr": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Noir",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Naturel",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "it": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254QL/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Nero",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4QL/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Naturale",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "es": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254QL/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Negro",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4QL/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "nl": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Naturel",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Zwart",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "be-nl": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Naturel",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Zwart",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "be-fr": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/be-fr/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Naturel",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Noir",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "ch-de": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natur",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Schwarz",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "ch-fr": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/ch-fr/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4QF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Naturel",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254QF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Noir",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "se": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4KS/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "naturlig",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254KS/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "svart",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "dk": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254DH/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "sort",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4DH/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "naturlig",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "no": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254DH/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "svart",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4DH/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "naturlig",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "fi": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4KS/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Luonnon­­vaalea",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254KS/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Musta",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "jp": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-ultra",
-        "skus": {}
-      }
-    },
-    "kr": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4KH/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "내추럴",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254KH/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "블랙",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "hk": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4ZP/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254ZP/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "sg": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-ultra",
-        "skus": {}
-      }
-    },
-    "tw": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254TA/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "黑色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4TA/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "原色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "th": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4SA/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "ธรรมชาติ",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254SA/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "ดำ",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "my": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-ultra",
-        "skus": {}
-      }
-    },
-    "in": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/in/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4HN/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254HN/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "ae": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254AF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4AF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "sa": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/sa/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254AF/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Black",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4AF/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "tr": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254TU/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Siyah",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4TU/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natürel",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "br": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/br/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF254BE/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Preto",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF1V4BE/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "mx": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1V4CL/A": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "Natural",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF254CL/A": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "Negro",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    },
-    "cn": {
-      "apple-watch-ultra": {
-        "url": "https://www.apple.com/cn/shop/buy-watch/apple-watch-ultra",
-        "skus": {
-          "MF1W4CH/B": {
-            "name": "",
-            "colorKey": "natural",
-            "colorDisplay": "原色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          },
-          "MF274CH/B": {
-            "name": "",
-            "colorKey": "black",
-            "colorDisplay": "黑色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch Ultra 3"
-          }
-        }
-      }
-    }
+  "_meta": {
+    "family": "watch",
+    "generated_at": "2026-09-05T19:22:49.257864+00:00",
+    "regions_scraped": 33,
+    "scraper_version": "1.0",
+    "token": "apple-watch-ultra"
   },
   "country_mappings": {
+    "ae": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
     "at": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
-      }
-    },
-    "us": {
+      },
       "shop_paths": {
         "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "uk": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
       }
     },
     "au": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
-      }
-    },
-    "ca": {
+      },
       "shop_paths": {
         "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "de": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "fr": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "it": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "es": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "nl": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "be-nl": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
       }
     },
     "be-fr": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
       }
     },
-    "ch-de": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
+    "be-nl": {
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
-      }
-    },
-    "ch-fr": {
+      },
       "shop_paths": {
         "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "se": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "dk": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "no": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "fi": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "jp": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "kr": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "hk": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "sg": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "tw": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "th": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "my": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "in": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "ae": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "sa": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
-      }
-    },
-    "tr": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
-      "localization": {
-        "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
-        }
       }
     },
     "br": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
       }
     },
-    "mx": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
+    "ca": {
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "ch-de": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "ch-fr": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
       }
     },
     "cn": {
-      "shop_paths": {
-        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
-      },
       "localization": {
         "token_display": {
-          "apple-watch-ultra": "Apple Watch Apple Watch Ultra"
+          "apple-watch-ultra": "Apple Watch Ultra"
         }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "de": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "dk": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "es": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "fi": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "fr": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "hk": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "in": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "it": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "jp": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "kr": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "mx": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "my": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "nl": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "no": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "sa": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "se": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "sg": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "th": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "tr": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "tw": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "uk": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "us": {
+      "localization": {
+        "token_display": {
+          "apple-watch-ultra": "Apple Watch Ultra"
+        }
+      },
+      "shop_paths": {
+        "apple-watch-ultra": "shop/buy-watch/apple-watch-ultra"
       }
     }
   },
-  "_meta": {
-    "generated_at": "2026-09-05T10:17:22.106063+00:00",
-    "scraper_version": "1.0",
-    "family": "watch",
-    "token": "apple-watch-ultra",
-    "regions_scraped": 33
+  "discovered_models": {
+    "ae": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4AF/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4AF/A"
+          },
+          "MF254AF/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254AF/A"
+          }
+        },
+        "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "at": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Natur",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natur",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natur",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Schwarz",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Schwarz",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Schwarz",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "au": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4X/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4X/A"
+          },
+          "MF254X/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254X/A"
+          }
+        },
+        "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "be-fr": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Naturel",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Naturel",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Naturel",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Noir",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Noir",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Noir",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/be-fr/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "be-nl": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Naturel",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Naturel",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Naturel",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Zwart",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Zwart",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Zwart",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "br": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4BE/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4BE/A"
+          },
+          "MF254BE/A": {
+            "capacity": "",
+            "colorDisplay": "Preto",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Preto",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Preto",
+            "partNumber": "MF254BE/A"
+          }
+        },
+        "url": "https://www.apple.com/br/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "ca": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4CL/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4CL/A"
+          },
+          "MF254CL/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254CL/A"
+          }
+        },
+        "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "ch-de": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Natur",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natur",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natur",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Schwarz",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Schwarz",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Schwarz",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "ch-fr": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Naturel",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Naturel",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Naturel",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Noir",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Noir",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Noir",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-fr/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "cn": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1W4CH/B": {
+            "capacity": "",
+            "colorDisplay": "原色",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "原色",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm 原色",
+            "partNumber": "MF1W4CH/B"
+          },
+          "MF274CH/B": {
+            "capacity": "",
+            "colorDisplay": "黑色",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "黑色",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm 黑色",
+            "partNumber": "MF274CH/B"
+          }
+        },
+        "url": "https://www.apple.com/cn/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "de": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Natur",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natur",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natur",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Schwarz",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Schwarz",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Schwarz",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "dk": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4DH/A": {
+            "capacity": "",
+            "colorDisplay": "naturlig",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "naturlig",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm naturlig",
+            "partNumber": "MF1V4DH/A"
+          },
+          "MF254DH/A": {
+            "capacity": "",
+            "colorDisplay": "sort",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "sort",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm sort",
+            "partNumber": "MF254DH/A"
+          }
+        },
+        "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "es": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QL/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4QL/A"
+          },
+          "MF254QL/A": {
+            "capacity": "",
+            "colorDisplay": "Negro",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Negro",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Negro",
+            "partNumber": "MF254QL/A"
+          }
+        },
+        "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "fi": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4KS/A": {
+            "capacity": "",
+            "colorDisplay": "Luonnon­­vaalea",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Luonnon­­vaalea",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Luonnon­­vaalea",
+            "partNumber": "MF1V4KS/A"
+          },
+          "MF254KS/A": {
+            "capacity": "",
+            "colorDisplay": "Musta",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Musta",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Musta",
+            "partNumber": "MF254KS/A"
+          }
+        },
+        "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "fr": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Naturel",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Naturel",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Naturel",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Noir",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Noir",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Noir",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "hk": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4ZP/A"
+          },
+          "MF254ZP/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "in": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4HN/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4HN/A"
+          },
+          "MF254HN/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254HN/A"
+          }
+        },
+        "url": "https://www.apple.com/in/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "it": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QL/A": {
+            "capacity": "",
+            "colorDisplay": "Naturale",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Naturale",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Naturale",
+            "partNumber": "MF1V4QL/A"
+          },
+          "MF254QL/A": {
+            "capacity": "",
+            "colorDisplay": "Nero",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Nero",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Nero",
+            "partNumber": "MF254QL/A"
+          }
+        },
+        "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "jp": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4J/A": {
+            "capacity": "",
+            "colorDisplay": "ナチュラル",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "ナチュラル",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm ナチュラル",
+            "partNumber": "MF1V4J/A"
+          },
+          "MF254J/A": {
+            "capacity": "",
+            "colorDisplay": "ブラック",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "ブラック",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm ブラック",
+            "partNumber": "MF254J/A"
+          }
+        },
+        "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "kr": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4KH/A": {
+            "capacity": "",
+            "colorDisplay": "내추럴",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "내추럴",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm 내추럴",
+            "partNumber": "MF1V4KH/A"
+          },
+          "MF254KH/A": {
+            "capacity": "",
+            "colorDisplay": "블랙",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "블랙",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm 블랙",
+            "partNumber": "MF254KH/A"
+          }
+        },
+        "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "mx": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4CL/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4CL/A"
+          },
+          "MF254CL/A": {
+            "capacity": "",
+            "colorDisplay": "Negro",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Negro",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Negro",
+            "partNumber": "MF254CL/A"
+          }
+        },
+        "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "my": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4X/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4X/A"
+          },
+          "MF254X/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254X/A"
+          }
+        },
+        "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "nl": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4QF/A": {
+            "capacity": "",
+            "colorDisplay": "Naturel",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Naturel",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Naturel",
+            "partNumber": "MF1V4QF/A"
+          },
+          "MF254QF/A": {
+            "capacity": "",
+            "colorDisplay": "Zwart",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Zwart",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Zwart",
+            "partNumber": "MF254QF/A"
+          }
+        },
+        "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "no": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4DH/A": {
+            "capacity": "",
+            "colorDisplay": "naturlig",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "naturlig",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm naturlig",
+            "partNumber": "MF1V4DH/A"
+          },
+          "MF254DH/A": {
+            "capacity": "",
+            "colorDisplay": "svart",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "svart",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm svart",
+            "partNumber": "MF254DH/A"
+          }
+        },
+        "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "sa": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4AF/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4AF/A"
+          },
+          "MF254AF/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254AF/A"
+          }
+        },
+        "url": "https://www.apple.com/sa/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "se": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4KS/A": {
+            "capacity": "",
+            "colorDisplay": "naturlig",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "naturlig",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm naturlig",
+            "partNumber": "MF1V4KS/A"
+          },
+          "MF254KS/A": {
+            "capacity": "",
+            "colorDisplay": "svart",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "svart",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm svart",
+            "partNumber": "MF254KS/A"
+          }
+        },
+        "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "sg": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4X/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4X/A"
+          },
+          "MF254X/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254X/A"
+          }
+        },
+        "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "th": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4SA/A": {
+            "capacity": "",
+            "colorDisplay": "ธรรมชาติ",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "ธรรมชาติ",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm ธรรมชาติ",
+            "partNumber": "MF1V4SA/A"
+          },
+          "MF254SA/A": {
+            "capacity": "",
+            "colorDisplay": "ดำ",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "ดำ",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm ดำ",
+            "partNumber": "MF254SA/A"
+          }
+        },
+        "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "tr": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4TU/A": {
+            "capacity": "",
+            "colorDisplay": "Natürel",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natürel",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natürel",
+            "partNumber": "MF1V4TU/A"
+          },
+          "MF254TU/A": {
+            "capacity": "",
+            "colorDisplay": "Siyah",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Siyah",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Siyah",
+            "partNumber": "MF254TU/A"
+          }
+        },
+        "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "tw": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4TA/A": {
+            "capacity": "",
+            "colorDisplay": "原色",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "原色",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm 原色",
+            "partNumber": "MF1V4TA/A"
+          },
+          "MF254TA/A": {
+            "capacity": "",
+            "colorDisplay": "黑色",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "黑色",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm 黑色",
+            "partNumber": "MF254TA/A"
+          }
+        },
+        "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "uk": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4DH/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4DH/A"
+          },
+          "MF254DH/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254DH/A"
+          }
+        },
+        "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-ultra"
+      }
+    },
+    "us": {
+      "apple-watch-ultra": {
+        "skus": {
+          "MF1V4LW/A": {
+            "capacity": "",
+            "colorDisplay": "Natural",
+            "colorKey": "natural",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Natural",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Natural",
+            "partNumber": "MF1V4LW/A"
+          },
+          "MF254LW/A": {
+            "capacity": "",
+            "colorDisplay": "Black",
+            "colorKey": "black",
+            "dimensionScreensize": "",
+            "family": "watch",
+            "familyName": "Apple Watch Ultra 3",
+            "metadata": {
+              "caseSize": "49mm",
+              "color": "Black",
+              "isRealPartNumber": true,
+              "sourcePage": "watch"
+            },
+            "name": "Apple Watch Ultra 3 49mm Black",
+            "partNumber": "MF254LW/A"
+          }
+        },
+        "url": "https://www.apple.com/us/shop/buy-watch/apple-watch-ultra"
+      }
+    }
   }
 }

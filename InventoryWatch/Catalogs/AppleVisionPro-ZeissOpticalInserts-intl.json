@@ -1,29 +1,29 @@
 {
-  "discovered_models": {
-    "kr": {
-      "zeiss-optical-inserts": {
-        "url": "https://www.apple.com/kr/shop/buy-vision/zeiss-optical-inserts",
-        "skus": {}
-      }
-    }
+  "_meta": {
+    "family": "avp",
+    "generated_at": "2026-09-05T18:59:07.783982+00:00",
+    "regions_scraped": 33,
+    "scraper_version": "1.0",
+    "token": "zeiss-optical-inserts"
   },
   "country_mappings": {
     "kr": {
-      "shop_paths": {
-        "zeiss-optical-inserts": "shop/buy-vision/zeiss-optical-inserts"
-      },
       "localization": {
         "token_display": {
-          "zeiss-optical-inserts": "Avp Zeiss Optical Inserts"
+          "zeiss-optical-inserts": "Zeiss Optical Inserts"
         }
+      },
+      "shop_paths": {
+        "zeiss-optical-inserts": "shop/buy-vision/zeiss-optical-inserts"
       }
     }
   },
-  "_meta": {
-    "generated_at": "2026-09-05T09:57:39.359313+00:00",
-    "scraper_version": "1.0",
-    "family": "avp",
-    "token": "zeiss-optical-inserts",
-    "regions_scraped": 33
+  "discovered_models": {
+    "kr": {
+      "zeiss-optical-inserts": {
+        "skus": {},
+        "url": "https://www.apple.com/kr/shop/buy-vision/zeiss-optical-inserts"
+      }
+    }
   }
 }

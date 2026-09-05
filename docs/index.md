@@ -1,31 +1,46 @@
-# InventoryWatch 2.0 is here!
+# InventoryWatch
 
-![InventoryWatch-Screenshot](./iw-2.0-mkt.jpg)
+A macOS app to monitor Apple Store pickup availability for iPhone, Apple Watch, Mac, iPad, AirPods, HomePod, and Apple Vision Pro.
 
-[Download today! ➡️](https://inventorywatch.app)
+This is the open-source version of InventoryWatch. For the latest commercial release with web access, email/SMS notifications, and multi-search support, visit [InventoryWatch.app](https://inventorywatch.app).
 
-## What's New in 2.0
+## Features
 
-InventoryWatch 2.0 is a massive upgrade, adding many of our most-requested features:
+- Real-time inventory checking across Apple Store locations in 35+ countries
+- Support for all Apple product families: iPhone, iPad, Mac, Apple Watch, AirPods, HomePod, Apple Vision Pro
+- Per-model and per-country token selection with persistent preferences
+- Configurable update intervals with macOS notifications
+- All product data scraped from Apple's official buy pages — no hardcoded SKUs
 
-* A completely rewritten and redesigned macOS app, with the ability to add multiple searches 
-* Support for email and text notifications - no need to stay glued to your Mac!
-* A brand-new web app, bringing InventoryWatch to any platform with a browser (including your iPhone)
-* Search for Apple's latest products, including the M2 Mac Studio and 15in MacBook Air
-* Server-side product updates - no need to update the app whenever new products are launched
+## Quick Start
 
-One thing remains the same: **our committment to privacy, and generally not being creepy**. InventoryWatch doesn't track you, has no ads or invasive analytics packages, and will only send you emails that you've asked for.
+```bash
+# Clone and build
+git clone https://github.com/worthbak/inventory-checker-app.git
+cd inventory-checker-app
+open InventoryWatch.xcodeproj  # Build (Cmd+B) then Run (Cmd+R)
+```
 
-## How To Upgrade
+Requires Xcode 15+ and macOS 14+.
 
-As always, InventoryWatch for macOS is available to download for free. InventoryWatch 2.0 requires macOS Ventura (13.0), and you can download it now at our new homepage: [InventoryWatch.app](https://inventorywatch.app)
+### Regenerate Product Data
 
-Support for premium features like email and text notifications, multiple searches, and web access are available via an InventoryWatch subscription, starting at just $2 per month. You can learn more and check out pricing here: [InventoryWatch Pricing](https://inventorywatch.app/plans)
+```bash
+pip install requests
+python3 scrape_models.py --family iphone --all-models
+python3 scrape_apple_stores.py
+```
 
-Got feedback, or found a bug? Open an issue at our new feedback repo: [InventoryWatch Feedback on Github](https://github.com/Rugged-Apps/InventoryWatch-Feedback)
+See [README.md](../README.md) for full documentation, architecture, and scraper configuration reference.
 
-Finally, if you have questions or just want to send us a message, we're on mastodon.social [@InventoryWatch](https://mastodon.social/@InventoryWatch), and [Twitter](https://twitter.com/InventoryWatch) as well (if you're into that kinda thing).
+## Project Status
 
-We're incredibly excited for you to try InventoryWatch 2.0, and would love to hear what you think!
+Actively maintained as of 2025 with major refactoring completed:
 
-Learn more: [InventoryWatch.app](https://inventorywatch.app)
+- **Config-driven Python scraper**: `scrape_models.py` + `family_handlers.py` + `scraper_config.json` generates all catalog JSONs from Apple.com
+- **Data-driven architecture**: All SKUs, countries, and stores externalized to JSON — no hardcoded product data in Swift
+- **Full product family support**: iPhone (16, 17, 17e, 17 Pro, Air), iPad (Pro, Air, Mini, base), Mac (Air, Pro, Neo, iMac, Mini, Studio, Displays), Apple Watch (SE, Ultra, Hermes), AirPods (4, Max, Pro 2, Pro 3), HomePod, Apple Vision Pro
+- **Multi-language stores**: Belgian (Dutch/French) and Swiss (German/French) dual-language store support
+- **Anti-bot hardening**: Proper HTTP/1.1 handling and backoff for Apple's Akamai CDN
+
+For a detailed changelog, see [REFACTORING_NOTES.md](../REFACTORING_NOTES.md).

@@ -21,6 +21,7 @@ enum AppError: Swift.Error, LocalizedError {
     case resourceNotFound
     case rateLimited
     case botDetected
+    case productNotAvailableInRegion
     case generic(Error?)
     
     var errorDescription: String? {
@@ -50,6 +51,8 @@ enum AppError: Swift.Error, LocalizedError {
             return "Too many requests sent to Apple's servers. Please wait a few minutes before trying again."
         case .botDetected:
             return "Apple's bot protection blocked this request (541). The scraper will retry automatically with backoff."
+        case .productNotAvailableInRegion:
+            return "This product is not available in the selected country. Please choose another product or country."
         case .invalidLocalModelStore, .invalidProjectState, .failedToParseGithubVersion:
             return "InventoryWatch has invalid or currupted local data. Please contact the developer (@worthbak)."
         case .generic(let optional):

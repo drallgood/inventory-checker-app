@@ -5,8 +5,8 @@ macOS app to monitor Apple Store pickup availability for iPhone, Apple Watch, Ma
 ## Features
 
 - Real-time inventory checking across Apple Store locations
-- Per-country store selection (35+ countries)
-- Per-model token selection (e.g., iPhone 17 Pro, Apple Watch Ultra, MacBook Pro)
+- Per-country store selection (35+ countries, including multi-language stores in Belgium and Switzerland)
+- Per-model token selection for all Apple product families (iPhone, iPad, Mac, Apple Watch, AirPods, HomePod, Apple Vision Pro)
 - Configurable update intervals with notifications
 - All product data is scraped from Apple's official buy pages — no hardcoded SKUs
 
@@ -38,10 +38,11 @@ InventoryWatch/
 ├── ContentView.swift                # Main inventory display
 ├── Countries.swift                  # Country data (loaded from countries.json)
 ├── Catalogs/
-│   ├── countries.json               # 35 countries with shortcodes, locales
-│   ├── Stores_GlobalBootstrap.json   # Store locations
-│   └── *-intl.json                  # Per-product catalog files (25+)
-└── Assets.xcassets/                 # App icon
+│   ├── countries.json               # 35 countries with shortcodes, locales, multi-language variants
+│   ├── Stores_GlobalBootstrap.json   # Store locations (536 stores, 26 countries)
+│   └── *-intl.json                  # Per-model catalog files (35+ files covering all 7 product families)
+├── Assets.xcassets/                 # App icon
+└── InventoryWatchTests/             # Unit tests (catalog parsing, country data, SKU resolution)
 ```
 
 ## Setup
@@ -73,6 +74,11 @@ python3 scrape_models.py --family mac --all-models --countries US,UK,DE
 
 Available families: `iphone`, `watch`, `mac`, `ipad`, `airpods`, `homepod`, `avp`
 
+Or use the convenience script to scrape all families at once:
+```bash
+bash scrape_all.sh
+```
+
 Configuration is in `scraper_config.json` (regions, categories, model variants, families). See [Scraper Config Reference](#scraper-config-reference) below.
 
 ### Scrape store data
@@ -89,7 +95,7 @@ All configuration is JSON-driven:
 
 | Config | File | Purpose |
 |---------|------|---------|
-| Countries | `InventoryWatch/Catalogs/countries.json` | Country names, shortcodes, locales, SKU codes |
+| Countries | `InventoryWatch/Catalogs/countries.json` | Country names, shortcodes, locales, SKU codes, multi-language variants (BE, CH) |
 | Stores | `InventoryWatch/Catalogs/Stores_GlobalBootstrap.json` | Store locations (536 stores, 26 countries) |
 | Products | `InventoryWatch/Catalogs/*-intl.json` | SKUs, names, colors, capacities per country |
 | Scraper | `scraper_config.json` | Regions, categories, entrypoints, families with per-product-type behavior flags, and model variant patterns (Pro/Max/Air/etc.) used to derive display names from product codes |
@@ -101,6 +107,8 @@ All configuration is JSON-driven:
 # Or from command line:
 xcodebuild test -project InventoryWatch.xcodeproj -scheme InventoryWatch
 ```
+
+Tests cover catalog JSON parsing, country data loading, product family resolution, and SKU validation.
 
 ## Intentional Hardcodes
 
