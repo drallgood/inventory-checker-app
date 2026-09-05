@@ -24,7 +24,7 @@ from family_handlers import get_handler
 DEFAULT_CONFIG_PATH = "scraper_config.json"
 
 DEFAULT_UA = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
     'Accept-Language': 'en-US,en;q=0.5',
     'Accept-Encoding': 'gzip, deflate, br',
@@ -169,7 +169,25 @@ class Scraper:
                     pass
             # Extract bootstrap data using JSON parsing
             bootstrap = None
-            bs_match = re.search(r'window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*\{', html, re.DOTALL)
+            # Try JSON.parse('...') format first (used by Apple Watch / iPad pages)
+            bs_jsonp_match = re.search(r"window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*JSON\.parse\(\s*'(.+?)'\s*\)\s*;", html, re.DOTALL)
+            if bs_jsonp_match:
+                encoded = bs_jsonp_match.group(1)
+                decoded = None
+                try:
+                    decoded = bytes(encoded, 'utf-8').decode('unicode_escape')
+                except Exception:
+                    try:
+                        decoded = json.loads('"' + encoded.replace('\\', '\\\\').replace('"', '\\"') + '"')
+                    except Exception:
+                        decoded = encoded
+                if decoded:
+                    try:
+                        bootstrap = json.loads(re.sub(r',\s*([}\]])', r'\1', decoded))
+                    except Exception:
+                        pass
+            if bootstrap is None:
+                bs_match = re.search(r'window\.PRODUCT_SELECTION_BOOTSTRAP\s*=\s*\{', html, re.DOTALL)
             if bs_match:
                 raw = self._extract_balanced_braces(html, bs_match.end() - 1)
                 if raw is not None:
@@ -696,7 +714,7 @@ class Scraper:
                 except (json.JSONDecodeError, KeyError, AttributeError):
                     pass
 
-            # Look for h1 tags that might contain the product name
+# Look for h1 tags that might contain the product name
             h1_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
             if h1_match:
                 h1_text = h1_match.group(1).strip()
@@ -705,12 +723,14 @@ class Scraper:
                 h1_text = re.sub(r'&[a-zA-Z0-9#]+;', '', h1_text)  # Remove HTML entities
                 # Remove common purchase-related words dynamically (multi-lingual)
                 purchase_re = (
-                    r'(kaufen|acheter|buy|comprar|comprare|kopen|acquista|achat|comprar|compre|sat3n al|satinal|'
+                    r'(kaufen|acheter|buy|comprar|comprare|kopen|acquista|achat|comprar|compre|sat\u0131n al|satinal|'
                     r'购买|立即购买|选购|立即选购|購買|立即選購|'
                     r'購入|今すぐ購入|'
                     r'구매|구입|바로 구입)'
                 )
                 h1_text = re.sub(purchase_re, '', h1_text, flags=re.IGNORECASE)
+                # Remove leading "Shop "/"Buy "/"Kaufen " etc. from Mac/other pages
+                h1_text = re.sub(r'^(Shop|Buy|Kaufen|Acheter|Comprar|Comprare|Kopen|Köp|Osta|購買|購入|구매|选购|立即选购)\s+', '', h1_text, flags=re.IGNORECASE)
                 h1_text = re.sub(r'\s+', ' ', h1_text).strip()  # Normalize whitespace
                 if h1_text and len(h1_text) > 3:
                     return h1_text
@@ -768,8 +788,8 @@ class Scraper:
                     name_by_base.setdefault(m.group(1), name)
             except Exception:
                 pass
-            color_key = (p.get('dimensionColor') or p.get('color') or '').lower().replace(' ', '') if isinstance(p, dict) else ''
-            color_display = p.get('color') or '' if isinstance(p, dict) else ''
+            color_key = (p.get('dimensionColor') or p.get('color') or '').lower().replace(' ', '').lstrip('-') if isinstance(p, dict) else ''
+            color_display = (p.get('color') or '').lstrip('-').strip() if isinstance(p, dict) else ''
             capacity = p.get('capacity') or p.get('dimensionCapacity') or '' if isinstance(p, dict) else ''
             family = p.get('family') or p.get('productLocatorFamily') or '' if isinstance(p, dict) else ''
             family_name = p.get('familyName') or family or '' if isinstance(p, dict) else ''
@@ -787,7 +807,10 @@ class Scraper:
             # Skip entries with no product data — keyboard/language bundles
             # Exempt Mac family (part numbers alone are sufficient for inventory tracking)
             if not self._family_config(family_hint).get('post_filter_keep_minimal'):
-                has_data = bool((capacity or '').strip()) or bool((screensize or '').strip()) or (bool((color_display or '').strip()) and color_display != 'Unknown')
+                # Also check nested dimensions for watch-specific keys (watch_cases-dimensionX)
+                dims = p.get('dimensions') if isinstance(p, dict) else {}
+                has_watch_dims = dims and any(k.startswith('watch_cases-') for k in dims.keys())
+                has_data = bool((capacity or '').strip()) or bool((screensize or '').strip()) or (bool((color_display or '').strip()) and color_display != 'Unknown') or has_watch_dims
                 if not has_data:
                     return
             out[sku] = {
@@ -1601,12 +1624,20 @@ class Scraper:
     def _token_base_name(self, family: str, token: str) -> str:
         base = self._family_config(family).get('display_name', (family or '').title())
         t = token
+        # Strip family slug prefix (e.g., "watch" from "watch-...")
         if t.lower().startswith((family or '').lower() + "-"):
             t = t[len(family) + 1:]
+        # Also strip display_name slug prefix (e.g., "apple-watch" from "apple-watch-...")
+        disp_slug = base.lower().replace(' ', '-')
+        if t.lower().startswith(disp_slug + "-"):
+            t = t[len(disp_slug) + 1:]
         parts = [p.capitalize() for p in t.split('-') if p]
         pretty = ' '.join(parts)
-        if pretty.lower() == base.lower():
+        pretty_raw = pretty.lower()
+        if pretty_raw == base.lower():
             return base
+        if pretty_raw == token.lower().replace('-', ' '):
+            return pretty
         return f'{base} {pretty}'.strip() if pretty else base
 
     @staticmethod
@@ -1662,10 +1693,17 @@ class Scraper:
         t = token
         if t.lower().startswith((family or '').lower() + "-"):
             t = t[len((family or '') + "-"):]
+        disp_slug = base.lower().replace(' ', '-')
+        if t.lower().startswith(disp_slug + "-"):
+            t = t[len(disp_slug) + 1:]
         parts = [p for p in t.split('-') if p]
         pretty = ' '.join(p.capitalize() for p in parts)
-        if pretty.lower() == base.lower():
+        pretty_raw = pretty.lower()
+        if pretty_raw == base.lower():
             token_display = base
+        elif pretty_raw == token.lower().replace('-', ' '):
+            # Token is a standalone product name — don't prefix it with family
+            token_display = pretty
         else:
             token_display = f'{base} {pretty}'.strip() if pretty else base
 

@@ -13,6 +13,12 @@ actor FulfillmentModel {
     let defaultsVendor = DefaultsVendor()
     let skuDataLoader = SKUDataLoader()
     
+    private var lastPickupRequestTime: Date = .distantPast
+    private var lastStoreListRequestTime: Date = .distantPast
+    private let minimumRequestInterval: TimeInterval = 3.0
+    private let maxRetries = 3
+    private let baseRetryDelay: TimeInterval = 5.0
+    
     var skuDataForPreferredProduct: SKUData {
         get async throws {
             return try await skuDataLoader.skuDataForPreferredProduct
@@ -24,13 +30,22 @@ actor FulfillmentModel {
     // Latest pickup API error keys (e.g., ["invalidLocalModelStore"]) captured from Apple JSON
     private(set) var lastPickupErrorKeys: [String] = []
     
-    private lazy var storeSession: URLSession = {
-        let config = URLSessionConfiguration.default
-        config.httpCookieAcceptPolicy = .always
-        config.httpCookieStorage = HTTPCookieStorage.shared
-        config.httpShouldSetCookies = true
-        return URLSession(configuration: config)
-    }()
+    var session: URLSession {
+        let c = URLSessionConfiguration.ephemeral
+        c.httpAdditionalHeaders = [:]
+        c.requestCachePolicy = .reloadIgnoringLocalAndRemoteCacheData
+        c.httpCookieAcceptPolicy = .never
+        c.httpShouldSetCookies = false
+        c.httpCookieStorage = nil
+        c.urlCredentialStorage = nil
+        return URLSession(configuration: c)
+    }
+    
+    private func applyBrowserHeaders(to request: inout URLRequest) {
+        request.setValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.timeoutInterval = 30
+    }
     
     private var modelParsingFilter: Set<String>? {
         let filterForPreferredModels = defaultsVendor.showResultsOnlyForPreferredModels
@@ -51,13 +66,16 @@ actor FulfillmentModel {
             // Try loading remote stores first
             let url = URL(string: "https://www.apple.com/rsp-web/store-list?locale=\(defaultsVendor.preferredCountry.locale)")!
             var request = URLRequest(url: url)
-            request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
-            request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
-            request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
-            request.addValue("https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/buy-mac", forHTTPHeaderField: "Referer")
-            request.timeoutInterval = 30
+            applyBrowserHeaders(to: &request)
             
-            let (data, _) = try await storeSession.data(for: request, delegate: nil)
+            let timeSinceLastStoreRequest = Date().timeIntervalSince(lastStoreListRequestTime)
+            if timeSinceLastStoreRequest < minimumRequestInterval {
+                let delay = minimumRequestInterval - timeSinceLastStoreRequest
+                try await Task.sleep(nanoseconds: UInt64(delay * 1_000_000_000))
+            }
+            lastStoreListRequestTime = Date()
+            
+            let (data, _) = try await session.data(for: request, delegate: nil)
             
             // Check if we received HTML instead of JSON
             if let responseString = String(data: data, encoding: .utf8) {
@@ -106,29 +124,52 @@ actor FulfillmentModel {
     }
     
     func fetchInventory() async throws -> [(FulfillmentStore, [PartAvailability])] {
-        let urlRoot = "https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/retail/pickup-message?"
+        let countryPath = defaultsVendor.countryPathElement.lowercased()
+        let urlRoot = "https://www.apple.com/\(countryPath)shop/retail/pickup-message?"
         let query = try await generateQueryString(includeStore: true, location: nil)
         
-        guard let url = URL(string: urlRoot + query) else {
+        guard let apiURL = URL(string: urlRoot + query) else {
             throw AppError.couldNotGenerateURL
         }
         
-        print("🌐 Pickup URL: \(url.absoluteString)")
+        print("🌐 Pickup URL: \(apiURL.absoluteString)")
+        
+        for attempt in 0..<maxRetries {
+            if attempt > 0 {
+                let delay = baseRetryDelay * pow(2.0, Double(attempt - 1))
+                let jitter = Double.random(in: 0..<delay * 0.3)
+                let totalDelay = delay + jitter
+                print("⏳ Retry \(attempt)/\(maxRetries) after \(Int(totalDelay))s (backoff + jitter)")
+                try await Task.sleep(nanoseconds: UInt64(totalDelay * 1_000_000_000))
+            }
+            
+            let timeSinceLastPickup = Date().timeIntervalSince(lastPickupRequestTime)
+            if timeSinceLastPickup < minimumRequestInterval {
+                let waitTime = minimumRequestInterval - timeSinceLastPickup
+                try await Task.sleep(nanoseconds: UInt64(waitTime * 1_000_000_000))
+            }
+            lastPickupRequestTime = Date()
 
-        var request = URLRequest(url: url)
-        request.addValue("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", forHTTPHeaderField: "User-Agent")
-        request.addValue("application/json, text/plain, */*", forHTTPHeaderField: "Accept")
-        request.addValue("en-US,en;q=0.9", forHTTPHeaderField: "Accept-Language")
-        request.addValue("https://www.apple.com/\(defaultsVendor.countryPathElement.lowercased())shop/buy-mac", forHTTPHeaderField: "Referer")
-        request.timeoutInterval = 30
+            var request = URLRequest(url: apiURL)
+            applyBrowserHeaders(to: &request)
+            request.httpShouldHandleCookies = false
 
-        let (data, response) = try await storeSession.data(for: request, delegate: nil)
-        let httpResponse = response as? HTTPURLResponse
-        let status = httpResponse?.statusCode ?? 0
-        print("📥 Pickup response: status=\(status), bytes=\(data.count)")
+            let s = session
+            let (data, response) = try await s.data(for: request, delegate: nil)
+            let httpResponse = response as? HTTPURLResponse
+            let status = httpResponse?.statusCode ?? 0
+            print("📥 Pickup response: status=\(status), bytes=\(data.count)")
+            
+            if status == 541 {
+                print("⚠️ Got 541 (bot detected), will retry")
+                continue
+            }
 
-        let parsed = try await parseStoreResponse(data, response: httpResponse, filterForModels: modelParsingFilter)
-        return parsed
+            let parsed = try await parseStoreResponse(data, response: httpResponse, filterForModels: modelParsingFilter)
+            return parsed
+        }
+        
+        throw AppError.botDetected
     }
     
     func getDefaultStoreForCurrentCountry() async throws -> RetailStore? {
@@ -287,7 +328,9 @@ let iPhoneToken = defaultsVendor.preferredPhoneToken
                 print("First 200 characters: \(String(responseString.prefix(200)))")
                 
                 // Check for common error patterns
-                if responseString.contains("403") || responseString.contains("Forbidden") {
+                if responseString.contains("accessDenied") || responseString.contains("Access Denied") {
+                    throw AppError.botDetected
+                } else if responseString.contains("403") || responseString.contains("Forbidden") {
                     throw AppError.accessDenied
                 } else if responseString.contains("404") || responseString.contains("Not Found") {
                     throw AppError.resourceNotFound
@@ -311,9 +354,6 @@ let iPhoneToken = defaultsVendor.preferredPhoneToken
             throw AppError.unexpectedJSONStructure
         }
 
-        // Support both API response formats:
-        // - /shop/retail/pickup-message: body.stores[]
-        // - /shop/fulfillment-messages: body.content.pickupMessage.stores[]
         let storeList: [[String: Any]]
         if let stores = body["stores"] as? [[String: Any]] {
             storeList = stores
@@ -410,6 +450,8 @@ let iPhoneToken = defaultsVendor.preferredPhoneToken
         }
         
         switch statusCode {
+        case 541:
+            return .botDetected
         case 500...599:
             return .storeUnavailable
         default:

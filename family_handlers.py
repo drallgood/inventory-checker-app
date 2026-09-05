@@ -341,7 +341,11 @@ class MacHandler(FamilyHandler):
             return skus
 
         html = payload.get('html', '')
-        base_name = (inferred_display or '').strip() or family_config.get('display_name', 'Mac')
+        base_name = (inferred_display or '').strip()
+        if not base_name:
+            base_name = family_config.get('display_name', 'Mac')
+        # Clean "Shop "/"Buy "/"Kaufen " prefixes from inferred display
+        base_name = re.sub(r'^(Shop|Buy|Kaufen|Acheter|Comprar|Comprare|Kopen|Köp|Osta|購買|購入|구매|选购|立即选购)\s+', '', base_name, flags=re.IGNORECASE).strip()
 
         localized_finish_map = extract_display_value_mappings_from_html(html, 'dimensionFinish') if html else {}
         localized_color_map = extract_display_value_mappings_from_html(html, 'dimensionColor') if html else {}
@@ -388,6 +392,17 @@ class MacHandler(FamilyHandler):
                 for tok in re.findall(r'\b[A-Z]{3,}(?:_[A-Z]{3,})+\b', container):
                     candidates.append(tok)
                 candidates.append(container)
+                # Try to extract color from known patterns in container part numbers
+                color_from_container = None
+                color_words = ['PINK', 'BLUE', 'GREEN', 'YELLOW', 'ORANGE', 'PURPLE', 'SILVER',
+                               'BLACK', 'WHITE', 'GOLD', 'RED', 'GREY', 'GRAY', 'MIDNIGHT',
+                               'STARLIGHT', 'SPACE', 'SIERRA', 'SKY']
+                for cw in color_words:
+                    if f'_{cw}' in container.upper() or container.upper().startswith(cw):
+                        color_from_container = cw.title()
+                        break
+                if color_from_container:
+                    candidates.insert(0, color_from_container)
             for c in candidates:
                 k = _norm_key(c)
                 if not k:
@@ -400,6 +415,8 @@ class MacHandler(FamilyHandler):
                     return localized_finish_map[k]
             if hint:
                 return hint.replace('-', ' ').title()
+            if color_from_container:
+                return color_from_container
             return ''
 
         labels: Dict[str, str] = {}
@@ -423,7 +440,7 @@ class MacHandler(FamilyHandler):
                 parts.append(finish)
             label = ' '.join([p for p in parts if p]).strip()
             if not label or label == base_name:
-                label = f"{base_name} ({sku})"
+                label = base_name
             labels[sku] = label
 
         inv: Dict[str, int] = {}
@@ -494,6 +511,10 @@ def _pretty_token_name(display_name: str, token: str) -> str:
     fam_slug = display_name.lower().replace(' ', '')
     if t.lower().startswith(fam_slug + "-"):
         t = t[len(fam_slug) + 1:]
+    # Also try the singular slug in case display_name has spaces
+    disp_slug = display_name.lower().replace(' ', '-')
+    if t.lower().startswith(disp_slug + "-"):
+        t = t[len(disp_slug) + 1:]
     parts = [p for p in t.split('-') if p]
     pretty = ''.join(p.capitalize() for p in parts)
     return f"{display_name} {pretty}".strip() if pretty else display_name

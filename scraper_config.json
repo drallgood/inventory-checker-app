@@ -1,6 +1,6 @@
 {
   "http_headers": {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
     "Accept-Encoding": "gzip, deflate, br",
@@ -233,6 +233,10 @@
       "family": "airpods",
       "entrypoints": ["shop/buy-airpods/airpods-pro-3", "shop/buy-airpods/airpods-4", "shop/buy-airpods/airpods-max", "shop/buy-airpods/airpods-pro-2"],
       "manual_tokens": ["airpods-pro-3", "airpods-4", "airpods-max"]
+    },
+    {
+      "family": "avp",
+      "entrypoints": ["shop/buy-vision"]
     }
   ],
   "model_variants": {
@@ -379,7 +383,7 @@
       "retry_full_price": false,
       "skip_screensize_extraction": false,
       "prune_keep_incomplete": true,
-      "prune_keep_regional_name": true,
+      "prune_keep_regional_name": false,
       "post_filter_keep_minimal": true,
       "bto_extraction": false,
       "handler": null
@@ -391,7 +395,7 @@
       "retry_full_price": false,
       "skip_screensize_extraction": false,
       "prune_keep_incomplete": true,
-      "prune_keep_regional_name": true,
+      "prune_keep_regional_name": false,
       "post_filter_keep_minimal": true,
       "bto_extraction": false,
       "handler": null
