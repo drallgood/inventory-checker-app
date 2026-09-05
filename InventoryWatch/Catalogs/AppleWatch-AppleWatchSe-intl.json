@@ -28,14 +28,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
@@ -44,7 +36,23 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEP04ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Polarstern",
@@ -59,14 +67,6 @@
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
-          },
-          "MEQ34ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -75,22 +75,6 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/us/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ24LW/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP34LW/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHV4LW/A": {
             "name": "",
             "colorKey": "starlight",
@@ -99,23 +83,7 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP04LW/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14LW/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHX4LW/A": {
+          "MEP34LW/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
@@ -138,6 +106,38 @@
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24LW/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14LW/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04LW/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4LW/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -146,34 +146,10 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ34MP/A": {
+          "MEP04MP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP34MP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14MP/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24MP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -186,15 +162,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP04MP/A": {
+          "MEP34MP/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4MP/A": {
+          "MEQ24MP/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
@@ -206,6 +182,30 @@
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14MP/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34MP/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4MP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -223,39 +223,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ34AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHX4AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHV4AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
@@ -271,6 +239,14 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEHX4AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEQ44AM/A": {
             "name": "",
             "colorKey": "midnight",
@@ -279,7 +255,31 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ24AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEP04AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
@@ -318,18 +318,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -342,18 +342,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -389,14 +389,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
@@ -405,7 +397,23 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEP04ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
@@ -420,14 +428,6 @@
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
-          },
-          "MEQ34ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -436,31 +436,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ44QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mezzanotte",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHV4QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Galassia",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Galassia",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24QL/A": {
+          "MEHX4QL/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Mezzanotte",
@@ -476,7 +452,31 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4QL/A": {
+          "MEQ14QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Galassia",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHV4QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Galassia",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QL/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mezzanotte",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44QL/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Mezzanotte",
@@ -507,31 +507,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ44QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Medianoche",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHV4QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estrella",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estrella",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24QL/A": {
+          "MEHX4QL/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Medianoche",
@@ -547,7 +523,31 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4QL/A": {
+          "MEQ14QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estrella",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHV4QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estrella",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QL/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Medianoche",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44QL/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Medianoche",
@@ -602,18 +602,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Sterrenlicht",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Sterrenlicht",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -626,18 +626,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -673,18 +673,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Sterrenlicht",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Sterrenlicht",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -697,18 +697,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -744,18 +744,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -768,18 +768,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -815,18 +815,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -839,18 +839,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -886,14 +886,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4ZR/A": {
             "name": "",
             "colorKey": "midnight",
@@ -902,7 +894,23 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEP04ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
@@ -917,14 +925,6 @@
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
-          },
-          "MEQ34ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -933,7 +933,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEHV4QN/A": {
+          "MEQ34QN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "stjärnglans",
@@ -949,14 +949,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ14QN/A": {
             "name": "",
             "colorKey": "starlight",
@@ -965,18 +957,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ34QN/A": {
+          "MEHX4QN/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjärnglans",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44QN/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
+            "colorKey": "starlight",
+            "colorDisplay": "stjärnglans",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -989,7 +981,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4QN/A": {
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "midnatt",
@@ -1004,7 +1004,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEHV4QN/A": {
+          "MEQ34QN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "stjerneskær",
@@ -1020,14 +1020,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnat",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ14QN/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1036,18 +1028,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ34QN/A": {
+          "MEHX4QN/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskær",
+            "colorKey": "midnight",
+            "colorDisplay": "midnat",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44QN/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnat",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskær",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1060,7 +1052,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4QN/A": {
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnat",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "midnat",
@@ -1075,7 +1075,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEHV4QN/A": {
+          "MEQ34QN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "stjerneskinn",
@@ -1091,14 +1091,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ14QN/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1107,18 +1099,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ34QN/A": {
+          "MEHX4QN/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskinn",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44QN/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskinn",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1131,7 +1123,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4QN/A": {
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "midnatt",
@@ -1146,7 +1146,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEHV4QN/A": {
+          "MEQ34QN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Tähti­valkea",
@@ -1162,14 +1162,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Keskiyö",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ14QN/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1178,18 +1170,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ34QN/A": {
+          "MEHX4QN/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Tähti­valkea",
+            "colorKey": "midnight",
+            "colorDisplay": "Keskiyö",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44QN/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Keskiyö",
+            "colorKey": "starlight",
+            "colorDisplay": "Tähti­valkea",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1202,7 +1194,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4QN/A": {
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Keskiyö",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Keskiyö",
@@ -1223,14 +1223,6 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ34KH/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "스타라이트",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ24KH/A": {
             "name": "",
             "colorKey": "midnight",
@@ -1247,31 +1239,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4KH/A": {
+          "MEP34KH/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "미드나이트",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14KH/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "스타라이트",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEQ44KH/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "미드나이트",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP34KH/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "미드나이트",
@@ -1286,6 +1262,30 @@
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14KH/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "스타라이트",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4KH/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "미드나이트",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34KH/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "스타라이트",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1294,6 +1294,38 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se",
         "skus": {
+          "MEP04ZP/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4ZP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEP34ZP/A": {
             "name": "",
             "colorKey": "midnight",
@@ -1310,47 +1342,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ24ZP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP04ZP/A": {
+          "MEHV4ZP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHX4ZP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ44ZP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEQ34ZP/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHV4ZP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
@@ -1371,14 +1371,6 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ34TA/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ14TA/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1387,26 +1379,10 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHV4TA/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24TA/A": {
+          "MEQ44TA/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP04TA/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1419,6 +1395,22 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ34TA/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04TA/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEHX4TA/A": {
             "name": "",
             "colorKey": "midnight",
@@ -1427,10 +1419,18 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44TA/A": {
+          "MEQ24TA/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHV4TA/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1442,39 +1442,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ14SA/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "สตาร์ไลท์",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24SA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "มิดไนท์",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHV4SA/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "สตาร์ไลท์",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEP34SA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "มิดไนท์",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHX4SA/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "มิดไนท์",
@@ -1494,6 +1462,38 @@
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "สตาร์ไลท์",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4SA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "มิดไนท์",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHV4SA/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "สตาร์ไลท์",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14SA/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "สตาร์ไลท์",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24SA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "มิดไนท์",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1519,7 +1519,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/in/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ44HN/A": {
+          "MEQ24HN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
@@ -1527,7 +1527,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ24HN/A": {
+          "MEQ14HN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4HN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
@@ -1543,7 +1551,15 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ14HN/A": {
+          "MEQ44HN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04HN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
@@ -1559,23 +1575,7 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4HN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ34HN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP04HN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
@@ -1590,6 +1590,14 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se",
         "skus": {
+          "MEQ44AF/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEQ14AF/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1606,31 +1614,7 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ34AF/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP34AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ44AF/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
@@ -1646,10 +1630,26 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ34AF/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEHV4AF/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34AF/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1661,6 +1661,14 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/sa/shop/buy-watch/apple-watch-se",
         "skus": {
+          "MEQ44AF/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEQ14AF/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1677,31 +1685,7 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ34AF/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP34AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHX4AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ44AF/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
@@ -1717,10 +1701,26 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEQ34AF/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEHV4AF/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34AF/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1740,23 +1740,7 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEP04TU/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Yıldız Işığı",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ34TU/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Yıldız Işığı",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24TU/A": {
+          "MEHX4TU/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Gece Yarısı",
@@ -1772,14 +1756,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ44TU/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Gece Yarısı",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHV4TU/A": {
             "name": "",
             "colorKey": "starlight",
@@ -1788,10 +1764,34 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHX4TU/A": {
+          "MEQ24TU/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Gece Yarısı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34TU/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Yıldız Işığı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44TU/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Gece Yarısı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04TU/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Yıldız Işığı",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1803,50 +1803,10 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/br/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ34AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Estelar",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHX4AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Meia-noite",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHV4AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Estelar",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Meia-noite",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Estelar",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ44AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Meia-noite",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -1859,7 +1819,47 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEHX4AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Meia-noite",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Meia-noite",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Meia-noite",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEP04AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Estelar",
@@ -1874,39 +1874,7 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEQ34AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estelar",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEHX4AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Color medianoche",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEHV4AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estelar",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ24AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Color medianoche",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ14AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Blanco estelar",
@@ -1922,7 +1890,23 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
+          "MEHX4AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Color medianoche",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEQ44AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Color medianoche",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24AM/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Color medianoche",
@@ -1937,6 +1921,22 @@
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1945,6 +1945,38 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/cn/shop/buy-watch/apple-watch-se",
         "skus": {
+          "MEQ64CH/B": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ54CH/B": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHW4CH/B": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP54CH/B": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEHY4CH/B": {
             "name": "",
             "colorKey": "midnight",
@@ -1961,38 +1993,6 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEQ54CH/B": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEP54CH/B": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ84CH/B": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
-          "MEQ64CH/B": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "apple_watch",
-            "familyName": "Apple Watch SE 3"
-          },
           "MEQ74CH/B": {
             "name": "",
             "colorKey": "starlight",
@@ -2001,10 +2001,10 @@
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MEHW4CH/B": {
+          "MEQ84CH/B": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
             "capacity": "",
             "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
@@ -2336,7 +2336,7 @@
     }
   },
   "_meta": {
-    "generated_at": "2026-09-05T00:15:33.346614+00:00",
+    "generated_at": "2026-09-05T10:15:55.364299+00:00",
     "scraper_version": "1.0",
     "family": "watch",
     "token": "apple-watch-se",
