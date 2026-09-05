@@ -1,4 +1,12 @@
 {
+  "http_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1"
+  },
   "regions": [
     {
       "url_prefix": "https://www.apple.com/at/",
@@ -313,6 +321,92 @@
           "priority": 2
         }
       ]
+    }
+  },
+  "families": {
+    "iphone": {
+      "display_name": "iPhone",
+      "file_prefix": "iPhone",
+      "part_number_prefix": null,
+      "retry_full_price": false,
+      "skip_screensize_extraction": false,
+      "prune_keep_incomplete": false,
+      "prune_keep_regional_name": false,
+      "post_filter_keep_minimal": false,
+      "bto_extraction": false,
+      "handler": "IPhoneHandler"
+    },
+    "watch": {
+      "display_name": "Apple Watch",
+      "file_prefix": "AppleWatch",
+      "part_number_prefix": null,
+      "retry_full_price": true,
+      "skip_screensize_extraction": false,
+      "prune_keep_incomplete": true,
+      "prune_keep_regional_name": false,
+      "post_filter_keep_minimal": false,
+      "bto_extraction": false,
+      "handler": "WatchHandler"
+    },
+    "mac": {
+      "display_name": "Mac",
+      "file_prefix": "Mac",
+      "part_number_prefix": "M",
+      "retry_full_price": false,
+      "skip_screensize_extraction": true,
+      "prune_keep_incomplete": true,
+      "prune_keep_regional_name": true,
+      "post_filter_keep_minimal": true,
+      "bto_extraction": true,
+      "handler": "MacHandler"
+    },
+    "ipad": {
+      "display_name": "iPad",
+      "file_prefix": "iPad",
+      "part_number_prefix": null,
+      "retry_full_price": false,
+      "skip_screensize_extraction": false,
+      "prune_keep_incomplete": false,
+      "prune_keep_regional_name": false,
+      "post_filter_keep_minimal": false,
+      "bto_extraction": false,
+      "handler": null
+    },
+    "airpods": {
+      "display_name": "AirPods",
+      "file_prefix": "AirPods",
+      "part_number_prefix": null,
+      "retry_full_price": false,
+      "skip_screensize_extraction": false,
+      "prune_keep_incomplete": true,
+      "prune_keep_regional_name": true,
+      "post_filter_keep_minimal": true,
+      "bto_extraction": false,
+      "handler": null
+    },
+    "homepod": {
+      "display_name": "HomePod",
+      "file_prefix": "HomePod",
+      "part_number_prefix": null,
+      "retry_full_price": false,
+      "skip_screensize_extraction": false,
+      "prune_keep_incomplete": true,
+      "prune_keep_regional_name": true,
+      "post_filter_keep_minimal": true,
+      "bto_extraction": false,
+      "handler": null
+    },
+    "avp": {
+      "display_name": "Apple Vision Pro",
+      "file_prefix": "AppleVisionPro",
+      "part_number_prefix": null,
+      "retry_full_price": false,
+      "skip_screensize_extraction": false,
+      "prune_keep_incomplete": true,
+      "prune_keep_regional_name": false,
+      "post_filter_keep_minimal": true,
+      "bto_extraction": false,
+      "handler": null
     }
   }
 }

@@ -10,12 +10,6 @@ Entry-point driven Apple models scraper (per-model JSON emitter)
 from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
-from typing import Any
-try:
-    # Legacy, more robust extractor (used as a fallback for Watch)
-    from scrape_real_apple_skus import RealAppleSkuScraper  # type: ignore
-except Exception:
-    RealAppleSkuScraper = None  # type: ignore
 import json
 import os
 import re
@@ -25,8 +19,11 @@ from typing import Dict, List, Tuple, Optional
 
 import requests
 
+from family_handlers import get_handler
+
 DEFAULT_CONFIG_PATH = "scraper_config.json"
-UA = {
+
+DEFAULT_UA = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
     'Accept-Language': 'en-US,en;q=0.5',
@@ -35,20 +32,21 @@ UA = {
     'Upgrade-Insecure-Requests': '1'
 }
 
+
 class Scraper:
     def __init__(self, config_path: str = DEFAULT_CONFIG_PATH):
         self.session = requests.Session()
-        self.session.headers.update(UA)
         self.config = self._load_config(config_path)
+        headers = self.config.get("http_headers") or DEFAULT_UA
+        self.session.headers.update(headers)
 
     def _load_config(self, path: str) -> dict:
         try:
             with open(path, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                config = json.load(f)
         except Exception as e:
             print(f"[warn] failed to read config at {path}: {e}")
-            # Minimal fallback
-            return {
+            config = {
                 "regions": [
                     {"name": "US", "code": "US", "url_prefix": "https://www.apple.com/"}
                 ],
@@ -56,6 +54,18 @@ class Scraper:
                     {"family": "iphone", "entrypoints": ["shop/buy-iphone"]}
                 ]
             }
+        config.setdefault("families", {})
+        config.setdefault("http_headers", DEFAULT_UA)
+        self.families = config["families"]
+        return config
+
+    def _family_config(self, family: str | None) -> dict:
+        return self.families.get((family or '').lower(), {})
+
+    def _family_display_name(self, family_hint: str | None) -> str:
+        if not family_hint:
+            return ''
+        return self._family_config(family_hint).get('display_name', family_hint.title())
 
     def _regions(self, codes: Optional[List[str]]) -> List[dict]:
         regions = self.config.get("regions", [])
@@ -528,73 +538,6 @@ class Scraper:
         
         return color_mappings
 
-    def _extract_display_value_mappings_from_html(self, html: str, dimension_key: str) -> dict:
-        """
-        Extract displayValues mappings from Apple buy pages.
-
-        The page commonly contains JSON-ish structures like:
-          "dimensionFinish": { "midnight": { "value": "Mitternacht" }, ... }
-
-        We avoid hardcoding any translation; we just parse what's on the page.
-        Returns a dict keyed by a normalized variant key (lowercased alnum only).
-        """
-        if not html or not dimension_key:
-            return {}
-
-        mappings: dict = {}
-        # Find the first occurrence of the dimension block and parse key/value pairs within a bounded window.
-        # (We intentionally keep this regex-based to avoid full JS parsing.)
-        dim_re = re.compile(r'"' + re.escape(dimension_key) + r'"\s*:\s*\{', re.IGNORECASE)
-        kv_re = re.compile(r'"([^"]+)"\s*:\s*\{\s*"value"\s*:\s*"([^"]+)"', re.IGNORECASE)
-
-        for m in dim_re.finditer(html):
-            chunk = html[m.end(): m.end() + 80000]
-            for km in kv_re.finditer(chunk):
-                raw_key, raw_val = km.group(1), km.group(2)
-                if not raw_key or not raw_val:
-                    continue
-                if raw_key in ('title', 'variantOrder', 'variantSortOrder'):
-                    continue
-                key_norm = re.sub(r'[^a-z0-9]', '', raw_key.lower())
-                val_clean = re.sub(r'<[^>]+>', '', raw_val).strip()
-                if key_norm and val_clean:
-                    mappings.setdefault(key_norm, val_clean)
-            if mappings:
-                break
-
-        return mappings
-
-    def _extract_select_header_mappings_from_html(self, html: str) -> dict:
-        """
-        Extract localized variant labels from Apple buy pages.
-
-        Many pages embed swatch/selector metadata like:
-          "midnight-select-202503_SW_COLOR" ... "header":"Mitternacht"
-
-        We parse these (without hardcoding translations) into:
-          { "midnight": "Mitternacht" }
-
-        Keys are normalized to lowercase alnum.
-        """
-        if not html:
-            return {}
-
-        mappings: dict = {}
-        # Allow tokens like "space-black", "nano_texture", "midnight".
-        # Keep window bounded to avoid pathological backtracking.
-        sel_re = re.compile(
-            r'"([a-z0-9_-]{3,40})-select-[^"]+"[\s\S]{0,500}?"header"\s*:\s*"([^"]{1,120})"',
-            re.IGNORECASE
-        )
-        for m in sel_re.finditer(html):
-            raw_key, raw_header = m.group(1), m.group(2)
-            key_norm = re.sub(r'[^a-z0-9]', '', (raw_key or '').lower())
-            header_clean = re.sub(r'<[^>]+>', '', (raw_header or '')).strip()
-            if key_norm and header_clean:
-                mappings.setdefault(key_norm, header_clean)
-
-        return mappings
-
     def _map_color_to_key(self, color_display: str, color_mappings: dict) -> str:
         """Map color display name to color key."""
         color_lower = color_display.lower()
@@ -843,7 +786,7 @@ class Scraper:
             final_name = name if not p.get('_localized_processed') else ""
             # Skip entries with no product data — keyboard/language bundles
             # Exempt Mac family (part numbers alone are sufficient for inventory tracking)
-            if (family_hint or '').lower() not in ('mac', 'avp', 'airpods', 'homepod'):
+            if not self._family_config(family_hint).get('post_filter_keep_minimal'):
                 has_data = bool((capacity or '').strip()) or bool((screensize or '').strip()) or (bool((color_display or '').strip()) and color_display != 'Unknown')
                 if not has_data:
                     return
@@ -1310,7 +1253,7 @@ class Scraper:
                         # Extract dynamic family name from page data
                         fam_name = self.extract_product_family_name(html, bootstrap, fam)
                         if not fam_name:
-                            fam_name = 'Apple Watch' if fam == 'watch' else fam.title()
+                            fam_name = self._family_display_name(family_hint)
                         for mm in re.finditer(r'\"partNumber\"\s*:\s*\"([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])\"', cleaned):
                             # Don't create empty SKUs - only create if we have meaningful data
                             if mm.group(1) not in out and (fam != 'iphone' or fam_name != 'iPhone'):
@@ -1322,7 +1265,7 @@ class Scraper:
             # Extract dynamic family name from page data
             fam_name = self.extract_product_family_name(html, bootstrap, fam)
             if not fam_name:
-                fam_name = 'Apple Watch' if fam == 'watch' else (fam.title() if fam else '')
+                fam_name = self._family_display_name(family_hint)
             # Don't create empty SKUs - only create if we have meaningful data
             if sku not in out and (fam != 'iphone' or fam_name != 'iPhone'):
                 out.setdefault(sku, {"name": "", "colorKey": "", "colorDisplay": "", "capacity": "", "family": fam, "familyName": fam_name})
@@ -1349,7 +1292,7 @@ class Scraper:
                         candidate = sku_val
                     if candidate:
                         fam = (family_hint or '').lower()
-                        fam_name = 'Apple Watch' if fam == 'watch' else (fam.title() if fam else '')
+                        fam_name = self._family_display_name(family_hint)
                         out.setdefault(candidate, {
                             "name": name or '',
                             "colorKey": (node.get('dimensionColor') or node.get('color') or '').lower().replace(' ', ''),
@@ -1464,7 +1407,7 @@ class Scraper:
                         # Accept full parts; also keep base codes to be reconciled later
                         if re.match(r'^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$', candidate) or re.match(r'^[A-Z0-9]{3,6}$', candidate):
                             fam = (family_hint or '').lower()
-                            fam_name = 'Apple Watch' if fam == 'watch' else (fam.title() if fam else '')
+                            fam_name = self._family_display_name(family_hint)
                             out.setdefault(candidate, {
                                 "name": name or '',
                                 "colorKey": (node.get('dimensionColor') or node.get('color') or '').lower().replace(' ', ''),
@@ -1481,22 +1424,22 @@ class Scraper:
                 base, full = mm.group(1), mm.group(2)
                 full_by_base.setdefault(base, full)
                 fam = (family_hint or '').lower()
-                fam_name = 'Apple Watch' if fam == 'watch' else (fam.title() if fam else '')
+                fam_name = self._family_display_name(family_hint)
                 out.setdefault(full, {"name": "", "colorKey": "", "colorDisplay": "", "capacity": "", "family": fam or "", "familyName": fam_name or "", "partNumber": full, "metadata": {"isRealPartNumber": True}})
             # Also handle reverse order: partNumber appears before parentPartNumber in the same block
             for mm in re.finditer(r'partNumber"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])"[\s\S]{0,2000}?parentPartNumber"\s*:\s*"([A-Z0-9]{3,6})"', html):
                 full, base = mm.group(1), mm.group(2)
                 full_by_base.setdefault(base, full)
                 fam = (family_hint or '').lower()
-                fam_name = 'Apple Watch' if fam == 'watch' else (fam.title() if fam else '')
+                fam_name = self._family_display_name(family_hint)
                 out.setdefault(full, {"name": "", "colorKey": "", "colorDisplay": "", "capacity": "", "family": fam or "", "familyName": fam_name or "", "partNumber": full, "metadata": {"isRealPartNumber": True}})
         # Fallback 3: generic SKU regex across HTML (augment existing)
         for m in re.finditer(r'([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])', html):
             fam = (family_hint or '').lower()
-            fam_name = 'Apple Watch' if fam == 'watch' else (fam.title() if fam else '')
+            fam_name = self._family_display_name(family_hint)
             out.setdefault(m.group(1), {"name": "", "colorKey": "", "colorDisplay": "", "capacity": "", "family": fam or "", "familyName": fam_name or ""})
-        # Fallback 4 (Mac specific): parse metrics JSON inline text for partNumber + name pairs
-        if (family_hint or '').lower() == 'mac':
+        # Fallback 4 (Mac / BTO): parse metrics JSON inline text for partNumber + name pairs
+        if self._family_config(family_hint).get('bto_extraction'):
             # Scope to the metrics script block to reduce noise
             mm = re.search(r'<script[^>]*id=\"metrics\"[^>]*>\s*({.*?})\s*</script>', html, re.DOTALL | re.IGNORECASE)
             scope = mm.group(1) if mm else html
@@ -1643,7 +1586,7 @@ class Scraper:
         
         # Post-filter: drop entries with no actual product data (keyboard bundles, etc.)
         # Skip for Mac family (part numbers alone are sufficient for inventory tracking)
-        if (family_hint or '').lower() not in ('mac', 'avp', 'airpods', 'homepod'):
+        if not self._family_config(family_hint).get('post_filter_keep_minimal'):
             out = {
                 sku: data for sku, data in out.items()
                 if isinstance(data, dict) and any(
@@ -1655,10 +1598,8 @@ class Scraper:
         
         return out
 
-    @staticmethod
-    def _token_base_name(family: str, token: str) -> str:
-        base_map = {'iphone': 'iPhone', 'watch': 'Apple Watch', 'mac': 'Mac', 'ipad': 'iPad'}
-        base = base_map.get((family or '').lower(), (family or '').title())
+    def _token_base_name(self, family: str, token: str) -> str:
+        base = self._family_config(family).get('display_name', (family or '').title())
         t = token
         if t.lower().startswith((family or '').lower() + "-"):
             t = t[len(family) + 1:]
@@ -1713,62 +1654,25 @@ class Scraper:
         """
         country_to_data: country_code -> (shop_path, skus_dict)
         """
+        fc = self._family_config(family)
+        base = fc.get('display_name', (family or '').title())
         discovered: Dict[str, Dict[str, dict]] = {}
         country_mappings: Dict[str, dict] = {}
         # Derive a clean, stable display from the family+token
-        if (family or '').lower() == 'iphone':
-            # token like 'iphone-17-pro' -> 'iPhone 17 Pro'
-            t = token
-            if t.lower().startswith('iphone-'):
-                t = t[len('iphone-'):]
-            human = ' '.join(p.capitalize() for p in t.split('-') if p)
-            token_display = f'iPhone {human}'.strip() if human else 'iPhone'
+        t = token
+        if t.lower().startswith((family or '').lower() + "-"):
+            t = t[len((family or '') + "-"):]
+        parts = [p for p in t.split('-') if p]
+        pretty = ' '.join(p.capitalize() for p in parts)
+        if pretty.lower() == base.lower():
+            token_display = base
         else:
-            base_map = {'iphone': 'iPhone', 'watch': 'Apple Watch', 'mac': 'Mac', 'ipad': 'iPad'}
-            base = base_map.get((family or '').lower(), (family or '').title())
-            t = token
-            if t.lower().startswith((family or '').lower() + "-"):
-                t = t[len((family or '') + "-"):]
-            parts = [p for p in t.split('-') if p]
-            pretty = ' '.join(p.capitalize() for p in parts)
-            if pretty.lower() == base.lower():
-                token_display = base
-            else:
-                token_display = f'{base} {pretty}'.strip() if pretty else base
+            token_display = f'{base} {pretty}'.strip() if pretty else base
+
+        h = get_handler(fc)
         for cc, (shop_path, skus) in country_to_data.items():
             cc_l = cc.lower()
-            # Provide a PDP url constructed from shop_path for convenience
-            # Ensure Watch SKUs carry a proper familyName for consistent UI display
-            fixed_skus: Dict[str, dict] = skus or {}
-            try:
-                if (family or '').lower() == 'watch':
-                    # Prefer existing per-SKU familyName; only fill blanks/generic with the majority present name
-                    names: List[str] = []
-                    for _, md in (fixed_skus or {}).items():
-                        if isinstance(md, dict):
-                            n = (md.get('familyName') or '').strip()
-                            if n and n.lower() != 'apple watch':
-                                names.append(n)
-                    majority = None
-                    if names:
-                        counts: Dict[str, int] = {}
-                        for n in names:
-                            counts[n] = counts.get(n, 0) + 1
-                        majority = max(counts, key=counts.get) if counts else None
-                    if majority:
-                        tmp = {}
-                        for sku, md in (fixed_skus or {}).items():
-                            if not isinstance(md, dict):
-                                tmp[sku] = md
-                                continue
-                            md2 = dict(md)
-                            cur = (md2.get('familyName') or '').strip()
-                            if not cur or cur.lower() == 'apple watch':
-                                md2['familyName'] = majority
-                            tmp[sku] = md2
-                        fixed_skus = tmp
-            except Exception:
-                pass
+            fixed_skus: Dict[str, dict] = h.post_process_output(skus or {}, family)
             discovered.setdefault(cc_l, {})[token] = {
                 "url": f"https://www.apple.com/{cc_l}/{shop_path}",
                 "skus": fixed_skus
@@ -1790,17 +1694,7 @@ class Scraper:
             "token": token,
             "regions_scraped": regions_count
         }
-        fam_map = {
-            'iphone': 'iPhone',
-            'watch': 'AppleWatch',
-            'mac': 'Mac',
-            'ipad': 'iPad',
-            'airpods': 'AirPods',
-            'homepod': 'HomePod',
-            'avp': 'AppleVisionPro',
-            'accessories': 'Accessories'
-        }
-        famTitle = fam_map.get(family.lower(), family.capitalize())
+        famTitle = fc.get('file_prefix', (family or '').capitalize())
         prettyToken = self._pretty_token_name(family, token)
         fname = f"{famTitle}-{prettyToken}-intl.json"
         # Prefer InventoryWatch/Catalogs/ for organization (avoid confusion with 'Model/')
@@ -1822,27 +1716,8 @@ class Scraper:
         if not regions:
             print("[error] no regions configured or matched")
             sys.exit(2)
-        # Local helper to compute a friendly display name for a family/token
-        def display_name_for(fam: str, tok: str) -> str:
-            # Use generic fallbacks since dynamic extraction happens later
-            f = fam.lower()
-            if f == 'iphone':
-                return 'iPhone'
-            elif f == 'watch':
-                return 'Apple Watch'
-            elif f == 'mac':
-                return 'Mac'
-            elif f == 'ipad':
-                return 'iPad'
-            elif f == 'airpods':
-                return 'AirPods'
-            elif f == 'homepod':
-                return 'HomePod'
-            elif f == 'avp':
-                return 'Apple Vision Pro'
-            else:
-                return fam.title()
-
+        # Handler for family-specific enrichment and validation
+        h = get_handler(self._family_config(family))
         # Discover tokens if needed
         seeds: Dict[str, str] = {}  # token -> shop_path (from first region that exposes it)
         if all_models or not tokens:
@@ -1878,7 +1753,13 @@ class Scraper:
                         seeds.setdefault(t, p)
                 tokens = list(seeds.keys())
         # Process each token
-        def _prune_skus(skus: Dict[str, dict]) -> Dict[str, dict]:
+        def _prune_skus(skus: Dict[str, dict], family: str) -> Dict[str, dict]:
+            fc = self._family_config(family)
+            part_prefix = fc.get('part_number_prefix')
+            keep_incomplete = fc.get('prune_keep_incomplete', False)
+            keep_regional_name = fc.get('prune_keep_regional_name', False)
+            fam_display = fc.get('display_name', family.title())
+
             pruned: Dict[str, dict] = {}
             for sku, md in skus.items():
                 if not isinstance(md, dict):
@@ -1893,70 +1774,50 @@ class Scraper:
                 if re.match(r'^[A-Z]{4,}/[A-Z]$', sku):
                     continue
                 md_meta = md.get('metadata') if isinstance(md.get('metadata'), dict) else {}
-                # Watch-specific: treat caseSize/material/connectivity as product details
                 has_watch_dims = any((md_meta.get(k) or '').strip() for k in ('caseSize', 'caseMaterial', 'connectivity'))
-                # Detect Watch context either from SKU family field or the overall scraping family
-                try:
-                    overall_family = (family or '').strip().lower()
-                except UnboundLocalError:
-                    overall_family = ''
-                is_watch = ('watch' in (family_val or '').lower()) or (overall_family == 'watch')
-                fam_display = display_name_for(overall_family, '')
 
-                # Mac-specific: drop accessories and services that show up on buy pages.
-                # Actual Mac hardware part numbers almost always start with 'M' (e.g., MX2X3D/A, MW1L3D/A).
-                if overall_family == 'mac' and (not str(sku).startswith('M')):
+                # Filter SKUs not starting with the family part-number prefix (e.g. Mac: only M* SKUs)
+                if part_prefix and not str(sku).startswith(part_prefix):
                     continue
-                
+
                 # For regional products, keep name empty for dynamic localized building
-                # NOTE: this behavior is helpful for Watch/iPhone localized variant names,
-                # but Macs generally need a stable display name even when the part number ends with /A.
-                if overall_family not in ('mac', 'airpods', 'homepod') and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
-                    # Keep name empty for regional products so app builds localized name
+                if not keep_regional_name and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
                     name = ""
                 elif not name and familyName:
                     # For non-regional products, use familyName as fallback
                     name = familyName
-                
-                # Drop completely empty metadata entries (but allow Austrian products with empty names)
+
+                # Drop completely empty metadata entries
                 if not any([name, colorKey, colorDisplay, capacity, family, familyName]):
                     continue
                 # Special case: Regional products with localized data should have empty names but other data
                 if (re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku) and not name and colorDisplay and capacity and
                     self._has_localized_color_data(sku, colorDisplay, html)):
                     pass  # Keep localized regional products even with empty names
-                
+
                 # Drop incomplete SKUs that lack essential product details.
-                # These are typically placeholder/legacy SKUs with minimal data.
-                # Never drop Apple Watch SKUs purely for missing color/capacity/name — app derives names dynamically.
-                # For Macs and AVP, we often only have the part number; keep those and generate names later.
-                if (overall_family not in ('mac', 'avp', 'airpods', 'homepod') and
+                if (not keep_incomplete and
                     name in ('', fam_display) and
                     not colorKey and not colorDisplay and not capacity and
-                    not is_watch and  # keep watch SKUs even if generic
-                    not (is_watch and has_watch_dims)):  # No product details (allow watch dims)
+                    not has_watch_dims):
                     continue
-                
+
                 # Drop SKUs with generic family but no specific details.
-                # IMPORTANT: Macs often do not expose color/capacity dimensions on buy pages, so do not
-                # discard Mac SKUs just because those fields are empty.
-                # Only drop entries that look like placeholders (empty/generic name) *and* lack dimensions.
-                if (overall_family not in ('mac', 'avp', 'airpods', 'homepod') and
-                    family_val in (overall_family, '') and
+                if (not keep_incomplete and
+                    family_val in (family, '') and
                     not colorKey and not capacity and
                     (name.strip() in ('', fam_display)) and
-                    not is_watch and  # keep watch SKUs
-                    not (is_watch and has_watch_dims)):  # No specific attributes (allow watch dims)
+                    not has_watch_dims):
                     continue
-                    
+
                 # Update the metadata with the processed name
                 md_copy = md.copy()
                 md_copy['name'] = name
-                
-                # Final check: ensure ALL regional products have empty names for dynamic building
-                if overall_family not in ('mac', 'airpods', 'homepod') and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
+
+                # Final check: ensure regional products have empty names for dynamic building
+                if not keep_regional_name and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
                     md_copy['name'] = ""
-                
+
                 pruned[sku] = md_copy
             return pruned
 
@@ -1977,188 +1838,15 @@ class Scraper:
                 if not payload:
                     continue
                 skus = self._build_skus_from_payload(payload, family_hint=family)
-                # Retry with purchaseOption=fullPrice if few/no SKUs (common for Watch pages)
-                if not skus or len(skus) < 3:
+                # Retry with purchaseOption=fullPrice if configured for this family
+                if self._family_config(family).get('retry_full_price') and (not skus or len(skus) < 3):
                     alt_url = url + ("&" if "?" in url else "?") + "purchaseOption=fullPrice"
                     alt = self._extract_product_data(alt_url)
                     if alt:
                         skus = self._build_skus_from_payload(alt, family_hint=family) or skus
-                # Watch enrichment must happen BEFORE pruning so SKUs are retained
-                if skus and family.lower() == 'watch' and payload:
-                    html_watch = payload.get('html', '')
-                    pn_to_dims: Dict[str, Dict[str, str]] = {}
-                    # 1) Prefer bootstrap structured products if available; if missing, parse from HTML
-                    bs = payload.get('bootstrap') if isinstance(payload, dict) else None
-                    if not isinstance(bs, dict) and html_watch:
-                        text_blob = None
-                        m = re.search(r"PRODUCT_SELECTION_BOOTSTRAP\s*=\s*JSON\.parse\(\s*'(.+?)'\s*\)\s*;", html_watch, re.DOTALL)
-                        if m:
-                            encoded = m.group(1)
-                            try:
-                                unescaped = bytes(encoded, 'utf-8').decode('unicode_escape')
-                            except Exception:
-                                try:
-                                    unescaped = json.loads('"' + encoded.replace('"', '\\"') + '"')
-                                except Exception:
-                                    unescaped = encoded
-                            text_blob = unescaped
-                        else:
-                            assign = html_watch.find('window.PRODUCT_SELECTION_BOOTSTRAP')
-                            if assign != -1:
-                                brace = html_watch.find('{', assign)
-                                if brace != -1:
-                                    depth = 0
-                                    end = brace
-                                    for i in range(brace, len(html_watch)):
-                                        ch = html_watch[i]
-                                        if ch == '{': depth += 1
-                                        elif ch == '}':
-                                            depth -= 1
-                                            if depth == 0:
-                                                end = i
-                                                break
-                                    text_blob = html_watch[brace:end+1]
-                        if text_blob:
-                            try:
-                                bs = json.loads(re.sub(r',\s*([}\]])', r'\1', text_blob))
-                            except Exception:
-                                bs = None
-                    if isinstance(bs, dict):
-                        psd = (bs.get('productSelectionData') or {})
-                        prods = (psd.get('products') or [])
-                        dv = psd.get('displayValues') or {}
-                        # Some watch pages prefix dimension keys with 'watch_cases-'
-                        def _dv_maps(dim_key: str) -> list:
-                            return [dv.get(dim_key) or {}, dv.get(f'watch_cases-{dim_key}') or {}]
-                        def _resolve(dim_key: str, val: str) -> str:
-                            if not isinstance(val, str):
-                                return ''
-                            for mp in _dv_maps(dim_key):
-                                entry = mp.get(val)
-                                if isinstance(entry, dict):
-                                    pretty = entry.get('value') or entry.get('text') or ''
-                                    pretty = re.sub(r'<[^>]+>', '', pretty).replace('\u00a0',' ').strip()
-                                    if pretty:
-                                        return pretty
-                            return val
-                        def _first(obj: Dict[str, Any], keys: list) -> str:
-                            for k in keys:
-                                v = obj.get(k)
-                                if isinstance(v, str) and v:
-                                    return v
-                            # Try fuzzy: any key containing the suffix token
-                            for k, v in obj.items():
-                                if not isinstance(v, str):
-                                    continue
-                                for suf in keys:
-                                    suf0 = suf.split('-')[-1]  # handle watch_cases-
-                                    if suf0 in k:
-                                        return v
-                            return ''
-                        for p in prods:
-                            if not isinstance(p, dict):
-                                continue
-                            # Apple Watch pages sometimes use 'part' instead of 'partNumber'
-                            pn = None
-                            if isinstance(p.get('partNumber'), str):
-                                pn = p.get('partNumber')
-                            elif isinstance(p.get('part'), str):
-                                pn = p.get('part')
-                            if not pn:
-                                continue
-                            # Prefer values from product dimension keys, resolve through displayValues when possible
-                            z = p.get('dimensions') if isinstance(p.get('dimensions'), dict) else {}
-                            cs = _first(p, ['dimensionCaseSize','watch_cases-dimensionCaseSize']) or _first(z, ['dimensionCaseSize','watch_cases-dimensionCaseSize'])
-                            cm = _first(p, ['dimensionCaseMaterial','watch_cases-dimensionCaseMaterial']) or _first(z, ['dimensionCaseMaterial','watch_cases-dimensionCaseMaterial'])
-                            co = _first(p, ['dimensionConnection','watch_cases-dimensionConnection']) or _first(z, ['dimensionConnection','watch_cases-dimensionConnection'])
-                            # Color (some Watch pages still provide dimensionColor)
-                            col_key = _first(p, ['dimensionColor','watch_cases-dimensionColor']) or _first(z, ['dimensionColor','watch_cases-dimensionColor'])
-                            dims: Dict[str, str] = {}
-                            if cs:
-                                dims['caseSize'] = _resolve('dimensionCaseSize', cs)
-                            if cm:
-                                dims['caseMaterial'] = _resolve('dimensionCaseMaterial', cm)
-                            if co:
-                                dims['connectivity'] = _resolve('dimensionConnection', co)
-                            if dims:
-                                pn_to_dims[pn] = dims
-                            # Also enrich color fields on SKU if present
-                            if col_key:
-                                ck = col_key.lower().replace(' ', '')
-                                cd = _resolve('dimensionColor', col_key)
-                                if pn in skus and isinstance(skus[pn], dict):
-                                    if not (skus[pn].get('colorKey') or '').strip():
-                                        skus[pn]['colorKey'] = ck
-                                    if not (skus[pn].get('colorDisplay') or '').strip():
-                                        skus[pn]['colorDisplay'] = cd
-                                    # Also attach color to metadata for robust UI name building
-                                    md = skus[pn].get('metadata') if isinstance(skus[pn].get('metadata'), dict) else {}
-                                    if not (md.get('color') or '').strip():
-                                        md['color'] = cd
-                                        skus[pn]['metadata'] = md
-                        # If we still have no per-part mappings but the page exposes a single case size variant,
-                        # apply that size to all SKUs for this token as a safe, data-driven default (e.g., Ultra 49mm).
-                        if not pn_to_dims:
-                            sizes_map = dv.get('watch_cases-dimensionCaseSize') or dv.get('dimensionCaseSize') or {}
-                            size_keys = [k for k in sizes_map.keys() if k != 'variantOrder']
-                            if len(size_keys) == 1:
-                                single_size = _resolve('dimensionCaseSize', size_keys[0])
-                                applied = 0
-                                for sku, sku_data in skus.items():
-                                    if not isinstance(sku_data, dict):
-                                        continue
-                                    md = sku_data.get('metadata') if isinstance(sku_data.get('metadata'), dict) else {}
-                                    if not md.get('caseSize'):
-                                        md['caseSize'] = single_size
-                                        sku_data['metadata'] = md
-                                        applied += 1
-                                if applied:
-                                    print(f"[debug][watch] Applied single-size default '{single_size}' to {applied} SKU(s)")
-                    # 2) Fallback: regex proximity in raw HTML
-                    if not pn_to_dims and html_watch:
-                        # partNumber before dimensions
-                        for m in re.finditer(
-                            r'"partNumber"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])"[\s\S]{0,1000}?"(?:watch_cases-)?dimensionCaseSize"\s*:\s*"([^"]+)"[\s\S]{0,400}?"(?:watch_cases-)?dimensionCaseMaterial"\s*:\s*"([^"]+)"[\s\S]{0,400}?"(?:watch_cases-)?dimensionConnection"\s*:\s*"([^"]+)"',
-                            html_watch, re.IGNORECASE):
-                            pn, sz, mat, conn = m.group(1), m.group(2), m.group(3), m.group(4)
-                            pn_to_dims[pn] = {"caseSize": sz, "caseMaterial": mat, "connectivity": conn}
-                        # dimensions before partNumber
-                        for m in re.finditer(
-                            r'"(?:watch_cases-)?dimensionCaseSize"\s*:\s*"([^"]+)"[\s\S]{0,600}?"(?:watch_cases-)?dimensionCaseMaterial"\s*:\s*"([^"]+)"[\s\S]{0,600}?"(?:watch_cases-)?dimensionConnection"\s*:\s*"([^"]+)"[\s\S]{0,1000}?"partNumber"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])"',
-                            html_watch, re.IGNORECASE):
-                            sz, mat, conn, pn = m.group(1), m.group(2), m.group(3), m.group(4)
-                            pn_to_dims[pn] = {"caseSize": sz, "caseMaterial": mat, "connectivity": conn}
-                        # Also support 'part' field which appears on Apple Watch pages
-                        for m in re.finditer(
-                            r'"part"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])"[\s\S]{0,1000}?"(?:watch_cases-)?dimensionCaseSize"\s*:\s*"([^"]+)"[\s\S]{0,400}?"(?:watch_cases-)?dimensionCaseMaterial"\s*:\s*"([^"]+)"[\s\S]{0,400}?"(?:watch_cases-)?dimensionConnection"\s*:\s*"([^"]+)"',
-                            html_watch, re.IGNORECASE):
-                            pn, sz, mat, conn = m.group(1), m.group(2), m.group(3), m.group(4)
-                            pn_to_dims[pn] = {"caseSize": sz, "caseMaterial": mat, "connectivity": conn}
-                        for m in re.finditer(
-                            r'"(?:watch_cases-)?dimensionCaseSize"\s*:\s*"([^"]+)"[\s\S]{0,600}?"(?:watch_cases-)?dimensionCaseMaterial"\s*:\s*"([^"]+)"[\s\S]{0,600}?"(?:watch_cases-)?dimensionConnection"\s*:\s*"([^"]+)"[\s\S]{0,1000}?"part"\s*:\s*"([A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z])"',
-                            html_watch, re.IGNORECASE):
-                            sz, mat, conn, pn = m.group(1), m.group(2), m.group(3), m.group(4)
-                            pn_to_dims[pn] = {"caseSize": sz, "caseMaterial": mat, "connectivity": conn}
-                    if pn_to_dims:
-                        enriched_count = 0
-                        for sku, sku_data in skus.items():
-                            if not isinstance(sku_data, dict):
-                                continue
-                            if sku not in pn_to_dims:
-                                continue
-                            dims = pn_to_dims[sku]
-                            md = sku_data.get('metadata') if isinstance(sku_data.get('metadata'), dict) else {}
-                            # Merge dimensions
-                            for k in ('caseSize', 'caseMaterial', 'connectivity'):
-                                v = (dims.get(k) or '').strip()
-                                if v:
-                                    md[k] = v
-                            if md:
-                                sku_data['metadata'] = md
-                                enriched_count += 1
-                        if enriched_count:
-                            print(f"[debug][watch] Enriched {enriched_count} SKU(s) with case size/material/connectivity before pruning")
-                # Evaluate usefulness before deciding on legacy fallback: count entries with any non-empty metadata
+                # Handler: pre-pruning enrichment
+                skus = h.enrich_skus(skus, payload, r)
+                # Evaluate usefulness: count entries with any non-empty metadata
                 def _useful_count(d: Dict[str, dict]) -> int:
                     c = 0
                     for md in d.values():
@@ -2173,44 +1861,6 @@ class Scraper:
                     return c
                 useful = _useful_count(skus)
                 print(f"[debug] {r['code']}/{family}:{token} -> collected {len(skus)} skus ({useful} useful)")
-                # Legacy fallback: use RealAppleSkuScraper if still too few (works well for Watch/Mac pages)
-                if (useful < 3) and RealAppleSkuScraper is not None and family.lower() in ('watch','mac'):
-                    try:
-                        legacy = RealAppleSkuScraper(config_file=self.config_path if hasattr(self, 'config_path') else 'scraper_config.json')
-                        legacy_data: Any = legacy.extract_product_bootstrap_json(url)
-                        # Normalize various shapes returned by legacy extractor
-                        def build_from_map(parts_map: dict):
-                            merged: Dict[str, dict] = {}
-                            for pn, val in parts_map.items():
-                                if not isinstance(pn, str) or not re.match(r'^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$', pn):
-                                    continue
-                                if isinstance(val, dict):
-                                    merged[pn] = {
-                                        "name": val.get("name", ""),
-                                        "colorKey": val.get("colorKey", ""),
-                                        "colorDisplay": val.get("colorDisplay", ""),
-                                        "capacity": val.get("capacity", ""),
-                                        "family": val.get("family", family.lower()),
-                                        "familyName": val.get("familyName", display_name_for(family, token))
-                                    }
-                                else:
-                                    merged[pn] = {"name": str(val), "colorKey": "", "colorDisplay": "", "capacity": "", "family": family.lower(), "familyName": display_name_for(family, token)}
-                            return merged
-
-                        if isinstance(legacy_data, dict):
-                            candidate = None
-                            # Direct parts map?
-                            if any(re.match(r'^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$', k) for k in legacy_data.keys() if isinstance(k, str)):
-                                candidate = legacy_data
-                            # Wrapped under 'extracted_parts'?
-                            elif isinstance(legacy_data.get('extracted_parts'), dict):
-                                candidate = legacy_data['extracted_parts']
-                            if isinstance(candidate, dict):
-                                merged = build_from_map(candidate)
-                                if merged:
-                                    skus.update(merged)
-                    except Exception:
-                        pass
                 # Extract dynamic display name from page data FIRST
                 inferred_display = None
                 if payload:
@@ -2229,142 +1879,19 @@ class Scraper:
                             most_common_family = max(family_counts.keys(), key=family_counts.get)
                     inferred_display = self.extract_product_family_name(html, bootstrap, most_common_family)
 
-                # Before pruning, normalize familyName for Watch to inferred/token display when it's generic
-                try:
-                    if (family or '').lower() == 'watch':
-                        # Prefer dynamically inferred display name; else fall back to token display
-                        watch_display = inferred_display or self._pretty_token_name(family, token)
-                        if watch_display:
-                            for sku_key, sku_md in skus.items():
-                                if not isinstance(sku_md, dict):
-                                    continue
-                                cur_name = (sku_md.get('familyName') or '').strip()
-                                if not cur_name or cur_name == 'Apple Watch':
-                                    sku_md['familyName'] = watch_display
-                except Exception:
-                    pass
+                # Handler: pre-pruning familyName normalization
+                skus = h.post_process_skus(skus, payload, token, inferred_display, self._family_config(family))
 
                 # Prune placeholders/empty entries; allow empty dict to still emit per-model file
-                skus = _prune_skus(skus)
+                skus = _prune_skus(skus, family)
                 print(f"[debug] after_prune {r['code']}/{family}:{token} -> {len(skus)} skus")
 
-                # Mac: build distinct, user-friendly per-SKU names so Settings doesn't show identical rows.
-                if (family or '').strip().lower() == 'mac' and skus:
-                    base_name = (inferred_display or '').strip() or display_name_for(family, token)
-
-                    # Build localized finish/color mappings from the page when available.
-                    # Many locales provide translated finish names inside displayValues blocks.
-                    localized_finish_map = self._extract_display_value_mappings_from_html(html, 'dimensionFinish') if html else {}
-                    localized_color_map = self._extract_display_value_mappings_from_html(html, 'dimensionColor') if html else {}
-                    select_header_map = self._extract_select_header_mappings_from_html(html) if html else {}
-
-                    def _norm_key(s: str) -> str:
-                        return re.sub(r'[^a-z0-9]', '', (s or '').lower())
-
-                    def _pretty_size(raw: str) -> str:
-                        s = (raw or '').strip()
-                        # e.g. 14inch -> 14-inch
-                        m = re.match(r'^(\d{2})inch$', s, re.IGNORECASE)
-                        return f"{m.group(1)}-inch" if m else s
-
-                    def _pretty_proc(raw: str) -> str:
-                        p = (raw or '').strip()
-                        if not p:
-                            return ''
-                        parts = [x for x in p.split('-') if x]
-                        head = parts[0]
-                        tail = ' '.join(parts[1:])
-                        mh = re.match(r'^(m\d)(pro|max|ultra)?$', head, re.IGNORECASE)
-                        if mh:
-                            head_pretty = mh.group(1).upper() + (f" {mh.group(2).title()}" if mh.group(2) else '')
-                        else:
-                            head_pretty = head.upper()
-                        return (head_pretty + (f" {tail}" if tail else '')).strip()
-
-                    def _pretty_finish(raw: str) -> str:
-                        f = (raw or '').strip()
-                        if not f or f.lower() == 'standard':
-                            return ''
-                        # Prefer localized label from selector headers when present.
-                        fk = _norm_key(f)
-                        if fk and fk in select_header_map:
-                            return select_header_map[fk]
-                        return f.replace('_', ' ').replace('-', ' ').title()
-
-                    def _pretty_color(md: dict) -> str:
-                        """Resolve a localized finish/color name from page-provided displayValues."""
-                        candidates = []
-
-                        hint = (md.get('colorHint') or '').strip()
-                        if hint:
-                            candidates.append(hint)
-
-                        container = (md.get('containerPartNumber') or '').strip()
-                        # Container part numbers often embed tokens like SPACE_BLACK / SILVER.
-                        # We don't hardcode translations; we just try these tokens as lookup keys.
-                        if container:
-                            # Grab underscore-delimited ALLCAPS tokens
-                            for tok in re.findall(r'\b[A-Z]{3,}(?:_[A-Z]{3,})+\b', container):
-                                candidates.append(tok)
-                            # Also include the raw container itself as a last-resort key
-                            candidates.append(container)
-
-                        for c in candidates:
-                            k = _norm_key(c)
-                            if not k:
-                                continue
-                            if k in select_header_map:
-                                return select_header_map[k]
-                            if k in localized_color_map:
-                                return localized_color_map[k]
-                            if k in localized_finish_map:
-                                return localized_finish_map[k]
-
-                        # If no localized mapping exists on the page, fall back to a humanized hint (still not hardcoded).
-                        if hint:
-                            return hint.replace('-', ' ').title()
-                        return ''
-
-                    # First pass: compute labels
-                    labels: Dict[str, str] = {}
-                    for sku, sku_data in skus.items():
-                        if not isinstance(sku_data, dict):
-                            continue
-                        md = sku_data.get('metadata') if isinstance(sku_data.get('metadata'), dict) else {}
-                        size = _pretty_size(sku_data.get('dimensionScreensize') or '')
-                        proc = _pretty_proc(md.get('processor') or '')
-                        finish = _pretty_finish(md.get('displayFinish') or '')
-                        color = _pretty_color(md)
-
-                        parts = [base_name]
-                        if size:
-                            parts.append(size)
-                        if color:
-                            parts.append(color)
-                        if proc:
-                            parts.append(proc)
-                        if finish:
-                            parts.append(finish)
-                        label = ' '.join([p for p in parts if p]).strip()
-                        if not label or label == base_name:
-                            label = f"{base_name} ({sku})"
-                        labels[sku] = label
-
-                    # Second pass: de-dupe by appending part number when collisions exist
-                    inv: Dict[str, int] = {}
-                    for v in labels.values():
-                        inv[v] = inv.get(v, 0) + 1
-                    for sku, label in labels.items():
-                        if inv.get(label, 0) > 1 and f"({sku})" not in label:
-                            labels[sku] = f"{label} ({sku})"
-
-                    for sku, sku_data in skus.items():
-                        if isinstance(sku_data, dict):
-                            sku_data['name'] = labels.get(sku, sku_data.get('name', ''))
+                # Handler: post-pruning (e.g. Mac name building)
+                skus = h.post_process_skus(skus, payload, token, inferred_display, self._family_config(family))
 
                 # Extract model display names per screen size from ProductSelectionData (SSR) and apply to SKUs
                 size_to_model: Dict[str, str] = {}
-                if payload:
+                if not self._family_config(family).get('skip_screensize_extraction') and payload:
                     html = payload.get('html', '')
                     # Prefer bootstrap (window.PRODUCT_SELECTION_BOOTSTRAP) when available in payload
                     bs = payload.get('bootstrap')
@@ -2431,7 +1958,7 @@ class Scraper:
                 # Ensure each SKU has its dimensionScreensize set using bootstrap products, if available.
                 # NOTE: This is not needed for Mac inventory queries (pickup-message only needs part numbers)
                 # and can be very expensive to compute on large Mac buy pages.
-                if (family or '').strip().lower() != 'mac' and payload and isinstance(payload.get('bootstrap'), dict):
+                if not self._family_config(family).get('skip_screensize_extraction') and payload and isinstance(payload.get('bootstrap'), dict):
                     bs = payload['bootstrap']
                     products = (bs.get('productSelectionData') or {}).get('products') or []
                     pn_to_size: Dict[str, str] = {}
@@ -2924,39 +2451,8 @@ class Scraper:
                                 applied_fb += 1
                             print(f"[debug] Applied familyName fallback from majority bootstrap name for {applied_fb} SKU(s); name=\"{majority_fn}\"")
 
-                # Validator: compare variant anchors (capacity,color -> set(size)) vs emitted SKUs
-                if skus and html:
-                    expected_combo_sizes: Dict[Tuple[str, str], set] = {}
-                    # Reuse href parsing logic
-                    # Match localized PDP anchors e.g. /at/shop/buy-iphone/iphone-17-pro/6,3%22-display-1tb-silber
-                    for m in re.finditer(r'/(?:[a-z-]{2,5}/)?shop/buy-iphone/iphone-[-a-z0-9_]+/([0-9],[0-9])%22-display-([0-9]+(?:tb|gb))[-]([a-z0-9\-äöüß]+)', html, re.IGNORECASE):
-                        size_raw = m.group(1)
-                        cap_raw = m.group(2).lower()
-                        col_raw = m.group(3).lower()
-                        size_key = size_raw.replace(',', '_') + 'inch'
-                        cap_disp = (cap_raw[:-2].upper() + ('TB' if cap_raw.endswith('tb') else 'GB'))
-                        col_norm = re.sub(r'\s+', ' ', col_raw.replace('-', ' ')).strip().lower()
-                        expected_combo_sizes.setdefault((cap_disp, col_norm), set()).add(size_key)
-                    actual_combo_sizes: Dict[Tuple[str, str], set] = {}
-                    for sku, sku_data in skus.items():
-                        if not isinstance(sku_data, dict):
-                            continue
-                        cap = (sku_data.get('capacity') or '').strip().upper().replace(' ', '')
-                        col = (sku_data.get('colorDisplay') or '').strip().lower()
-                        col = re.sub(r'\s+', ' ', col)
-                        size = (sku_data.get('dimensionScreensize') or '').strip()
-                        if cap and col and size:
-                            actual_combo_sizes.setdefault((cap, col), set()).add(size)
-                    # Report differences between expected (from anchors) and actual (from emitted SKUs)
-                    for key, sizes in expected_combo_sizes.items():
-                        have = actual_combo_sizes.get(key, set())
-                        if have != sizes:
-                            if not have:
-                                print(f"[warn] missing_combo_for_region {r['code']} {family}:{token} combo={key} expected_sizes={sorted(list(sizes))} but found none")
-                            else:
-                                missing = sorted(list(sizes - have))
-                                extra = sorted(list(have - sizes))
-                                print(f"[warn] combo_size_difference {r['code']} {family}:{token} combo={key} expected_sizes={sorted(list(sizes))} actual_sizes={sorted(list(have))} missing={missing} extra={extra}")
+# Handler: validate output (e.g. iPhone variant anchor checks)
+                h.validate(skus, html, r['code'], family, token)
 
                 # Additional data-driven fallback: derive model by (capacity, color) pairs found in HTML text
                 # e.g., "iPhone 17 Pro Max 512GB Tiefblau" / "iPhone 17 Pro 256GB Silber"
