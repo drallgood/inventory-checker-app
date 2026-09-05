@@ -2,6 +2,17 @@ import Testing
 import Foundation
 @testable import InventoryWatch
 
+private struct CountryEntry: Codable {
+    let name: String
+    let shortcode: String
+    let locale: String
+    let skuCode: String
+}
+
+private struct CountryList: Codable {
+    let countries: [CountryEntry]
+}
+
 struct CountriesJSONTests {
 
     @Test func countriesJSONParsesCorrectly() throws {

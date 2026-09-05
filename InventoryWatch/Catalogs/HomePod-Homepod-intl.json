@@ -1,0 +1,1321 @@
+{
+  "discovered_models": {
+    "at": {
+      "homepod": {
+        "url": "https://www.apple.com/at/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "us": {
+      "homepod": {
+        "url": "https://www.apple.com/us/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQKE2LL/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQJ22LL/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SN7W2LL/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "uk": {
+      "homepod": {
+        "url": "https://www.apple.com/uk/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQKE2ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQJ22ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SN7W2ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "au": {
+      "homepod": {
+        "url": "https://www.apple.com/au/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "ca": {
+      "homepod": {
+        "url": "https://www.apple.com/ca/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQKE2Z/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQJ22Z/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "de": {
+      "homepod": {
+        "url": "https://www.apple.com/de/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQKE2ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQJ22ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SN7W2ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "fr": {
+      "homepod": {
+        "url": "https://www.apple.com/fr/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQKE2ZK/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQJ22ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SN7W2ZK/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "it": {
+      "homepod": {
+        "url": "https://www.apple.com/it/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "es": {
+      "homepod": {
+        "url": "https://www.apple.com/es/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "nl": {
+      "homepod": {
+        "url": "https://www.apple.com/nl/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "homepod": {
+        "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "homepod": {
+        "url": "https://www.apple.com/be-fr/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "homepod": {
+        "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "homepod": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZD/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "se": {
+      "homepod": {
+        "url": "https://www.apple.com/se/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "dk": {
+      "homepod": {
+        "url": "https://www.apple.com/dk/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "no": {
+      "homepod": {
+        "url": "https://www.apple.com/no/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "fi": {
+      "homepod": {
+        "url": "https://www.apple.com/fi/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZM/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "jp": {
+      "homepod": {
+        "url": "https://www.apple.com/jp/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQKE2JZ/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "SQJ22JZ/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "kr": {
+      "homepod": {
+        "url": "https://www.apple.com/kr/shop/buy-homepod/homepod",
+        "skus": {}
+      }
+    },
+    "hk": {
+      "homepod": {
+        "url": "https://www.apple.com/hk/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZX/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "sg": {
+      "homepod": {
+        "url": "https://www.apple.com/sg/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZX/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "tw": {
+      "homepod": {
+        "url": "https://www.apple.com/tw/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "th": {
+      "homepod": {
+        "url": "https://www.apple.com/th/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZX/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "my": {
+      "homepod": {
+        "url": "https://www.apple.com/my/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442ZX/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "in": {
+      "homepod": {
+        "url": "https://www.apple.com/in/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442HN/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "ae": {
+      "homepod": {
+        "url": "https://www.apple.com/ae/shop/buy-homepod/homepod",
+        "skus": {}
+      }
+    },
+    "sa": {
+      "homepod": {
+        "url": "https://www.apple.com/sa/shop/buy-homepod/homepod",
+        "skus": {}
+      }
+    },
+    "tr": {
+      "homepod": {
+        "url": "https://www.apple.com/tr/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "br": {
+      "homepod": {
+        "url": "https://www.apple.com/br/shop/buy-homepod/homepod",
+        "skus": {}
+      }
+    },
+    "mx": {
+      "homepod": {
+        "url": "https://www.apple.com/mx/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEW4E/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "MDEY4E/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          },
+          "S6442Z/A": {
+            "name": "HomePod",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod"
+          }
+        }
+      }
+    },
+    "cn": {
+      "homepod": {
+        "url": "https://www.apple.com/cn/shop/buy-homepod/homepod",
+        "skus": {
+          "MDEX4CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod - Midnight"
+          },
+          "MDF04CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod - Midnight"
+          },
+          "S6442CH/A": {
+            "name": "HomePod - Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod - Midnight"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "homepod": "shop/buy-homepod/homepod"
+      },
+      "localization": {
+        "token_display": {
+          "homepod": "Homepod"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-09-05T10:11:54.681593+00:00",
+    "scraper_version": "1.0",
+    "family": "homepod",
+    "token": "homepod",
+    "regions_scraped": 33
+  }
+}

@@ -140,6 +140,36 @@ struct NotificationSender {
             }
             return "iPad"
         }
+        if family.isAirPods {
+            let token = defaults.preferredAirPodsToken
+            if token.isEmpty == false {
+                let country = defaults.preferredCountry
+                if let display = await displayNameForAirPodsToken(token: token, country: country) {
+                    return display
+                }
+            }
+            return "AirPods"
+        }
+        if family.isHomePod {
+            let token = defaults.preferredHomePodToken
+            if token.isEmpty == false {
+                let country = defaults.preferredCountry
+                if let display = await displayNameForHomePodToken(token: token, country: country) {
+                    return display
+                }
+            }
+            return "HomePod"
+        }
+        if family.isAVP {
+            let token = defaults.preferredAVPToken
+            if token.isEmpty == false {
+                let country = defaults.preferredCountry
+                if let display = await displayNameForAVPToken(token: token, country: country) {
+                    return display
+                }
+            }
+            return "Apple Vision Pro"
+        }
         // Fallback: infer from SKU names (should not typically be reached)
         for sku in skuData.orderedSKUs {
             if let productName = skuData.productName(forSKU: sku) {
@@ -192,6 +222,45 @@ struct NotificationSender {
             return token.replacingOccurrences(of: "-", with: " ").capitalized
         }
     }
+
+    private func displayNameForAirPodsToken(token: String, country: Country) async -> String? {
+        return await MainActor.run {
+            guard let dict = JSONCatalogAirPods.categoryData(for: country, sourcePage: token), let md = dict.values.first else { return nil }
+            if let famName = md.familyName, famName.isEmpty == false, famName.lowercased() != "unknown" {
+                return famName
+            }
+            if md.family.isEmpty == false {
+                return md.family.replacingOccurrences(of: "_", with: " ").capitalized
+            }
+            return token.replacingOccurrences(of: "-", with: " ").capitalized
+        }
+    }
+
+    private func displayNameForHomePodToken(token: String, country: Country) async -> String? {
+        return await MainActor.run {
+            guard let dict = JSONCatalogHomePod.categoryData(for: country, sourcePage: token), let md = dict.values.first else { return nil }
+            if let famName = md.familyName, famName.isEmpty == false, famName.lowercased() != "unknown" {
+                return famName
+            }
+            if md.family.isEmpty == false {
+                return md.family.replacingOccurrences(of: "_", with: " ").capitalized
+            }
+            return token.replacingOccurrences(of: "-", with: " ").capitalized
+        }
+    }
+
+    private func displayNameForAVPToken(token: String, country: Country) async -> String? {
+        return await MainActor.run {
+            guard let dict = JSONCatalogAVP.categoryData(for: country, sourcePage: token), let md = dict.values.first else { return nil }
+            if let famName = md.familyName, famName.isEmpty == false, famName.lowercased() != "unknown" {
+                return famName
+            }
+            if md.family.isEmpty == false {
+                return md.family.replacingOccurrences(of: "_", with: " ").capitalized
+            }
+            return token.replacingOccurrences(of: "-", with: " ").capitalized
+        }
+    }
     
     private func getProductEmojiFromSKUData(_ skuData: SKUData) -> String {
         // Emoji should reflect the active product family
@@ -200,6 +269,9 @@ struct NotificationSender {
         if family.isIPhone { return "📱" }
         if family.isMac { return "💻" }
         if family.isIPad { return "📱" }
+        if family.isAirPods { return "🎧" }
+        if family.isHomePod { return "🔊" }
+        if family.isAVP { return "🥽" }
         return "📱"
     }
     

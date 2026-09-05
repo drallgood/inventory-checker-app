@@ -92,7 +92,6 @@ struct AnalyticsData: Codable, Equatable {
     
     private static func commitData(_ data: AnalyticsData) {
         writeDataToDefaults(data)
-        postUserSettings(data)
     }
     
     private static func writeDataToDefaults(_ data: AnalyticsData) {
@@ -102,27 +101,5 @@ struct AnalyticsData: Codable, Equatable {
         if let encoded = try? encoder.encode(data) {
             UserDefaults.standard.set(encoded, forKey: "previousAnalyticsData")
         }
-    }
-    
-    private static func postUserSettings(_ data: AnalyticsData) {
-//        let urlString = "https://api.inventorywatch.app/user-settings"
-//        guard let url = URL(string: urlString) else {
-//            return
-//        }
-//        
-//        Task {
-//            let bodyData = data.toJsonData
-//            
-//            var request = URLRequest(url: url)
-//            request.httpMethod = "POST"
-//            request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-//            request.httpBody = bodyData
-//            do {
-//                let (_, response) = try await URLSession.shared.data(for: request)
-//                print("successfully updated analytics: response code \((response as? HTTPURLResponse)?.statusCode ?? 0)")
-//            } catch {
-//                print(error)
-//            }
-//        }
     }
 }

@@ -44,6 +44,9 @@
 		46F11C76304B80560000EBF2 /* Mac-StudioDisplay-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C6F304B80560000EBF2 /* Mac-StudioDisplay-intl.json */; };
 		46F11C77304B80560000EBF2 /* Mac-StudioDisplayXdr-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C70304B80560000EBF2 /* Mac-StudioDisplayXdr-intl.json */; };
 		46F11C78304B80560000EBF2 /* Mac-MacbookNeo-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C6E304B80560000EBF2 /* Mac-MacbookNeo-intl.json */; };
+		46F11C7C304B9E0B0000EBF2 /* JSONCatalogAVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F11C7A304B9E0B0000EBF2 /* JSONCatalogAVP.swift */; };
+		46F11C7D304B9E0B0000EBF2 /* JSONCatalogHomePod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F11C7B304B9E0B0000EBF2 /* JSONCatalogHomePod.swift */; };
+		46F11C7E304B9E0B0000EBF2 /* JSONCatalogAirPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F11C79304B9E0B0000EBF2 /* JSONCatalogAirPods.swift */; };
 		46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */; };
 		46F134CF2E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */; };
 		46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */; };
@@ -116,6 +119,9 @@
 		46F11C6E304B80560000EBF2 /* Mac-MacbookNeo-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-MacbookNeo-intl.json"; sourceTree = "<group>"; };
 		46F11C6F304B80560000EBF2 /* Mac-StudioDisplay-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-StudioDisplay-intl.json"; sourceTree = "<group>"; };
 		46F11C70304B80560000EBF2 /* Mac-StudioDisplayXdr-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-StudioDisplayXdr-intl.json"; sourceTree = "<group>"; };
+		46F11C79304B9E0B0000EBF2 /* JSONCatalogAirPods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogAirPods.swift; sourceTree = "<group>"; };
+		46F11C7A304B9E0B0000EBF2 /* JSONCatalogAVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogAVP.swift; sourceTree = "<group>"; };
+		46F11C7B304B9E0B0000EBF2 /* JSONCatalogHomePod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCatalogHomePod.swift; sourceTree = "<group>"; };
 		46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stores_GlobalBootstrap.json; sourceTree = "<group>"; };
 		46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatch-intl.json"; sourceTree = "<group>"; };
 		46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchSe-intl.json"; sourceTree = "<group>"; };
@@ -222,6 +228,9 @@
 		3885D54A289170E700BD6A78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				46F11C79304B9E0B0000EBF2 /* JSONCatalogAirPods.swift */,
+				46F11C7A304B9E0B0000EBF2 /* JSONCatalogAVP.swift */,
+				46F11C7B304B9E0B0000EBF2 /* JSONCatalogHomePod.swift */,
 				385886B429082831003D3C80 /* ViewModel.swift */,
 				386FDC69273A200000C1BAC2 /* NotificationManager.swift */,
 				38D307DA2745E2E700A0686D /* Analytics.swift */,
@@ -424,6 +433,9 @@
 				385886AD290827A6003D3C80 /* ModelError.swift in Sources */,
 				3885D54C2891711E00BD6A78 /* FulfillmentStore.swift in Sources */,
 				3817268E273AA898003B8D76 /* SettingsView.swift in Sources */,
+				46F11C7C304B9E0B0000EBF2 /* JSONCatalogAVP.swift in Sources */,
+				46F11C7D304B9E0B0000EBF2 /* JSONCatalogHomePod.swift in Sources */,
+				46F11C7E304B9E0B0000EBF2 /* JSONCatalogAirPods.swift in Sources */,
 				3891902F28E8831B0051FE3A /* StoreBootstrap.swift in Sources */,
 				385886B529082831003D3C80 /* ViewModel.swift in Sources */,
 				386FDC592739DA7300C1BAC2 /* ContentView.swift in Sources */,

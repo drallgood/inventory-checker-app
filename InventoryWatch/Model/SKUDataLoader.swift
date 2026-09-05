@@ -24,11 +24,8 @@ actor SKUDataLoader {
             return (sku, meta)
         }
         let valid = normalized.filter { (sku, meta) in
-            let isRealPN = sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil
-            let okPN = meta.metadata?.isRealPartNumber ?? isRealPN
-            if okPN == false { return false }
-            if let hasSize = meta.metadata?.caseSize, hasSize.isEmpty == false { return true }
-            return false
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            return sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil
         }
         let orderedSKUs = valid.map { $0.0 }.sorted()
         let famNames = valid.compactMap { (_, meta) -> String? in
@@ -217,5 +214,74 @@ actor SKUDataLoader {
 
     @MainActor func ipadCategoryURL(for country: Country, sourcePage: String) -> URL? {
         return JSONCatalogiPad.pdpBaseURL(for: country, sourcePage: sourcePage)
+    }
+
+    @MainActor func airpodsSKUData(forToken token: String, country: Country) -> SKUData? {
+        guard let dict = JSONCatalogAirPods.categoryData(for: country, sourcePage: token) else { return nil }
+        let normalized: [(String, ProductMetadata)] = dict.map { (key, meta) in
+            let sku = meta.partNumber ?? key
+            return (sku, meta)
+        }
+        let valid = normalized.filter { (sku, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            if sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil { return true }
+            if sku.range(of: "^[A-Z0-9]{3,6}$", options: .regularExpression) != nil { return true }
+            return false
+        }
+        let orderedSKUs = valid.map { $0.0 }.sorted()
+        let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
+            result[tuple.0] = buildLocalizedProductName(from: tuple.1)
+        }
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
+    }
+
+    @MainActor func homepodSKUData(forToken token: String, country: Country) -> SKUData? {
+        guard let dict = JSONCatalogHomePod.categoryData(for: country, sourcePage: token) else { return nil }
+        let normalized: [(String, ProductMetadata)] = dict.map { (key, meta) in
+            let sku = meta.partNumber ?? key
+            return (sku, meta)
+        }
+        let valid = normalized.filter { (sku, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            if sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil { return true }
+            if sku.range(of: "^[A-Z0-9]{3,6}$", options: .regularExpression) != nil { return true }
+            return false
+        }
+        let orderedSKUs = valid.map { $0.0 }.sorted()
+        let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
+            result[tuple.0] = buildLocalizedProductName(from: tuple.1)
+        }
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
+    }
+
+    @MainActor func avpSKUData(forToken token: String, country: Country) -> SKUData? {
+        guard let dict = JSONCatalogAVP.categoryData(for: country, sourcePage: token) else { return nil }
+        let normalized: [(String, ProductMetadata)] = dict.map { (key, meta) in
+            let sku = meta.partNumber ?? key
+            return (sku, meta)
+        }
+        let valid = normalized.filter { (sku, meta) in
+            if let isReal = meta.metadata?.isRealPartNumber { return isReal }
+            if sku.range(of: "^[A-Z0-9]{4,8}[A-Z]{1,3}/[A-Z]$", options: .regularExpression) != nil { return true }
+            if sku.range(of: "^[A-Z0-9]{3,6}$", options: .regularExpression) != nil { return true }
+            return false
+        }
+        let orderedSKUs = valid.map { $0.0 }.sorted()
+        let skuLookup = valid.reduce(into: [String: String]()) { result, tuple in
+            result[tuple.0] = buildLocalizedProductName(from: tuple.1)
+        }
+        return SKUData(orderedSKUs: orderedSKUs, lookup: skuLookup)
+    }
+
+    @MainActor func airpodsCategoryURL(for country: Country, sourcePage: String) -> URL? {
+        return JSONCatalogAirPods.pdpBaseURL(for: country, sourcePage: sourcePage)
+    }
+
+    @MainActor func homepodCategoryURL(for country: Country, sourcePage: String) -> URL? {
+        return JSONCatalogHomePod.pdpBaseURL(for: country, sourcePage: sourcePage)
+    }
+
+    @MainActor func avpCategoryURL(for country: Country, sourcePage: String) -> URL? {
+        return JSONCatalogAVP.pdpBaseURL(for: country, sourcePage: sourcePage)
     }
 }

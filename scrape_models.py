@@ -843,7 +843,7 @@ class Scraper:
             final_name = name if not p.get('_localized_processed') else ""
             # Skip entries with no product data — keyboard/language bundles
             # Exempt Mac family (part numbers alone are sufficient for inventory tracking)
-            if (family_hint or '').lower() != 'mac':
+            if (family_hint or '').lower() not in ('mac', 'avp', 'airpods', 'homepod'):
                 has_data = bool((capacity or '').strip()) or bool((screensize or '').strip()) or (bool((color_display or '').strip()) and color_display != 'Unknown')
                 if not has_data:
                     return
@@ -871,6 +871,13 @@ class Scraper:
                 psd = bootstrap.get('productSelectionData') or {}
                 products = psd.get('products') or []
                 disp = psd.get('displayValues') or {}
+                for key in list(disp.keys()):
+                    if key.endswith('-dimensionCapacity') and key != 'dimensionCapacity':
+                        disp['dimensionCapacity'] = disp[key]
+                        for p in products:
+                            if isinstance(p, dict) and key in p and not p.get('dimensionCapacity'):
+                                p['dimensionCapacity'] = p[key]
+                        break
                 # Check if capacity info is missing from displayValues - extract from HTML
                 if 'dimensionCapacity' not in disp or not disp['dimensionCapacity']:
                     # Try to find capacity values in the page HTML
@@ -961,8 +968,8 @@ class Scraper:
                     label = disp.get('dimensionCapacity', {}).get(key, {})
                     if isinstance(label, dict):
                         v = label.get('value') or ''
-                        # Strip HTML tags and clean up
-                        clean_v = re.sub(r'<[^>]+>', '', v).replace('\u00a0', ' ').strip()
+                        clean_v = re.sub(r'<sup[^>]*>.*?</sup>', '', v)
+                        clean_v = re.sub(r'<[^>]+>', '', clean_v).replace('\u00a0', ' ').strip()
                         if clean_v:
                             return clean_v
                     # Fallback conversion if displayValues not available
@@ -1110,19 +1117,13 @@ class Scraper:
                                 name_by_base.setdefault(m.group(1), nb)
                     except Exception:
                         pass
-                    # Build a clean display name for the SKU
-                    # - iPhone: use model name only (app shows capacity/color separately)
-                    # - Watch: keep empty to let app/localization build names dynamically
-                    # - Others: prefer model name only (avoid duplicating capacity/color)
+                    final_family = product_family or fam or (p.get('family') or 'iphone')
                     if (final_family or '').lower().startswith('iphone'):
                         full_name = (fam_name or 'iPhone').strip()
                     elif 'watch' in (final_family or '').lower():
                         full_name = ''
                     else:
                         full_name = (fam_name or '').strip()
-                    
-                    
-                    final_family = product_family or fam or (p.get('family') or 'iphone')
                     
                     
                     out.setdefault(pn, {
@@ -1642,7 +1643,7 @@ class Scraper:
         
         # Post-filter: drop entries with no actual product data (keyboard bundles, etc.)
         # Skip for Mac family (part numbers alone are sufficient for inventory tracking)
-        if (family_hint or '').lower() != 'mac':
+        if (family_hint or '').lower() not in ('mac', 'avp', 'airpods', 'homepod'):
             out = {
                 sku: data for sku, data in out.items()
                 if isinstance(data, dict) and any(
@@ -1794,6 +1795,9 @@ class Scraper:
             'watch': 'AppleWatch',
             'mac': 'Mac',
             'ipad': 'iPad',
+            'airpods': 'AirPods',
+            'homepod': 'HomePod',
+            'avp': 'AppleVisionPro',
             'accessories': 'Accessories'
         }
         famTitle = fam_map.get(family.lower(), family.capitalize())
@@ -1828,17 +1832,51 @@ class Scraper:
                 return 'Apple Watch'
             elif f == 'mac':
                 return 'Mac'
+            elif f == 'ipad':
+                return 'iPad'
+            elif f == 'airpods':
+                return 'AirPods'
+            elif f == 'homepod':
+                return 'HomePod'
+            elif f == 'avp':
+                return 'Apple Vision Pro'
             else:
                 return fam.title()
 
         # Discover tokens if needed
         seeds: Dict[str, str] = {}  # token -> shop_path (from first region that exposes it)
         if all_models or not tokens:
-            for r in regions:
-                found = self.discover_models(family, r)
-                for t, p in found.items():
-                    seeds.setdefault(t, p)
-            tokens = list(seeds.keys())
+            manual_tokens = None
+            for cat in self._categories(family):
+                mt = cat.get("manual_tokens")
+                if mt:
+                    manual_tokens = mt
+                    for ep in cat.get("entrypoints", []):
+                        token = ep.rsplit("/", 1)[-1]
+                        if token not in manual_tokens:
+                            manual_tokens.append(token)
+                    break
+            if manual_tokens:
+                for t in manual_tokens:
+                    for ep_cat in self._categories(family):
+                        for ep in ep_cat.get("entrypoints", []):
+                            t_ep = ep.rsplit("/", 1)[-1] if "/" in ep else ep
+                            if t_ep == t or ep == t:
+                                seeds[t] = ep.lstrip("/")
+                                break
+                        if t in seeds:
+                            break
+                tokens_list = [t for t in manual_tokens if t in seeds]
+                if tokens_list:
+                    tokens = tokens_list
+                else:
+                    tokens = manual_tokens
+            else:
+                for r in regions:
+                    found = self.discover_models(family, r)
+                    for t, p in found.items():
+                        seeds.setdefault(t, p)
+                tokens = list(seeds.keys())
         # Process each token
         def _prune_skus(skus: Dict[str, dict]) -> Dict[str, dict]:
             pruned: Dict[str, dict] = {}
@@ -1873,7 +1911,7 @@ class Scraper:
                 # For regional products, keep name empty for dynamic localized building
                 # NOTE: this behavior is helpful for Watch/iPhone localized variant names,
                 # but Macs generally need a stable display name even when the part number ends with /A.
-                if overall_family != 'mac' and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
+                if overall_family not in ('mac', 'airpods', 'homepod') and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
                     # Keep name empty for regional products so app builds localized name
                     name = ""
                 elif not name and familyName:
@@ -1891,8 +1929,8 @@ class Scraper:
                 # Drop incomplete SKUs that lack essential product details.
                 # These are typically placeholder/legacy SKUs with minimal data.
                 # Never drop Apple Watch SKUs purely for missing color/capacity/name — app derives names dynamically.
-                # For Macs, we often only have the part number; keep those and generate names later.
-                if (overall_family != 'mac' and
+                # For Macs and AVP, we often only have the part number; keep those and generate names later.
+                if (overall_family not in ('mac', 'avp', 'airpods', 'homepod') and
                     name in ('', fam_display) and
                     not colorKey and not colorDisplay and not capacity and
                     not is_watch and  # keep watch SKUs even if generic
@@ -1903,7 +1941,7 @@ class Scraper:
                 # IMPORTANT: Macs often do not expose color/capacity dimensions on buy pages, so do not
                 # discard Mac SKUs just because those fields are empty.
                 # Only drop entries that look like placeholders (empty/generic name) *and* lack dimensions.
-                if (overall_family != 'mac' and
+                if (overall_family not in ('mac', 'avp', 'airpods', 'homepod') and
                     family_val in (overall_family, '') and
                     not colorKey and not capacity and
                     (name.strip() in ('', fam_display)) and
@@ -1916,7 +1954,7 @@ class Scraper:
                 md_copy['name'] = name
                 
                 # Final check: ensure ALL regional products have empty names for dynamic building
-                if overall_family != 'mac' and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
+                if overall_family not in ('mac', 'airpods', 'homepod') and re.match(r'[A-Z0-9]+[A-Z]{1,3}/[A-Z]$', sku):
                     md_copy['name'] = ""
                 
                 pruned[sku] = md_copy
@@ -3002,7 +3040,7 @@ class Scraper:
 def main():
     ap = argparse.ArgumentParser(description="Entry-point driven Apple models scraper (per-model JSON)")
     ap.add_argument('--config', default=DEFAULT_CONFIG_PATH, help='Path to scraper_config.json')
-    ap.add_argument('--family', choices=['iphone', 'watch', 'mac', 'ipad', 'accessories'], required=True)
+    ap.add_argument('--family', choices=['iphone', 'watch', 'mac', 'ipad', 'airpods', 'homepod', 'avp', 'accessories'], required=True)
     ap.add_argument('--token', action='append', help='Model token to update (repeatable)')
     ap.add_argument('--all-models', action='store_true', help='Discover and scrape all models for the family')
     ap.add_argument('--countries', help='Comma-separated list of country codes to scrape (e.g., US,AT,UK)')

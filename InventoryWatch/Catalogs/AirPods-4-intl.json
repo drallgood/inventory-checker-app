@@ -1,0 +1,1421 @@
+{
+  "discovered_models": {
+    "at": {
+      "airpods-4": {
+        "url": "https://www.apple.com/at/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "us": {
+      "airpods-4": {
+        "url": "https://www.apple.com/us/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63LL/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93LL/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRPY2LL/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRQX2LL/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SN7W2LL/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "uk": {
+      "airpods-4": {
+        "url": "https://www.apple.com/uk/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRPY2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRQX2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SN7W2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "au": {
+      "airpods-4": {
+        "url": "https://www.apple.com/au/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "ca": {
+      "airpods-4": {
+        "url": "https://www.apple.com/ca/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63AM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93AM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRPY2Z/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRQX2Z/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "de": {
+      "airpods-4": {
+        "url": "https://www.apple.com/de/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRPY2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRQX2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SN7W2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "fr": {
+      "airpods-4": {
+        "url": "https://www.apple.com/fr/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRPY2ZK/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRQX2ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SN7W2ZK/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "it": {
+      "airpods-4": {
+        "url": "https://www.apple.com/it/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "es": {
+      "airpods-4": {
+        "url": "https://www.apple.com/es/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "nl": {
+      "airpods-4": {
+        "url": "https://www.apple.com/nl/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "airpods-4": {
+        "url": "https://www.apple.com/be-nl/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "airpods-4": {
+        "url": "https://www.apple.com/be-fr/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "airpods-4": {
+        "url": "https://www.apple.com/ch-de/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "airpods-4": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZM/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "se": {
+      "airpods-4": {
+        "url": "https://www.apple.com/se/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "dk": {
+      "airpods-4": {
+        "url": "https://www.apple.com/dk/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "no": {
+      "airpods-4": {
+        "url": "https://www.apple.com/no/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "fi": {
+      "airpods-4": {
+        "url": "https://www.apple.com/fi/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93DN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZM/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "jp": {
+      "airpods-4": {
+        "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63J/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93J/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRPY2JZ/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "SRQX2JZ/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "kr": {
+      "airpods-4": {
+        "url": "https://www.apple.com/kr/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63KH/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93KH/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZX/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "hk": {
+      "airpods-4": {
+        "url": "https://www.apple.com/hk/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZP/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZP/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZX/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "sg": {
+      "airpods-4": {
+        "url": "https://www.apple.com/sg/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZX/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "tw": {
+      "airpods-4": {
+        "url": "https://www.apple.com/tw/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63TA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93TA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "th": {
+      "airpods-4": {
+        "url": "https://www.apple.com/th/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZX/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "my": {
+      "airpods-4": {
+        "url": "https://www.apple.com/my/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZA/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067ZX/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "in": {
+      "airpods-4": {
+        "url": "https://www.apple.com/in/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63HN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93HN/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067HN/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "ae": {
+      "airpods-4": {
+        "url": "https://www.apple.com/ae/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZE/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZE/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067AE/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "sa": {
+      "airpods-4": {
+        "url": "https://www.apple.com/sa/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63ZE/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93ZE/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067AE/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "tr": {
+      "airpods-4": {
+        "url": "https://www.apple.com/tr/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63TU/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93TU/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "br": {
+      "airpods-4": {
+        "url": "https://www.apple.com/br/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63BZ/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93BZ/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "mx": {
+      "airpods-4": {
+        "url": "https://www.apple.com/mx/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63BE/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "MXP93BE/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          },
+          "S9067Z/A": {
+            "name": "AirPods 4",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4"
+          }
+        }
+      }
+    },
+    "cn": {
+      "airpods-4": {
+        "url": "https://www.apple.com/cn/shop/buy-airpods/airpods-4",
+        "skus": {
+          "MXP63CH/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4 with Active Noise Cancellation"
+          },
+          "MXP93CH/A": {
+            "name": "airpods",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 4 with Active Noise Cancellation"
+          },
+          "S9067CH/A": {
+            "name": "AirPods 4 with Active Noise Cancellation",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "airpods",
+            "familyName": "AirPods 4 with Active Noise Cancellation"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "airpods-4": "shop/buy-airpods/airpods-4"
+      },
+      "localization": {
+        "token_display": {
+          "airpods-4": "Airpods 4"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-09-05T10:12:51.057625+00:00",
+    "scraper_version": "1.0",
+    "family": "airpods",
+    "token": "airpods-4",
+    "regions_scraped": 33
+  }
+}

@@ -1,0 +1,2077 @@
+{
+  "discovered_models": {
+    "at": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/at/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "us": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/us/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3LL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRPX2LL/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRQW2LL/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SN7W2LL/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "uk": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/uk/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3B/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRPX2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRQW2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SN7W2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "au": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/au/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3AX/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "ca": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/ca/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3C/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRPX2Z/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRQW2Z/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "de": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/de/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3D/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRPX2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRQW2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SN7W2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "fr": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/fr/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3F/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3F/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3F/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2F/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3F/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRPX2ZK/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRQW2ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SN7W2ZK/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "it": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/it/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "es": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/es/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3Y/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3Y/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3Y/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2Y/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3Y/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "nl": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/nl/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/be-nl/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/be-fr/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3FN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/ch-de/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3SM/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "se": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/se/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "dk": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/dk/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "no": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/no/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "fi": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/fi/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3DN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZM/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "jp": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3J/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRPX2JZ/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "SRQW2JZ/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "kr": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/kr/shop/buy-homepod/homepod-mini",
+        "skus": {}
+      }
+    },
+    "hk": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/hk/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3ZP/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZX/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "sg": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/sg/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZX/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "tw": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/tw/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3TA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "th": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/th/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3TH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZX/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "my": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/my/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3ZA/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039ZX/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "in": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/in/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3HN/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039HN/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "ae": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/ae/shop/buy-homepod/homepod-mini",
+        "skus": {}
+      }
+    },
+    "sa": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/sa/shop/buy-homepod/homepod-mini",
+        "skus": {}
+      }
+    },
+    "tr": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/tr/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3TU/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "br": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/br/shop/buy-homepod/homepod-mini",
+        "skus": {}
+      }
+    },
+    "mx": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/mx/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2C3CL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2E3CL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MTJT3CL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MY5H2CL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "MJ2D3CL/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          },
+          "S9039Z/A": {
+            "name": "HomePod mini",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini"
+          }
+        }
+      }
+    },
+    "cn": {
+      "homepod-mini": {
+        "url": "https://www.apple.com/cn/shop/buy-homepod/homepod-mini",
+        "skus": {
+          "MJ2J3CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini - Blue"
+          },
+          "MJ2L3CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini - Blue"
+          },
+          "MTJU3CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini - Blue"
+          },
+          "MHY53CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini - Blue"
+          },
+          "MJ2K3CH/A": {
+            "name": "homepod",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "homepod",
+            "familyName": "HomePod mini - Blue"
+          },
+          "S9039CH/A": {
+            "name": "HomePod mini - Blue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "homepod",
+            "familyName": "HomePod mini - Blue"
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "homepod-mini": "shop/buy-homepod/homepod-mini"
+      },
+      "localization": {
+        "token_display": {
+          "homepod-mini": "Homepod Mini"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-09-05T10:12:20.103018+00:00",
+    "scraper_version": "1.0",
+    "family": "homepod",
+    "token": "homepod-mini",
+    "regions_scraped": 33
+  }
+}

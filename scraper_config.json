@@ -217,12 +217,14 @@
       "entrypoints": ["shop/buy-ipad"]
     },
     {
-      "family": "airpods",
-      "entrypoints": ["shop/product/airpods"]
+      "family": "homepod",
+      "entrypoints": ["shop/buy-homepod/homepod", "shop/buy-homepod/homepod-mini"],
+      "manual_tokens": ["homepod", "homepod-mini"]
     },
     {
-      "family": "homepod",
-      "entrypoints": ["shop/buy-homepod"]
+      "family": "airpods",
+      "entrypoints": ["shop/buy-airpods/airpods-pro-3", "shop/buy-airpods/airpods-4", "shop/buy-airpods/airpods-max", "shop/buy-airpods/airpods-pro-2"],
+      "manual_tokens": ["airpods-pro-3", "airpods-4", "airpods-max"]
     }
   ],
   "model_variants": {

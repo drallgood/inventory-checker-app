@@ -16,6 +16,9 @@ struct ContentView: View {
     @AppStorage("preferredPhoneToken") private var preferredPhoneToken: String = ""
     @AppStorage("preferredMacToken") private var preferredMacToken: String = ""
     @AppStorage("preferrediPadToken") private var preferrediPadToken: String = ""
+    @AppStorage("preferredAirPodsToken") private var preferredAirPodsToken: String = ""
+    @AppStorage("preferredHomePodToken") private var preferredHomePodToken: String = ""
+    @AppStorage("preferredAVPToken") private var preferredAVPToken: String = ""
     @AppStorage("useLargeText") private var useLargeText: Bool = false
     @AppStorage("shouldIncludeNearbyStores") private var shouldIncludeNearbyStores: Bool = true
     
@@ -59,6 +62,30 @@ private func displayNameForMacToken(token: String, country: Country) -> String? 
 @MainActor
 private func displayNameForiPadToken(token: String, country: Country) -> String? {
     if let explicit = JSONCatalogiPad.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+        return explicit
+    }
+    return token.replacingOccurrences(of: "-", with: " ").capitalized
+}
+
+@MainActor
+private func displayNameForAirPodsToken(token: String, country: Country) -> String? {
+    if let explicit = JSONCatalogAirPods.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+        return explicit
+    }
+    return token.replacingOccurrences(of: "-", with: " ").capitalized
+}
+
+@MainActor
+private func displayNameForHomePodToken(token: String, country: Country) -> String? {
+    if let explicit = JSONCatalogHomePod.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
+        return explicit
+    }
+    return token.replacingOccurrences(of: "-", with: " ").capitalized
+}
+
+@MainActor
+private func displayNameForAVPToken(token: String, country: Country) -> String? {
+    if let explicit = JSONCatalogAVP.tokenDisplayName(for: country, sourcePage: token), explicit.isEmpty == false {
         return explicit
     }
     return token.replacingOccurrences(of: "-", with: " ").capitalized
@@ -115,8 +142,23 @@ private func displayNameForiPadToken(token: String, country: Country) -> String?
                         Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
                             .font(font)
                             .fontWeight(.semibold)
-                    } else if let fam = family, fam.isIPad, !preferrediPadToken.isEmpty,
-                              let tokenName = displayNameForiPadToken(token: preferrediPadToken, country: country) {
+} else if let fam = family, fam.isIPad, !preferrediPadToken.isEmpty,
+                               let tokenName = displayNameForiPadToken(token: preferrediPadToken, country: country) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
+                    } else if let fam = family, fam.isAirPods, !preferredAirPodsToken.isEmpty,
+                               let tokenName = displayNameForAirPodsToken(token: preferredAirPodsToken, country: country) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
+                    } else if let fam = family, fam.isHomePod, !preferredHomePodToken.isEmpty,
+                               let tokenName = displayNameForHomePodToken(token: preferredHomePodToken, country: country) {
+                        Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
+                            .font(font)
+                            .fontWeight(.semibold)
+                    } else if let fam = family, fam.isAVP, !preferredAVPToken.isEmpty,
+                               let tokenName = displayNameForAVPToken(token: preferredAVPToken, country: country) {
                         Text("Available \(Text(tokenName).font(font).fontWeight(.heavy)) Models")
                             .font(font)
                             .fontWeight(.semibold)
@@ -220,6 +262,45 @@ private func displayNameForiPadToken(token: String, country: Country) -> String?
                             preferredSKUs: preferredSkus,
                             productURL: { _ in nil },
                             categoryURL: { JSONCatalogiPad.pdpBaseURL(for: country, sourcePage: preferrediPadToken) },
+                            showPDPPreview: false
+                        )
+                    } else if preferred.isAirPods {
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferredAirPodsToken,
+                            emptyTokenMessage: "Select an AirPods Model in Settings.",
+                            skuData: SKUDataLoader().airpodsSKUData(forToken: preferredAirPodsToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { _ in nil },
+                            categoryURL: { JSONCatalogAirPods.pdpBaseURL(for: country, sourcePage: preferredAirPodsToken) },
+                            showPDPPreview: false
+                        )
+                    } else if preferred.isHomePod {
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferredHomePodToken,
+                            emptyTokenMessage: "Select a HomePod Model in Settings.",
+                            skuData: SKUDataLoader().homepodSKUData(forToken: preferredHomePodToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { _ in nil },
+                            categoryURL: { JSONCatalogHomePod.pdpBaseURL(for: country, sourcePage: preferredHomePodToken) },
+                            showPDPPreview: false
+                        )
+                    } else if preferred.isAVP {
+                        ProductAvailabilityList(
+                            country: country,
+                            token: preferredAVPToken,
+                            emptyTokenMessage: "Select an Apple Vision Pro Model in Settings.",
+                            skuData: SKUDataLoader().avpSKUData(forToken: preferredAVPToken, country: country),
+                            availableSkus: availableSkus,
+                            pickupInfo: pickupInfo,
+                            preferredSKUs: preferredSkus,
+                            productURL: { _ in nil },
+                            categoryURL: { JSONCatalogAVP.pdpBaseURL(for: country, sourcePage: preferredAVPToken) },
                             showPDPPreview: false
                         )
                     } else {

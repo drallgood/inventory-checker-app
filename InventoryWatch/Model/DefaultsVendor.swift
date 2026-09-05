@@ -14,17 +14,27 @@ enum ProductFamily: String, Codable, CaseIterable, Identifiable {
     case iphone = "iphone"
     case mac = "mac"
     case ipad = "ipad"
+    case airpods = "airpods"
+    case homepod = "homepod"
+    case avp = "avp"
     var id: Self { self }
     var isWatch: Bool { self == .watch }
     var isIPhone: Bool { self == .iphone }
     var isMac: Bool { self == .mac }
     var isIPad: Bool { self == .ipad }
+    var isAirPods: Bool { self == .airpods }
+    var isHomePod: Bool { self == .homepod }
+    var isAVP: Bool { self == .avp }
+
     var displayName: String {
         switch self {
         case .watch: return "Apple Watch"
         case .iphone: return "iPhone"
         case .mac: return "Mac"
         case .ipad: return "iPad"
+        case .airpods: return "AirPods"
+        case .homepod: return "HomePod"
+        case .avp: return "Apple Vision Pro"
         }
     }
 }
@@ -158,5 +168,17 @@ struct DefaultsVendor {
 
     var preferrediPadToken: String {
         UserDefaults.standard.string(forKey: "preferrediPadToken") ?? ""
+    }
+
+    var preferredAirPodsToken: String {
+        UserDefaults.standard.string(forKey: "preferredAirPodsToken") ?? ""
+    }
+
+    var preferredHomePodToken: String {
+        UserDefaults.standard.string(forKey: "preferredHomePodToken") ?? ""
+    }
+
+    var preferredAVPToken: String {
+        UserDefaults.standard.string(forKey: "preferredAVPToken") ?? ""
     }
 }

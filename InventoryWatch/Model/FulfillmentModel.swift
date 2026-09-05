@@ -145,17 +145,20 @@ actor FulfillmentModel {
         let country = defaultsVendor.preferredCountry
         let family = defaultsVendor.preferredProductFamily
         let watchToken = defaultsVendor.preferredWatchToken
-let phoneToken = defaultsVendor.preferredPhoneToken
+let iPhoneToken = defaultsVendor.preferredPhoneToken
         let macToken = defaultsVendor.preferredMacToken
         let iPadToken = defaultsVendor.preferrediPadToken
+        let airpodsToken = defaultsVendor.preferredAirPodsToken
+        let homepodToken = defaultsVendor.preferredHomePodToken
+        let avpToken = defaultsVendor.preferredAVPToken
         var resolvedSKUs: [String] = []
         if family.isWatch,
            watchToken.isEmpty == false,
            let data = await SKUDataLoader().watchSKUData(forToken: watchToken, country: country) {
             resolvedSKUs = data.orderedSKUs
-        } else if family.isIPhone,
-                   phoneToken.isEmpty == false,
-                   let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
+} else if family.isIPhone,
+                    iPhoneToken.isEmpty == false,
+                    let data = await SKUDataLoader().phoneSKUData(forToken: iPhoneToken, country: country) {
             resolvedSKUs = data.orderedSKUs
         } else if family.isMac,
                    macToken.isEmpty == false,
@@ -165,13 +168,33 @@ let phoneToken = defaultsVendor.preferredPhoneToken
                    iPadToken.isEmpty == false,
                    let data = await SKUDataLoader().ipadSKUData(forToken: iPadToken, country: country) {
             resolvedSKUs = data.orderedSKUs
+        } else if family.isAirPods,
+                   airpodsToken.isEmpty == false,
+                   let data = await SKUDataLoader().airpodsSKUData(forToken: airpodsToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
+        } else if family.isHomePod,
+                   homepodToken.isEmpty == false,
+                   let data = await SKUDataLoader().homepodSKUData(forToken: homepodToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
+        } else if family.isAVP,
+                   avpToken.isEmpty == false,
+                   let data = await SKUDataLoader().avpSKUData(forToken: avpToken, country: country) {
+            resolvedSKUs = data.orderedSKUs
         } else {
             // Fallback: try whichever token is set, else empty
             if watchToken.isEmpty == false, let data = await SKUDataLoader().watchSKUData(forToken: watchToken, country: country) {
                 resolvedSKUs = data.orderedSKUs
-            } else if phoneToken.isEmpty == false, let data = await SKUDataLoader().phoneSKUData(forToken: phoneToken, country: country) {
+            } else if iPhoneToken.isEmpty == false, let data = await SKUDataLoader().phoneSKUData(forToken: iPhoneToken, country: country) {
                 resolvedSKUs = data.orderedSKUs
             } else if macToken.isEmpty == false, let data = await SKUDataLoader().macSKUData(forToken: macToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else if iPadToken.isEmpty == false, let data = await SKUDataLoader().ipadSKUData(forToken: iPadToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else if airpodsToken.isEmpty == false, let data = await SKUDataLoader().airpodsSKUData(forToken: airpodsToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else if homepodToken.isEmpty == false, let data = await SKUDataLoader().homepodSKUData(forToken: homepodToken, country: country) {
+                resolvedSKUs = data.orderedSKUs
+            } else if avpToken.isEmpty == false, let data = await SKUDataLoader().avpSKUData(forToken: avpToken, country: country) {
                 resolvedSKUs = data.orderedSKUs
             } else {
                 let data = try await skuDataLoader.skuDataForPreferredProduct
