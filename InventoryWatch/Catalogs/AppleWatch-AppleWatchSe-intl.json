@@ -4,12 +4,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4ZR/A": {
@@ -17,112 +41,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Mitternacht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Polarstern",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -131,149 +75,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/us/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJR2LL/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "SXJV2LL/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "SN7W2LL/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MW5G3AM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MEHX4LW/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
           "MEQ24LW/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44LW/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14LW/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34LW/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4LW/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34LW/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04LW/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14LW/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4LW/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34LW/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44LW/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -282,20 +146,52 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJ52ZM/A": {
+          "MEQ34MP/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "SXHK2ZM/A": {
+          "MEP34MP/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14MP/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24MP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44MP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04MP/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4MP/A": {
@@ -303,112 +199,16 @@
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24MP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44MP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14MP/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34MP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4MP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP04MP/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34MP/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -416,141 +216,76 @@
     "au": {
       "apple-watch-se": {
         "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-se",
-        "skus": {
-          "MW5G3AM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          }
-        }
+        "skus": {}
       }
     },
     "ca": {
       "apple-watch-se": {
         "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MW5G3CL/A": {
+          "MEQ34AM/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHX4AM/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34AM/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -559,20 +294,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJ52ZM/A": {
+          "MEHV4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "SXHK2ZM/A": {
+          "MEP34ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4ZR/A": {
@@ -580,112 +331,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Mitternacht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Polarstern",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -694,20 +365,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJ52ZK/A": {
+          "MEHV4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "SXHK2ZM/A": {
+          "MEP34ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4ZR/A": {
@@ -715,112 +402,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Minuit",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -829,20 +436,44 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJ52ZK/A": {
+          "MEQ44QL/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mezzanotte",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "SXHK2ZM/A": {
+          "MEHV4QL/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Galassia",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Galassia",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QL/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mezzanotte",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Galassia",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4QL/A": {
@@ -850,112 +481,24 @@
             "colorKey": "midnight",
             "colorDisplay": "Mezzanotte",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mezzanotte",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mezzanotte",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mezzanotte",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mezzanotte",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mezzanotte",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Galassia",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Galassia",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mezzanotte",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mezzanotte",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Galassia",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Galassia",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34QL/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Galassia",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Galassia",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEP04QL/A": {
+          "MEP34QL/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Galassia",
+            "colorKey": "midnight",
+            "colorDisplay": "Mezzanotte",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Galassia",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -964,20 +507,44 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJ52ZK/A": {
+          "MEQ44QL/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Medianoche",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "SXHK2ZM/A": {
+          "MEHV4QL/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estrella",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estrella",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QL/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Medianoche",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04QL/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estrella",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4QL/A": {
@@ -985,112 +552,24 @@
             "colorKey": "midnight",
             "colorDisplay": "Medianoche",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Medianoche",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Medianoche",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Medianoche",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Medianoche",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Medianoche",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estrella",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estrella",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4QL/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estrella",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estrella",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34QL/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Medianoche",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Medianoche",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34QL/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Blanco estrella",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estrella",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEP04QL/A": {
+          "MEP34QL/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estrella",
+            "colorKey": "midnight",
+            "colorDisplay": "Medianoche",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estrella",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1099,12 +578,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Sterrenlicht",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Sterrenlicht",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4ZR/A": {
@@ -1112,112 +615,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Middernacht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Sterrenlicht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Sterrenlicht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1226,117 +649,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEHX4ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Middernacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Sterrenlicht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
           "MEHV4ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Middernacht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Middernacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEQ34ZR/A": {
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Sterrenlicht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Sterrenlicht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Middernacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Sterrenlicht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1345,117 +720,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/be-fr/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MEHX4ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
+          "MEHV4ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34ZR/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Minuit",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEHV4ZR/A": {
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1464,12 +791,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4ZR/A": {
@@ -1477,112 +828,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Mitternacht",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Mitternacht",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Mitternacht",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Polarstern",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Polarstern",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Polarstern",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Mitternacht",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Polarstern",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1591,12 +862,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/ch-fr/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14ZR/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Lumière stellaire",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4ZR/A": {
@@ -1604,112 +899,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Minuit",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4ZR/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Lumière stellaire",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34ZR/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Minuit",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Minuit",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZR/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Minuit",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34ZR/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Lumière stellaire",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Lumière stellaire",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1718,20 +933,60 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjärnglans",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MW5G3ZM/A": {
+          "MEP04QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjärnglans",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjärnglans",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjärnglans",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4QN/A": {
@@ -1739,112 +994,8 @@
             "colorKey": "midnight",
             "colorDisplay": "midnatt",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjärnglans",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjärnglans",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjärnglans",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjärnglans",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP04QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjärnglans",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjärnglans",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjärnglans",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjärnglans",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1853,20 +1004,60 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/dk/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskær",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MW5G3ZM/A": {
+          "MEP04QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskær",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnat",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskær",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskær",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnat",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnat",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4QN/A": {
@@ -1874,112 +1065,8 @@
             "colorKey": "midnight",
             "colorDisplay": "midnat",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnat",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnat",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnat",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnat",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnat",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskær",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskær",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskær",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskær",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnat",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnat",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskær",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskær",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP04QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskær",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskær",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -1988,20 +1075,60 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/no/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskinn",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MW5G3ZM/A": {
+          "MEP04QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskinn",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskinn",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "stjerneskinn",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "midnatt",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4QN/A": {
@@ -2009,112 +1136,8 @@
             "colorKey": "midnight",
             "colorDisplay": "midnatt",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskinn",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskinn",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskinn",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskinn",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "midnatt",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "midnatt",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP04QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskinn",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskinn",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "stjerneskinn",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "stjerneskinn",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2123,20 +1146,60 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZM/A": {
+          "MEHV4QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Tähti­valkea",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MW5G3ZM/A": {
+          "MEP04QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Tähti­valkea",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Keskiyö",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Tähti­valkea",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34QN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Tähti­valkea",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Keskiyö",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24QN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Keskiyö",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4QN/A": {
@@ -2144,112 +1207,8 @@
             "colorKey": "midnight",
             "colorDisplay": "Keskiyö",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Keskiyö",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Keskiyö",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Keskiyö",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Keskiyö",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Keskiyö",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Tähti­valkea",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Tähti­valkea",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Tähti­valkea",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Tähti­valkea",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34QN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Keskiyö",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Keskiyö",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP04QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Tähti­valkea",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Tähti­valkea",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34QN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Tähti­valkea",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Tähti­valkea",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2257,157 +1216,76 @@
     "jp": {
       "apple-watch-se": {
         "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
-        "skus": {
-          "SXJ52JZ/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "SXHK2JZ/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
       "apple-watch-se": {
         "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZX/A": {
+          "MEQ34KH/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "스타라이트",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MW5G3KH/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MEHX4KH/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "미드나이트",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "미드나이트",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ24KH/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "미드나이트",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "미드나이트",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44KH/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "미드나이트",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "미드나이트",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14KH/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "스타라이트",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "스타라이트",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4KH/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "스타라이트",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "스타라이트",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4KH/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "미드나이트",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14KH/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "스타라이트",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44KH/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "미드나이트",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34KH/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "미드나이트",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "미드나이트",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34KH/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "스타라이트",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "스타라이트",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04KH/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "스타라이트",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "스타라이트",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2416,133 +1294,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MEHX4ZP/A": {
+          "MEP34ZP/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24ZP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44ZP/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ14ZP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEP34ZP/A": {
+          "MEQ24ZP/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4ZP/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04ZP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4ZP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44ZP/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34ZP/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHV4ZP/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2550,149 +1364,76 @@
     "sg": {
       "apple-watch-se": {
         "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-se",
-        "skus": {
-          "SXHK2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          }
-        }
+        "skus": {}
       }
     },
     "tw": {
       "apple-watch-se": {
         "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MW5G3TA/A": {
+          "MEQ34TA/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MEHX4TA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24TA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44TA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ14TA/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "星光色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34TA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4TA/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "星光色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24TA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04TA/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "星光色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEQ34TA/A": {
+          "MEP34TA/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4TA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44TA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2701,133 +1442,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2ZX/A": {
+          "MEQ14SA/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "สตาร์ไลท์",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MEHX4SA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "มิดไนท์",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "มิดไนท์",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ24SA/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "มิดไนท์",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "มิดไนท์",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44SA/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "มิดไนท์",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "มิดไนท์",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14SA/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "สตาร์ไลท์",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "สตาร์ไลท์",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4SA/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "สตาร์ไลท์",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "สตาร์ไลท์",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34SA/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "มิดไนท์",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "มิดไนท์",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4SA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "มิดไนท์",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34SA/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "สตาร์ไลท์",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "สตาร์ไลท์",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04SA/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "สตาร์ไลท์",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "สตาร์ไลท์",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44SA/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "มิดไนท์",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2835,149 +1512,76 @@
     "my": {
       "apple-watch-se": {
         "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-se",
-        "skus": {
-          "SXHK2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          }
-        }
+        "skus": {}
       }
     },
     "in": {
       "apple-watch-se": {
         "url": "https://www.apple.com/in/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2HN/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE"
-          },
-          "MEHX4HN/A": {
+          "MEQ44HN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ24HN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44HN/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14HN/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4HN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14HN/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34HN/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHX4HN/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ34HN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04HN/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -2986,20 +1590,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2AE/A": {
+          "MEQ14AF/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MW5G3ZE/A": {
+          "MEQ24AF/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34AF/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34AF/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4AF/A": {
@@ -3007,112 +1627,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ44AF/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14AF/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4AF/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04AF/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEQ34AF/A": {
+          "MEHV4AF/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -3121,28 +1661,36 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/sa/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXJ52AE/A": {
+          "MEQ14AF/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "SXHK2AE/A": {
+          "MEQ24AF/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
-          "MW5G3ZE/A": {
+          "MEQ34AF/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34AF/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Midnight",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4AF/A": {
@@ -3150,112 +1698,32 @@
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ44AF/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Midnight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14AF/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHV4AF/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Starlight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP34AF/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Midnight",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Midnight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04AF/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEQ34AF/A": {
+          "MEHV4AF/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Starlight",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Starlight",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -3264,12 +1732,60 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MW5G3TU/A": {
+          "MEQ14TU/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Yıldız Işığı",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP04TU/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Yıldız Işığı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ34TU/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Yıldız Işığı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24TU/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Gece Yarısı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34TU/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Gece Yarısı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44TU/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Gece Yarısı",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHV4TU/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Yıldız Işığı",
+            "capacity": "",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4TU/A": {
@@ -3277,112 +1793,8 @@
             "colorKey": "midnight",
             "colorDisplay": "Gece Yarısı",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Gece Yarısı",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24TU/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Gece Yarısı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Gece Yarısı",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44TU/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Gece Yarısı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Gece Yarısı",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14TU/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Yıldız Işığı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Yıldız Işığı",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34TU/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Gece Yarısı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Gece Yarısı",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEHV4TU/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Yıldız Işığı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Yıldız Işığı",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34TU/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Yıldız Işığı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Yıldız Işığı",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP04TU/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Yıldız Işığı",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Yıldız Işığı",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -3391,12 +1803,12 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/br/shop/buy-watch/apple-watch-se",
         "skus": {
-          "MW5G3BZ/A": {
+          "MEQ34AM/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Estelar",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch SE 3"
           },
           "MEHX4AM/A": {
@@ -3404,112 +1816,56 @@
             "colorKey": "midnight",
             "colorDisplay": "Meia-noite",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Meia-noite",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Meia-noite",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Meia-noite",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Meia-noite",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Meia-noite",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Estelar",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Estelar",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEP34AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Meia-noite",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Meia-noite",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Estelar",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Estelar",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Meia-noite",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ44AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Meia-noite",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP34AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Meia-noite",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Estelar",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Estelar",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ34AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Estelar",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Estelar",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -3518,117 +1874,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/mx/shop/buy-watch/apple-watch-se",
         "skus": {
+          "MEQ34AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
           "MEHX4AM/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Color medianoche",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Color medianoche",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ24AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Color medianoche",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Color medianoche",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ44AM/A": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "Color medianoche",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Color medianoche",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ14AM/A": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estelar",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estelar",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEHV4AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Blanco estelar",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estelar",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ24AM/A": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "Color medianoche",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ14AM/A": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "Blanco estelar",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP34AM/A": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "Color medianoche",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Color medianoche",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
-          "MEQ34AM/A": {
+          "MEQ44AM/A": {
             "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "Blanco estelar",
+            "colorKey": "midnight",
+            "colorDisplay": "Color medianoche",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estelar",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP04AM/A": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "Blanco estelar",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch SE 3",
-            "metadata": {
-              "color": "Blanco estelar",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -3637,125 +1945,69 @@
       "apple-watch-se": {
         "url": "https://www.apple.com/cn/shop/buy-watch/apple-watch-se",
         "skus": {
-          "SXHK2CH/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3"
-          },
           "MEHY4CH/B": {
             "name": "",
             "colorKey": "midnight",
             "colorDisplay": "午夜色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEQ64CH/B": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ84CH/B": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEQ54CH/B": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
-          },
-          "MEHW4CH/B": {
-            "name": "",
-            "colorKey": "starlight",
-            "colorDisplay": "星光色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "40mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
-          },
-          "MEP54CH/B": {
-            "name": "",
-            "colorKey": "midnight",
-            "colorDisplay": "午夜色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "午夜色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEP24CH/B": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "星光色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gps"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ54CH/B": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEP54CH/B": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ84CH/B": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEQ64CH/B": {
+            "name": "",
+            "colorKey": "midnight",
+            "colorDisplay": "午夜色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           },
           "MEQ74CH/B": {
             "name": "",
             "colorKey": "starlight",
             "colorDisplay": "星光色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch SE 3",
-            "metadata": {
-              "color": "星光色",
-              "caseSize": "44mm",
-              "caseMaterial": "aluminum",
-              "connectivity": "gpscell"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
+          },
+          "MEHW4CH/B": {
+            "name": "",
+            "colorKey": "starlight",
+            "colorDisplay": "星光色",
+            "capacity": "",
+            "family": "apple_watch",
+            "familyName": "Apple Watch SE 3"
           }
         }
       }
@@ -3768,7 +2020,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3778,7 +2030,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3788,7 +2040,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3798,7 +2050,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3808,7 +2060,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3818,7 +2070,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3828,7 +2080,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3838,7 +2090,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3848,7 +2100,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3858,7 +2110,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3868,7 +2120,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3878,7 +2130,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3888,7 +2140,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3898,7 +2150,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3908,7 +2160,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3918,7 +2170,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3928,7 +2180,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3938,7 +2190,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3948,7 +2200,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3958,7 +2210,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3968,7 +2220,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3978,7 +2230,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3988,7 +2240,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -3998,7 +2250,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4008,7 +2260,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4018,7 +2270,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4028,7 +2280,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4038,7 +2290,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4048,7 +2300,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4058,7 +2310,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4068,7 +2320,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     },
@@ -4078,9 +2330,16 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-se": "购买 Apple Watch SE 3"
+          "apple-watch-se": "Apple Watch Apple Watch Se"
         }
       }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-05T00:15:33.346614+00:00",
+    "scraper_version": "1.0",
+    "family": "watch",
+    "token": "apple-watch-se",
+    "regions_scraped": 33
   }
 }

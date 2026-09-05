@@ -4,21 +4,990 @@
       "mac-studio": {
         "url": "https://www.apple.com/at/shop/buy-mac/mac-studio",
         "skus": {
-          "MU973": {
-            "name": "Mac Studio",
+          "MHL64ZD/A": {
+            "name": "Mac Studio (MHL64ZD/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
           },
-          "MU963": {
-            "name": "Mac Studio",
+          "MHL74ZD/A": {
+            "name": "Mac Studio (MHL74ZD/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "us": {
+      "mac-studio": {
+        "url": "https://www.apple.com/us/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64LL/A": {
+            "name": "Mac Studio (MHL64LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74LL/A": {
+            "name": "Mac Studio (MHL74LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "uk": {
+      "mac-studio": {
+        "url": "https://www.apple.com/uk/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74B/A": {
+            "name": "Mac Studio (MHL74B/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64B/A": {
+            "name": "Mac Studio (MHL64B/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "au": {
+      "mac-studio": {
+        "url": "https://www.apple.com/au/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74X/A": {
+            "name": "Mac Studio (MHL74X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64X/A": {
+            "name": "Mac Studio (MHL64X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "ca": {
+      "mac-studio": {
+        "url": "https://www.apple.com/ca/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64VC/A": {
+            "name": "Mac Studio (MHL64VC/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74VC/A": {
+            "name": "Mac Studio (MHL74VC/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "de": {
+      "mac-studio": {
+        "url": "https://www.apple.com/de/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64ZD/A": {
+            "name": "Mac Studio (MHL64ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74ZD/A": {
+            "name": "Mac Studio (MHL74ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "fr": {
+      "mac-studio": {
+        "url": "https://www.apple.com/fr/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64ZD/A": {
+            "name": "Mac Studio (MHL64ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74ZD/A": {
+            "name": "Mac Studio (MHL74ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "mac-studio": {
+        "url": "https://www.apple.com/it/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64T/A": {
+            "name": "Mac Studio (MHL64T/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74T/A": {
+            "name": "Mac Studio (MHL74T/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "es": {
+      "mac-studio": {
+        "url": "https://www.apple.com/es/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64GR/A": {
+            "name": "Mac Studio (MHL64GR/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74GR/A": {
+            "name": "Mac Studio (MHL74GR/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "nl": {
+      "mac-studio": {
+        "url": "https://www.apple.com/nl/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74ZD/A": {
+            "name": "Mac Studio (MHL74ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64ZD/A": {
+            "name": "Mac Studio (MHL64ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "mac-studio": {
+        "url": "https://www.apple.com/be-nl/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74ZD/A": {
+            "name": "Mac Studio (MHL74ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64ZD/A": {
+            "name": "Mac Studio (MHL64ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "mac-studio": {
+        "url": "https://www.apple.com/be-fr/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64ZD/A": {
+            "name": "Mac Studio (MHL64ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74ZD/A": {
+            "name": "Mac Studio (MHL74ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "mac-studio": {
+        "url": "https://www.apple.com/ch-de/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64SM/A": {
+            "name": "Mac Studio (MHL64SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74SM/A": {
+            "name": "Mac Studio (MHL74SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "mac-studio": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74SM/A": {
+            "name": "Mac Studio (MHL74SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64SM/A": {
+            "name": "Mac Studio (MHL64SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "se": {
+      "mac-studio": {
+        "url": "https://www.apple.com/se/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64FS/A": {
+            "name": "Mac Studio (MHL64FS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74FS/A": {
+            "name": "Mac Studio (MHL74FS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "dk": {
+      "mac-studio": {
+        "url": "https://www.apple.com/dk/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64DK/A": {
+            "name": "Mac Studio (MHL64DK/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74DK/A": {
+            "name": "Mac Studio (MHL74DK/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "mac-studio": {
+        "url": "https://www.apple.com/no/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74FS/A": {
+            "name": "Mac Studio (MHL74FS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64FS/A": {
+            "name": "Mac Studio (MHL64FS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "fi": {
+      "mac-studio": {
+        "url": "https://www.apple.com/fi/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64FS/A": {
+            "name": "Mac Studio (MHL64FS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74FS/A": {
+            "name": "Mac Studio (MHL74FS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "jp": {
+      "mac-studio": {
+        "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74J/A": {
+            "name": "Mac Studio (MHL74J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64J/A": {
+            "name": "Mac Studio (MHL64J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "kr": {
+      "mac-studio": {
+        "url": "https://www.apple.com/kr/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64KH/A": {
+            "name": "Mac Studio (MHL64KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74KH/A": {
+            "name": "Mac Studio (MHL74KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "hk": {
+      "mac-studio": {
+        "url": "https://www.apple.com/hk/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64ZP/A": {
+            "name": "Mac Studio (MHL64ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74ZP/A": {
+            "name": "Mac Studio (MHL74ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "sg": {
+      "mac-studio": {
+        "url": "https://www.apple.com/sg/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64ZP/A": {
+            "name": "Mac Studio (MHL64ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74ZP/A": {
+            "name": "Mac Studio (MHL74ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "tw": {
+      "mac-studio": {
+        "url": "https://www.apple.com/tw/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74TA/A": {
+            "name": "Mac Studio (MHL74TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64TA/A": {
+            "name": "Mac Studio (MHL64TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "th": {
+      "mac-studio": {
+        "url": "https://www.apple.com/th/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64TH/A": {
+            "name": "Mac Studio (MHL64TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74TH/A": {
+            "name": "Mac Studio (MHL74TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "my": {
+      "mac-studio": {
+        "url": "https://www.apple.com/my/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64ZP/A": {
+            "name": "Mac Studio (MHL64ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74ZP/A": {
+            "name": "Mac Studio (MHL74ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "in": {
+      "mac-studio": {
+        "url": "https://www.apple.com/in/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64HN/A": {
+            "name": "Mac Studio (MHL64HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74HN/A": {
+            "name": "Mac Studio (MHL74HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "ae": {
+      "mac-studio": {
+        "url": "https://www.apple.com/ae/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64AB/A": {
+            "name": "Mac Studio (MHL64AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74AB/A": {
+            "name": "Mac Studio (MHL74AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "sa": {
+      "mac-studio": {
+        "url": "https://www.apple.com/sa/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74AB/A": {
+            "name": "Mac Studio (MHL74AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64AB/A": {
+            "name": "Mac Studio (MHL64AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "tr": {
+      "mac-studio": {
+        "url": "https://www.apple.com/tr/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74TU/A": {
+            "name": "Mac Studio (MHL74TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64TU/A": {
+            "name": "Mac Studio (MHL64TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "br": {
+      "mac-studio": {
+        "url": "https://www.apple.com/br/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74BZ/A": {
+            "name": "Mac Studio (MHL74BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64BZ/A": {
+            "name": "Mac Studio (MHL64BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "mx": {
+      "mac-studio": {
+        "url": "https://www.apple.com/mx/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL64E/A": {
+            "name": "Mac Studio (MHL64E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL74E/A": {
+            "name": "Mac Studio (MHL74E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "cn": {
+      "mac-studio": {
+        "url": "https://www.apple.com/cn/shop/buy-mac/mac-studio",
+        "skus": {
+          "MHL74CH/A": {
+            "name": "预购 Mac Studio (MHL74CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "预购 Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
+          },
+          "MHL64CH/A": {
+            "name": "预购 Mac Studio (MHL64CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "预购 Mac Studio",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026"
+            }
           }
         }
       }
@@ -34,6 +1003,323 @@
           "mac-studio": "Mac Studio"
         }
       }
+    },
+    "us": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "mac-studio": "shop/buy-mac/mac-studio"
+      },
+      "localization": {
+        "token_display": {
+          "mac-studio": "Mac Studio"
+        }
+      }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T22:37:28.504124+00:00",
+    "scraper_version": "1.0",
+    "family": "mac",
+    "token": "mac-studio",
+    "regions_scraped": 33
   }
 }

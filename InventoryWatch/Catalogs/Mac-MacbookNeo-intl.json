@@ -1,3343 +1,3307 @@
 {
   "discovered_models": {
     "at": {
-      "imac": {
-        "url": "https://www.apple.com/at/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/at/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3D/A": {
-            "name": "iMac (MWUG3D/A)",
+          "MHFE4D/A": {
+            "name": "MacBook Neo (MHFE4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUC3D/A": {
-            "name": "iMac (MWUC3D/A)",
+          "MHFJ4D/A": {
+            "name": "MacBook Neo (MHFJ4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWV13D/A": {
-            "name": "iMac (MWV13D/A)",
+          "MHFD4D/A": {
+            "name": "MacBook Neo (MHFD4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUY3D/A": {
-            "name": "iMac (MWUY3D/A)",
+          "MHFC4D/A": {
+            "name": "MacBook Neo (MHFC4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUU3D/A": {
-            "name": "iMac (MWUU3D/A)",
+          "MHFG4D/A": {
+            "name": "MacBook Neo (MHFG4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV43D/A": {
-            "name": "iMac (MWV43D/A)",
+          "MHFF4D/A": {
+            "name": "MacBook Neo (MHFF4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUF3D/A": {
-            "name": "iMac (MWUF3D/A)",
+          "MHFH4D/A": {
+            "name": "MacBook Neo (MHFH4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUE3D/A": {
-            "name": "iMac (MWUE3D/A)",
+          "MHFA4D/A": {
+            "name": "MacBook Neo (MHFA4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           }
         }
       }
     },
     "us": {
-      "imac": {
-        "url": "https://www.apple.com/us/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/us/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV63LL/A": {
-            "name": "Shop iMac (MWV63LL/A)",
+          "MHFH4LL/A": {
+            "name": "MacBook Neo (MHFH4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV13LL/A": {
-            "name": "Shop iMac (MWV13LL/A)",
+          "MHFG4LL/A": {
+            "name": "MacBook Neo (MHFG4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43LL/A": {
-            "name": "Shop iMac (MWV43LL/A)",
+          "MHFF4LL/A": {
+            "name": "MacBook Neo (MHFF4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3LL/A": {
-            "name": "Shop iMac (MWUF3LL/A)",
+          "MHFD4LL/A": {
+            "name": "MacBook Neo (MHFD4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUU3LL/A": {
-            "name": "Shop iMac (MWUU3LL/A)",
+          "MHFC4LL/A": {
+            "name": "MacBook Neo (MHFC4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV83LL/A": {
-            "name": "Shop iMac (MWV83LL/A)",
+          "MHFE4LL/A": {
+            "name": "MacBook Neo (MHFE4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUC3LL/A": {
-            "name": "Shop iMac (MWUC3LL/A)",
+          "MHFA4LL/A": {
+            "name": "MacBook Neo (MHFA4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUG3LL/A": {
-            "name": "Shop iMac (MWUG3LL/A)",
+          "MHFJ4LL/A": {
+            "name": "MacBook Neo (MHFJ4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Shop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
-            }
-          },
-          "MWUY3LL/A": {
-            "name": "Shop iMac (MWUY3LL/A)",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "mac",
-            "familyName": "Shop iMac",
-            "metadata": {
-              "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
-            }
-          },
-          "MWUW3LL/A": {
-            "name": "Shop iMac (MWUW3LL/A)",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "mac",
-            "familyName": "Shop iMac",
-            "metadata": {
-              "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
-            }
-          },
-          "MWUE3LL/A": {
-            "name": "Shop iMac (MWUE3LL/A)",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "mac",
-            "familyName": "Shop iMac",
-            "metadata": {
-              "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           }
         }
       }
     },
     "uk": {
-      "imac": {
-        "url": "https://www.apple.com/uk/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/uk/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV43B/A": {
-            "name": "iMac (MWV43B/A)",
+          "MHFG4B/A": {
+            "name": "MacBook Neo (MHFG4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3B/A": {
-            "name": "iMac (MWUG3B/A)",
+          "MHFA4B/A": {
+            "name": "MacBook Neo (MHFA4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3B/A": {
-            "name": "iMac (MWUU3B/A)",
+          "MHFD4B/A": {
+            "name": "MacBook Neo (MHFD4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3B/A": {
-            "name": "iMac (MWUE3B/A)",
+          "MHFJ4B/A": {
+            "name": "MacBook Neo (MHFJ4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUF3B/A": {
-            "name": "iMac (MWUF3B/A)",
+          "MHFH4B/A": {
+            "name": "MacBook Neo (MHFH4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUC3B/A": {
-            "name": "iMac (MWUC3B/A)",
+          "MHFF4B/A": {
+            "name": "MacBook Neo (MHFF4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUY3B/A": {
-            "name": "iMac (MWUY3B/A)",
+          "MHFE4B/A": {
+            "name": "MacBook Neo (MHFE4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV13B/A": {
-            "name": "iMac (MWV13B/A)",
+          "MHFC4B/A": {
+            "name": "MacBook Neo (MHFC4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           }
         }
       }
     },
     "au": {
-      "imac": {
-        "url": "https://www.apple.com/au/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/au/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUY3X/A": {
-            "name": "iMac (MWUY3X/A)",
+          "MHFF4X/A": {
+            "name": "MacBook Neo (MHFF4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUE3X/A": {
-            "name": "iMac (MWUE3X/A)",
+          "MHFJ4X/A": {
+            "name": "MacBook Neo (MHFJ4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV43X/A": {
-            "name": "iMac (MWV43X/A)",
+          "MHFH4X/A": {
+            "name": "MacBook Neo (MHFH4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUF3X/A": {
-            "name": "iMac (MWUF3X/A)",
+          "MHFG4X/A": {
+            "name": "MacBook Neo (MHFG4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUG3X/A": {
-            "name": "iMac (MWUG3X/A)",
+          "MHFD4X/A": {
+            "name": "MacBook Neo (MHFD4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUU3X/A": {
-            "name": "iMac (MWUU3X/A)",
+          "MHFA4X/A": {
+            "name": "MacBook Neo (MHFA4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUC3X/A": {
-            "name": "iMac (MWUC3X/A)",
+          "MHFE4X/A": {
+            "name": "MacBook Neo (MHFE4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV13X/A": {
-            "name": "iMac (MWV13X/A)",
+          "MHFC4X/A": {
+            "name": "MacBook Neo (MHFC4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           }
         }
       }
     },
     "ca": {
-      "imac": {
-        "url": "https://www.apple.com/ca/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/ca/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUC3LL/A": {
-            "name": "iMac (MWUC3LL/A)",
+          "MHFH4LL/A": {
+            "name": "MacBook Neo (MHFH4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43LL/A": {
-            "name": "iMac (MWV43LL/A)",
+          "MHFJ4LL/A": {
+            "name": "MacBook Neo (MHFJ4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUG3LL/A": {
-            "name": "iMac (MWUG3LL/A)",
+          "MHFG4LL/A": {
+            "name": "MacBook Neo (MHFG4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV13LL/A": {
-            "name": "iMac (MWV13LL/A)",
+          "MHFE4LL/A": {
+            "name": "MacBook Neo (MHFE4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUE3LL/A": {
-            "name": "iMac (MWUE3LL/A)",
+          "MHFA4LL/A": {
+            "name": "MacBook Neo (MHFA4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUF3LL/A": {
-            "name": "iMac (MWUF3LL/A)",
+          "MHFF4LL/A": {
+            "name": "MacBook Neo (MHFF4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUY3LL/A": {
-            "name": "iMac (MWUY3LL/A)",
+          "MHFC4LL/A": {
+            "name": "MacBook Neo (MHFC4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUU3LL/A": {
-            "name": "iMac (MWUU3LL/A)",
+          "MHFD4LL/A": {
+            "name": "MacBook Neo (MHFD4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           }
         }
       }
     },
     "de": {
-      "imac": {
-        "url": "https://www.apple.com/de/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/de/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3D/A": {
-            "name": "iMac (MWUG3D/A)",
+          "MHFA4D/A": {
+            "name": "MacBook Neo (MHFA4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUE3D/A": {
-            "name": "iMac (MWUE3D/A)",
+          "MHFD4D/A": {
+            "name": "MacBook Neo (MHFD4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUU3D/A": {
-            "name": "iMac (MWUU3D/A)",
+          "MHFG4D/A": {
+            "name": "MacBook Neo (MHFG4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUY3D/A": {
-            "name": "iMac (MWUY3D/A)",
+          "MHFH4D/A": {
+            "name": "MacBook Neo (MHFH4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUF3D/A": {
-            "name": "iMac (MWUF3D/A)",
+          "MHFF4D/A": {
+            "name": "MacBook Neo (MHFF4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUC3D/A": {
-            "name": "iMac (MWUC3D/A)",
+          "MHFC4D/A": {
+            "name": "MacBook Neo (MHFC4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV13D/A": {
-            "name": "iMac (MWV13D/A)",
+          "MHFE4D/A": {
+            "name": "MacBook Neo (MHFE4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43D/A": {
-            "name": "iMac (MWV43D/A)",
+          "MHFJ4D/A": {
+            "name": "MacBook Neo (MHFJ4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           }
         }
       }
     },
     "fr": {
-      "imac": {
-        "url": "https://www.apple.com/fr/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/fr/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUU3FN/A": {
-            "name": "un iMac (MWUU3FN/A)",
+          "MHFG4FN/A": {
+            "name": "MacBook Neo (MHFG4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3FN/A": {
-            "name": "un iMac (MWUE3FN/A)",
+          "MHFC4FN/A": {
+            "name": "MacBook Neo (MHFC4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3FN/A": {
-            "name": "un iMac (MWUG3FN/A)",
+          "MHFH4FN/A": {
+            "name": "MacBook Neo (MHFH4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV13FN/A": {
-            "name": "un iMac (MWV13FN/A)",
+          "MHFJ4FN/A": {
+            "name": "MacBook Neo (MHFJ4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUC3FN/A": {
-            "name": "un iMac (MWUC3FN/A)",
+          "MHFE4FN/A": {
+            "name": "MacBook Neo (MHFE4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUY3FN/A": {
-            "name": "un iMac (MWUY3FN/A)",
+          "MHFF4FN/A": {
+            "name": "MacBook Neo (MHFF4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43FN/A": {
-            "name": "un iMac (MWV43FN/A)",
+          "MHFA4FN/A": {
+            "name": "MacBook Neo (MHFA4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUF3FN/A": {
-            "name": "un iMac (MWUF3FN/A)",
+          "MHFD4FN/A": {
+            "name": "MacBook Neo (MHFD4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           }
         }
       }
     },
     "it": {
-      "imac": {
-        "url": "https://www.apple.com/it/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/it/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUU3T/A": {
-            "name": "iMac (MWUU3T/A)",
+          "MHFE4T/A": {
+            "name": "MacBook Neo (MHFE4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWV43T/A": {
-            "name": "iMac (MWV43T/A)",
+          "MHFD4T/A": {
+            "name": "MacBook Neo (MHFD4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUY3T/A": {
-            "name": "iMac (MWUY3T/A)",
+          "MHFG4T/A": {
+            "name": "MacBook Neo (MHFG4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUE3T/A": {
-            "name": "iMac (MWUE3T/A)",
+          "MHFH4T/A": {
+            "name": "MacBook Neo (MHFH4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUF3T/A": {
-            "name": "iMac (MWUF3T/A)",
+          "MHFA4T/A": {
+            "name": "MacBook Neo (MHFA4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUG3T/A": {
-            "name": "iMac (MWUG3T/A)",
+          "MHFF4T/A": {
+            "name": "MacBook Neo (MHFF4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUC3T/A": {
-            "name": "iMac (MWUC3T/A)",
+          "MHFC4T/A": {
+            "name": "MacBook Neo (MHFC4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV13T/A": {
-            "name": "iMac (MWV13T/A)",
+          "MHFJ4T/A": {
+            "name": "MacBook Neo (MHFJ4T/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           }
         }
       }
     },
     "es": {
-      "imac": {
-        "url": "https://www.apple.com/es/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/es/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUU3Y/A": {
-            "name": "un iMac (MWUU3Y/A)",
+          "MHFA4Y/A": {
+            "name": "MacBook Neo (MHFA4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUF3Y/A": {
-            "name": "un iMac (MWUF3Y/A)",
+          "MHFD4Y/A": {
+            "name": "MacBook Neo (MHFD4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWV43Y/A": {
-            "name": "un iMac (MWV43Y/A)",
+          "MHFG4Y/A": {
+            "name": "MacBook Neo (MHFG4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUC3Y/A": {
-            "name": "un iMac (MWUC3Y/A)",
+          "MHFC4Y/A": {
+            "name": "MacBook Neo (MHFC4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWV13Y/A": {
-            "name": "un iMac (MWV13Y/A)",
+          "MHFF4Y/A": {
+            "name": "MacBook Neo (MHFF4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUE3Y/A": {
-            "name": "un iMac (MWUE3Y/A)",
+          "MHFH4Y/A": {
+            "name": "MacBook Neo (MHFH4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3Y/A": {
-            "name": "un iMac (MWUG3Y/A)",
+          "MHFE4Y/A": {
+            "name": "MacBook Neo (MHFE4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUY3Y/A": {
-            "name": "un iMac (MWUY3Y/A)",
+          "MHFJ4Y/A": {
+            "name": "MacBook Neo (MHFJ4Y/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           }
         }
       }
     },
     "nl": {
-      "imac": {
-        "url": "https://www.apple.com/nl/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/nl/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV43N/A": {
-            "name": "Koop iMac (MWV43N/A)",
+          "MHFA4N/A": {
+            "name": "MacBook Neo (MHFA4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUC3N/A": {
-            "name": "Koop iMac (MWUC3N/A)",
+          "MHFD4N/A": {
+            "name": "MacBook Neo (MHFD4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUG3N/A": {
-            "name": "Koop iMac (MWUG3N/A)",
+          "MHFG4N/A": {
+            "name": "MacBook Neo (MHFG4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWV13N/A": {
-            "name": "Koop iMac (MWV13N/A)",
+          "MHFH4N/A": {
+            "name": "MacBook Neo (MHFH4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUF3N/A": {
-            "name": "Koop iMac (MWUF3N/A)",
+          "MHFF4N/A": {
+            "name": "MacBook Neo (MHFF4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUY3N/A": {
-            "name": "Koop iMac (MWUY3N/A)",
+          "MHFJ4N/A": {
+            "name": "MacBook Neo (MHFJ4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3N/A": {
-            "name": "Koop iMac (MWUE3N/A)",
+          "MHFE4N/A": {
+            "name": "MacBook Neo (MHFE4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUU3N/A": {
-            "name": "Koop iMac (MWUU3N/A)",
+          "MHFC4N/A": {
+            "name": "MacBook Neo (MHFC4N/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           }
         }
       }
     },
     "be-nl": {
-      "imac": {
-        "url": "https://www.apple.com/be-nl/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUC3FN/A": {
-            "name": "Koop iMac (MWUC3FN/A)",
+          "MHFG4FN/A": {
+            "name": "MacBook Neo (MHFG4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3FN/A": {
-            "name": "Koop iMac (MWUG3FN/A)",
+          "MHFC4FN/A": {
+            "name": "MacBook Neo (MHFC4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV13FN/A": {
-            "name": "Koop iMac (MWV13FN/A)",
+          "MHFH4FN/A": {
+            "name": "MacBook Neo (MHFH4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3FN/A": {
-            "name": "Koop iMac (MWUU3FN/A)",
+          "MHFJ4FN/A": {
+            "name": "MacBook Neo (MHFJ4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3FN/A": {
-            "name": "Koop iMac (MWUE3FN/A)",
+          "MHFE4FN/A": {
+            "name": "MacBook Neo (MHFE4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUY3FN/A": {
-            "name": "Koop iMac (MWUY3FN/A)",
+          "MHFF4FN/A": {
+            "name": "MacBook Neo (MHFF4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3FN/A": {
-            "name": "Koop iMac (MWUF3FN/A)",
+          "MHFA4FN/A": {
+            "name": "MacBook Neo (MHFA4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV43FN/A": {
-            "name": "Koop iMac (MWV43FN/A)",
+          "MHFD4FN/A": {
+            "name": "MacBook Neo (MHFD4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Koop iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           }
         }
       }
     },
     "be-fr": {
-      "imac": {
-        "url": "https://www.apple.com/be-fr/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/be-fr/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV13FN/A": {
-            "name": "un iMac (MWV13FN/A)",
+          "MHFF4FN/A": {
+            "name": "MacBook Neo (MHFF4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV43FN/A": {
-            "name": "un iMac (MWV43FN/A)",
+          "MHFA4FN/A": {
+            "name": "MacBook Neo (MHFA4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUF3FN/A": {
-            "name": "un iMac (MWUF3FN/A)",
+          "MHFD4FN/A": {
+            "name": "MacBook Neo (MHFD4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUY3FN/A": {
-            "name": "un iMac (MWUY3FN/A)",
+          "MHFC4FN/A": {
+            "name": "MacBook Neo (MHFC4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUU3FN/A": {
-            "name": "un iMac (MWUU3FN/A)",
+          "MHFH4FN/A": {
+            "name": "MacBook Neo (MHFH4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUG3FN/A": {
-            "name": "un iMac (MWUG3FN/A)",
+          "MHFE4FN/A": {
+            "name": "MacBook Neo (MHFE4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUE3FN/A": {
-            "name": "un iMac (MWUE3FN/A)",
+          "MHFG4FN/A": {
+            "name": "MacBook Neo (MHFG4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUC3FN/A": {
-            "name": "un iMac (MWUC3FN/A)",
+          "MHFJ4FN/A": {
+            "name": "MacBook Neo (MHFJ4FN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           }
         }
       }
     },
     "ch-de": {
-      "imac": {
-        "url": "https://www.apple.com/ch-de/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUF3SM/A": {
-            "name": "iMac (MWUF3SM/A)",
+          "MHFH4SM/A": {
+            "name": "MacBook Neo (MHFH4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUY3SM/A": {
-            "name": "iMac (MWUY3SM/A)",
+          "MHFG4SM/A": {
+            "name": "MacBook Neo (MHFG4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUU3SM/A": {
-            "name": "iMac (MWUU3SM/A)",
+          "MHFF4SM/A": {
+            "name": "MacBook Neo (MHFF4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUC3SM/A": {
-            "name": "iMac (MWUC3SM/A)",
+          "MHFC4SM/A": {
+            "name": "MacBook Neo (MHFC4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43SM/A": {
-            "name": "iMac (MWV43SM/A)",
+          "MHFE4SM/A": {
+            "name": "MacBook Neo (MHFE4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3SM/A": {
-            "name": "iMac (MWUG3SM/A)",
+          "MHFA4SM/A": {
+            "name": "MacBook Neo (MHFA4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV13SM/A": {
-            "name": "iMac (MWV13SM/A)",
+          "MHFJ4SM/A": {
+            "name": "MacBook Neo (MHFJ4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUE3SM/A": {
-            "name": "iMac (MWUE3SM/A)",
+          "MHFD4SM/A": {
+            "name": "MacBook Neo (MHFD4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           }
         }
       }
     },
     "ch-fr": {
-      "imac": {
-        "url": "https://www.apple.com/ch-fr/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3SM/A": {
-            "name": "un iMac (MWUG3SM/A)",
+          "MHFH4SM/A": {
+            "name": "MacBook Neo (MHFH4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43SM/A": {
-            "name": "un iMac (MWV43SM/A)",
+          "MHFG4SM/A": {
+            "name": "MacBook Neo (MHFG4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUU3SM/A": {
-            "name": "un iMac (MWUU3SM/A)",
+          "MHFJ4SM/A": {
+            "name": "MacBook Neo (MHFJ4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUY3SM/A": {
-            "name": "un iMac (MWUY3SM/A)",
+          "MHFE4SM/A": {
+            "name": "MacBook Neo (MHFE4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3SM/A": {
-            "name": "un iMac (MWUF3SM/A)",
+          "MHFA4SM/A": {
+            "name": "MacBook Neo (MHFA4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3SM/A": {
-            "name": "un iMac (MWUE3SM/A)",
+          "MHFF4SM/A": {
+            "name": "MacBook Neo (MHFF4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV13SM/A": {
-            "name": "un iMac (MWV13SM/A)",
+          "MHFC4SM/A": {
+            "name": "MacBook Neo (MHFC4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUC3SM/A": {
-            "name": "un iMac (MWUC3SM/A)",
+          "MHFD4SM/A": {
+            "name": "MacBook Neo (MHFD4SM/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "un iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           }
         }
       }
     },
     "se": {
-      "imac": {
-        "url": "https://www.apple.com/se/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/se/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV43KS/A": {
-            "name": "Köp iMac (MWV43KS/A)",
+          "MHFD4KS/A": {
+            "name": "MacBook Neo (MHFD4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUC3KS/A": {
-            "name": "Köp iMac (MWUC3KS/A)",
+          "MHFC4KS/A": {
+            "name": "MacBook Neo (MHFC4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWV13KS/A": {
-            "name": "Köp iMac (MWV13KS/A)",
+          "MHFA4KS/A": {
+            "name": "MacBook Neo (MHFA4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUU3KS/A": {
-            "name": "Köp iMac (MWUU3KS/A)",
+          "MHFF4KS/A": {
+            "name": "MacBook Neo (MHFF4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUY3KS/A": {
-            "name": "Köp iMac (MWUY3KS/A)",
+          "MHFE4KS/A": {
+            "name": "MacBook Neo (MHFE4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUF3KS/A": {
-            "name": "Köp iMac (MWUF3KS/A)",
+          "MHFG4KS/A": {
+            "name": "MacBook Neo (MHFG4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUG3KS/A": {
-            "name": "Köp iMac (MWUG3KS/A)",
+          "MHFH4KS/A": {
+            "name": "MacBook Neo (MHFH4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUE3KS/A": {
-            "name": "Köp iMac (MWUE3KS/A)",
+          "MHFJ4KS/A": {
+            "name": "MacBook Neo (MHFJ4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Köp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           }
         }
       }
     },
     "dk": {
-      "imac": {
-        "url": "https://www.apple.com/dk/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/dk/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3DK/A": {
-            "name": "Køb iMac (MWUG3DK/A)",
+          "MHFH4DK/A": {
+            "name": "MacBook Neo (MHFH4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43DK/A": {
-            "name": "Køb iMac (MWV43DK/A)",
+          "MHFE4DK/A": {
+            "name": "MacBook Neo (MHFE4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUE3DK/A": {
-            "name": "Køb iMac (MWUE3DK/A)",
+          "MHFJ4DK/A": {
+            "name": "MacBook Neo (MHFJ4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV13DK/A": {
-            "name": "Køb iMac (MWV13DK/A)",
+          "MHFG4DK/A": {
+            "name": "MacBook Neo (MHFG4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUC3DK/A": {
-            "name": "Køb iMac (MWUC3DK/A)",
+          "MHFD4DK/A": {
+            "name": "MacBook Neo (MHFD4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUF3DK/A": {
-            "name": "Køb iMac (MWUF3DK/A)",
+          "MHFC4DK/A": {
+            "name": "MacBook Neo (MHFC4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUY3DK/A": {
-            "name": "Køb iMac (MWUY3DK/A)",
+          "MHFA4DK/A": {
+            "name": "MacBook Neo (MHFA4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3DK/A": {
-            "name": "Køb iMac (MWUU3DK/A)",
+          "MHFF4DK/A": {
+            "name": "MacBook Neo (MHFF4DK/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Køb iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           }
         }
       }
     },
     "no": {
-      "imac": {
-        "url": "https://www.apple.com/no/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/no/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV13H/A": {
-            "name": "Kjøp iMac (MWV13H/A)",
+          "MHFH4H/A": {
+            "name": "MacBook Neo (MHFH4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3H/A": {
-            "name": "Kjøp iMac (MWUF3H/A)",
+          "MHFF4H/A": {
+            "name": "MacBook Neo (MHFF4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43H/A": {
-            "name": "Kjøp iMac (MWV43H/A)",
+          "MHFC4H/A": {
+            "name": "MacBook Neo (MHFC4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUC3H/A": {
-            "name": "Kjøp iMac (MWUC3H/A)",
+          "MHFA4H/A": {
+            "name": "MacBook Neo (MHFA4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUE3H/A": {
-            "name": "Kjøp iMac (MWUE3H/A)",
+          "MHFD4H/A": {
+            "name": "MacBook Neo (MHFD4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUU3H/A": {
-            "name": "Kjøp iMac (MWUU3H/A)",
+          "MHFG4H/A": {
+            "name": "MacBook Neo (MHFG4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUY3H/A": {
-            "name": "Kjøp iMac (MWUY3H/A)",
+          "MHFJ4H/A": {
+            "name": "MacBook Neo (MHFJ4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUG3H/A": {
-            "name": "Kjøp iMac (MWUG3H/A)",
+          "MHFE4H/A": {
+            "name": "MacBook Neo (MHFE4H/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Kjøp iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           }
         }
       }
     },
     "fi": {
-      "imac": {
-        "url": "https://www.apple.com/fi/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/fi/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV13KS/A": {
-            "name": "Osta iMac (MWV13KS/A)",
+          "MHFF4KS/A": {
+            "name": "MacBook Neo (MHFF4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUC3KS/A": {
-            "name": "Osta iMac (MWUC3KS/A)",
+          "MHFH4KS/A": {
+            "name": "MacBook Neo (MHFH4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUY3KS/A": {
-            "name": "Osta iMac (MWUY3KS/A)",
+          "MHFG4KS/A": {
+            "name": "MacBook Neo (MHFG4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUF3KS/A": {
-            "name": "Osta iMac (MWUF3KS/A)",
+          "MHFE4KS/A": {
+            "name": "MacBook Neo (MHFE4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUE3KS/A": {
-            "name": "Osta iMac (MWUE3KS/A)",
+          "MHFJ4KS/A": {
+            "name": "MacBook Neo (MHFJ4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43KS/A": {
-            "name": "Osta iMac (MWV43KS/A)",
+          "MHFC4KS/A": {
+            "name": "MacBook Neo (MHFC4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3KS/A": {
-            "name": "Osta iMac (MWUG3KS/A)",
+          "MHFD4KS/A": {
+            "name": "MacBook Neo (MHFD4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUU3KS/A": {
-            "name": "Osta iMac (MWUU3KS/A)",
+          "MHFA4KS/A": {
+            "name": "MacBook Neo (MHFA4KS/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Osta iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           }
         }
       }
     },
     "jp": {
-      "imac": {
-        "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3J/A": {
-            "name": "iMacを (MWUG3J/A)",
+          "MHFD4J/A": {
+            "name": "MacBook Neo (MHFD4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUE3J/A": {
-            "name": "iMacを (MWUE3J/A)",
+          "MHFG4J/A": {
+            "name": "MacBook Neo (MHFG4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUY3J/A": {
-            "name": "iMacを (MWUY3J/A)",
+          "MHFF4J/A": {
+            "name": "MacBook Neo (MHFF4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUC3J/A": {
-            "name": "iMacを (MWUC3J/A)",
+          "MHFH4J/A": {
+            "name": "MacBook Neo (MHFH4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWV13J/A": {
-            "name": "iMacを (MWV13J/A)",
+          "MHFC4J/A": {
+            "name": "MacBook Neo (MHFC4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3J/A": {
-            "name": "iMacを (MWUU3J/A)",
+          "MHFE4J/A": {
+            "name": "MacBook Neo (MHFE4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV43J/A": {
-            "name": "iMacを (MWV43J/A)",
+          "MHFJ4J/A": {
+            "name": "MacBook Neo (MHFJ4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3J/A": {
-            "name": "iMacを (MWUF3J/A)",
+          "MHFA4J/A": {
+            "name": "MacBook Neo (MHFA4J/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMacを",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           }
         }
       }
     },
     "kr": {
-      "imac": {
-        "url": "https://www.apple.com/kr/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/kr/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3KH/A": {
-            "name": "iMac 하기 (MWUG3KH/A)",
+          "MHFG4KH/A": {
+            "name": "MacBook Neo (MHFG4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3KH/A": {
-            "name": "iMac 하기 (MWUU3KH/A)",
+          "MHFC4KH/A": {
+            "name": "MacBook Neo (MHFC4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV13KH/A": {
-            "name": "iMac 하기 (MWV13KH/A)",
+          "MHFE4KH/A": {
+            "name": "MacBook Neo (MHFE4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3KH/A": {
-            "name": "iMac 하기 (MWUE3KH/A)",
+          "MHFH4KH/A": {
+            "name": "MacBook Neo (MHFH4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUC3KH/A": {
-            "name": "iMac 하기 (MWUC3KH/A)",
+          "MHFD4KH/A": {
+            "name": "MacBook Neo (MHFD4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWV43KH/A": {
-            "name": "iMac 하기 (MWV43KH/A)",
+          "MHFJ4KH/A": {
+            "name": "MacBook Neo (MHFJ4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUF3KH/A": {
-            "name": "iMac 하기 (MWUF3KH/A)",
+          "MHFA4KH/A": {
+            "name": "MacBook Neo (MHFA4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUY3KH/A": {
-            "name": "iMac 하기 (MWUY3KH/A)",
+          "MHFF4KH/A": {
+            "name": "MacBook Neo (MHFF4KH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac 하기",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           }
         }
       }
     },
     "hk": {
-      "imac": {
-        "url": "https://www.apple.com/hk/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/hk/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUY3ZP/A": {
-            "name": "iMac (MWUY3ZP/A)",
+          "MHFH4ZP/A": {
+            "name": "MacBook Neo (MHFH4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43ZP/A": {
-            "name": "iMac (MWV43ZP/A)",
+          "MHFG4ZP/A": {
+            "name": "MacBook Neo (MHFG4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3ZP/A": {
-            "name": "iMac (MWUF3ZP/A)",
+          "MHFF4ZP/A": {
+            "name": "MacBook Neo (MHFF4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUE3ZP/A": {
-            "name": "iMac (MWUE3ZP/A)",
+          "MHFD4ZP/A": {
+            "name": "MacBook Neo (MHFD4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUU3ZP/A": {
-            "name": "iMac (MWUU3ZP/A)",
+          "MHFA4ZP/A": {
+            "name": "MacBook Neo (MHFA4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUC3ZP/A": {
-            "name": "iMac (MWUC3ZP/A)",
+          "MHFC4ZP/A": {
+            "name": "MacBook Neo (MHFC4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV13ZP/A": {
-            "name": "iMac (MWV13ZP/A)",
+          "MHFE4ZP/A": {
+            "name": "MacBook Neo (MHFE4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUG3ZP/A": {
-            "name": "iMac (MWUG3ZP/A)",
+          "MHFJ4ZP/A": {
+            "name": "MacBook Neo (MHFJ4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           }
         }
       }
     },
     "sg": {
-      "imac": {
-        "url": "https://www.apple.com/sg/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/sg/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUY3ZP/A": {
-            "name": "iMac (MWUY3ZP/A)",
+          "MHFH4ZP/A": {
+            "name": "MacBook Neo (MHFH4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV43ZP/A": {
-            "name": "iMac (MWV43ZP/A)",
+          "MHFG4ZP/A": {
+            "name": "MacBook Neo (MHFG4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3ZP/A": {
-            "name": "iMac (MWUF3ZP/A)",
+          "MHFF4ZP/A": {
+            "name": "MacBook Neo (MHFF4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUE3ZP/A": {
-            "name": "iMac (MWUE3ZP/A)",
+          "MHFD4ZP/A": {
+            "name": "MacBook Neo (MHFD4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUU3ZP/A": {
-            "name": "iMac (MWUU3ZP/A)",
+          "MHFA4ZP/A": {
+            "name": "MacBook Neo (MHFA4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUC3ZP/A": {
-            "name": "iMac (MWUC3ZP/A)",
+          "MHFC4ZP/A": {
+            "name": "MacBook Neo (MHFC4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV13ZP/A": {
-            "name": "iMac (MWV13ZP/A)",
+          "MHFE4ZP/A": {
+            "name": "MacBook Neo (MHFE4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUG3ZP/A": {
-            "name": "iMac (MWUG3ZP/A)",
+          "MHFJ4ZP/A": {
+            "name": "MacBook Neo (MHFJ4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           }
         }
       }
     },
     "tw": {
-      "imac": {
-        "url": "https://www.apple.com/tw/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/tw/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUE3TA/A": {
-            "name": "iMac (MWUE3TA/A)",
+          "MHFD4TA/A": {
+            "name": "MacBook Neo (MHFD4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUY3TA/A": {
-            "name": "iMac (MWUY3TA/A)",
+          "MHFJ4TA/A": {
+            "name": "MacBook Neo (MHFJ4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUU3TA/A": {
-            "name": "iMac (MWUU3TA/A)",
+          "MHFE4TA/A": {
+            "name": "MacBook Neo (MHFE4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUF3TA/A": {
-            "name": "iMac (MWUF3TA/A)",
+          "MHFA4TA/A": {
+            "name": "MacBook Neo (MHFA4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWV43TA/A": {
-            "name": "iMac (MWV43TA/A)",
+          "MHFF4TA/A": {
+            "name": "MacBook Neo (MHFF4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUG3TA/A": {
-            "name": "iMac (MWUG3TA/A)",
+          "MHFH4TA/A": {
+            "name": "MacBook Neo (MHFH4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWV13TA/A": {
-            "name": "iMac (MWV13TA/A)",
+          "MHFG4TA/A": {
+            "name": "MacBook Neo (MHFG4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUC3TA/A": {
-            "name": "iMac (MWUC3TA/A)",
+          "MHFC4TA/A": {
+            "name": "MacBook Neo (MHFC4TA/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           }
         }
       }
     },
     "th": {
-      "imac": {
-        "url": "https://www.apple.com/th/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/th/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV13TH/A": {
-            "name": "ซื้อ iMac (MWV13TH/A)",
+          "MHFJ4TH/A": {
+            "name": "MacBook Neo (MHFJ4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUC3TH/A": {
-            "name": "ซื้อ iMac (MWUC3TH/A)",
+          "MHFD4TH/A": {
+            "name": "MacBook Neo (MHFD4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUF3TH/A": {
-            "name": "ซื้อ iMac (MWUF3TH/A)",
+          "MHFA4TH/A": {
+            "name": "MacBook Neo (MHFA4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUY3TH/A": {
-            "name": "ซื้อ iMac (MWUY3TH/A)",
+          "MHFF4TH/A": {
+            "name": "MacBook Neo (MHFF4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV43TH/A": {
-            "name": "ซื้อ iMac (MWV43TH/A)",
+          "MHFC4TH/A": {
+            "name": "MacBook Neo (MHFC4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUE3TH/A": {
-            "name": "ซื้อ iMac (MWUE3TH/A)",
+          "MHFE4TH/A": {
+            "name": "MacBook Neo (MHFE4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUG3TH/A": {
-            "name": "ซื้อ iMac (MWUG3TH/A)",
+          "MHFH4TH/A": {
+            "name": "MacBook Neo (MHFH4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUU3TH/A": {
-            "name": "ซื้อ iMac (MWUU3TH/A)",
+          "MHFG4TH/A": {
+            "name": "MacBook Neo (MHFG4TH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "ซื้อ iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           }
         }
       }
     },
     "my": {
-      "imac": {
-        "url": "https://www.apple.com/my/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/my/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV43ZP/A": {
-            "name": "iMac (MWV43ZP/A)",
+          "MHFF4ZP/A": {
+            "name": "MacBook Neo (MHFF4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUF3ZP/A": {
-            "name": "iMac (MWUF3ZP/A)",
+          "MHFC4ZP/A": {
+            "name": "MacBook Neo (MHFC4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUY3ZP/A": {
-            "name": "iMac (MWUY3ZP/A)",
+          "MHFG4ZP/A": {
+            "name": "MacBook Neo (MHFG4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUE3ZP/A": {
-            "name": "iMac (MWUE3ZP/A)",
+          "MHFH4ZP/A": {
+            "name": "MacBook Neo (MHFH4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUG3ZP/A": {
-            "name": "iMac (MWUG3ZP/A)",
+          "MHFA4ZP/A": {
+            "name": "MacBook Neo (MHFA4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUC3ZP/A": {
-            "name": "iMac (MWUC3ZP/A)",
+          "MHFJ4ZP/A": {
+            "name": "MacBook Neo (MHFJ4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3ZP/A": {
-            "name": "iMac (MWUU3ZP/A)",
+          "MHFE4ZP/A": {
+            "name": "MacBook Neo (MHFE4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWV13ZP/A": {
-            "name": "iMac (MWV13ZP/A)",
+          "MHFD4ZP/A": {
+            "name": "MacBook Neo (MHFD4ZP/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           }
         }
       }
     },
     "in": {
-      "imac": {
-        "url": "https://www.apple.com/in/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/in/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUE3HN/A": {
-            "name": "iMac (MWUE3HN/A)",
+          "MHFF4HN/A": {
+            "name": "MacBook Neo (MHFF4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUY3HN/A": {
-            "name": "iMac (MWUY3HN/A)",
+          "MHFE4HN/A": {
+            "name": "MacBook Neo (MHFE4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUF3HN/A": {
-            "name": "iMac (MWUF3HN/A)",
+          "MHFG4HN/A": {
+            "name": "MacBook Neo (MHFG4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUU3HN/A": {
-            "name": "iMac (MWUU3HN/A)",
+          "MHFC4HN/A": {
+            "name": "MacBook Neo (MHFC4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUC3HN/A": {
-            "name": "iMac (MWUC3HN/A)",
+          "MHFH4HN/A": {
+            "name": "MacBook Neo (MHFH4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWV43HN/A": {
-            "name": "iMac (MWV43HN/A)",
+          "MHFJ4HN/A": {
+            "name": "MacBook Neo (MHFJ4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUG3HN/A": {
-            "name": "iMac (MWUG3HN/A)",
+          "MHFD4HN/A": {
+            "name": "MacBook Neo (MHFD4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWV13HN/A": {
-            "name": "iMac (MWV13HN/A)",
+          "MHFA4HN/A": {
+            "name": "MacBook Neo (MHFA4HN/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           }
         }
       }
     },
     "ae": {
-      "imac": {
-        "url": "https://www.apple.com/ae/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/ae/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUY3AB/A": {
-            "name": "iMac (MWUY3AB/A)",
+          "MHFJ4AB/A": {
+            "name": "MacBook Neo (MHFJ4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUF3AB/A": {
-            "name": "iMac (MWUF3AB/A)",
+          "MHFE4AB/A": {
+            "name": "MacBook Neo (MHFE4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUU3AB/A": {
-            "name": "iMac (MWUU3AB/A)",
+          "MHFA4AB/A": {
+            "name": "MacBook Neo (MHFA4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUE3AB/A": {
-            "name": "iMac (MWUE3AB/A)",
+          "MHFD4AB/A": {
+            "name": "MacBook Neo (MHFD4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUC3AB/A": {
-            "name": "iMac (MWUC3AB/A)",
+          "MHFH4AB/A": {
+            "name": "MacBook Neo (MHFH4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWV43AB/A": {
-            "name": "iMac (MWV43AB/A)",
+          "MHFG4AB/A": {
+            "name": "MacBook Neo (MHFG4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWV13AB/A": {
-            "name": "iMac (MWV13AB/A)",
+          "MHFC4AB/A": {
+            "name": "MacBook Neo (MHFC4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWUG3AB/A": {
-            "name": "iMac (MWUG3AB/A)",
+          "MHFF4AB/A": {
+            "name": "MacBook Neo (MHFF4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           }
         }
       }
     },
     "sa": {
-      "imac": {
-        "url": "https://www.apple.com/sa/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/sa/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUC3AB/A": {
-            "name": "iMac (MWUC3AB/A)",
+          "MHFJ4AB/A": {
+            "name": "MacBook Neo (MHFJ4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV43AB/A": {
-            "name": "iMac (MWV43AB/A)",
+          "MHFE4AB/A": {
+            "name": "MacBook Neo (MHFE4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWV13AB/A": {
-            "name": "iMac (MWV13AB/A)",
+          "MHFH4AB/A": {
+            "name": "MacBook Neo (MHFH4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUG3AB/A": {
-            "name": "iMac (MWUG3AB/A)",
+          "MHFG4AB/A": {
+            "name": "MacBook Neo (MHFG4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUY3AB/A": {
-            "name": "iMac (MWUY3AB/A)",
+          "MHFC4AB/A": {
+            "name": "MacBook Neo (MHFC4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUE3AB/A": {
-            "name": "iMac (MWUE3AB/A)",
+          "MHFD4AB/A": {
+            "name": "MacBook Neo (MHFD4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           },
-          "MWUF3AB/A": {
-            "name": "iMac (MWUF3AB/A)",
+          "MHFF4AB/A": {
+            "name": "MacBook Neo (MHFF4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3AB/A": {
-            "name": "iMac (MWUU3AB/A)",
+          "MHFA4AB/A": {
+            "name": "MacBook Neo (MHFA4AB/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           }
         }
       }
     },
     "tr": {
-      "imac": {
-        "url": "https://www.apple.com/tr/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/tr/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWV43TU/A": {
-            "name": "iMac Satın Alın (MWV43TU/A)",
+          "MHFE4TU/A": {
+            "name": "MacBook Neo (MHFE4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUC3TU/A": {
-            "name": "iMac Satın Alın (MWUC3TU/A)",
+          "MHFA4TU/A": {
+            "name": "MacBook Neo (MHFA4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUF3TU/A": {
-            "name": "iMac Satın Alın (MWUF3TU/A)",
+          "MHFJ4TU/A": {
+            "name": "MacBook Neo (MHFJ4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUY3TU/A": {
-            "name": "iMac Satın Alın (MWUY3TU/A)",
+          "MHFG4TU/A": {
+            "name": "MacBook Neo (MHFG4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUU3TU/A": {
-            "name": "iMac Satın Alın (MWUU3TU/A)",
+          "MHFC4TU/A": {
+            "name": "MacBook Neo (MHFC4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUE3TU/A": {
-            "name": "iMac Satın Alın (MWUE3TU/A)",
+          "MHFH4TU/A": {
+            "name": "MacBook Neo (MHFH4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUG3TU/A": {
-            "name": "iMac Satın Alın (MWUG3TU/A)",
+          "MHFF4TU/A": {
+            "name": "MacBook Neo (MHFF4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV13TU/A": {
-            "name": "iMac Satın Alın (MWV13TU/A)",
+          "MHFD4TU/A": {
+            "name": "MacBook Neo (MHFD4TU/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac Satın Alın",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           }
         }
       }
     },
     "br": {
-      "imac": {
-        "url": "https://www.apple.com/br/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/br/shop/buy-mac/macbook-neo",
         "skus": {
-          "MD007BR/A": {
-            "name": "iMac (MD007BR/A)",
+          "MJ5D4BR/A": {
+            "name": "MacBook Neo (MJ5D4BR/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true
             }
           },
-          "MWV13BZ/A": {
-            "name": "iMac (MWV13BZ/A)",
+          "MHFF4BZ/A": {
+            "name": "MacBook Neo (MHFF4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUF3BZ/A": {
-            "name": "iMac (MWUF3BZ/A)",
+          "MHFC4BZ/A": {
+            "name": "MacBook Neo (MHFC4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUY3BZ/A": {
-            "name": "iMac (MWUY3BZ/A)",
+          "MHFJ4BZ/A": {
+            "name": "MacBook Neo (MHFJ4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWV43BZ/A": {
-            "name": "iMac (MWV43BZ/A)",
+          "MHFA4BZ/A": {
+            "name": "MacBook Neo (MHFA4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUG3BZ/A": {
-            "name": "iMac (MWUG3BZ/A)",
+          "MHFD4BZ/A": {
+            "name": "MacBook Neo (MHFD4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUU3BZ/A": {
-            "name": "iMac (MWUU3BZ/A)",
+          "MHFE4BZ/A": {
+            "name": "MacBook Neo (MHFE4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUE3BZ/A": {
-            "name": "iMac (MWUE3BZ/A)",
+          "MHFG4BZ/A": {
+            "name": "MacBook Neo (MHFG4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWUC3BZ/A": {
-            "name": "iMac (MWUC3BZ/A)",
+          "MHFH4BZ/A": {
+            "name": "MacBook Neo (MHFH4BZ/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           }
         }
       }
     },
     "mx": {
-      "imac": {
-        "url": "https://www.apple.com/mx/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/mx/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUG3E/A": {
-            "name": "Compra la iMac (MWUG3E/A)",
+          "MHFE4E/A": {
+            "name": "MacBook Neo (MHFE4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWV13E/A": {
-            "name": "Compra la iMac (MWV13E/A)",
+          "MHFJ4E/A": {
+            "name": "MacBook Neo (MHFJ4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUY3E/A": {
-            "name": "Compra la iMac (MWUY3E/A)",
+          "MHFF4E/A": {
+            "name": "MacBook Neo (MHFF4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_ORANGE_G"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUU3E/A": {
-            "name": "Compra la iMac (MWUU3E/A)",
+          "MHFA4E/A": {
+            "name": "MacBook Neo (MHFA4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_B"
             }
           },
-          "MWUE3E/A": {
-            "name": "Compra la iMac (MWUE3E/A)",
+          "MHFH4E/A": {
+            "name": "MacBook Neo (MHFH4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUF3E/A": {
-            "name": "Compra la iMac (MWUF3E/A)",
+          "MHFC4E/A": {
+            "name": "MacBook Neo (MHFC4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_G"
             }
           },
-          "MWUC3E/A": {
-            "name": "Compra la iMac (MWUC3E/A)",
+          "MHFG4E/A": {
+            "name": "MacBook Neo (MHFG4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_G"
             }
           },
-          "MWV43E/A": {
-            "name": "Compra la iMac (MWV43E/A)",
+          "MHFD4E/A": {
+            "name": "MacBook Neo (MHFD4E/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Compra la iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           }
         }
       }
     },
     "cn": {
-      "imac": {
-        "url": "https://www.apple.com/cn/shop/buy-mac/imac",
+      "macbook-neo": {
+        "url": "https://www.apple.com/cn/shop/buy-mac/macbook-neo",
         "skus": {
-          "MWUY3CH/A": {
-            "name": "iMac (MWUY3CH/A)",
+          "MHFG4CH/A": {
+            "name": "MacBook Neo (MHFG4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUF3CH/A": {
-            "name": "iMac (MWUF3CH/A)",
+          "MHFC4CH/A": {
+            "name": "MacBook Neo (MHFC4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_BBU"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUU3CH/A": {
-            "name": "iMac (MWUU3CH/A)",
+          "MHFD4CH/A": {
+            "name": "MacBook Neo (MHFD4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_BLUE_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWUE3CH/A": {
-            "name": "iMac (MWUE3CH/A)",
+          "MHFJ4CH/A": {
+            "name": "MacBook Neo (MHFJ4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_YELLOW_G"
+              "containerPartNumber": "MBN_2026_ROC_IN_B"
             }
           },
-          "MWV43CH/A": {
-            "name": "iMac (MWV43CH/A)",
+          "MHFH4CH/A": {
+            "name": "MacBook Neo (MHFH4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_GREEN_G"
+              "containerPartNumber": "MBN_2026_ROC_SL_B"
             }
           },
-          "MWUC3CH/A": {
-            "name": "iMac (MWUC3CH/A)",
+          "MHFE4CH/A": {
+            "name": "MacBook Neo (MHFE4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PINK_BBU"
+              "containerPartNumber": "MBN_2026_ROC_CT_G"
             }
           },
-          "MWV13CH/A": {
-            "name": "iMac (MWV13CH/A)",
+          "MHFA4CH/A": {
+            "name": "MacBook Neo (MHFA4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_SILVER_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_B"
             }
           },
-          "MWUG3CH/A": {
-            "name": "iMac (MWUG3CH/A)",
+          "MHFF4CH/A": {
+            "name": "MacBook Neo (MHFF4CH/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "MacBook Neo",
             "metadata": {
               "isRealPartNumber": true,
-              "containerPartNumber": "IMAC_2024_ROC_STAND_PURPLE_G"
+              "containerPartNumber": "MBN_2026_ROC_BL_G"
             }
           }
         }
@@ -3347,330 +3311,330 @@
   "country_mappings": {
     "at": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "us": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "uk": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "au": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "ca": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "de": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "fr": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "it": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "es": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "nl": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "be-nl": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "be-fr": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "ch-de": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "ch-fr": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "se": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "dk": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "no": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "fi": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "jp": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "kr": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "hk": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "sg": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "tw": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "th": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "my": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "in": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "ae": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "sa": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "tr": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "br": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "mx": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     },
     "cn": {
       "shop_paths": {
-        "imac": "shop/buy-mac/imac"
+        "macbook-neo": "shop/buy-mac/macbook-neo"
       },
       "localization": {
         "token_display": {
-          "imac": "Mac Imac"
+          "macbook-neo": "Mac Macbook Neo"
         }
       }
     }
   },
   "_meta": {
-    "generated_at": "2026-09-04T22:35:43.791011+00:00",
+    "generated_at": "2026-09-04T22:34:23.389803+00:00",
     "scraper_version": "1.0",
     "family": "mac",
-    "token": "imac",
+    "token": "macbook-neo",
     "regions_scraped": 33
   }
 }

@@ -1,0 +1,2093 @@
+{
+  "discovered_models": {
+    "at": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/at/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4FD/A": {
+            "name": "Studio Display XDR (MFEN4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4FD/A": {
+            "name": "Studio Display XDR (MFEL4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4FD/A": {
+            "name": "Studio Display XDR (MFEQ4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4FD/A": {
+            "name": "Studio Display XDR (MFEP4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "us": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/us/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4LL/A": {
+            "name": "Studio Display XDR (MFEN4LL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4LL/A": {
+            "name": "Studio Display XDR (MFEL4LL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4LL/A": {
+            "name": "Studio Display XDR (MFEQ4LL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4LL/A": {
+            "name": "Studio Display XDR (MFEP4LL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "uk": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/uk/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4B/A": {
+            "name": "Studio Display XDR (MFEN4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4B/A": {
+            "name": "Studio Display XDR (MFEL4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4B/A": {
+            "name": "Studio Display XDR (MFEQ4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4B/A": {
+            "name": "Studio Display XDR (MFEP4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "au": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/au/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4X/A": {
+            "name": "Studio Display XDR (MFEN4X/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4X/A": {
+            "name": "Studio Display XDR (MFEL4X/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4X/A": {
+            "name": "Studio Display XDR (MFEQ4X/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4X/A": {
+            "name": "Studio Display XDR (MFEP4X/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "ca": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/ca/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4CL/A": {
+            "name": "Studio Display XDR (MFEN4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4CL/A": {
+            "name": "Studio Display XDR (MFEL4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4CL/A": {
+            "name": "Studio Display XDR (MFEQ4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4CL/A": {
+            "name": "Studio Display XDR (MFEP4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "de": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/de/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4FD/A": {
+            "name": "Studio Display XDR (MFEN4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4FD/A": {
+            "name": "Studio Display XDR (MFEL4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4FD/A": {
+            "name": "Studio Display XDR (MFEQ4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4FD/A": {
+            "name": "Studio Display XDR (MFEP4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "fr": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/fr/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4FD/A": {
+            "name": "Studio Display XDR (MFEN4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4FD/A": {
+            "name": "Studio Display XDR (MFEL4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4FD/A": {
+            "name": "Studio Display XDR (MFEQ4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4FD/A": {
+            "name": "Studio Display XDR (MFEP4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/it/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4T/A": {
+            "name": "Studio Display XDR (MFEN4T/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4T/A": {
+            "name": "Studio Display XDR (MFEL4T/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4T/A": {
+            "name": "Studio Display XDR (MFEQ4T/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4T/A": {
+            "name": "Studio Display XDR (MFEP4T/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "es": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/es/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4YP/A": {
+            "name": "Studio Display XDR (MFEN4YP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4YP/A": {
+            "name": "Studio Display XDR (MFEL4YP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4YP/A": {
+            "name": "Studio Display XDR (MFEQ4YP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4YP/A": {
+            "name": "Studio Display XDR (MFEP4YP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "nl": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/nl/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4FD/A": {
+            "name": "Studio Display XDR (MFEN4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4FD/A": {
+            "name": "Studio Display XDR (MFEL4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4FD/A": {
+            "name": "Studio Display XDR (MFEQ4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4FD/A": {
+            "name": "Studio Display XDR (MFEP4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/be-nl/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4FD/A": {
+            "name": "Studio Display XDR (MFEN4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4FD/A": {
+            "name": "Studio Display XDR (MFEL4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4FD/A": {
+            "name": "Studio Display XDR (MFEQ4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4FD/A": {
+            "name": "Studio Display XDR (MFEP4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/be-fr/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4FD/A": {
+            "name": "Studio Display XDR (MFEN4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4FD/A": {
+            "name": "Studio Display XDR (MFEL4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4FD/A": {
+            "name": "Studio Display XDR (MFEQ4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4FD/A": {
+            "name": "Studio Display XDR (MFEP4FD/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/ch-de/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4SM/A": {
+            "name": "Studio Display XDR (MFEN4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4SM/A": {
+            "name": "Studio Display XDR (MFEL4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4SM/A": {
+            "name": "Studio Display XDR (MFEQ4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4SM/A": {
+            "name": "Studio Display XDR (MFEP4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4SM/A": {
+            "name": "Studio Display XDR (MFEN4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4SM/A": {
+            "name": "Studio Display XDR (MFEL4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4SM/A": {
+            "name": "Studio Display XDR (MFEQ4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4SM/A": {
+            "name": "Studio Display XDR (MFEP4SM/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "se": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/se/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4KS/A": {
+            "name": "Studio Display XDR (MFEN4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4KS/A": {
+            "name": "Studio Display XDR (MFEL4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4KS/A": {
+            "name": "Studio Display XDR (MFEQ4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4KS/A": {
+            "name": "Studio Display XDR (MFEP4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "dk": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/dk/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4DK/A": {
+            "name": "Studio Display XDR (MFEN4DK/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4DK/A": {
+            "name": "Studio Display XDR (MFEL4DK/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4DK/A": {
+            "name": "Studio Display XDR (MFEQ4DK/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4DK/A": {
+            "name": "Studio Display XDR (MFEP4DK/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/no/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4KS/A": {
+            "name": "Studio Display XDR (MFEN4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4KS/A": {
+            "name": "Studio Display XDR (MFEL4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4KS/A": {
+            "name": "Studio Display XDR (MFEQ4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4KS/A": {
+            "name": "Studio Display XDR (MFEP4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "fi": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/fi/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4KS/A": {
+            "name": "Studio Display XDR (MFEN4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4KS/A": {
+            "name": "Studio Display XDR (MFEL4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4KS/A": {
+            "name": "Studio Display XDR (MFEQ4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4KS/A": {
+            "name": "Studio Display XDR (MFEP4KS/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "jp": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/jp/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4J/A": {
+            "name": "Studio Display XDR (MFEN4J/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4J/A": {
+            "name": "Studio Display XDR (MFEL4J/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4J/A": {
+            "name": "Studio Display XDR (MFEQ4J/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4J/A": {
+            "name": "Studio Display XDR (MFEP4J/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "kr": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/kr/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4KH/A": {
+            "name": "Studio Display XDR (MFEN4KH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4KH/A": {
+            "name": "Studio Display XDR (MFEL4KH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4KH/A": {
+            "name": "Studio Display XDR (MFEQ4KH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4KH/A": {
+            "name": "Studio Display XDR (MFEP4KH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "hk": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/hk/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4ZP/A": {
+            "name": "Studio Display XDR (MFEN4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4ZP/A": {
+            "name": "Studio Display XDR (MFEL4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4ZP/A": {
+            "name": "Studio Display XDR (MFEQ4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4ZP/A": {
+            "name": "Studio Display XDR (MFEP4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "sg": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/sg/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4ZP/A": {
+            "name": "Studio Display XDR (MFEN4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4ZP/A": {
+            "name": "Studio Display XDR (MFEL4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4ZP/A": {
+            "name": "Studio Display XDR (MFEQ4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4ZP/A": {
+            "name": "Studio Display XDR (MFEP4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "tw": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/tw/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4TA/A": {
+            "name": "Studio Display XDR (MFEN4TA/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4TA/A": {
+            "name": "Studio Display XDR (MFEL4TA/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4TA/A": {
+            "name": "Studio Display XDR (MFEQ4TA/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4TA/A": {
+            "name": "Studio Display XDR (MFEP4TA/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "th": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/th/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4TH/A": {
+            "name": "Studio Display XDR (MFEN4TH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4TH/A": {
+            "name": "Studio Display XDR (MFEL4TH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4TH/A": {
+            "name": "Studio Display XDR (MFEQ4TH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4TH/A": {
+            "name": "Studio Display XDR (MFEP4TH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "my": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/my/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4ZP/A": {
+            "name": "Studio Display XDR (MFEN4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4ZP/A": {
+            "name": "Studio Display XDR (MFEL4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4ZP/A": {
+            "name": "Studio Display XDR (MFEQ4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4ZP/A": {
+            "name": "Studio Display XDR (MFEP4ZP/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "in": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/in/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4HN/A": {
+            "name": "Studio Display XDR (MFEN4HN/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4HN/A": {
+            "name": "Studio Display XDR (MFEL4HN/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4HN/A": {
+            "name": "Studio Display XDR (MFEQ4HN/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4HN/A": {
+            "name": "Studio Display XDR (MFEP4HN/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "ae": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/ae/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4B/A": {
+            "name": "Studio Display XDR (MFEN4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4B/A": {
+            "name": "Studio Display XDR (MFEL4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4B/A": {
+            "name": "Studio Display XDR (MFEQ4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4B/A": {
+            "name": "Studio Display XDR (MFEP4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "sa": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/sa/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4B/A": {
+            "name": "Studio Display XDR (MFEN4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4B/A": {
+            "name": "Studio Display XDR (MFEL4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4B/A": {
+            "name": "Studio Display XDR (MFEQ4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4B/A": {
+            "name": "Studio Display XDR (MFEP4B/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "tr": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/tr/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4TU/A": {
+            "name": "Studio Display XDR (MFEN4TU/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4TU/A": {
+            "name": "Studio Display XDR (MFEL4TU/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4TU/A": {
+            "name": "Studio Display XDR (MFEQ4TU/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4TU/A": {
+            "name": "Studio Display XDR (MFEP4TU/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "br": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/br/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4BZ/A": {
+            "name": "Studio Display XDR (MFEN4BZ/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4BZ/A": {
+            "name": "Studio Display XDR (MFEL4BZ/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4BZ/A": {
+            "name": "Studio Display XDR (MFEQ4BZ/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4BZ/A": {
+            "name": "Studio Display XDR (MFEP4BZ/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "mx": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/mx/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4CL/A": {
+            "name": "Studio Display XDR (MFEN4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4CL/A": {
+            "name": "Studio Display XDR (MFEL4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4CL/A": {
+            "name": "Studio Display XDR (MFEQ4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4CL/A": {
+            "name": "Studio Display XDR (MFEP4CL/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    },
+    "cn": {
+      "studio-display-xdr": {
+        "url": "https://www.apple.com/cn/shop/buy-mac/studio-display-xdr",
+        "skus": {
+          "MFEN4CH/A": {
+            "name": "Studio Display XDR - Standard glass - VESA mount adapter (stand not included) (MFEN4CH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEL4CH/A": {
+            "name": "Studio Display XDR - Standard glass - VESA mount adapter (stand not included) (MFEL4CH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEQ4CH/A": {
+            "name": "Studio Display XDR - Standard glass - VESA mount adapter (stand not included) (MFEQ4CH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MFEP4CH/A": {
+            "name": "Studio Display XDR - Standard glass - VESA mount adapter (stand not included) (MFEP4CH/A)",
+            "colorKey": "unknown",
+            "colorDisplay": "Unknown",
+            "capacity": "",
+            "dimensionScreensize": "",
+            "family": "studiodisplayxdr",
+            "familyName": "studiodisplayxdr",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "studio-display-xdr": "shop/buy-mac/studio-display-xdr"
+      },
+      "localization": {
+        "token_display": {
+          "studio-display-xdr": "Mac Studio Display Xdr"
+        }
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T22:38:14.364016+00:00",
+    "scraper_version": "1.0",
+    "family": "mac",
+    "token": "studio-display-xdr",
+    "regions_scraped": 33
+  }
+}

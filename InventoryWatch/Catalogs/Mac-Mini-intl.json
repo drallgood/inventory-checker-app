@@ -4,37 +4,990 @@
       "mac-mini": {
         "url": "https://www.apple.com/at/shop/buy-mac/mac-mini",
         "skus": {
-          "MCX44": {
-            "name": "Mac mini",
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
           },
-          "MCYT4": {
-            "name": "Mac mini",
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "us": {
+      "mac-mini": {
+        "url": "https://www.apple.com/us/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4LL/A": {
+            "name": "Mac mini (MHQK4LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
           },
-          "MU9D3": {
-            "name": "Mac mini",
+          "MHQN4LL/A": {
+            "name": "Mac mini (MHQN4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "uk": {
+      "mac-mini": {
+        "url": "https://www.apple.com/uk/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4B/A": {
+            "name": "Mac mini (MHQK4B/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
           },
-          "MU9E3": {
-            "name": "Mac mini",
+          "MHQN4B/A": {
+            "name": "Mac mini (MHQN4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "au": {
+      "mac-mini": {
+        "url": "https://www.apple.com/au/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4X/A": {
+            "name": "Mac mini (MHQK4X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4X/A": {
+            "name": "Mac mini (MHQN4X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "ca": {
+      "mac-mini": {
+        "url": "https://www.apple.com/ca/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4VC/A": {
+            "name": "Mac mini (MHQK4VC/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4VC/A": {
+            "name": "Mac mini (MHQN4VC/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "de": {
+      "mac-mini": {
+        "url": "https://www.apple.com/de/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "fr": {
+      "mac-mini": {
+        "url": "https://www.apple.com/fr/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "mac-mini": {
+        "url": "https://www.apple.com/it/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4TY/A": {
+            "name": "Mac mini (MHQK4TY/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4TY/A": {
+            "name": "Mac mini (MHQN4TY/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "es": {
+      "mac-mini": {
+        "url": "https://www.apple.com/es/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4TY/A": {
+            "name": "Mac mini (MHQN4TY/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4TY/A": {
+            "name": "Mac mini (MHQK4TY/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "nl": {
+      "mac-mini": {
+        "url": "https://www.apple.com/nl/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "mac-mini": {
+        "url": "https://www.apple.com/be-nl/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "mac-mini": {
+        "url": "https://www.apple.com/be-fr/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "mac-mini": {
+        "url": "https://www.apple.com/ch-de/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "mac-mini": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4ZD/A": {
+            "name": "Mac mini (MHQN4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4ZD/A": {
+            "name": "Mac mini (MHQK4ZD/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "se": {
+      "mac-mini": {
+        "url": "https://www.apple.com/se/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4KS/A": {
+            "name": "Mac mini (MHQK4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQN4KS/A": {
+            "name": "Mac mini (MHQN4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "dk": {
+      "mac-mini": {
+        "url": "https://www.apple.com/dk/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4DH/A": {
+            "name": "Mac mini (MHQK4DH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4DH/A": {
+            "name": "Mac mini (MHQN4DH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "mac-mini": {
+        "url": "https://www.apple.com/no/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4DH/A": {
+            "name": "Mac mini (MHQK4DH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4DH/A": {
+            "name": "Mac mini (MHQN4DH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "fi": {
+      "mac-mini": {
+        "url": "https://www.apple.com/fi/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4KS/A": {
+            "name": "Mac mini (MHQK4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQN4KS/A": {
+            "name": "Mac mini (MHQN4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "jp": {
+      "mac-mini": {
+        "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4J/A": {
+            "name": "Mac mini (MHQN4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4J/A": {
+            "name": "Mac mini (MHQK4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "kr": {
+      "mac-mini": {
+        "url": "https://www.apple.com/kr/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4KH/A": {
+            "name": "Mac mini (MHQN4KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4KH/A": {
+            "name": "Mac mini (MHQK4KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "hk": {
+      "mac-mini": {
+        "url": "https://www.apple.com/hk/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4ZP/A": {
+            "name": "Mac mini (MHQK4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4ZP/A": {
+            "name": "Mac mini (MHQN4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "sg": {
+      "mac-mini": {
+        "url": "https://www.apple.com/sg/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4ZP/A": {
+            "name": "Mac mini (MHQK4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4ZP/A": {
+            "name": "Mac mini (MHQN4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "tw": {
+      "mac-mini": {
+        "url": "https://www.apple.com/tw/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4TA/A": {
+            "name": "Mac mini (MHQK4TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4TA/A": {
+            "name": "Mac mini (MHQN4TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "th": {
+      "mac-mini": {
+        "url": "https://www.apple.com/th/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4TH/A": {
+            "name": "Mac mini (MHQN4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4TH/A": {
+            "name": "Mac mini (MHQK4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "my": {
+      "mac-mini": {
+        "url": "https://www.apple.com/my/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4ZP/A": {
+            "name": "Mac mini (MHQK4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4ZP/A": {
+            "name": "Mac mini (MHQN4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "in": {
+      "mac-mini": {
+        "url": "https://www.apple.com/in/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4HN/A": {
+            "name": "Mac mini (MHQK4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4HN/A": {
+            "name": "Mac mini (MHQN4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "ae": {
+      "mac-mini": {
+        "url": "https://www.apple.com/ae/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4AB/A": {
+            "name": "Mac mini (MHQK4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4AB/A": {
+            "name": "Mac mini (MHQN4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "sa": {
+      "mac-mini": {
+        "url": "https://www.apple.com/sa/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4AB/A": {
+            "name": "Mac mini (MHQN4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4AB/A": {
+            "name": "Mac mini (MHQK4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "tr": {
+      "mac-mini": {
+        "url": "https://www.apple.com/tr/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4TU/A": {
+            "name": "Mac mini (MHQK4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQN4TU/A": {
+            "name": "Mac mini (MHQN4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "br": {
+      "mac-mini": {
+        "url": "https://www.apple.com/br/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4BZ/A": {
+            "name": "Mac mini (MHQK4BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4BZ/A": {
+            "name": "Mac mini (MHQN4BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          }
+        }
+      }
+    },
+    "mx": {
+      "mac-mini": {
+        "url": "https://www.apple.com/mx/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQN4E/A": {
+            "name": "Mac mini (MHQN4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          },
+          "MHQK4E/A": {
+            "name": "Mac mini (MHQK4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026"
+            }
+          }
+        }
+      }
+    },
+    "cn": {
+      "mac-mini": {
+        "url": "https://www.apple.com/cn/shop/buy-mac/mac-mini",
+        "skus": {
+          "MHQK4CH/A": {
+            "name": "预购 Mac mini (MHQK4CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "预购 Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
+          },
+          "MHQN4CH/A": {
+            "name": "预购 Mac mini (MHQN4CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "预购 Mac mini",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026"
+            }
           }
         }
       }
@@ -47,9 +1000,326 @@
       },
       "localization": {
         "token_display": {
-          "mac-mini": "Mac mini"
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "mac-mini": "shop/buy-mac/mac-mini"
+      },
+      "localization": {
+        "token_display": {
+          "mac-mini": "Mac Mini"
         }
       }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T22:36:41.596360+00:00",
+    "scraper_version": "1.0",
+    "family": "mac",
+    "token": "mac-mini",
+    "regions_scraped": 33
   }
 }

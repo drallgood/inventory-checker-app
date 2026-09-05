@@ -1,39 +1,21 @@
 {
   "discovered_models": {
+    "at": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/at/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
+      }
+    },
     "us": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/us/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXEN2LL/A": {
+          "MGKW4LW/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXEP2LL/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SN7W2LL/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3AM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64LW/A": {
@@ -41,24 +23,8 @@
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
-          },
-          "MGKW4LW/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "Silver",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -67,20 +33,12 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/uk/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXD72ZM/A": {
+          "MF9P4MP/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64MP/A": {
@@ -88,24 +46,8 @@
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
-          },
-          "MF9P4MP/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "Silver",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -113,53 +55,28 @@
     "au": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/au/shop/buy-watch/apple-watch-hermes",
-        "skus": {
-          "MW5G3AM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          }
-        }
+        "skus": {}
       }
     },
     "ca": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "MW5G3CL/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64AM/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4AM/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -168,45 +85,21 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXD72ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64ZR/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silber",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silber",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4ZR/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silber",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silber",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -215,45 +108,21 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXD72ZK/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64ZR/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Argent",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Argent",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4ZR/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Argent",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Argent",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -262,45 +131,21 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXD72ZK/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64QL/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Argento",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Argento",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4QL/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Argento",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Argento",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -309,59 +154,53 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/es/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXD72ZK/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64QL/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Plata",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Plata",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4QL/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Plata",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Plata",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
+      }
+    },
+    "nl": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/nl/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
+      }
+    },
+    "be-nl": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/be-nl/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
+      }
+    },
+    "be-fr": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/be-fr/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
       }
     },
     "ch-de": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/ch-de/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2ZM/A": {
+          "MF9P4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "Silber",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64ZR/A": {
@@ -369,24 +208,8 @@
             "colorKey": "silver",
             "colorDisplay": "Silber",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silber",
-              "caseSize": "46mm"
-            }
-          },
-          "MF9P4ZR/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "Silber",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silber",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -395,12 +218,12 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/ch-fr/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2ZM/A": {
+          "MF9P4ZR/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "Argent",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64ZR/A": {
@@ -408,24 +231,8 @@
             "colorKey": "silver",
             "colorDisplay": "Argent",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Argent",
-              "caseSize": "46mm"
-            }
-          },
-          "MF9P4ZR/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "Argent",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Argent",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -434,45 +241,21 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/se/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2ZM/A": {
+          "MF9P4QN/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "Aluminum",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZM/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64QN/A": {
             "name": "",
             "colorKey": "silver",
-            "colorDisplay": "Silver",
+            "colorDisplay": "Aluminum",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
-          },
-          "MF9P4QN/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "Silver",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -489,47 +272,28 @@
         "skus": {}
       }
     },
+    "fi": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/fi/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
+      }
+    },
     "jp": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-hermes",
-        "skus": {
-          "SXD72JZ/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2JZ/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          }
-        }
+        "skus": {}
       }
     },
     "kr": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/kr/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2ZX/A": {
+          "MF9P4KH/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "실버",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3KH/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64KH/A": {
@@ -537,24 +301,8 @@
             "colorKey": "silver",
             "colorDisplay": "실버",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "실버",
-              "caseSize": "46mm"
-            }
-          },
-          "MF9P4KH/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "실버",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "실버",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -563,45 +311,21 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/hk/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64ZP/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4ZP/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -609,36 +333,19 @@
     "sg": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/sg/shop/buy-watch/apple-watch-hermes",
-        "skus": {
-          "SXAM2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          }
-        }
+        "skus": {}
       }
     },
     "tw": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/tw/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "MW5G3TA/A": {
+          "MF9P4TA/A": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "銀色",
             "capacity": "",
-            "family": "watch",
+            "family": "apple_watch",
             "familyName": "Apple Watch Hermès"
           },
           "MFC64TA/A": {
@@ -646,24 +353,8 @@
             "colorKey": "silver",
             "colorDisplay": "銀色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "銀色",
-              "caseSize": "46mm"
-            }
-          },
-          "MF9P4TA/A": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "銀色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "銀色",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -672,45 +363,21 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/th/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64SA/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "เงิน",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "เงิน",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4SA/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "เงิน",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "เงิน",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -718,69 +385,34 @@
     "my": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/my/shop/buy-watch/apple-watch-hermes",
-        "skus": {
-          "SXAM2ZX/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZA/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          }
-        }
+        "skus": {}
+      }
+    },
+    "in": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/in/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
       }
     },
     "ae": {
       "apple-watch-hermes": {
         "url": "https://www.apple.com/ae/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2AE/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZE/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64AF/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4AF/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
       }
@@ -789,55 +421,29 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/sa/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXD72AE/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "SXAM2AE/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
-          "MW5G3ZE/A": {
-            "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès"
-          },
           "MFC64AF/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "46mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           },
           "MF9P4AF/A": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "Silver",
             "capacity": "",
-            "family": "watch",
-            "familyName": "Apple Watch Hermès",
-            "metadata": {
-              "color": "Silver",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès"
           }
         }
+      }
+    },
+    "tr": {
+      "apple-watch-hermes": {
+        "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-hermes",
+        "skus": {}
       }
     },
     "br": {
@@ -873,50 +479,44 @@
       "apple-watch-hermes": {
         "url": "https://www.apple.com/cn/shop/buy-watch/apple-watch-hermes",
         "skus": {
-          "SXAM2CH/A": {
+          "MFA84CH/B": {
             "name": "",
-            "colorKey": "",
-            "colorDisplay": "",
+            "colorKey": "silver",
+            "colorDisplay": "银色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch Hermès Series 11"
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès Series 11"
           },
           "MFCQ4CH/B": {
             "name": "",
             "colorKey": "silver",
             "colorDisplay": "银色",
             "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch Hermès Series 11",
-            "metadata": {
-              "color": "银色",
-              "caseSize": "46mm"
-            }
-          },
-          "MFA84CH/B": {
-            "name": "",
-            "colorKey": "silver",
-            "colorDisplay": "银色",
-            "capacity": "",
-            "family": "watch",
-            "familyName": "购买 Apple Watch Hermès Series 11",
-            "metadata": {
-              "color": "银色",
-              "caseSize": "42mm"
-            }
+            "family": "apple_watch",
+            "familyName": "Apple Watch Hermès Series 11"
           }
         }
       }
     }
   },
   "country_mappings": {
+    "at": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
     "us": {
       "shop_paths": {
         "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -926,7 +526,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -936,7 +536,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -946,7 +546,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -956,7 +556,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -966,7 +566,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -976,7 +576,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -986,7 +586,37 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -996,7 +626,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1006,7 +636,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1016,7 +646,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1026,7 +656,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1036,7 +666,17 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1046,7 +686,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1056,7 +696,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1066,7 +706,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1076,7 +716,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1086,7 +726,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1096,7 +736,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1106,7 +746,17 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1116,7 +766,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1126,7 +776,17 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "apple-watch-hermes": "shop/buy-watch/apple-watch-hermes"
+      },
+      "localization": {
+        "token_display": {
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1136,7 +796,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1146,7 +806,7 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     },
@@ -1156,9 +816,16 @@
       },
       "localization": {
         "token_display": {
-          "apple-watch-hermes": "购买 Apple Watch Hermès Series 11"
+          "apple-watch-hermes": "Apple Watch Apple Watch Hermes"
         }
       }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-05T00:17:59.933463+00:00",
+    "scraper_version": "1.0",
+    "family": "watch",
+    "token": "apple-watch-hermes",
+    "regions_scraped": 33
   }
 }

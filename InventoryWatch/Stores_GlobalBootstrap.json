@@ -5,6 +5,25 @@
       "hasStates": true,
       "state": [
         {
+          "name": "Uttar Pradesh",
+          "store": [
+            {
+              "id": "R787",
+              "name": "Noida",
+              "telephone": "000800 040 4934",
+              "slug": "noida",
+              "address": {
+                "address1": "D123-D128, DLF Mall of India",
+                "address2": "Sector 18",
+                "city": "Noida",
+                "postalCode": "201301",
+                "stateName": "Uttar Pradesh",
+                "stateCode": "UP"
+              }
+            }
+          ]
+        },
+        {
           "name": "Delhi",
           "store": [
             {
@@ -69,6 +88,20 @@
                 "address2": "Bandra Kurla Complex",
                 "city": "Mumbai",
                 "postalCode": "400051",
+                "stateName": "Maharashtra",
+                "stateCode": "MAH"
+              }
+            },
+            {
+              "id": "R757",
+              "name": "Borivali",
+              "telephone": "000800 040 4935",
+              "slug": "borivali",
+              "address": {
+                "address1": "G4, Sky City Mall",
+                "address2": "Off Western Express Highway, Borivali",
+                "city": "Mumbai",
+                "postalCode": "400066",
                 "stateName": "Maharashtra",
                 "stateCode": "MAH"
               }
@@ -395,20 +428,6 @@
                 "address2": "",
                 "city": "Schaumburg",
                 "postalCode": "60173",
-                "stateName": "Illinois",
-                "stateCode": "IL"
-              }
-            },
-            {
-              "id": "R141",
-              "name": "Northbrook",
-              "telephone": "(847) 205-2020",
-              "slug": "northbrook",
-              "address": {
-                "address1": "1056 Northbrook Court",
-                "address2": "",
-                "city": "Northbrook",
-                "postalCode": "60062",
                 "stateName": "Illinois",
                 "stateCode": "IL"
               }
@@ -1112,7 +1131,7 @@
               "telephone": "(760) 697-9800",
               "slug": "carlsbad",
               "address": {
-                "address1": "1923 Calle Barcelona",
+                "address1": "1925 Calle Barcelona",
                 "address2": "",
                 "city": "Carlsbad",
                 "postalCode": "92009",
@@ -1304,14 +1323,14 @@
             },
             {
               "id": "R044",
-              "name": "Santa Rosa Plaza",
+              "name": "Montgomery Village",
               "telephone": "(707) 508-3500",
-              "slug": "santarosaplaza",
+              "slug": "montgomeryvillage",
               "address": {
-                "address1": "1071 Santa Rosa Plaza",
+                "address1": "720 Farmers Ln",
                 "address2": "",
                 "city": "Santa Rosa",
-                "postalCode": "95401",
+                "postalCode": "95405",
                 "stateName": "California",
                 "stateCode": "CA"
               }
@@ -1340,20 +1359,6 @@
                 "address2": "",
                 "city": "San Luis Obispo",
                 "postalCode": "93401",
-                "stateName": "California",
-                "stateCode": "CA"
-              }
-            },
-            {
-              "id": "R285",
-              "name": "North County",
-              "telephone": "(760) 317-2484",
-              "slug": "northcounty",
-              "address": {
-                "address1": "272 E Via Rancho Parkway",
-                "address2": "",
-                "city": "Escondido",
-                "postalCode": "92025",
                 "stateName": "California",
                 "stateCode": "CA"
               }
@@ -1926,20 +1931,6 @@
           "name": "Maryland",
           "store": [
             {
-              "id": "R063",
-              "name": "Towson Town Center",
-              "telephone": "(410) 427-0360",
-              "slug": "towsontowncenter",
-              "address": {
-                "address1": "825 Dulaney Valley Road",
-                "address2": "",
-                "city": "Towson",
-                "postalCode": "21204",
-                "stateName": "Maryland",
-                "stateCode": "MD"
-              }
-            },
-            {
               "id": "R084",
               "name": "Montgomery Mall",
               "telephone": "(301) 634-9930",
@@ -2128,23 +2119,9 @@
               }
             },
             {
-              "id": "R218",
-              "name": "Partridge Creek",
-              "telephone": "(586) 840-0500",
-              "slug": "partridgecreek",
-              "address": {
-                "address1": "17360 Hall Road",
-                "address2": "",
-                "city": "Clinton Township",
-                "postalCode": "48038",
-                "stateName": "Michigan",
-                "stateCode": "MI"
-              }
-            },
-            {
               "id": "R763",
               "name": "Downtown Detroit",
-              "telephone": "(313) 2302195",
+              "telephone": "(313) 230-2195",
               "slug": "downtowndetroit",
               "address": {
                 "address1": "1430 Woodward Ave",
@@ -2255,8 +2232,8 @@
               "telephone": "(719) 522-4460",
               "slug": "thepromenadeshopsatbriargate",
               "address": {
-                "address1": "1685 Briargate Parkway",
-                "address2": "Suite 315",
+                "address1": "1845 Briargate Parkway",
+                "address2": "",
                 "city": "Colorado Springs",
                 "postalCode": "80920",
                 "stateName": "Colorado",
@@ -2785,14 +2762,14 @@
             },
             {
               "id": "R622",
-              "name": "Solomon Pond Mall",
+              "name": "The Shops at Blackstone Valley",
               "telephone": "(978) 838-5000",
-              "slug": "solomonpondmall",
+              "slug": "theshopsatblackstonevalley",
               "address": {
-                "address1": "601 Donald Lynch Boulevard",
+                "address1": "70 Worcester-Providence Turnpike",
                 "address2": "",
-                "city": "Marlborough",
-                "postalCode": "01752",
+                "city": "Millbury",
+                "postalCode": "01527",
                 "stateName": "Massachusetts",
                 "stateCode": "MA"
               }
@@ -4035,20 +4012,6 @@
               }
             },
             {
-              "id": "R629",
-              "name": "Trumbull",
-              "telephone": "(203) 666-3928",
-              "slug": "trumbull",
-              "address": {
-                "address1": "5065 Main Street",
-                "address2": "",
-                "city": "Trumbull",
-                "postalCode": "06611",
-                "stateName": "Connecticut",
-                "stateCode": "CT"
-              }
-            },
-            {
               "id": "R093",
               "name": "Danbury Fair Mall",
               "telephone": "(203) 546-6340",
@@ -4218,7 +4181,7 @@
               "telephone": "(817) 840-9801",
               "slug": "universityparkvillage",
               "address": {
-                "address1": "1620 S. University Drive",
+                "address1": "1540 S. University Drive",
                 "address2": "",
                 "city": "Fort Worth",
                 "postalCode": "76107",
@@ -4325,20 +4288,6 @@
               }
             },
             {
-              "id": "R151",
-              "name": "Southlake Town Square",
-              "telephone": "(817) 722-1401",
-              "slug": "southlaketownsquare",
-              "address": {
-                "address1": "260 Grand Avenue",
-                "address2": "",
-                "city": "Southlake",
-                "postalCode": "76092",
-                "stateName": "Texas",
-                "stateCode": "TX"
-              }
-            },
-            {
               "id": "R290",
               "name": "North Star",
               "telephone": "(210) 321-4420",
@@ -4348,6 +4297,20 @@
                 "address2": "",
                 "city": "San Antonio",
                 "postalCode": "78216",
+                "stateName": "Texas",
+                "stateCode": "TX"
+              }
+            },
+            {
+              "id": "R151",
+              "name": "Southlake Town Square",
+              "telephone": "(817) 722-1401",
+              "slug": "southlaketownsquare",
+              "address": {
+                "address1": "260 Grand Avenue",
+                "address2": "",
+                "city": "Southlake",
+                "postalCode": "76092",
                 "stateName": "Texas",
                 "stateCode": "TX"
               }
@@ -5499,20 +5462,6 @@
               }
             },
             {
-              "id": "R458",
-              "name": "Hornsby",
-              "telephone": "(02) 8401 8800",
-              "slug": "hornsby",
-              "address": {
-                "address1": "Westfield Hornsby",
-                "address2": "236 Pacific Highway",
-                "city": "Hornsby",
-                "postalCode": "2077",
-                "stateName": "New South Wales",
-                "stateCode": "NSW"
-              }
-            },
-            {
               "id": "R606",
               "name": "Miranda",
               "telephone": "(02) 8578 1700",
@@ -5585,7 +5534,7 @@
             {
               "id": "R253",
               "name": "Chatswood Chase",
-              "telephone": "(02) 8064 6300",
+              "telephone": "(02) 8206 0500",
               "slug": "chatswoodchase",
               "address": {
                 "address1": "Chatswood Chase Sydney",
@@ -5925,6 +5874,20 @@
           "name": "Abu Dhabi",
           "store": [
             {
+              "id": "R785",
+              "name": "Al Jimi Mall",
+              "telephone": "800 0444 4106",
+              "slug": "aljimimall",
+              "address": {
+                "address1": "Al Jimi Mall",
+                "address2": "Hamdan Bin Mohammed Street",
+                "city": "Al Ain",
+                "postalCode": "",
+                "stateName": "Abu Dhabi",
+                "stateCode": null
+              }
+            },
+            {
               "id": "R706",
               "name": "Al Maryah Island",
               "telephone": "800 0444 0521",
@@ -6257,20 +6220,6 @@
           "name": "Bristol",
           "store": [
             {
-              "id": "R252",
-              "name": "Bristol",
-              "telephone": "0117 900 3450",
-              "slug": "bristol",
-              "address": {
-                "address1": "11 Philadelphia Street",
-                "address2": "Quakers Friars",
-                "city": "Bristol",
-                "postalCode": "BS1 3BZ",
-                "stateName": "Bristol",
-                "stateCode": null
-              }
-            },
-            {
               "id": "R393",
               "name": "Cribbs Causeway",
               "telephone": "0117 959 7600",
@@ -6555,7 +6504,7 @@
               "telephone": "01923 421 700",
               "slug": "watford",
               "address": {
-                "address1": "Atria Watford",
+                "address1": "Harlequin Watford",
                 "address2": "Units 156 - 158",
                 "city": "Watford",
                 "postalCode": "WD17 2TN",
@@ -7179,10 +7128,10 @@
               "telephone": "(514) 906-8400",
               "slug": "saintecatherine",
               "address": {
-                "address1": "1321 Rue Ste-Catherine Ouest",
+                "address1": "1255 Rue Sainte-Catherine West",
                 "address2": "",
                 "city": "Montreal",
-                "postalCode": "H3G 1P7",
+                "postalCode": "H3G 1P3",
                 "stateName": "Quebec",
                 "stateCode": "QC"
               }
@@ -7602,8 +7551,8 @@
               "telephone": "(03) 4345-3600",
               "slug": "ginza",
               "address": {
-                "address1": "8-9-7 Ginza",
-                "address2": "",
+                "address1": "3-5-12 Ginza",
+                "address2": "Sayegusa Building",
                 "city": "Chuo-ku",
                 "postalCode": "104-0061",
                 "stateName": "Tokyo",
@@ -8037,20 +7986,6 @@
               }
             },
             {
-              "id": "R478",
-              "name": "Parkland",
-              "telephone": "400-056-0921",
-              "slug": "parkland",
-              "address": {
-                "address1": "19 Jiefang Road",
-                "address2": "",
-                "city": "Dalian",
-                "postalCode": "116000",
-                "stateName": "Liaoning",
-                "stateCode": null
-              }
-            },
-            {
               "id": "R609",
               "name": "Olympia 66 Dalian",
               "telephone": "400-613-9741",
@@ -8145,6 +8080,20 @@
                 "address2": "131 North Xidan Avenue",
                 "city": "Beijing",
                 "postalCode": "100032",
+                "stateName": "Beijing",
+                "stateCode": null
+              }
+            },
+            {
+              "id": "R792",
+              "name": "Livat Beijing",
+              "telephone": "400-009-6560",
+              "slug": "livatbeijing",
+              "address": {
+                "address1": "No.15 Xinning Street,",
+                "address2": "Beijing Livat Mall 1st Floor",
+                "city": "Beijing",
+                "postalCode": "100162",
                 "stateName": "Beijing",
                 "stateCode": null
               }

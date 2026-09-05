@@ -4,197 +4,3817 @@
       "macbook-air": {
         "url": "https://www.apple.com/at/shop/buy-mac/macbook-air",
         "skus": {
-          "MC6U4": {
-            "name": "MacBook Air",
+          "MDHE4D/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHE4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
           },
-          "MC6T4": {
-            "name": "MacBook Air",
+          "MDVH4D/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVH4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
           },
-          "MC6V4": {
-            "name": "MacBook Air",
+          "MDVQ4D/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVQ4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
           },
-          "MW103": {
-            "name": "MacBook Air",
+          "MDV94D/A": {
+            "name": "MacBook Air 15-inch Starlight",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
           },
-          "MW0Y3": {
-            "name": "MacBook Air",
+          "MDHA4D/A": {
+            "name": "MacBook Air 13-inch Skyblue",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
           },
-          "MC6A4": {
-            "name": "MacBook Air",
+          "MDH74D/A": {
+            "name": "MacBook Air 15-inch Silver",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MC654": {
-            "name": "MacBook Air",
+          "MDHH4D/A": {
+            "name": "MacBook Air 13-inch Silver (MDHH4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MW0X3": {
-            "name": "MacBook Air",
+          "MDVD4D/A": {
+            "name": "MacBook Air 13-inch Silver (MDVD4D/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver"
+            }
+          }
+        }
+      }
+    },
+    "us": {
+      "macbook-air": {
+        "url": "https://www.apple.com/us/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVD4LL/A": {
+            "name": "MacBook Air 15-inch Starlight (MDVD4LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
           },
-          "MW0W3": {
-            "name": "MacBook Air",
+          "MDV94LL/A": {
+            "name": "MacBook Air 15-inch Starlight (MDV94LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
           },
-          "MW133": {
-            "name": "MacBook Air",
+          "MDVQ4LL/A": {
+            "name": "MacBook Air 13-inch Midnight",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
           },
-          "MW123": {
-            "name": "MacBook Air",
+          "MDHH4LL/A": {
+            "name": "MacBook Air 15-inch Silver",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MC6C4": {
-            "name": "MacBook Air",
+          "MDH74LL/A": {
+            "name": "MacBook Air 15-inch Skyblue",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
           },
-          "MW1K3": {
-            "name": "MacBook Air",
+          "MDHA4LL/A": {
+            "name": "MacBook Air 13-inch Skyblue",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
           },
-          "MW1J3": {
-            "name": "MacBook Air",
+          "MDHE4LL/A": {
+            "name": "MacBook Air 13-inch Silver (MDHE4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MC6K4": {
-            "name": "MacBook Air",
+          "MDVH4LL/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4LL/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          }
+        }
+      }
+    },
+    "uk": {
+      "macbook-air": {
+        "url": "https://www.apple.com/uk/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVD4B/A": {
+            "name": "MacBook Air 15-inch Starlight (MDVD4B/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
           },
-          "MC7C4": {
-            "name": "MacBook Air",
+          "MDV94B/A": {
+            "name": "MacBook Air 15-inch Starlight (MDV94B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight"
+            }
           },
-          "MC7A4": {
-            "name": "MacBook Air",
+          "MDVH4B/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
           },
-          "MC7D4": {
-            "name": "MacBook Air",
+          "MDHE4B/A": {
+            "name": "MacBook Air 13-inch Starlight",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
           },
-          "MW1H3": {
-            "name": "MacBook Air",
+          "MDH74B/A": {
+            "name": "MacBook Air 15-inch Midnight",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
           },
-          "MW1G3": {
-            "name": "MacBook Air",
+          "MDVQ4B/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MC6J4": {
-            "name": "MacBook Air",
+          "MDHH4B/A": {
+            "name": "MacBook Air 13-inch Silver (MDHH4B/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MW1L3": {
-            "name": "MacBook Air",
+          "MDHA4B/A": {
+            "name": "MacBook Air 13-inch Skyblue",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "au": {
+      "macbook-air": {
+        "url": "https://www.apple.com/au/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74X/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MW1M3": {
-            "name": "MacBook Air",
+          "MDVD4X/A": {
+            "name": "MacBook Air 13-inch Silver (MDVD4X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
           },
-          "MC6L4": {
-            "name": "MacBook Air",
+          "MDV94X/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94X/A)",
             "colorKey": "",
             "colorDisplay": "",
             "capacity": "",
             "family": "mac",
-            "familyName": "Mac"
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4X/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHA4X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4X/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHE4X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHH4X/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHH4X/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVQ4X/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVH4X/A": {
+            "name": "MacBook Air 13-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "ca": {
+      "macbook-air": {
+        "url": "https://www.apple.com/ca/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDV94LL/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHE4LL/A": {
+            "name": "MacBook Air 13-inch Silver (MDHE4LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4LL/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4LL/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHH4LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDH74LL/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4LL/A": {
+            "name": "MacBook Air 13-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4LL/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4LL/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVD4LL/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          }
+        }
+      }
+    },
+    "de": {
+      "macbook-air": {
+        "url": "https://www.apple.com/de/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVD4D/A": {
+            "name": "MacBook Air 15-inch Starlight (MDVD4D/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94D/A": {
+            "name": "MacBook Air 15-inch Starlight (MDV94D/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVH4D/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4D/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHE4D/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHE4D/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDH74D/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4D/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVQ4D/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHH4D/A": {
+            "name": "MacBook Air 13-inch Silver (MDHH4D/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4D/A": {
+            "name": "MacBook Air 13-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "fr": {
+      "macbook-air": {
+        "url": "https://www.apple.com/fr/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVQ4FN/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVQ4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHH4FN/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4FN/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHA4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4FN/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74FN/A": {
+            "name": "MacBook Air 13-inch Starlight (MDH74FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94FN/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVH4FN/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4FN/A": {
+            "name": "MacBook Air 13-inch Silver (MDVD4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "macbook-air": {
+        "url": "https://www.apple.com/it/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74T/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74T/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4T/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4T/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDV94T/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4T/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHH4T/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4T/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHA4T/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4T/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4T/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4T/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "es": {
+      "macbook-air": {
+        "url": "https://www.apple.com/es/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHH4Y/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHH4Y/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4Y/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVD4Y/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94Y/A": {
+            "name": "MacBook Air 13-inch Starlight (MDV94Y/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVQ4Y/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDVQ4Y/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4Y/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDH74Y/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDH74Y/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4Y/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHE4Y/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHE4Y/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "nl": {
+      "macbook-air": {
+        "url": "https://www.apple.com/nl/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHA4N/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHA4N/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVD4N/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVD4N/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHH4N/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHH4N/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVQ4N/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4N/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4N/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4N/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVH4N/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94N/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDH74N/A": {
+            "name": "MacBook Air 13-inch Starlight (MDH74N/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "be-nl": {
+      "macbook-air": {
+        "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVQ4FN/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4FN/A": {
+            "name": "MacBook Air 13-inch Silver (MDHH4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4FN/A": {
+            "name": "MacBook Air 13-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74FN/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4FN/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94FN/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4FN/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHE4FN/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "be-fr": {
+      "macbook-air": {
+        "url": "https://www.apple.com/be-fr/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVH4FN/A": {
+            "name": "MacBook Air 15-inch Midnight (MDVH4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4FN/A": {
+            "name": "MacBook Air 15-inch Midnight (MDVQ4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHE4FN/A": {
+            "name": "MacBook Air 15-inch Midnight (MDHE4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDV94FN/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4FN/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDH74FN/A": {
+            "name": "MacBook Air 13-inch Starlight (MDH74FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHA4FN/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHH4FN/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHH4FN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "ch-de": {
+      "macbook-air": {
+        "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHH4SM/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHH4SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVD4SM/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVD4SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVH4SM/A": {
+            "name": "MacBook Air 13-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4SM/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDV94SM/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDH74SM/A": {
+            "name": "MacBook Air 13-inch Midnight (MDH74SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHA4SM/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4SM/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "ch-fr": {
+      "macbook-air": {
+        "url": "https://www.apple.com/ch-fr/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHH4SM/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHH4SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4SM/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVD4SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4SM/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHA4SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74SM/A": {
+            "name": "MacBook Air 13-inch Starlight (MDH74SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVH4SM/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4SM/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVQ4SM/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4SM/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDV94SM/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "se": {
+      "macbook-air": {
+        "url": "https://www.apple.com/se/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHE4KS/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHE4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDH74KS/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4KS/A": {
+            "name": "MacBook Air 13-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94KS/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4KS/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVD4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVH4KS/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4KS/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHH4KS/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "dk": {
+      "macbook-air": {
+        "url": "https://www.apple.com/dk/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHH4DK/A": {
+            "name": "MacBook Air 13-inch Silver (MDHH4DK/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4DK/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4DK/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHE4DK/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4DK/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94DK/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDV94DK/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74DK/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHA4DK/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4DK/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVD4DK/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "macbook-air": {
+        "url": "https://www.apple.com/no/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVQ4H/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDVQ4H/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94H/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDV94H/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4H/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDHE4H/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4H/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4H/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVD4H/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHH4H/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHA4H/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDH74H/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDH74H/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "fi": {
+      "macbook-air": {
+        "url": "https://www.apple.com/fi/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVD4KS/A": {
+            "name": "MacBook Air 15-inch Starlight (MDVD4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHH4KS/A": {
+            "name": "MacBook Air 15-inch Starlight (MDHH4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVH4KS/A": {
+            "name": "MacBook Air 15-inch Starlight (MDVH4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDH74KS/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDH74KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4KS/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4KS/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVQ4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4KS/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHE4KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94KS/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDV94KS/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "jp": {
+      "macbook-air": {
+        "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74J/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4J/A": {
+            "name": "MacBook Air 13-inch Silver (MDHA4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDV94J/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4J/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVH4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHH4J/A": {
+            "name": "MacBook Air 13-inch Silver (MDHH4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4J/A": {
+            "name": "MacBook Air 15-inch Midnight (MDVQ4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHE4J/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4J/A": {
+            "name": "MacBook Air 15-inch Midnight (MDVD4J/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          }
+        }
+      }
+    },
+    "kr": {
+      "macbook-air": {
+        "url": "https://www.apple.com/kr/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74KH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDH74KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4KH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHA4KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4KH/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4KH/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVH4KH/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVQ4KH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVQ4KH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94KH/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHE4KH/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "hk": {
+      "macbook-air": {
+        "url": "https://www.apple.com/hk/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDHA4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4ZP/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHH4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94ZP/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4ZP/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4ZP/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVH4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4ZP/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVD4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "sg": {
+      "macbook-air": {
+        "url": "https://www.apple.com/sg/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDHA4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4ZP/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHH4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94ZP/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4ZP/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4ZP/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVH4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4ZP/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVD4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "tw": {
+      "macbook-air": {
+        "url": "https://www.apple.com/tw/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHA4TA/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHA4TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4TA/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHE4TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDH74TA/A": {
+            "name": "MacBook Air 13-inch Starlight (MDH74TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94TA/A": {
+            "name": "MacBook Air 13-inch Midnight (MDV94TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVH4TA/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4TA/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHH4TA/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHH4TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVD4TA/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVD4TA/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "th": {
+      "macbook-air": {
+        "url": "https://www.apple.com/th/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74TH/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4TH/A": {
+            "name": "MacBook Air 13-inch Silver (MDHA4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHE4TH/A": {
+            "name": "MacBook Air 13-inch Silver (MDHE4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4TH/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVH4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4TH/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94TH/A": {
+            "name": "MacBook Air 13-inch Midnight (MDV94TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVD4TH/A": {
+            "name": "MacBook Air 15-inch Silver (MDVD4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4TH/A": {
+            "name": "MacBook Air 15-inch Silver (MDHH4TH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          }
+        }
+      }
+    },
+    "my": {
+      "macbook-air": {
+        "url": "https://www.apple.com/my/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDH74ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDH74ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDHA4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHE4ZP/A": {
+            "name": "MacBook Air 13-inch Silver (MDHE4ZP/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDV94ZP/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4ZP/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHH4ZP/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4ZP/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "in": {
+      "macbook-air": {
+        "url": "https://www.apple.com/in/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVH4HN/A": {
+            "name": "MacBook Air 13-inch Silver (MDVH4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4HN/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4HN/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHH4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVD4HN/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDVD4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74HN/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDH74HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4HN/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4HN/A": {
+            "name": "MacBook Air 13-inch Silver (MDHE4HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDV94HN/A": {
+            "name": "MacBook Air 13-inch Midnight (MDV94HN/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          }
+        }
+      }
+    },
+    "ae": {
+      "macbook-air": {
+        "url": "https://www.apple.com/ae/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDV94AB/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVQ4AB/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4AB/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHH4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDH74AB/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDH74AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4AB/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHA4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4AB/A": {
+            "name": "MacBook Air 13-inch Silver (MDHE4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4AB/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVH4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVD4AB/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          }
+        }
+      }
+    },
+    "sa": {
+      "macbook-air": {
+        "url": "https://www.apple.com/sa/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVD4AB/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVD4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74AB/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDH74AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4AB/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDVH4AB/A": {
+            "name": "MacBook Air 15-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHH4AB/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4AB/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHE4AB/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94AB/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDV94AB/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          }
+        }
+      }
+    },
+    "tr": {
+      "macbook-air": {
+        "url": "https://www.apple.com/tr/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDVH4TU/A": {
+            "name": "MacBook Air 15-inch Midnight (MDVH4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDVQ4TU/A": {
+            "name": "MacBook Air 15-inch Midnight (MDVQ4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDH74TU/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDH74TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4TU/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDHA4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHH4TU/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4TU/A": {
+            "name": "MacBook Air 13-inch Starlight (MDVD4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4TU/A": {
+            "name": "MacBook Air 13-inch Starlight (MDHE4TU/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDV94TU/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          }
+        }
+      }
+    },
+    "br": {
+      "macbook-air": {
+        "url": "https://www.apple.com/br/shop/buy-mac/macbook-air",
+        "skus": {
+          "MN863BR/A": {
+            "name": "MacBook Air (MN863BR/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "isRealPartNumber": true
+            }
+          },
+          "MDHH4BZ/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHH4BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94BZ/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDV94BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4BZ/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVH4BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVQ4BZ/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDVQ4BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4BZ/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDH74BZ/A": {
+            "name": "MacBook Air 15-inch Skyblue (MDH74BZ/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHA4BZ/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHE4BZ/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          }
+        }
+      }
+    },
+    "mx": {
+      "macbook-air": {
+        "url": "https://www.apple.com/mx/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHE4E/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHE4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVD4E/A": {
+            "name": "MacBook Air 13-inch Midnight (MDVD4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDH74E/A": {
+            "name": "MacBook Air 13-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight"
+            }
+          },
+          "MDHH4E/A": {
+            "name": "MacBook Air 13-inch Midnight (MDHH4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDV94E/A": {
+            "name": "MacBook Air 13-inch Silver (MDV94E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDHA4E/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHA4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVQ4E/A": {
+            "name": "MacBook Air 13-inch Silver (MDVQ4E/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVH4E/A": {
+            "name": "MacBook Air 15-inch Starlight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "starlight"
+            }
+          }
+        }
+      }
+    },
+    "cn": {
+      "macbook-air": {
+        "url": "https://www.apple.com/cn/shop/buy-mac/macbook-air",
+        "skus": {
+          "MDHH4CH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDHH4CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVH4CH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVH4CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDVQ4CH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVQ4CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDH74CH/A": {
+            "name": "MacBook Air 15-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "midnight"
+            }
+          },
+          "MDHA4CH/A": {
+            "name": "MacBook Air 15-inch Skyblue",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "15inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDHE4CH/A": {
+            "name": "MacBook Air 13-inch Silver",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver"
+            }
+          },
+          "MDVD4CH/A": {
+            "name": "MacBook Air 13-inch Skyblue (MDVD4CH/A)",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue"
+            }
+          },
+          "MDV94CH/A": {
+            "name": "MacBook Air 13-inch Midnight",
+            "colorKey": "",
+            "colorDisplay": "",
+            "capacity": "",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "dimensionScreensize": "13inch",
+            "metadata": {
+              "isRealPartNumber": true,
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight"
+            }
           }
         }
       }
@@ -207,9 +3827,326 @@
       },
       "localization": {
         "token_display": {
-          "macbook-air": "MacBook Air"
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "us": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "uk": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "au": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "ca": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "de": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "fr": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "it": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "es": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "nl": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "be-nl": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "be-fr": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "ch-de": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "ch-fr": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "se": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "dk": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "no": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "fi": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "jp": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "kr": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "hk": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "sg": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "tw": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "th": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "my": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "in": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "ae": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "sa": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "tr": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "br": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "mx": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
+        }
+      }
+    },
+    "cn": {
+      "shop_paths": {
+        "macbook-air": "shop/buy-mac/macbook-air"
+      },
+      "localization": {
+        "token_display": {
+          "macbook-air": "Mac Macbook Air"
         }
       }
     }
+  },
+  "_meta": {
+    "generated_at": "2026-09-04T22:34:45.173105+00:00",
+    "scraper_version": "1.0",
+    "family": "mac",
+    "token": "macbook-air",
+    "regions_scraped": 33
   }
 }
