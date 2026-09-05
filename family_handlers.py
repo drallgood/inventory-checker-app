@@ -1154,9 +1154,31 @@ class IPadHandler(FamilyHandler):
             for m in re.finditer(r'\"dimensionConnection\"\s*:\s*\"(wifi|wificell)\"', html, re.IGNORECASE):
                 # Look for SKU nearby (within 600 chars after)
                 window = html[m.end():m.end() + 600]
-                for sku_m in re.finditer(r'"(MH[A-Z0-9]{2,7})(?:[A-Z]{1,3}/[A-Z])?"', window):
+                for sku_m in re.finditer(r'"(M[A-Z0-9]{3,7})(?:[A-Z]{1,3}/[A-Z])?"', window):
                     conn = 'Cellular' if m.group(1).lower() == 'wificell' else 'Wi-Fi'
-                    pn_to_conn.setdefault(sku_m.group(1), conn)
+                    pn_to_conn[sku_m.group(1)] = conn
+        # Fallback: extract connectivity from bootstrap product data for SKUs
+        # missed by the HTML proximity scan
+        bs = (payload.get('bootstrap') or {}) if isinstance(payload, dict) else {}
+        if isinstance(bs, dict):
+            psd = bs.get('productSelectionData') or {}
+            for p in (psd.get('products') or []) if isinstance(psd, dict) else []:
+                if not isinstance(p, dict):
+                    continue
+                dc = p.get('dimensionConnection', '')
+                if not dc:
+                    continue
+                pn = p.get('partNumber') or p.get('btrOrFdPartNumber') or ''
+                bp = p.get('basePartNumber') or (pn[:6] if len(pn) >= 6 else '')
+                conn_label = 'Cellular' if str(dc).lower() == 'wificell' else 'Wi-Fi'
+                for key in (pn, bp):
+                    if key:
+                        pn_to_conn[key] = conn_label
+                # Also index prefix variants so k[:N] lookups always hit
+                for key in (pn, bp):
+                    if key:
+                        for plen in range(4, min(len(key) + 1, 8)):
+                            pn_to_conn[key[:plen]] = conn_label
         for k, v in skus.items():
             if not isinstance(v, dict):
                 continue
@@ -1165,6 +1187,11 @@ class IPadHandler(FamilyHandler):
             cap = (v.get('capacity') or '').strip()
             color = (v.get('colorDisplay') or '').strip()
             conn = pn_to_conn.get(k[:6], '')
+            if not conn:
+                for plen in (5, 4):
+                    conn = pn_to_conn.get(k[:plen], '')
+                    if conn:
+                        break
             md = v.get('metadata') if isinstance(v.get('metadata'), dict) else {}
             finish = md.get('displayFinish', '')
             has_dims = bool(size_raw or cap or color or finish)
