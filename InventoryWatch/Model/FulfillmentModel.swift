@@ -100,6 +100,7 @@ actor FulfillmentModel {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
                 let jsonStores = try decoder.decode(StoreBootstrap.self, from: data)
+                cachedStoreData = jsonStores.countryData
                 print("✅ Using comprehensive global store data (536 stores across 26 countries)")
                 return jsonStores.countryData
             } catch {
@@ -112,6 +113,7 @@ actor FulfillmentModel {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
                 let jsonStores = try decoder.decode(StoreBootstrap.self, from: data)
+                cachedStoreData = jsonStores.countryData
                 print("✅ Using local store bootstrap data")
                 return jsonStores.countryData
             } catch {
@@ -294,6 +296,7 @@ actor FulfillmentModel {
             queryItems.append("store=\(defaultsVendor.preferredStoreNumber)")
         }
 
+        queryItems.append("searchNearby=\(defaultsVendor.shouldIncludeNearbyStores)")
         queryItems.append("little=false")
 
         queryItems.append(contentsOf: allSkus

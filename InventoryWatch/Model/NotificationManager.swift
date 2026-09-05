@@ -82,14 +82,16 @@ final class NotificationManager: NSObject, @unchecked Sendable {
         
         // Schedule the request with the system
         let notificationCenter = UNUserNotificationCenter.current()
-        notificationCenter.add(request) { (error) in
+        notificationCenter.add(request) { [notificationHistory, notificationKey, notificationHistoryKey] (error) in
             if let error = error {
                 print("Notification error: \(error)")
             } else {
-                // Store this notification in history to prevent duplicates
-                notificationHistory[notificationKey] = Date()
-                UserDefaults.standard.set(notificationHistory, forKey: notificationHistoryKey)
-                print("Notification sent: \(title)")
+                Task { @MainActor in
+                    var history = notificationHistory
+                    history[notificationKey] = Date()
+                    UserDefaults.standard.set(history, forKey: notificationHistoryKey)
+                    print("Notification sent: \(title)")
+                }
             }
         }
     }

@@ -312,7 +312,14 @@ private func displayNameForAVPToken(token: String, country: Country) -> String? 
                 }
                 
                 let preferred = model.defaultsVendor.preferredProductFamily
-                if preferred.isWatch == false {
+                let tokenSelected = preferred.isWatch ? preferredWatchToken.isEmpty == false :
+                    preferred.isIPhone ? preferredPhoneToken.isEmpty == false :
+                    preferred.isMac ? preferredMacToken.isEmpty == false :
+                    preferred.isIPad ? preferrediPadToken.isEmpty == false :
+                    preferred.isAirPods ? preferredAirPodsToken.isEmpty == false :
+                    preferred.isHomePod ? preferredHomePodToken.isEmpty == false :
+                    preferred.isAVP ? preferredAVPToken.isEmpty == false : true
+                if tokenSelected, preferred.isWatch == false {
                     if model.availableParts.isEmpty && model.isLoading == false {
                         Text("No models available in-store.")
                             .foregroundColor(.secondary)

@@ -76,9 +76,21 @@ struct DefaultsVendor {
     }
     
     var preferredProductFamily: ProductFamily {
-        // Reuse same storage key for backward compatibility; map any unknowns to iphone
+        // Reuse same storage key for backward compatibility
         let value = UserDefaults.standard.string(forKey: "preferredProductType") ?? ProductFamily.iphone.rawValue
-        return ProductFamily(rawValue: value) ?? .iphone
+        if let fam = ProductFamily(rawValue: value) { return fam }
+        // Legacy ProductType raw values
+        switch value {
+        case "MacBookPro", "M2MacBookPro13", "M2MacBookAir", "MacStudio", "StudioDisplay":
+            return .mac
+        case "iPadMiniWifi", "iPadMiniCellular", "iPad10thGenWifi", "iPad10thGenCellular",
+             "iPadProM2_11in_Wifi", "iPadProM2_11in_Cellular", "iPadProM2_13in_Wifi", "iPadProM2_13in_Cellular":
+            return .ipad
+        case "AppleWatchUltra":
+            return .watch
+        default:
+            return .iphone
+        }
     }
     
     var countryPathElement: String {
@@ -92,12 +104,12 @@ struct DefaultsVendor {
     
     var preferredStoreNumber: String {
         get { return UserDefaults.standard.preferredStoreNumber }
-        set { UserDefaults.standard.preferredStoreNumber = newValue }
+        nonmutating set { UserDefaults.standard.preferredStoreNumber = newValue }
     }
     
     var lastUpdateDate: String? {
         get { return UserDefaults.standard.lastUpdateDate }
-        set { UserDefaults.standard.lastUpdateDate = newValue }
+        nonmutating set { UserDefaults.standard.lastUpdateDate = newValue }
     }
     
     // unused - keeping this around as an example implementation

@@ -12,8 +12,40 @@ actor SKUDataLoader {
     
     var skuDataForPreferredProduct: SKUData {
         get async throws {
-            _ = defaultsManager.preferredProductFamily
-            return SKUData(orderedSKUs: [], lookup: [:])
+            let family = defaultsManager.preferredProductFamily
+            let country = defaultsManager.preferredCountry
+            let watchToken = defaultsManager.preferredWatchToken
+            let phoneToken = defaultsManager.preferredPhoneToken
+            let macToken = defaultsManager.preferredMacToken
+            let iPadToken = defaultsManager.preferrediPadToken
+            let airpodsToken = defaultsManager.preferredAirPodsToken
+            let homepodToken = defaultsManager.preferredHomePodToken
+            let avpToken = defaultsManager.preferredAVPToken
+
+            if family.isWatch, !watchToken.isEmpty,
+               let data = await watchSKUData(forToken: watchToken, country: country) {
+                return data
+            } else if family.isIPhone, !phoneToken.isEmpty,
+                      let data = await phoneSKUData(forToken: phoneToken, country: country) {
+                return data
+            } else if family.isMac, !macToken.isEmpty,
+                      let data = await macSKUData(forToken: macToken, country: country) {
+                return data
+            } else if family.isIPad, !iPadToken.isEmpty,
+                      let data = await ipadSKUData(forToken: iPadToken, country: country) {
+                return data
+            } else if family.isAirPods, !airpodsToken.isEmpty,
+                      let data = await airpodsSKUData(forToken: airpodsToken, country: country) {
+                return data
+            } else if family.isHomePod, !homepodToken.isEmpty,
+                      let data = await homepodSKUData(forToken: homepodToken, country: country) {
+                return data
+            } else if family.isAVP, !avpToken.isEmpty,
+                      let data = await avpSKUData(forToken: avpToken, country: country) {
+                return data
+            } else {
+                return SKUData(orderedSKUs: [], lookup: [:])
+            }
         }
     }
 

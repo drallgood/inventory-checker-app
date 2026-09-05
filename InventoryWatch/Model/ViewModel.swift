@@ -13,7 +13,7 @@ final class ViewModel: ObservableObject {
     private let fulfillmentModel = FulfillmentModel()
     private let githubModel = GithubModel()
     private let notificationSender = NotificationSender()
-    public var defaultsVendor = DefaultsVendor()
+    let defaultsVendor = DefaultsVendor()
     
     private var updateTimer: Timer?
     
@@ -179,7 +179,7 @@ final class ViewModel: ObservableObject {
         if defaultsVendor.preferredUpdateInterval > 0, updateTimer == nil {
             let interval = Double(defaultsVendor.preferredUpdateInterval * 60)
             updateTimer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true, block: { _ in
-                Task { [weak self] in await self?.fetchLatestInventory() }
+                Task { await self.fetchLatestInventory() }
             })
         }
     }

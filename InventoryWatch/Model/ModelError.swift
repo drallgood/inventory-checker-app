@@ -54,7 +54,7 @@ enum AppError: Swift.Error, LocalizedError {
         case .productNotAvailableInRegion:
             return "This product is not available in the selected country. Please choose another product or country."
         case .invalidLocalModelStore, .invalidProjectState, .failedToParseGithubVersion:
-            return "InventoryWatch has invalid or currupted local data. Please contact the developer (@worthbak)."
+            return "InventoryWatch has invalid or corrupted local data. Please contact the developer (@worthbak)."
         case .generic(let optional):
             return "A network error occurred. Details: \(optional?.localizedDescription ?? "unknown")"
         }
