@@ -87,7 +87,7 @@ Configuration is in `scraper_config.json` (regions, categories, model variants, 
 python3 scrape_apple_stores.py
 ```
 
-Outputs `Stores_GlobalBootstrap.json` to `InventoryWatch/`
+Outputs `Stores_GlobalBootstrap.json` to `InventoryWatch/Catalogs/`
 
 ## Configuration
 

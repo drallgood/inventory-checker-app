@@ -219,8 +219,6 @@
 				46F13B0F2E80007000CBE7DB /* Views */,
 				3885D54A289170E700BD6A78 /* Model */,
 				38E1C21927E6714E0047703D /* Helpers.swift */,
-				3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */,
-				46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */,
 				386FDC67273A18F800C1BAC2 /* SKUData.swift */,
 				38D0C3A1273C60B500A7DE65 /* Countries.swift */,
 				386FDC5A2739DA7300C1BAC2 /* Assets.xcassets */,
@@ -267,6 +265,8 @@
 		46F134CE2E7C3B0A00CBE7DB /* Catalogs */ = {
 			isa = PBXGroup;
 			children = (
+				46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */,
+				3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */,
 				46F11C95304CA1390000EBF2 /* AirPods-4-intl.json */,
 				46F11C93304C95120000EBF2 /* AirPods-Max2-intl.json */,
 				46F11C82304C23760000EBF2 /* AirPods-Pro3-intl.json */,

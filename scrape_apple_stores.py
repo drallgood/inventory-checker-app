@@ -122,7 +122,7 @@ class AppleStoreLocationScraper:
     
     def generate_store_json(self, processed_stores):
         """Generate the final store JSON file."""
-        output_file = 'InventoryWatch/Stores_GlobalBootstrap.json'
+        output_file = 'InventoryWatch/Catalogs/Stores_GlobalBootstrap.json'
         
         # Create the structure matching the Swift app's StoreBootstrap format
         store_list_data = []
