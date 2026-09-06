@@ -4,9 +4,11 @@ set -euo pipefail
 FAMILIES=(iphone watch mac ipad airpods homepod avp)
 PIDS=()
 
+mkdir logs
+
 for family in "${FAMILIES[@]}"; do
     echo "[$(date +%H:%M:%S)] Starting ${family}..."
-    python3 scrape_models.py --family "$family" --all-models > "scrape_${family}.log" 2>&1 &
+    python3 scrape_models.py --family "$family" --all-models > "logs/scrape_${family}.log" 2>&1 &
     PIDS+=($!)
 done
 
