@@ -108,23 +108,23 @@ struct SettingsView: View {
             alignment: .center
         )
         .onAppear { onAppearSetup() }
-        .onChange(of: selectedCountryIndex) { newValue in handleSelectedCountryIndexChange(newValue) }
-        .onChange(of: allModels) { models in handleAllModelsChange(models) }
-        .onChange(of: storeSearchText) { newText in handleStoreSearchTextChange(newText) }
-        .onChange(of: allStores) { newStores in handleAllStoresChange(newStores) }
-        .onChange(of: preferredProductType) { newType in handlePreferredProductTypeChange(newType) }
-        .onChange(of: preferredStoreNumber) { _ in handlePreferredStoreNumberChange() }
-        .onChange(of: preferredUpdateInterval) { _ in handlePreferredUpdateIntervalChange() }
-        .onChange(of: preferredCountry) { _ in handlePreferredCountryChange() }
-        .onChange(of: showResultsOnlyForPreferredModels) { _ in handleReloadInventory() }
-        .onChange(of: shouldIncludeNearbyStores) { _ in handleReloadInventory() }
-        .onChange(of: preferredWatchToken) { _ in handlePreferredWatchTokenChange() }
-        .onChange(of: preferredPhoneToken) { _ in handlePreferredPhoneTokenChange() }
-        .onChange(of: preferredMacToken) { _ in handlePreferredMacTokenChange() }
-        .onChange(of: preferrediPadToken) { _ in handlePreferrediPadTokenChange() }
-        .onChange(of: preferredAirPodsToken) { _ in handlePreferredAirPodsTokenChange() }
-        .onChange(of: preferredHomePodToken) { _ in handlePreferredHomePodTokenChange() }
-        .onChange(of: preferredAVPToken) { _ in handlePreferredAVPTokenChange() }
+        .onChange(of: selectedCountryIndex) { _, newValue in handleSelectedCountryIndexChange(newValue) }
+        .onChange(of: allModels) { _, newValue in handleAllModelsChange(newValue) }
+        .onChange(of: storeSearchText) { _, newValue in handleStoreSearchTextChange(newValue) }
+        .onChange(of: allStores) { _, newValue in handleAllStoresChange(newValue) }
+        .onChange(of: preferredProductType) { _, newValue in handlePreferredProductTypeChange(newValue) }
+        .onChange(of: preferredStoreNumber) { handlePreferredStoreNumberChange() }
+        .onChange(of: preferredUpdateInterval) { handlePreferredUpdateIntervalChange() }
+        .onChange(of: preferredCountry) { handlePreferredCountryChange() }
+        .onChange(of: showResultsOnlyForPreferredModels) { handleReloadInventory() }
+        .onChange(of: shouldIncludeNearbyStores) { handleReloadInventory() }
+        .onChange(of: preferredWatchToken) { handlePreferredWatchTokenChange() }
+        .onChange(of: preferredPhoneToken) { handlePreferredPhoneTokenChange() }
+        .onChange(of: preferredMacToken) { handlePreferredMacTokenChange() }
+        .onChange(of: preferrediPadToken) { handlePreferrediPadTokenChange() }
+        .onChange(of: preferredAirPodsToken) { handlePreferredAirPodsTokenChange() }
+        .onChange(of: preferredHomePodToken) { handlePreferredHomePodTokenChange() }
+        .onChange(of: preferredAVPToken) { handlePreferredAVPTokenChange() }
     }
 
     // Break complex views into smaller computed blocks to assist the type-checker

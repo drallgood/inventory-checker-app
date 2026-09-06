@@ -100,25 +100,10 @@ private func displayNameForAVPToken(token: String, country: Country) -> String? 
                             .bold().foregroundColor(.blue)
                             .offset(x: 8, y: -8)
                     }
-                    if #available(macOS 14, *) {
                     SettingsLink {
                         Image(systemName: "gearshape.fill")
                     }
                     .padding()
-                    } else {
-                        Button(
-                            action: {
-                                if #available(macOS 13, *) {
-                                    NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
-                                } else {
-                                    NSApp.sendAction(Selector(("showPreferencesWindow:")), to: nil, from: nil)
-                                }
-                            },
-                            label: { Image(systemName: "gearshape.fill") }
-                        )
-                        .buttonStyle(BorderlessButtonStyle())
-                        .padding()
-                    }
                 }
                 
                 Spacer()
