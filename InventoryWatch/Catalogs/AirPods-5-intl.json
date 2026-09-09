@@ -1,0 +1,1515 @@
+{
+  "_meta": {
+    "family": "airpods",
+    "generated_at": "2026-09-09T21:13:21.200466+00:00",
+    "regions_scraped": 33,
+    "scraper_version": "1.0",
+    "token": "airpods-5"
+  },
+  "country_mappings": {
+    "ae": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "at": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "au": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "be-fr": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "be-nl": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "br": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "ca": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "ch-de": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "ch-fr": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "cn": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "de": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "dk": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "es": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "fi": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "fr": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "hk": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "in": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "it": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "jp": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "kr": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "mx": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "my": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "nl": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "no": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "sa": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "se": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "sg": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "th": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "tr": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "tw": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "uk": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    },
+    "us": {
+      "localization": {
+        "token_display": {
+          "airpods-5": "AirPods 5"
+        }
+      },
+      "shop_paths": {
+        "airpods-5": "shop/buy-airpods/airpods-5"
+      }
+    }
+  },
+  "discovered_models": {
+    "ae": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZE/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4ZE/A"
+          },
+          "MKFW4ZE/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZE/A"
+          }
+        },
+        "url": "https://www.apple.com/ae/shop/buy-airpods/airpods-5"
+      }
+    },
+    "at": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 mit kabellosem Ladecase\nInkl. Drucksensor mit Streichen zur Lautstärke­regelung und längerer Batterie­laufzeit",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 mit kabellosem Ladecase\nInkl. Drucksensor mit Streichen zur Lautstärke­regelung und längerer Batterie­laufzeit",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/at/shop/buy-airpods/airpods-5"
+      }
+    },
+    "au": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4X/A"
+          },
+          "MKFW4X/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4X/A"
+          }
+        },
+        "url": "https://www.apple.com/au/shop/buy-airpods/airpods-5"
+      }
+    },
+    "be-fr": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 avec Boîtier de charge sans fil\nInclut un capteur de pression avec réglage du volume par balayage et une autonomie prolongée",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 avec Boîtier de charge sans fil\nInclut un capteur de pression avec réglage du volume par balayage et une autonomie prolongée",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/be-fr/shop/buy-airpods/airpods-5"
+      }
+    },
+    "be-nl": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 met draadloze oplaadcase\nInclusief druksensor met volumeregeling door te swipen, en een langere batterijduur",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 met draadloze oplaadcase\nInclusief druksensor met volumeregeling door te swipen, en een langere batterijduur",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/be-nl/shop/buy-airpods/airpods-5"
+      }
+    },
+    "br": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 com Estojo de Recarga Sem Fio\nCom sensor de força para ajustar o volume deslizando o dedo e maior duração da bateria",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 com Estojo de Recarga Sem Fio\nCom sensor de força para ajustar o volume deslizando o dedo e maior duração da bateria",
+            "partNumber": "MKFT4BZ/A"
+          },
+          "MKFW4BZ/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4BZ/A"
+          }
+        },
+        "url": "https://www.apple.com/br/shop/buy-airpods/airpods-5"
+      }
+    },
+    "ca": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4AM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4AM/A"
+          },
+          "MKFW4AM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4AM/A"
+          }
+        },
+        "url": "https://www.apple.com/ca/shop/buy-airpods/airpods-5"
+      }
+    },
+    "ch-de": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 mit kabellosem Ladecase\nInkl. Drucksensor mit Streichen zur Lautstärke­regelung und längerer Batterie­laufzeit",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 mit kabellosem Ladecase\nInkl. Drucksensor mit Streichen zur Lautstärke­regelung und längerer Batterie­laufzeit",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-de/shop/buy-airpods/airpods-5"
+      }
+    },
+    "ch-fr": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 avec Boîtier de charge sans fil\nInclut un capteur de pression avec réglage du volume par balayage et une autonomie prolongée",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 avec Boîtier de charge sans fil\nInclut un capteur de pression avec réglage du volume par balayage et une autonomie prolongée",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-fr/shop/buy-airpods/airpods-5"
+      }
+    },
+    "cn": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5 with Wireless Charging Case",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 (配无线充电盒)\n内置力度感应器，支持轻扫调节音量，且电池续航更持久",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 (配无线充电盒)\n内置力度感应器，支持轻扫调节音量，且电池续航更持久",
+            "partNumber": "MKFT4CH/A"
+          },
+          "MKFW4CH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5 with Wireless Charging Case",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4CH/A"
+          }
+        },
+        "url": "https://www.apple.com/cn/shop/buy-airpods/airpods-5"
+      }
+    },
+    "de": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 mit kabellosem Ladecase\nInkl. Drucksensor mit Streichen zur Lautstärke­regelung und längerer Batterie­laufzeit",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 mit kabellosem Ladecase\nInkl. Drucksensor mit Streichen zur Lautstärke­regelung und längerer Batterie­laufzeit",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/de/shop/buy-airpods/airpods-5"
+      }
+    },
+    "dk": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 med trådløst opladningsetui\nIndbygget tryksensor med lydstyrke­justering og længere batteritid",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 med trådløst opladningsetui\nIndbygget tryksensor med lydstyrke­justering og længere batteritid",
+            "partNumber": "MKFT4DN/A"
+          },
+          "MKFW4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4DN/A"
+          }
+        },
+        "url": "https://www.apple.com/dk/shop/buy-airpods/airpods-5"
+      }
+    },
+    "es": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4TY/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 con estuche de carga inalámbrica\nCon sensor de presión para deslizar y ajustar el volumen, y mayor autonomía",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 con estuche de carga inalámbrica\nCon sensor de presión para deslizar y ajustar el volumen, y mayor autonomía",
+            "partNumber": "MKFT4TY/A"
+          },
+          "MKFW4TY/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4TY/A"
+          }
+        },
+        "url": "https://www.apple.com/es/shop/buy-airpods/airpods-5"
+      }
+    },
+    "fi": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 ja langaton latauskotelo\nSisältää painalluksen tunnistimen äänen­voimakkuuden pyyhkäisyllä ja pidempään kestävän akun",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 ja langaton latauskotelo\nSisältää painalluksen tunnistimen äänen­voimakkuuden pyyhkäisyllä ja pidempään kestävän akun",
+            "partNumber": "MKFT4DN/A"
+          },
+          "MKFW4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4DN/A"
+          }
+        },
+        "url": "https://www.apple.com/fi/shop/buy-airpods/airpods-5"
+      }
+    },
+    "fr": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 avec Boîtier de charge sans fil\nInclut un capteur de pression avec réglage du volume par balayage et une autonomie prolongée",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 avec Boîtier de charge sans fil\nInclut un capteur de pression avec réglage du volume par balayage et une autonomie prolongée",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/fr/shop/buy-airpods/airpods-5"
+      }
+    },
+    "hk": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4ZP/A"
+          },
+          "MKFW4ZP/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/hk/shop/buy-airpods/airpods-5"
+      }
+    },
+    "in": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFT4HN/A"
+          },
+          "MKFW4HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4HN/A"
+          }
+        },
+        "url": "https://www.apple.com/in/shop/buy-airpods/airpods-5"
+      }
+    },
+    "it": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4TY/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 con custodia di ricarica wireless\nCon sensore di pressione per regolare il volume scorrendo con un dito e maggiore autonomia",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 con custodia di ricarica wireless\nCon sensore di pressione per regolare il volume scorrendo con un dito e maggiore autonomia",
+            "partNumber": "MKFT4TY/A"
+          },
+          "MKFW4TY/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4TY/A"
+          }
+        },
+        "url": "https://www.apple.com/it/shop/buy-airpods/airpods-5"
+      }
+    },
+    "jp": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "ワイヤレス充電ケース付きAirPods 5\n音量スワイプ対応の感圧センサーとより長く使えるバッテリーを搭載",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "ワイヤレス充電ケース付きAirPods 5\n音量スワイプ対応の感圧センサーとより長く使えるバッテリーを搭載",
+            "partNumber": "MKFT4J/A"
+          },
+          "MKFW4J/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4J/A"
+          }
+        },
+        "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-5"
+      }
+    },
+    "kr": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 무선 충전 케이스 모델\n스와이프로 음량을 조절할 수 있는 포스 센서 탑재 및 더욱 길어진 배터리 사용 시간",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 무선 충전 케이스 모델\n스와이프로 음량을 조절할 수 있는 포스 센서 탑재 및 더욱 길어진 배터리 사용 시간",
+            "partNumber": "MKFT4KH/A"
+          },
+          "MKFW4KH/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4KH/A"
+          }
+        },
+        "url": "https://www.apple.com/kr/shop/buy-airpods/airpods-5"
+      }
+    },
+    "mx": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4AM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 con Estuche de Carga Inalámbrica\nIncluye sensor de fuerza con control de volumen por deslizamiento y mayor duración de la batería",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 con Estuche de Carga Inalámbrica\nIncluye sensor de fuerza con control de volumen por deslizamiento y mayor duración de la batería",
+            "partNumber": "MKFT4AM/A"
+          },
+          "MKFW4AM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4AM/A"
+          }
+        },
+        "url": "https://www.apple.com/mx/shop/buy-airpods/airpods-5"
+      }
+    },
+    "my": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4ZA/A"
+          },
+          "MKFW4ZA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZA/A"
+          }
+        },
+        "url": "https://www.apple.com/my/shop/buy-airpods/airpods-5"
+      }
+    },
+    "nl": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 met draadloze oplaadcase\nInclusief druksensor met volumeregeling door te swipen, en een langere batterijduur",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 met draadloze oplaadcase\nInclusief druksensor met volumeregeling door te swipen, en een langere batterijduur",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/nl/shop/buy-airpods/airpods-5"
+      }
+    },
+    "no": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 med trådløst ladeetui\nMed trykksensor for volumsveiping og lengre batteritid",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 med trådløst ladeetui\nMed trykksensor for volumsveiping og lengre batteritid",
+            "partNumber": "MKFT4DN/A"
+          },
+          "MKFW4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4DN/A"
+          }
+        },
+        "url": "https://www.apple.com/no/shop/buy-airpods/airpods-5"
+      }
+    },
+    "sa": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZE/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4ZE/A"
+          },
+          "MKFW4ZE/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZE/A"
+          }
+        },
+        "url": "https://www.apple.com/sa/shop/buy-airpods/airpods-5"
+      }
+    },
+    "se": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 med trådlöst laddningsetui\nMed trycksensor med volymjustering samt längre batteritid",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 med trådlöst laddningsetui\nMed trycksensor med volymjustering samt längre batteritid",
+            "partNumber": "MKFT4DN/A"
+          },
+          "MKFW4DN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4DN/A"
+          }
+        },
+        "url": "https://www.apple.com/se/shop/buy-airpods/airpods-5"
+      }
+    },
+    "sg": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4ZA/A"
+          },
+          "MKFW4ZA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZA/A"
+          }
+        },
+        "url": "https://www.apple.com/sg/shop/buy-airpods/airpods-5"
+      }
+    },
+    "th": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 พร้อมเคสชาร์จแบบไร้สาย\nมาพร้อมเซ็นเซอร์แรงกดที่รองรับการปัดควบคุมระดับเสียงและแบตเตอรี่ที่ใช้งานได้นานขึ้น",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 พร้อมเคสชาร์จแบบไร้สาย\nมาพร้อมเซ็นเซอร์แรงกดที่รองรับการปัดควบคุมระดับเสียงและแบตเตอรี่ที่ใช้งานได้นานขึ้น",
+            "partNumber": "MKFT4ZA/A"
+          },
+          "MKFW4ZA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZA/A"
+          }
+        },
+        "url": "https://www.apple.com/th/shop/buy-airpods/airpods-5"
+      }
+    },
+    "tr": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 ve Kablosuz Şarj Kutusu\nSes yüksekliği kaydırma özelliğine sahip kuvvet sensörü ve daha uzun pil ömrü",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 ve Kablosuz Şarj Kutusu\nSes yüksekliği kaydırma özelliğine sahip kuvvet sensörü ve daha uzun pil ömrü",
+            "partNumber": "MKFT4TU/A"
+          },
+          "MKFW4TU/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4TU/A"
+          }
+        },
+        "url": "https://www.apple.com/tr/shop/buy-airpods/airpods-5"
+      }
+    },
+    "tw": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 配備無線充電盒\n配備可滑動調整音量的力度感測器，和更持久的電池續航力",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 配備無線充電盒\n配備可滑動調整音量的力度感測器，和更持久的電池續航力",
+            "partNumber": "MKFT4TA/A"
+          },
+          "MKFW4TA/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4TA/A"
+          }
+        },
+        "url": "https://www.apple.com/tw/shop/buy-airpods/airpods-5"
+      }
+    },
+    "uk": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4ZM/A"
+          },
+          "MKFW4ZM/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4ZM/A"
+          }
+        },
+        "url": "https://www.apple.com/uk/shop/buy-airpods/airpods-5"
+      }
+    },
+    "us": {
+      "airpods-5": {
+        "skus": {
+          "MKFT4LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5 with Wireless Charging Case\nIncludes force sensor with volume swipe and longer battery life",
+            "partNumber": "MKFT4LL/A"
+          },
+          "MKFW4LL/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "dimensionScreensize": "",
+            "family": "airpods",
+            "familyName": "AirPods 5",
+            "metadata": {
+              "dimensionCharging": "AirPods 5",
+              "isRealPartNumber": true,
+              "sourcePage": "airpods"
+            },
+            "name": "AirPods 5",
+            "partNumber": "MKFW4LL/A"
+          }
+        },
+        "url": "https://www.apple.com/us/shop/buy-airpods/airpods-5"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "mac",
-    "generated_at": "2026-09-05T19:24:57.875980+00:00",
+    "generated_at": "2026-09-09T19:54:49.192557+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "mac-mini"
@@ -405,7 +405,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -418,7 +418,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -438,7 +438,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -451,7 +451,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -603,7 +603,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -616,7 +616,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -636,7 +636,7 @@
             "family": "mac",
             "familyName": "预购 Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -649,7 +649,7 @@
             "family": "mac",
             "familyName": "预购 Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -669,7 +669,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -682,7 +682,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -801,7 +801,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -814,7 +814,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -867,7 +867,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -880,7 +880,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -933,7 +933,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -946,7 +946,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
+              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -1032,7 +1032,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -1045,7 +1045,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -1131,7 +1131,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -1144,7 +1144,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -1164,7 +1164,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -1177,7 +1177,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -1197,7 +1197,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -1210,7 +1210,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },
@@ -1329,7 +1329,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M6 (12-Core CPU / 12-Core GPU)"
             },
@@ -1342,7 +1342,7 @@
             "family": "mac",
             "familyName": "Mac mini",
             "metadata": {
-              "containerPartNumber": "RO_MACMINI_M5PRO_ULT_2026",
+              "containerPartNumber": "RO_MACMINI_M6_GOO_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Pro (15-Core CPU / 16-Core GPU)"
             },

@@ -231,8 +231,8 @@
     },
     {
       "family": "airpods",
-      "entrypoints": ["shop/buy-airpods/airpods-pro-3", "shop/buy-airpods/airpods-4", "shop/buy-airpods/airpods-max-2"],
-      "manual_tokens": ["airpods-pro-3", "airpods-4", "airpods-max-2"]
+      "entrypoints": ["shop/buy-airpods/airpods-pro-3", "shop/buy-airpods/airpods-5", "shop/buy-airpods/airpods-max-2"],
+      "manual_tokens": ["airpods-pro-3", "airpods-5", "airpods-max-2"]
     },
     {
       "family": "avp",

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "airpods",
-    "generated_at": "2026-09-05T19:22:43.710583+00:00",
+    "generated_at": "2026-09-09T21:13:00.970933+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "airpods-pro-3"
@@ -672,15 +672,17 @@
             "capacity": "",
             "colorDisplay": "",
             "colorKey": "",
-            "dimensionScreensize": "",
             "family": "airpods",
             "familyName": "AirPods Pro 3",
-            "metadata": {
-              "isRealPartNumber": true,
-              "sourcePage": "airpods"
-            },
-            "name": "AirPods Pro 3",
-            "partNumber": "MFHP4HN/A"
+            "name": "AirPods Pro 3"
+          },
+          "SYM02HN/A": {
+            "capacity": "",
+            "colorDisplay": "",
+            "colorKey": "",
+            "family": "airpods",
+            "familyName": "AirPods Pro 3",
+            "name": "AirPods Pro 3"
           }
         },
         "url": "https://www.apple.com/in/shop/buy-airpods/airpods-pro-3"

@@ -36,6 +36,9 @@
 		469112562E7CB945004C26BC /* Mac-Mini-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */; };
 		469112582E7CB945004C26BC /* Mac-Studio-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 469112522E7CB945004C26BC /* Mac-Studio-intl.json */; };
 		4691125A2E7CB945004C26BC /* Mac-MacbookAir-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4691124D2E7CB945004C26BC /* Mac-MacbookAir-intl.json */; };
+		46CF223A305203B30017DCE1 /* AirPods-5-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CF2237305203B30017DCE1 /* AirPods-5-intl.json */; };
+		46CF223B305203B30017DCE1 /* iPhone-18Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CF2238305203B30017DCE1 /* iPhone-18Pro-intl.json */; };
+		46CF223C305203B30017DCE1 /* iPhone-Duo-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CF2239305203B30017DCE1 /* iPhone-Duo-intl.json */; };
 		46F11C71304B80560000EBF2 /* AppleWatch-AppleWatchHermesUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C6A304B80560000EBF2 /* AppleWatch-AppleWatchHermesUltra-intl.json */; };
 		46F11C72304B80560000EBF2 /* AppleWatch-AppleWatchHermes-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C69304B80560000EBF2 /* AppleWatch-AppleWatchHermes-intl.json */; };
 		46F11C73304B80560000EBF2 /* iPad-102-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C6B304B80560000EBF2 /* iPad-102-intl.json */; };
@@ -53,7 +56,6 @@
 		46F11C8C304C23760000EBF2 /* HomePod-Homepod-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C85304C23760000EBF2 /* HomePod-Homepod-intl.json */; };
 		46F11C8D304C23760000EBF2 /* AppleVisionPro-ZeissOpticalInserts-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C84304C23760000EBF2 /* AppleVisionPro-ZeissOpticalInserts-intl.json */; };
 		46F11C94304C95120000EBF2 /* AirPods-Max2-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C93304C95120000EBF2 /* AirPods-Max2-intl.json */; };
-		46F11C96304CA1390000EBF2 /* AirPods-4-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F11C95304CA1390000EBF2 /* AirPods-4-intl.json */; };
 		46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */; };
 		46F134CF2E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */; };
 		46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */; };
@@ -117,6 +119,9 @@
 		4691124E2E7CB945004C26BC /* Mac-MacbookPro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-MacbookPro-intl.json"; sourceTree = "<group>"; };
 		4691124F2E7CB945004C26BC /* Mac-Mini-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Mini-intl.json"; sourceTree = "<group>"; };
 		469112522E7CB945004C26BC /* Mac-Studio-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mac-Studio-intl.json"; sourceTree = "<group>"; };
+		46CF2237305203B30017DCE1 /* AirPods-5-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AirPods-5-intl.json"; sourceTree = "<group>"; };
+		46CF2238305203B30017DCE1 /* iPhone-18Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPhone-18Pro-intl.json"; sourceTree = "<group>"; };
+		46CF2239305203B30017DCE1 /* iPhone-Duo-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "iPhone-Duo-intl.json"; sourceTree = "<group>"; };
 		46F11C58304B78510000EBF2 /* InventoryWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F11C69304B80560000EBF2 /* AppleWatch-AppleWatchHermes-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchHermes-intl.json"; sourceTree = "<group>"; };
 		46F11C6A304B80560000EBF2 /* AppleWatch-AppleWatchHermesUltra-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchHermesUltra-intl.json"; sourceTree = "<group>"; };
@@ -135,7 +140,6 @@
 		46F11C85304C23760000EBF2 /* HomePod-Homepod-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "HomePod-Homepod-intl.json"; sourceTree = "<group>"; };
 		46F11C86304C23760000EBF2 /* HomePod-Mini-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "HomePod-Mini-intl.json"; sourceTree = "<group>"; };
 		46F11C93304C95120000EBF2 /* AirPods-Max2-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AirPods-Max2-intl.json"; sourceTree = "<group>"; };
-		46F11C95304CA1390000EBF2 /* AirPods-4-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AirPods-4-intl.json"; sourceTree = "<group>"; };
 		46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stores_GlobalBootstrap.json; sourceTree = "<group>"; };
 		46F134C62E7C3B0A00CBE7DB /* AppleWatch-AppleWatch-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatch-intl.json"; sourceTree = "<group>"; };
 		46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchSe-intl.json"; sourceTree = "<group>"; };
@@ -265,9 +269,11 @@
 		46F134CE2E7C3B0A00CBE7DB /* Catalogs */ = {
 			isa = PBXGroup;
 			children = (
+				46CF2237305203B30017DCE1 /* AirPods-5-intl.json */,
+				46CF2238305203B30017DCE1 /* iPhone-18Pro-intl.json */,
+				46CF2239305203B30017DCE1 /* iPhone-Duo-intl.json */,
 				46F134AC2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json */,
 				3891902C28E882070051FE3A /* Stores_LocalBootstrap.json */,
-				46F11C95304CA1390000EBF2 /* AirPods-4-intl.json */,
 				46F11C93304C95120000EBF2 /* AirPods-Max2-intl.json */,
 				46F11C82304C23760000EBF2 /* AirPods-Pro3-intl.json */,
 				46F11C83304C23760000EBF2 /* AppleVisionPro-AppleVisionPro-intl.json */,
@@ -403,7 +409,6 @@
 				469112582E7CB945004C26BC /* Mac-Studio-intl.json in Resources */,
 				4691125A2E7CB945004C26BC /* Mac-MacbookAir-intl.json in Resources */,
 				46F11C94304C95120000EBF2 /* AirPods-Max2-intl.json in Resources */,
-				46F11C96304CA1390000EBF2 /* AirPods-4-intl.json in Resources */,
 				38E4279E273EF542006BF6D7 /* Credits.rtf in Resources */,
 				3891902D28E882070051FE3A /* Stores_LocalBootstrap.json in Resources */,
 				46F134AD2E75EF0A00CBE7DB /* Stores_GlobalBootstrap.json in Resources */,
@@ -434,6 +439,9 @@
 				46F11C8D304C23760000EBF2 /* AppleVisionPro-ZeissOpticalInserts-intl.json in Resources */,
 				386FDC5B2739DA7300C1BAC2 /* Assets.xcassets in Resources */,
 				46F138010000000000000001 /* countries.json in Resources */,
+				46CF223A305203B30017DCE1 /* AirPods-5-intl.json in Resources */,
+				46CF223B305203B30017DCE1 /* iPhone-18Pro-intl.json in Resources */,
+				46CF223C305203B30017DCE1 /* iPhone-Duo-intl.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

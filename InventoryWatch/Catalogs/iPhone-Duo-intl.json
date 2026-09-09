@@ -1,0 +1,4141 @@
+{
+  "_meta": {
+    "family": "iphone",
+    "generated_at": "2026-09-09T19:53:33.231181+00:00",
+    "regions_scraped": 33,
+    "scraper_version": "1.0",
+    "token": "iphone-duo"
+  },
+  "country_mappings": {
+    "ae": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "at": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "au": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "be-fr": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "be-nl": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "br": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "ca": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "ch-de": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "ch-fr": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "cn": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "de": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "dk": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "es": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "fi": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "fr": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "hk": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "in": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "it": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "jp": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "kr": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "mx": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "my": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "nl": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "no": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "sa": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "se": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "sg": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "th": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "tr": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "tw": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "uk": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    },
+    "us": {
+      "localization": {
+        "token_display": {
+          "iphone-duo": "iPhone Duo"
+        }
+      },
+      "shop_paths": {
+        "iphone-duo": "shop/buy-iphone/iphone-duo"
+      }
+    }
+  },
+  "discovered_models": {
+    "ae": {
+      "iphone-duo": {
+        "skus": {
+          "MK244AH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK244AH/A"
+          },
+          "MK254AH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK254AH/A"
+          },
+          "MK264AH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK264AH/A"
+          },
+          "MK274AH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK274AH/A"
+          },
+          "MK284AH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK284AH/A"
+          },
+          "MK294AH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK294AH/A"
+          },
+          "MK2A4AH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2A4AH/A"
+          },
+          "MK2C4AH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2C4AH/A"
+          }
+        },
+        "url": "https://www.apple.com/ae/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "at": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZD/A"
+          },
+          "MK2E4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZD/A"
+          },
+          "MK2F4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZD/A"
+          },
+          "MK2G4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZD/A"
+          },
+          "MK2H4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZD/A"
+          },
+          "MK2J4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZD/A"
+          },
+          "MK2K4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZD/A"
+          },
+          "MK2L4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZD/A"
+          }
+        },
+        "url": "https://www.apple.com/at/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "au": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4X/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4X/A"
+          },
+          "MK2E4X/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4X/A"
+          },
+          "MK2F4X/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4X/A"
+          },
+          "MK2G4X/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4X/A"
+          },
+          "MK2H4X/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4X/A"
+          },
+          "MK2J4X/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4X/A"
+          },
+          "MK2K4X/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4X/A"
+          },
+          "MK2L4X/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4X/A"
+          }
+        },
+        "url": "https://www.apple.com/au/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "be-fr": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZD/A": {
+            "capacity": "256 Go",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZD/A"
+          },
+          "MK2E4ZD/A": {
+            "capacity": "256 Go",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZD/A"
+          },
+          "MK2F4ZD/A": {
+            "capacity": "512 Go",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZD/A"
+          },
+          "MK2G4ZD/A": {
+            "capacity": "512 Go",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZD/A"
+          },
+          "MK2H4ZD/A": {
+            "capacity": "1To",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZD/A"
+          },
+          "MK2J4ZD/A": {
+            "capacity": "1To",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZD/A"
+          },
+          "MK2K4ZD/A": {
+            "capacity": "2To",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZD/A"
+          },
+          "MK2L4ZD/A": {
+            "capacity": "2To",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZD/A"
+          }
+        },
+        "url": "https://www.apple.com/be-fr/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "be-nl": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZD/A"
+          },
+          "MK2E4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZD/A"
+          },
+          "MK2F4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZD/A"
+          },
+          "MK2G4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZD/A"
+          },
+          "MK2H4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZD/A"
+          },
+          "MK2J4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZD/A"
+          },
+          "MK2K4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZD/A"
+          },
+          "MK2L4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZD/A"
+          }
+        },
+        "url": "https://www.apple.com/be-nl/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "br": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4BE/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Branco-estrela",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4BE/A"
+          },
+          "MK2E4BE/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Céu noturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4BE/A"
+          },
+          "MK2F4BE/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Branco-estrela",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4BE/A"
+          },
+          "MK2G4BE/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Céu noturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4BE/A"
+          },
+          "MK2H4BE/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Branco-estrela",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4BE/A"
+          },
+          "MK2J4BE/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Céu noturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4BE/A"
+          },
+          "MK2K4BE/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Branco-estrela",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4BE/A"
+          },
+          "MK2L4BE/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Céu noturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4BE/A"
+          }
+        },
+        "url": "https://www.apple.com/br/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "ca": {
+      "iphone-duo": {
+        "skus": {
+          "MK244VC/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK244VC/A"
+          },
+          "MK254VC/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK254VC/A"
+          },
+          "MK264VC/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK264VC/A"
+          },
+          "MK274VC/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK274VC/A"
+          },
+          "MK284VC/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK284VC/A"
+          },
+          "MK294VC/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK294VC/A"
+          },
+          "MK2A4VC/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2A4VC/A"
+          },
+          "MK2C4VC/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2C4VC/A"
+          }
+        },
+        "url": "https://www.apple.com/ca/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "ch-de": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QL/A"
+          },
+          "MK2E4QL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QL/A"
+          },
+          "MK2F4QL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QL/A"
+          },
+          "MK2G4QL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QL/A"
+          },
+          "MK2H4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QL/A"
+          },
+          "MK2J4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QL/A"
+          },
+          "MK2K4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QL/A"
+          },
+          "MK2L4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QL/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-de/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "ch-fr": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QL/A": {
+            "capacity": "256 Go",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QL/A"
+          },
+          "MK2E4QL/A": {
+            "capacity": "256 Go",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QL/A"
+          },
+          "MK2F4QL/A": {
+            "capacity": "512 Go",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QL/A"
+          },
+          "MK2G4QL/A": {
+            "capacity": "512 Go",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QL/A"
+          },
+          "MK2H4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QL/A"
+          },
+          "MK2J4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QL/A"
+          },
+          "MK2K4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QL/A"
+          },
+          "MK2L4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QL/A"
+          }
+        },
+        "url": "https://www.apple.com/ch-fr/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "cn": {
+      "iphone-duo": {
+        "skus": {
+          "MK2M4CH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2M4CH/A"
+          },
+          "MK2N4CH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2N4CH/A"
+          },
+          "MK2P4CH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2P4CH/A"
+          },
+          "MK2Q4CH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2Q4CH/A"
+          },
+          "MK2T4CH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2T4CH/A"
+          },
+          "MK2U4CH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2U4CH/A"
+          },
+          "MK2V4CH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2V4CH/A"
+          },
+          "MK2W4CH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2W4CH/A"
+          }
+        },
+        "url": "https://www.apple.com/cn/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "de": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZD/A"
+          },
+          "MK2E4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZD/A"
+          },
+          "MK2F4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZD/A"
+          },
+          "MK2G4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZD/A"
+          },
+          "MK2H4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZD/A"
+          },
+          "MK2J4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZD/A"
+          },
+          "MK2K4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Sternenweiß",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZD/A"
+          },
+          "MK2L4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Nachthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZD/A"
+          }
+        },
+        "url": "https://www.apple.com/de/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "dk": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "stjernehvid",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QN/A"
+          },
+          "MK2E4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QN/A"
+          },
+          "MK2F4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "stjernehvid",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QN/A"
+          },
+          "MK2G4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QN/A"
+          },
+          "MK2H4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "stjernehvid",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QN/A"
+          },
+          "MK2J4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QN/A"
+          },
+          "MK2K4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "stjernehvid",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QN/A"
+          },
+          "MK2L4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QN/A"
+          }
+        },
+        "url": "https://www.apple.com/dk/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "es": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Blanco estelar",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QL/A"
+          },
+          "MK2E4QL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QL/A"
+          },
+          "MK2F4QL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Blanco estelar",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QL/A"
+          },
+          "MK2G4QL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QL/A"
+          },
+          "MK2H4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Blanco estelar",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QL/A"
+          },
+          "MK2J4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QL/A"
+          },
+          "MK2K4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Blanco estelar",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QL/A"
+          },
+          "MK2L4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QL/A"
+          }
+        },
+        "url": "https://www.apple.com/es/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "fi": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QN/A": {
+            "capacity": "256 Gt",
+            "colorDisplay": "Tähdenkajo",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QN/A"
+          },
+          "MK2E4QN/A": {
+            "capacity": "256 Gt",
+            "colorDisplay": "Yötaivas",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QN/A"
+          },
+          "MK2F4QN/A": {
+            "capacity": "512 Gt",
+            "colorDisplay": "Tähdenkajo",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QN/A"
+          },
+          "MK2G4QN/A": {
+            "capacity": "512 Gt",
+            "colorDisplay": "Yötaivas",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QN/A"
+          },
+          "MK2H4QN/A": {
+            "capacity": "1 Tt",
+            "colorDisplay": "Tähdenkajo",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QN/A"
+          },
+          "MK2J4QN/A": {
+            "capacity": "1 Tt",
+            "colorDisplay": "Yötaivas",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QN/A"
+          },
+          "MK2K4QN/A": {
+            "capacity": "2 Tt",
+            "colorDisplay": "Tähdenkajo",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QN/A"
+          },
+          "MK2L4QN/A": {
+            "capacity": "2 Tt",
+            "colorDisplay": "Yötaivas",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QN/A"
+          }
+        },
+        "url": "https://www.apple.com/fi/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "fr": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4F/A": {
+            "capacity": "256 Go",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4F/A"
+          },
+          "MK2E4F/A": {
+            "capacity": "256 Go",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4F/A"
+          },
+          "MK2F4F/A": {
+            "capacity": "512 Go",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4F/A"
+          },
+          "MK2G4F/A": {
+            "capacity": "512 Go",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4F/A"
+          },
+          "MK2H4F/A": {
+            "capacity": "1 To",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4F/A"
+          },
+          "MK2J4F/A": {
+            "capacity": "1 To",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4F/A"
+          },
+          "MK2K4F/A": {
+            "capacity": "2 To",
+            "colorDisplay": "Blanc stellaire",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4F/A"
+          },
+          "MK2L4F/A": {
+            "capacity": "2 To",
+            "colorDisplay": "Ciel nocturne",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4F/A"
+          }
+        },
+        "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "hk": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZA/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZA/A"
+          },
+          "MK2E4ZA/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZA/A"
+          },
+          "MK2F4ZA/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZA/A"
+          },
+          "MK2G4ZA/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZA/A"
+          },
+          "MK2H4ZA/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZA/A"
+          },
+          "MK2J4ZA/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZA/A"
+          },
+          "MK2K4ZA/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZA/A"
+          },
+          "MK2L4ZA/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZA/A"
+          }
+        },
+        "url": "https://www.apple.com/hk/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "in": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4HN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4HN/A"
+          },
+          "MK2E4HN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4HN/A"
+          },
+          "MK2F4HN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4HN/A"
+          },
+          "MK2G4HN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4HN/A"
+          },
+          "MK2H4HN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4HN/A"
+          },
+          "MK2J4HN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4HN/A"
+          },
+          "MK2K4HN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4HN/A"
+          },
+          "MK2L4HN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4HN/A"
+          }
+        },
+        "url": "https://www.apple.com/in/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "it": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Bianco stellare",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QL/A"
+          },
+          "MK2E4QL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Cielo notturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QL/A"
+          },
+          "MK2F4QL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Bianco stellare",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QL/A"
+          },
+          "MK2G4QL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Cielo notturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QL/A"
+          },
+          "MK2H4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Bianco stellare",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QL/A"
+          },
+          "MK2J4QL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Cielo notturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QL/A"
+          },
+          "MK2K4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Bianco stellare",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QL/A"
+          },
+          "MK2L4QL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Cielo notturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QL/A"
+          }
+        },
+        "url": "https://www.apple.com/it/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "jp": {
+      "iphone-duo": {
+        "skus": {
+          "MK244J/A": {
+            "capacity": "256GB",
+            "colorDisplay": "スターホワイト",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK244J/A"
+          },
+          "MK254J/A": {
+            "capacity": "256GB",
+            "colorDisplay": "ナイトスカイ",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK254J/A"
+          },
+          "MK264J/A": {
+            "capacity": "512GB",
+            "colorDisplay": "スターホワイト",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK264J/A"
+          },
+          "MK274J/A": {
+            "capacity": "512GB",
+            "colorDisplay": "ナイトスカイ",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK274J/A"
+          },
+          "MK284J/A": {
+            "capacity": "1TB",
+            "colorDisplay": "スターホワイト",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK284J/A"
+          },
+          "MK294J/A": {
+            "capacity": "1TB",
+            "colorDisplay": "ナイトスカイ",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK294J/A"
+          },
+          "MK2A4J/A": {
+            "capacity": "2TB",
+            "colorDisplay": "スターホワイト",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2A4J/A"
+          },
+          "MK2C4J/A": {
+            "capacity": "2TB",
+            "colorDisplay": "ナイトスカイ",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2C4J/A"
+          }
+        },
+        "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "kr": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4KH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "스타 화이트",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4KH/A"
+          },
+          "MK2E4KH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "나이트 스카이",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4KH/A"
+          },
+          "MK2F4KH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "스타 화이트",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4KH/A"
+          },
+          "MK2G4KH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "나이트 스카이",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4KH/A"
+          },
+          "MK2H4KH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "스타 화이트",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4KH/A"
+          },
+          "MK2J4KH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "나이트 스카이",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4KH/A"
+          },
+          "MK2K4KH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "스타 화이트",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4KH/A"
+          },
+          "MK2L4KH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "나이트 스카이",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4KH/A"
+          }
+        },
+        "url": "https://www.apple.com/kr/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "mx": {
+      "iphone-duo": {
+        "skus": {
+          "MK244E/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Blanco estrella",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK244E/A"
+          },
+          "MK254E/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK254E/A"
+          },
+          "MK264E/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Blanco estrella",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK264E/A"
+          },
+          "MK274E/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK274E/A"
+          },
+          "MK284E/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Blanco estrella",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK284E/A"
+          },
+          "MK294E/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK294E/A"
+          },
+          "MK2A4E/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Blanco estrella",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2A4E/A"
+          },
+          "MK2C4E/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Cielo nocturno",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2C4E/A"
+          }
+        },
+        "url": "https://www.apple.com/mx/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "my": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4X/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4X/A"
+          },
+          "MK2E4X/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4X/A"
+          },
+          "MK2F4X/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4X/A"
+          },
+          "MK2G4X/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4X/A"
+          },
+          "MK2H4X/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4X/A"
+          },
+          "MK2J4X/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4X/A"
+          },
+          "MK2K4X/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4X/A"
+          },
+          "MK2L4X/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4X/A"
+          }
+        },
+        "url": "https://www.apple.com/my/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "nl": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZD/A"
+          },
+          "MK2E4ZD/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZD/A"
+          },
+          "MK2F4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZD/A"
+          },
+          "MK2G4ZD/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZD/A"
+          },
+          "MK2H4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZD/A"
+          },
+          "MK2J4ZD/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZD/A"
+          },
+          "MK2K4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Sterrenwit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZD/A"
+          },
+          "MK2L4ZD/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Nachthemel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "iPhone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZD/A"
+          }
+        },
+        "url": "https://www.apple.com/nl/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "no": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "stjernehvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QN/A"
+          },
+          "MK2E4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QN/A"
+          },
+          "MK2F4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "stjernehvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QN/A"
+          },
+          "MK2G4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QN/A"
+          },
+          "MK2H4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "stjernehvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QN/A"
+          },
+          "MK2J4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QN/A"
+          },
+          "MK2K4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "stjernehvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QN/A"
+          },
+          "MK2L4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "nattehimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QN/A"
+          }
+        },
+        "url": "https://www.apple.com/no/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "sa": {
+      "iphone-duo": {
+        "skus": {
+          "MK244AH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK244AH/A"
+          },
+          "MK254AH/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK254AH/A"
+          },
+          "MK264AH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK264AH/A"
+          },
+          "MK274AH/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK274AH/A"
+          },
+          "MK284AH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK284AH/A"
+          },
+          "MK294AH/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK294AH/A"
+          },
+          "MK2A4AH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2A4AH/A"
+          },
+          "MK2C4AH/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2C4AH/A"
+          }
+        },
+        "url": "https://www.apple.com/sa/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "se": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "stjärnvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QN/A"
+          },
+          "MK2E4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "natthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QN/A"
+          },
+          "MK2F4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "stjärnvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QN/A"
+          },
+          "MK2G4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "natthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QN/A"
+          },
+          "MK2H4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "stjärnvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QN/A"
+          },
+          "MK2J4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "natthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QN/A"
+          },
+          "MK2K4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "stjärnvit",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QN/A"
+          },
+          "MK2L4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "natthimmel",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QN/A"
+          }
+        },
+        "url": "https://www.apple.com/se/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "sg": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4X/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4X/A"
+          },
+          "MK2E4X/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4X/A"
+          },
+          "MK2F4X/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4X/A"
+          },
+          "MK2G4X/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4X/A"
+          },
+          "MK2H4X/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4X/A"
+          },
+          "MK2J4X/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4X/A"
+          },
+          "MK2K4X/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4X/A"
+          },
+          "MK2L4X/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4X/A"
+          }
+        },
+        "url": "https://www.apple.com/sg/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "th": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZP/A": {
+            "capacity": "256GB",
+            "colorDisplay": "สตาร์ไวท์",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZP/A"
+          },
+          "MK2E4ZP/A": {
+            "capacity": "256GB",
+            "colorDisplay": "ไนท์สกาย",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZP/A"
+          },
+          "MK2F4ZP/A": {
+            "capacity": "512GB",
+            "colorDisplay": "สตาร์ไวท์",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZP/A"
+          },
+          "MK2G4ZP/A": {
+            "capacity": "512GB",
+            "colorDisplay": "ไนท์สกาย",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZP/A"
+          },
+          "MK2H4ZP/A": {
+            "capacity": "1TB",
+            "colorDisplay": "สตาร์ไวท์",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZP/A"
+          },
+          "MK2J4ZP/A": {
+            "capacity": "1TB",
+            "colorDisplay": "ไนท์สกาย",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZP/A"
+          },
+          "MK2K4ZP/A": {
+            "capacity": "2TB",
+            "colorDisplay": "สตาร์ไวท์",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZP/A"
+          },
+          "MK2L4ZP/A": {
+            "capacity": "2TB",
+            "colorDisplay": "ไนท์สกาย",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/th/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "tr": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4TU/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Yıldız Rengi",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4TU/A"
+          },
+          "MK2E4TU/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Gece Rengi",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4TU/A"
+          },
+          "MK2F4TU/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Yıldız Rengi",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4TU/A"
+          },
+          "MK2G4TU/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Gece Rengi",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4TU/A"
+          },
+          "MK2H4TU/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Yıldız Rengi",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4TU/A"
+          },
+          "MK2J4TU/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Gece Rengi",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4TU/A"
+          },
+          "MK2K4TU/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Yıldız Rengi",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4TU/A"
+          },
+          "MK2L4TU/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Gece Rengi",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4TU/A"
+          }
+        },
+        "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "tw": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4ZP/A": {
+            "capacity": "256GB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4ZP/A"
+          },
+          "MK2E4ZP/A": {
+            "capacity": "256GB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4ZP/A"
+          },
+          "MK2F4ZP/A": {
+            "capacity": "512GB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4ZP/A"
+          },
+          "MK2G4ZP/A": {
+            "capacity": "512GB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4ZP/A"
+          },
+          "MK2H4ZP/A": {
+            "capacity": "1TB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4ZP/A"
+          },
+          "MK2J4ZP/A": {
+            "capacity": "1TB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4ZP/A"
+          },
+          "MK2K4ZP/A": {
+            "capacity": "2TB",
+            "colorDisplay": "星光白色",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4ZP/A"
+          },
+          "MK2L4ZP/A": {
+            "capacity": "2TB",
+            "colorDisplay": "夜空色",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4ZP/A"
+          }
+        },
+        "url": "https://www.apple.com/tw/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "uk": {
+      "iphone-duo": {
+        "skus": {
+          "MK2D4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2D4QN/A"
+          },
+          "MK2E4QN/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2E4QN/A"
+          },
+          "MK2F4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2F4QN/A"
+          },
+          "MK2G4QN/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2G4QN/A"
+          },
+          "MK2H4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2H4QN/A"
+          },
+          "MK2J4QN/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2J4QN/A"
+          },
+          "MK2K4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2K4QN/A"
+          },
+          "MK2L4QN/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK2L4QN/A"
+          }
+        },
+        "url": "https://www.apple.com/uk/shop/buy-iphone/iphone-duo"
+      }
+    },
+    "us": {
+      "iphone-duo": {
+        "skus": {
+          "MK1E4LL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1E4LL/A"
+          },
+          "MK1F4LL/A": {
+            "capacity": "256GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1F4LL/A"
+          },
+          "MK1G4LL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1G4LL/A"
+          },
+          "MK1H4LL/A": {
+            "capacity": "512GB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1H4LL/A"
+          },
+          "MK1J4LL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1J4LL/A"
+          },
+          "MK1L4LL/A": {
+            "capacity": "1TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1L4LL/A"
+          },
+          "MK1Q4LL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Star White",
+            "colorKey": "starwhite",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1Q4LL/A"
+          },
+          "MK1R4LL/A": {
+            "capacity": "2TB",
+            "colorDisplay": "Night Sky",
+            "colorKey": "nightsky",
+            "dimensionScreensize": "",
+            "family": "iphoneduo",
+            "familyName": "Phone Duo",
+            "metadata": {
+              "isRealPartNumber": true,
+              "sourcePage": "iphone"
+            },
+            "name": "",
+            "partNumber": "MK1R4LL/A"
+          }
+        },
+        "url": "https://www.apple.com/us/shop/buy-iphone/iphone-duo"
+      }
+    }
+  }
+}

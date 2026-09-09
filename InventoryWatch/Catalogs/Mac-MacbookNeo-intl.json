@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "mac",
-    "generated_at": "2026-09-05T19:23:14.854414+00:00",
+    "generated_at": "2026-09-09T19:51:40.495337+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "macbook-neo"
@@ -352,7 +352,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -365,7 +365,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -391,7 +391,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -417,7 +417,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -430,7 +430,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -450,7 +450,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -463,7 +463,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -489,7 +489,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -502,7 +502,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -515,7 +515,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -528,7 +528,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -541,7 +541,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -561,7 +561,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -587,7 +587,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -600,7 +600,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -613,7 +613,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -626,7 +626,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -652,7 +652,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -685,7 +685,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -698,7 +698,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -737,7 +737,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -750,7 +750,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -783,7 +783,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -809,7 +809,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -822,7 +822,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -835,7 +835,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -848,7 +848,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -861,7 +861,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -874,7 +874,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -894,7 +894,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -907,7 +907,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -920,7 +920,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -933,7 +933,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -959,7 +959,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -972,7 +972,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -985,7 +985,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1016,7 +1016,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1029,7 +1029,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1042,7 +1042,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1055,7 +1055,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1068,7 +1068,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1081,7 +1081,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1094,7 +1094,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1107,7 +1107,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1127,7 +1127,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1140,7 +1140,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1166,7 +1166,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1179,7 +1179,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1192,7 +1192,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1205,7 +1205,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1218,7 +1218,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1238,7 +1238,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1251,7 +1251,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1264,7 +1264,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1277,7 +1277,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1290,7 +1290,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1303,7 +1303,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1316,7 +1316,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1329,7 +1329,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1349,7 +1349,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1362,7 +1362,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1375,7 +1375,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1401,7 +1401,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1414,7 +1414,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1427,7 +1427,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1440,7 +1440,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1460,7 +1460,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1473,7 +1473,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1486,7 +1486,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1499,7 +1499,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1512,7 +1512,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1525,7 +1525,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1538,7 +1538,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1551,7 +1551,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1571,7 +1571,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1584,7 +1584,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1597,7 +1597,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1610,7 +1610,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1623,7 +1623,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1636,7 +1636,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1649,7 +1649,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1662,7 +1662,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1682,7 +1682,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1695,7 +1695,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1708,7 +1708,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1747,7 +1747,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1773,7 +1773,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1806,7 +1806,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1832,7 +1832,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1845,7 +1845,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1858,7 +1858,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1871,7 +1871,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1884,7 +1884,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1904,7 +1904,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1917,7 +1917,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1930,7 +1930,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1943,7 +1943,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1956,7 +1956,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1969,7 +1969,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1982,7 +1982,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -1995,7 +1995,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2015,7 +2015,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2028,7 +2028,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2041,7 +2041,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2067,7 +2067,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2080,7 +2080,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2126,7 +2126,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2139,7 +2139,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2152,7 +2152,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2165,7 +2165,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2178,7 +2178,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2191,7 +2191,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2204,7 +2204,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2217,7 +2217,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2237,7 +2237,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2250,7 +2250,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2263,7 +2263,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2276,7 +2276,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2289,7 +2289,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2302,7 +2302,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2315,7 +2315,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2328,7 +2328,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2348,7 +2348,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2361,7 +2361,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2374,7 +2374,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2387,7 +2387,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2400,7 +2400,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2413,7 +2413,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2426,7 +2426,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2439,7 +2439,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2459,7 +2459,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2485,7 +2485,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2498,7 +2498,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2511,7 +2511,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2524,7 +2524,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2537,7 +2537,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2550,7 +2550,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2570,7 +2570,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2583,7 +2583,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2596,7 +2596,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2622,7 +2622,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2635,7 +2635,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2648,7 +2648,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2661,7 +2661,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2681,7 +2681,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2694,7 +2694,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2733,7 +2733,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2746,7 +2746,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2759,7 +2759,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2772,7 +2772,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2792,7 +2792,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2818,7 +2818,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2903,7 +2903,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2916,7 +2916,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2929,7 +2929,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2942,7 +2942,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2955,7 +2955,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2968,7 +2968,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2981,7 +2981,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -2994,7 +2994,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3014,7 +3014,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3027,7 +3027,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3053,7 +3053,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3066,7 +3066,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3079,7 +3079,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3092,7 +3092,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3105,7 +3105,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3125,7 +3125,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3138,7 +3138,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3151,7 +3151,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3164,7 +3164,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3177,7 +3177,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3190,7 +3190,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3203,7 +3203,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3216,7 +3216,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3236,7 +3236,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3249,7 +3249,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3275,7 +3275,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3288,7 +3288,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3314,7 +3314,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3327,7 +3327,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3347,7 +3347,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3360,7 +3360,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3373,7 +3373,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3386,7 +3386,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3399,7 +3399,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3412,7 +3412,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3425,7 +3425,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3438,7 +3438,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3458,7 +3458,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3471,7 +3471,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3484,7 +3484,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3497,7 +3497,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3523,7 +3523,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3536,7 +3536,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3549,7 +3549,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3569,7 +3569,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3582,7 +3582,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_G",
+              "containerPartNumber": "MBN_2026_ROC_CT_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3595,7 +3595,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3608,7 +3608,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3621,7 +3621,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_BL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3634,7 +3634,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3647,7 +3647,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3660,7 +3660,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3680,7 +3680,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3693,7 +3693,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3706,7 +3706,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3719,7 +3719,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3745,7 +3745,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_CT_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3758,7 +3758,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3771,7 +3771,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3791,7 +3791,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_IN_B",
+              "containerPartNumber": "MBN_2026_ROC_SL_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3804,7 +3804,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3817,7 +3817,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_SL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3830,7 +3830,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_B",
+              "containerPartNumber": "MBN_2026_ROC_BL_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3843,7 +3843,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_BL_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3856,7 +3856,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_SL_B",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3869,7 +3869,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_G",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
@@ -3882,7 +3882,7 @@
             "family": "mac",
             "familyName": "MacBook Neo",
             "metadata": {
-              "containerPartNumber": "MBN_2026_ROC_CT_G",
+              "containerPartNumber": "MBN_2026_ROC_IN_B",
               "isRealPartNumber": true,
               "processorDisplay": "6-Core CPU / 5-Core GPU"
             },
