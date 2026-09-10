@@ -61,7 +61,6 @@
 		46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */; };
 		46F134D22E7C3B0A00CBE7DB /* Iphone-Air-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */; };
 		46F134D32E7C3B0A00CBE7DB /* Iphone-16-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C92E7C3B0A00CBE7DB /* Iphone-16-intl.json */; };
-		46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */; };
 		46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */; };
 		46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F134C72E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json */; };
 		46F138010000000000000001 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F138020000000000000002 /* countries.json */; };
@@ -146,7 +145,6 @@
 		46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AppleWatch-AppleWatchUltra-intl.json"; sourceTree = "<group>"; };
 		46F134C92E7C3B0A00CBE7DB /* Iphone-16-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-16-intl.json"; sourceTree = "<group>"; };
 		46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17-intl.json"; sourceTree = "<group>"; };
-		46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-17Pro-intl.json"; sourceTree = "<group>"; };
 		46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Iphone-Air-intl.json"; sourceTree = "<group>"; };
 		46F138020000000000000002 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		46F13B002E80001000CBE7DB /* CatalogTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTypes.swift; sourceTree = "<group>"; };
@@ -298,7 +296,6 @@
 				46F134C82E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json */,
 				46F134C92E7C3B0A00CBE7DB /* Iphone-16-intl.json */,
 				46F134CB2E7C3B0A00CBE7DB /* Iphone-17-intl.json */,
-				46F134CC2E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json */,
 				46F134CD2E7C3B0A00CBE7DB /* Iphone-Air-intl.json */,
 				46F13B0C2E80008000CBE7DB /* iPad-Pro-intl.json */,
 				46F13B102E80009000CBE7DB /* iPad-Air-intl.json */,
@@ -416,7 +413,6 @@
 				46F134D02E7C3B0A00CBE7DB /* AppleWatch-AppleWatchUltra-intl.json in Resources */,
 				46F134D22E7C3B0A00CBE7DB /* Iphone-Air-intl.json in Resources */,
 				46F134D32E7C3B0A00CBE7DB /* Iphone-16-intl.json in Resources */,
-				46F134D42E7C3B0A00CBE7DB /* Iphone-17Pro-intl.json in Resources */,
 				46F134D52E7C3B0A00CBE7DB /* Iphone-17-intl.json in Resources */,
 				46F134D62E7C3B0A00CBE7DB /* AppleWatch-AppleWatchSe-intl.json in Resources */,
 				46F13B0D2E80008000CBE7DB /* iPad-Pro-intl.json in Resources */,
