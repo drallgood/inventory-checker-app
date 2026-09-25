@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "mac",
-    "generated_at": "2026-09-09T19:55:20.841750+00:00",
+    "generated_at": "2026-09-25T15:14:34.286906+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "mac-studio"
@@ -634,26 +634,26 @@
             "colorDisplay": "",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 Mac Studio",
+            "familyName": "Mac Studio",
             "metadata": {
               "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Max (18-Core CPU / 32-Core GPU)"
             },
-            "name": "预购 Mac Studio M5 Max (18-Core CPU / 32-Core GPU)"
+            "name": "Mac Studio M5 Max (18-Core CPU / 32-Core GPU)"
           },
           "MHL74CH/A": {
             "capacity": "",
             "colorDisplay": "",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 Mac Studio",
+            "familyName": "Mac Studio",
             "metadata": {
               "containerPartNumber": "RO_MACSTUDIO_M5MAX_M5ULTRA_BET_BES_2026",
               "isRealPartNumber": true,
               "processorDisplay": "M5 Ultra (30-Core CPU / 64-Core GPU)"
             },
-            "name": "预购 Mac Studio M5 Ultra (30-Core CPU / 64-Core GPU)"
+            "name": "Mac Studio M5 Ultra (30-Core CPU / 64-Core GPU)"
           }
         },
         "url": "https://www.apple.com/cn/shop/buy-mac/mac-studio"

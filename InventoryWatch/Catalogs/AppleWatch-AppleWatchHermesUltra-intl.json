@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "watch",
-    "generated_at": "2026-09-09T19:54:31.791645+00:00",
+    "generated_at": "2026-09-25T15:16:53.568543+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "apple-watch-hermes-ultra"
@@ -756,18 +756,18 @@
         "skus": {
           "MJCY4KS/A": {
             "capacity": "",
-            "colorDisplay": "naturlig finish",
+            "colorDisplay": "naturlig",
             "colorKey": "natural",
             "dimensionScreensize": "",
             "family": "watch",
             "familyName": "Apple Watch Ultra 4",
             "metadata": {
               "caseSize": "49mm",
-              "color": "naturlig finish",
+              "color": "naturlig",
               "isRealPartNumber": true,
               "sourcePage": "watch"
             },
-            "name": "Apple Watch Ultra 4 49mm naturlig finish",
+            "name": "Apple Watch Ultra 4 49mm naturlig",
             "partNumber": "MJCY4KS/A"
           }
         },

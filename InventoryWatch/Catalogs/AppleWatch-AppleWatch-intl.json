@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "watch",
-    "generated_at": "2026-09-09T19:50:21.504732+00:00",
+    "generated_at": "2026-09-25T15:12:38.809022+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "apple-watch"
@@ -11597,7 +11597,7 @@
           },
           "MJJM4QN/A": {
             "capacity": "",
-            "colorDisplay": "naturlig finish",
+            "colorDisplay": "naturlig",
             "colorKey": "natural",
             "dimensionScreensize": "",
             "family": "watch",
@@ -11605,12 +11605,12 @@
             "metadata": {
               "caseMaterial": "titanium",
               "caseSize": "42mm",
-              "color": "naturlig finish",
+              "color": "naturlig",
               "connectivity": "gpscell",
               "isRealPartNumber": true,
               "sourcePage": "watch"
             },
-            "name": "Apple Watch Series 12 42mm gpscell titanium naturlig finish",
+            "name": "Apple Watch Series 12 42mm gpscell titanium naturlig",
             "partNumber": "MJJM4QN/A"
           },
           "MJJN4QN/A": {
@@ -11633,7 +11633,7 @@
           },
           "MJJP4QN/A": {
             "capacity": "",
-            "colorDisplay": "naturlig finish",
+            "colorDisplay": "naturlig",
             "colorKey": "natural",
             "dimensionScreensize": "",
             "family": "watch",
@@ -11641,12 +11641,12 @@
             "metadata": {
               "caseMaterial": "titanium",
               "caseSize": "46mm",
-              "color": "naturlig finish",
+              "color": "naturlig",
               "connectivity": "gpscell",
               "isRealPartNumber": true,
               "sourcePage": "watch"
             },
-            "name": "Apple Watch Series 12 46mm gpscell titanium naturlig finish",
+            "name": "Apple Watch Series 12 46mm gpscell titanium naturlig",
             "partNumber": "MJJP4QN/A"
           },
           "MJJQ4QN/A": {

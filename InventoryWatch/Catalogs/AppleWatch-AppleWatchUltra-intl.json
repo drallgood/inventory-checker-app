@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "watch",
-    "generated_at": "2026-09-09T19:52:46.253088+00:00",
+    "generated_at": "2026-09-25T15:14:43.054080+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "apple-watch-ultra"
@@ -1309,18 +1309,18 @@
         "skus": {
           "MJCR4KS/A": {
             "capacity": "",
-            "colorDisplay": "naturlig finish",
+            "colorDisplay": "naturlig",
             "colorKey": "natural",
             "dimensionScreensize": "",
             "family": "watch",
             "familyName": "Apple Watch Ultra 4",
             "metadata": {
               "caseSize": "49mm",
-              "color": "naturlig finish",
+              "color": "naturlig",
               "isRealPartNumber": true,
               "sourcePage": "watch"
             },
-            "name": "Apple Watch Ultra 4 49mm naturlig finish",
+            "name": "Apple Watch Ultra 4 49mm naturlig",
             "partNumber": "MJCR4KS/A"
           },
           "MJCT4KS/A": {
