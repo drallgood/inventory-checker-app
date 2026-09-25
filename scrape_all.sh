@@ -4,7 +4,7 @@ set -euo pipefail
 FAMILIES=(iphone watch mac ipad airpods homepod avp)
 PIDS=()
 
-mkdir logs
+mkdir -p logs
 
 for family in "${FAMILIES[@]}"; do
     echo "[$(date +%H:%M:%S)] Starting ${family}..."
