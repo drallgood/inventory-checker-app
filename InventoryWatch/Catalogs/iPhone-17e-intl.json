@@ -1,7 +1,11 @@
 {
   "_meta": {
     "family": "iphone",
-    "generated_at": "2026-10-16T13:58:22.085392+00:00",
+    "generated_at": "2026-11-03T14:48:36.372941+00:00",
+    "regions_carried_forward": 1,
+    "regions_failed": [
+      "za"
+    ],
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "iphone-17e"
@@ -127,6 +131,16 @@
         "iphone-17e": "shop/buy-iphone/iphone-17e"
       }
     },
+    "es": {
+      "localization": {
+        "token_display": {
+          "iphone-17e": "iPhone 17e"
+        }
+      },
+      "shop_paths": {
+        "iphone-17e": "shop/buy-iphone/iphone-17e"
+      }
+    },
     "fi": {
       "localization": {
         "token_display": {
@@ -148,6 +162,16 @@
       }
     },
     "hk": {
+      "localization": {
+        "token_display": {
+          "iphone-17e": "iPhone 17e"
+        }
+      },
+      "shop_paths": {
+        "iphone-17e": "shop/buy-iphone/iphone-17e"
+      }
+    },
+    "in": {
       "localization": {
         "token_display": {
           "iphone-17e": "iPhone 17e"

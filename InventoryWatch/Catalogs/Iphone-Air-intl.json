@@ -1,7 +1,11 @@
 {
   "_meta": {
     "family": "iphone",
-    "generated_at": "2026-10-16T13:58:00.633623+00:00",
+    "generated_at": "2026-11-03T14:47:23.198069+00:00",
+    "regions_carried_forward": 1,
+    "regions_failed": [
+      "za"
+    ],
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "iphone-air"

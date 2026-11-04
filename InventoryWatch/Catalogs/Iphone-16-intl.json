@@ -1,7 +1,12 @@
 {
   "_meta": {
     "family": "iphone",
-    "generated_at": "2026-10-16T13:58:30.802123+00:00",
+    "generated_at": "2026-11-03T14:49:29.777390+00:00",
+    "regions_carried_forward": 2,
+    "regions_failed": [
+      "br",
+      "za"
+    ],
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "iphone-16"
@@ -208,6 +213,16 @@
       }
     },
     "mx": {
+      "localization": {
+        "token_display": {
+          "iphone-16": "iPhone 16"
+        }
+      },
+      "shop_paths": {
+        "iphone-16": "shop/buy-iphone/iphone-16"
+      }
+    },
+    "my": {
       "localization": {
         "token_display": {
           "iphone-16": "iPhone 16"

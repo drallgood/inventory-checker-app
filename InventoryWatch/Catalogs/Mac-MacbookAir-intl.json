@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "mac",
-    "generated_at": "2026-10-16T12:23:21.568190+00:00",
+    "generated_at": "2026-11-03T14:57:34.732901+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "macbook-air"
@@ -336,16 +336,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Silver 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Silver 10-Core CPU / 8-Core GPU"
           },
           "MDHA4AB/A": {
             "capacity": "",
@@ -355,8 +355,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -381,16 +381,16 @@
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 8-Core GPU"
           },
           "MDV94AB/A": {
             "capacity": "",
@@ -401,7 +401,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -415,8 +415,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -430,8 +430,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -441,16 +441,16 @@
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/ae/shop/buy-mac/macbook-air"
@@ -463,51 +463,6 @@
             "capacity": "",
             "colorDisplay": "Silber",
             "colorKey": "silber",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 15-inch Silber 10-Core CPU / 8-Core GPU"
-          },
-          "MDHA4D/A": {
-            "capacity": "",
-            "colorDisplay": "Polarstern",
-            "colorKey": "polarstern",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 13-inch Polarstern 10-Core CPU / 8-Core GPU"
-          },
-          "MDHE4D/A": {
-            "capacity": "",
-            "colorDisplay": "Mitternacht",
-            "colorKey": "mitternacht",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 13-inch Mitternacht 10-Core CPU / 8-Core GPU"
-          },
-          "MDHH4D/A": {
-            "capacity": "",
-            "colorDisplay": "Himmelblau",
-            "colorKey": "himmelblau",
             "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
@@ -517,24 +472,9 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Himmelblau 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Silber 10-Core CPU / 8-Core GPU"
           },
-          "MDV94D/A": {
-            "capacity": "",
-            "colorDisplay": "Silber",
-            "colorKey": "silber",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 10-Core GPU"
-            },
-            "name": "MacBook Air 15-inch Silber 10-Core CPU / 10-Core GPU"
-          },
-          "MDVD4D/A": {
+          "MDHA4D/A": {
             "capacity": "",
             "colorDisplay": "Polarstern",
             "colorKey": "polarstern",
@@ -542,12 +482,72 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 13-inch Polarstern 10-Core CPU / 8-Core GPU"
+          },
+          "MDHE4D/A": {
+            "capacity": "",
+            "colorDisplay": "Mitternacht",
+            "colorKey": "mitternacht",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 15-inch Mitternacht 10-Core CPU / 8-Core GPU"
+          },
+          "MDHH4D/A": {
+            "capacity": "",
+            "colorDisplay": "Himmelblau",
+            "colorKey": "himmelblau",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 15-inch Himmelblau 10-Core CPU / 8-Core GPU"
+          },
+          "MDV94D/A": {
+            "capacity": "",
+            "colorDisplay": "Silber",
+            "colorKey": "silber",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Polarstern 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Silber 10-Core CPU / 10-Core GPU"
+          },
+          "MDVD4D/A": {
+            "capacity": "",
+            "colorDisplay": "Polarstern",
+            "colorKey": "polarstern",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 10-Core GPU"
+            },
+            "name": "MacBook Air 15-inch Polarstern 10-Core CPU / 10-Core GPU"
           },
           "MDVH4D/A": {
             "capacity": "",
@@ -557,8 +557,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -572,8 +572,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -590,16 +590,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Silver 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Silver 10-Core CPU / 8-Core GPU"
           },
           "MDHA4X/A": {
             "capacity": "",
@@ -610,7 +610,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -624,8 +624,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -654,7 +654,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
+              "colorHint": "silver",
               "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -665,21 +665,6 @@
             "capacity": "",
             "colorDisplay": "Starlight",
             "colorKey": "starlight",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 10-Core GPU"
-            },
-            "name": "MacBook Air 15-inch Starlight 10-Core CPU / 10-Core GPU"
-          },
-          "MDVH4X/A": {
-            "capacity": "",
-            "colorDisplay": "Midnight",
-            "colorKey": "midnight",
             "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
@@ -689,7 +674,22 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Starlight 10-Core CPU / 10-Core GPU"
+          },
+          "MDVH4X/A": {
+            "capacity": "",
+            "colorDisplay": "Midnight",
+            "colorKey": "midnight",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 10-Core GPU"
+            },
+            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4X/A": {
             "capacity": "",
@@ -699,8 +699,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -717,46 +717,46 @@
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Argent 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Argent 10-Core CPU / 8-Core GPU"
           },
           "MDHA4FN/A": {
             "capacity": "",
             "colorDisplay": "Lumière stellaire",
             "colorKey": "lumirestellaire",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Lumière stellaire 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Lumière stellaire 10-Core CPU / 8-Core GPU"
           },
           "MDHE4FN/A": {
             "capacity": "",
             "colorDisplay": "Minuit",
             "colorKey": "minuit",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Minuit 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Minuit 10-Core CPU / 8-Core GPU"
           },
           "MDHH4FN/A": {
             "capacity": "",
@@ -766,8 +766,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -777,31 +777,31 @@
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Argent 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Argent 10-Core CPU / 10-Core GPU"
           },
           "MDVD4FN/A": {
             "capacity": "",
             "colorDisplay": "Lumière stellaire",
             "colorKey": "lumirestellaire",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Lumière stellaire 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Lumière stellaire 10-Core CPU / 10-Core GPU"
           },
           "MDVH4FN/A": {
             "capacity": "",
@@ -811,7 +811,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "skyblue",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -822,16 +822,16 @@
             "capacity": "",
             "colorDisplay": "Bleu ciel",
             "colorKey": "bleuciel",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Bleu ciel 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Bleu ciel 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/be-fr/shop/buy-mac/macbook-air"
@@ -848,8 +848,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -859,31 +859,31 @@
             "capacity": "",
             "colorDisplay": "Sterrenlicht",
             "colorKey": "sterrenlicht",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Sterrenlicht 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Sterrenlicht 10-Core CPU / 8-Core GPU"
           },
           "MDHE4FN/A": {
             "capacity": "",
             "colorDisplay": "Middernacht",
             "colorKey": "middernacht",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Middernacht 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Middernacht 10-Core CPU / 8-Core GPU"
           },
           "MDHH4FN/A": {
             "capacity": "",
@@ -904,31 +904,31 @@
             "capacity": "",
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Zilver 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Zilver 10-Core CPU / 10-Core GPU"
           },
           "MDVD4FN/A": {
             "capacity": "",
             "colorDisplay": "Sterrenlicht",
             "colorKey": "sterrenlicht",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Sterrenlicht 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Sterrenlicht 10-Core CPU / 10-Core GPU"
           },
           "MDVH4FN/A": {
             "capacity": "",
@@ -938,7 +938,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
+              "colorHint": "midnight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -949,16 +949,16 @@
             "capacity": "",
             "colorDisplay": "Hemelsblauw",
             "colorKey": "hemelsblauw",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Hemelsblauw 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Hemelsblauw 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/be-nl/shop/buy-mac/macbook-air"
@@ -976,7 +976,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -991,7 +991,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1001,16 +1001,16 @@
             "capacity": "",
             "colorDisplay": "Meia-noite",
             "colorKey": "meianoite",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Meia-noite 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Meia-noite 10-Core CPU / 8-Core GPU"
           },
           "MDHH4BZ/A": {
             "capacity": "",
@@ -1020,8 +1020,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1031,16 +1031,16 @@
             "capacity": "",
             "colorDisplay": "Prateado",
             "colorKey": "prateado",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Prateado 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Prateado 10-Core CPU / 10-Core GPU"
           },
           "MDVD4BZ/A": {
             "capacity": "",
@@ -1050,8 +1050,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1066,7 +1066,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1076,16 +1076,16 @@
             "capacity": "",
             "colorDisplay": "Azul-céu",
             "colorKey": "azulcu",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Azul-céu 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Azul-céu 10-Core CPU / 10-Core GPU"
           },
           "MN863BR/A": {
             "capacity": "",
@@ -1113,8 +1113,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1128,8 +1128,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1143,8 +1143,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1169,16 +1169,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Silver 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Silver 10-Core CPU / 10-Core GPU"
           },
           "MDVD4LL/A": {
             "capacity": "",
@@ -1188,7 +1188,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
+              "colorHint": "silver",
               "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -1199,31 +1199,31 @@
             "capacity": "",
             "colorDisplay": "Midnight",
             "colorKey": "midnight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4LL/A": {
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/ca/shop/buy-mac/macbook-air"
@@ -1236,7 +1236,7 @@
             "capacity": "",
             "colorDisplay": "Silber",
             "colorKey": "silber",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -1245,7 +1245,7 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Silber 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Silber 10-Core CPU / 8-Core GPU"
           },
           "MDHA4SM/A": {
             "capacity": "",
@@ -1255,8 +1255,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1270,74 +1270,14 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
             "name": "MacBook Air 13-inch Mitternacht 10-Core CPU / 8-Core GPU"
           },
           "MDHH4SM/A": {
-            "capacity": "",
-            "colorDisplay": "Himmelblau",
-            "colorKey": "himmelblau",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 15-inch Himmelblau 10-Core CPU / 8-Core GPU"
-          },
-          "MDV94SM/A": {
-            "capacity": "",
-            "colorDisplay": "Silber",
-            "colorKey": "silber",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 10-Core GPU"
-            },
-            "name": "MacBook Air 13-inch Silber 10-Core CPU / 10-Core GPU"
-          },
-          "MDVD4SM/A": {
-            "capacity": "",
-            "colorDisplay": "Polarstern",
-            "colorKey": "polarstern",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 10-Core GPU"
-            },
-            "name": "MacBook Air 13-inch Polarstern 10-Core CPU / 10-Core GPU"
-          },
-          "MDVH4SM/A": {
-            "capacity": "",
-            "colorDisplay": "Mitternacht",
-            "colorKey": "mitternacht",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 10-Core GPU"
-            },
-            "name": "MacBook Air 15-inch Mitternacht 10-Core CPU / 10-Core GPU"
-          },
-          "MDVQ4SM/A": {
             "capacity": "",
             "colorDisplay": "Himmelblau",
             "colorKey": "himmelblau",
@@ -1348,9 +1288,69 @@
               "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 13-inch Himmelblau 10-Core CPU / 8-Core GPU"
+          },
+          "MDV94SM/A": {
+            "capacity": "",
+            "colorDisplay": "Silber",
+            "colorKey": "silber",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Himmelblau 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Silber 10-Core CPU / 10-Core GPU"
+          },
+          "MDVD4SM/A": {
+            "capacity": "",
+            "colorDisplay": "Polarstern",
+            "colorKey": "polarstern",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 10-Core GPU"
+            },
+            "name": "MacBook Air 13-inch Polarstern 10-Core CPU / 10-Core GPU"
+          },
+          "MDVH4SM/A": {
+            "capacity": "",
+            "colorDisplay": "Mitternacht",
+            "colorKey": "mitternacht",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 10-Core GPU"
+            },
+            "name": "MacBook Air 13-inch Mitternacht 10-Core CPU / 10-Core GPU"
+          },
+          "MDVQ4SM/A": {
+            "capacity": "",
+            "colorDisplay": "Himmelblau",
+            "colorKey": "himmelblau",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 10-Core GPU"
+            },
+            "name": "MacBook Air 15-inch Himmelblau 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/ch-de/shop/buy-mac/macbook-air"
@@ -1363,7 +1363,7 @@
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -1372,7 +1372,7 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Argent 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Argent 10-Core CPU / 8-Core GPU"
           },
           "MDHA4SM/A": {
             "capacity": "",
@@ -1382,8 +1382,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1393,46 +1393,46 @@
             "capacity": "",
             "colorDisplay": "Minuit",
             "colorKey": "minuit",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Minuit 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Minuit 10-Core CPU / 8-Core GPU"
           },
           "MDHH4SM/A": {
             "capacity": "",
             "colorDisplay": "Bleu ciel",
             "colorKey": "bleuciel",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Bleu ciel 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Bleu ciel 10-Core CPU / 8-Core GPU"
           },
           "MDV94SM/A": {
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Argent 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Argent 10-Core CPU / 10-Core GPU"
           },
           "MDVD4SM/A": {
             "capacity": "",
@@ -1442,8 +1442,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1453,31 +1453,31 @@
             "capacity": "",
             "colorDisplay": "Minuit",
             "colorKey": "minuit",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Minuit 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Minuit 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4SM/A": {
             "capacity": "",
             "colorDisplay": "Bleu ciel",
             "colorKey": "bleuciel",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
+              "colorHint": "silver",
               "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Bleu ciel 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Bleu ciel 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/ch-fr/shop/buy-mac/macbook-air"
@@ -1490,36 +1490,6 @@
             "capacity": "",
             "colorDisplay": "银色",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 15-inch 银色 10-Core CPU / 8-Core GPU"
-          },
-          "MDHA4CH/A": {
-            "capacity": "",
-            "colorDisplay": "星光色",
-            "colorKey": "",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 13-inch 星光色 10-Core CPU / 8-Core GPU"
-          },
-          "MDHE4CH/A": {
-            "capacity": "",
-            "colorDisplay": "午夜色",
-            "colorKey": "",
             "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
@@ -1529,37 +1499,67 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch 午夜色 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch 银色 10-Core CPU / 8-Core GPU"
           },
-          "MDHH4CH/A": {
+          "MDHA4CH/A": {
             "capacity": "",
-            "colorDisplay": "天蓝色",
+            "colorDisplay": "星光色",
             "colorKey": "",
             "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 15-inch 星光色 10-Core CPU / 8-Core GPU"
+          },
+          "MDHE4CH/A": {
+            "capacity": "",
+            "colorDisplay": "午夜色",
+            "colorKey": "",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 13-inch 午夜色 10-Core CPU / 8-Core GPU"
+          },
+          "MDHH4CH/A": {
+            "capacity": "",
+            "colorDisplay": "天蓝色",
+            "colorKey": "",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "skyblue",
               "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch 天蓝色 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch 天蓝色 10-Core CPU / 8-Core GPU"
           },
           "MDV94CH/A": {
             "capacity": "",
             "colorDisplay": "银色",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch 银色 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch 银色 10-Core CPU / 10-Core GPU"
           },
           "MDVD4CH/A": {
             "capacity": "",
@@ -1569,8 +1569,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1585,7 +1585,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1595,16 +1595,16 @@
             "capacity": "",
             "colorDisplay": "天蓝色",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch 天蓝色 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch 天蓝色 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/cn/shop/buy-mac/macbook-air"
@@ -1621,8 +1621,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1636,8 +1636,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1651,8 +1651,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1667,7 +1667,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1682,7 +1682,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1696,8 +1696,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1711,8 +1711,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1726,8 +1726,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1748,8 +1748,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1759,31 +1759,31 @@
             "capacity": "",
             "colorDisplay": "stjerneskær",
             "colorKey": "stjerneskr",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
+              "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch stjerneskær 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch stjerneskær 10-Core CPU / 8-Core GPU"
           },
           "MDHE4DK/A": {
             "capacity": "",
             "colorDisplay": "midnat",
             "colorKey": "midnat",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch midnat 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch midnat 10-Core CPU / 8-Core GPU"
           },
           "MDHH4DK/A": {
             "capacity": "",
@@ -1793,8 +1793,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1808,8 +1808,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1819,16 +1819,16 @@
             "capacity": "",
             "colorDisplay": "stjerneskær",
             "colorKey": "stjerneskr",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch stjerneskær 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch stjerneskær 10-Core CPU / 10-Core GPU"
           },
           "MDVH4DK/A": {
             "capacity": "",
@@ -1838,8 +1838,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1871,21 +1871,6 @@
             "capacity": "",
             "colorDisplay": "Plata",
             "colorKey": "plata",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 13-inch Plata 10-Core CPU / 8-Core GPU"
-          },
-          "MDHA4Y/A": {
-            "capacity": "",
-            "colorDisplay": "Blanco estrella",
-            "colorKey": "blancoestrella",
             "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
@@ -1895,7 +1880,22 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Blanco estrella 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Plata 10-Core CPU / 8-Core GPU"
+          },
+          "MDHA4Y/A": {
+            "capacity": "",
+            "colorDisplay": "Blanco estrella",
+            "colorKey": "blancoestrella",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 13-inch Blanco estrella 10-Core CPU / 8-Core GPU"
           },
           "MDHE4Y/A": {
             "capacity": "",
@@ -1905,8 +1905,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1920,8 +1920,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -1935,7 +1935,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
+              "colorHint": "midnight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -1950,8 +1950,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1966,7 +1966,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1980,8 +1980,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -1998,7 +1998,7 @@
             "capacity": "",
             "colorDisplay": "Hopea",
             "colorKey": "hopea",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -2007,13 +2007,13 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Hopea 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Hopea 10-Core CPU / 8-Core GPU"
           },
           "MDHA4KS/A": {
             "capacity": "",
             "colorDisplay": "Tähti­valkea",
             "colorKey": "thtivalkea",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -2022,22 +2022,22 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Tähti­valkea 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Tähti­valkea 10-Core CPU / 8-Core GPU"
           },
           "MDHE4KS/A": {
             "capacity": "",
             "colorDisplay": "Keskiyö",
             "colorKey": "keskiy",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Keskiyö 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Keskiyö 10-Core CPU / 8-Core GPU"
           },
           "MDHH4KS/A": {
             "capacity": "",
@@ -2047,8 +2047,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2058,16 +2058,16 @@
             "capacity": "",
             "colorDisplay": "Hopea",
             "colorKey": "hopea",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "skyblue",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Hopea 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Hopea 10-Core CPU / 10-Core GPU"
           },
           "MDVD4KS/A": {
             "capacity": "",
@@ -2077,8 +2077,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2088,7 +2088,7 @@
             "capacity": "",
             "colorDisplay": "Keskiyö",
             "colorKey": "keskiy",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -2097,7 +2097,7 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Keskiyö 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Keskiyö 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4KS/A": {
             "capacity": "",
@@ -2107,8 +2107,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2130,7 +2130,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2140,16 +2140,16 @@
             "capacity": "",
             "colorDisplay": "Lumière stellaire",
             "colorKey": "lumirestellaire",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Lumière stellaire 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Lumière stellaire 10-Core CPU / 8-Core GPU"
           },
           "MDHE4FN/A": {
             "capacity": "",
@@ -2174,8 +2174,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2190,7 +2190,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2200,31 +2200,31 @@
             "capacity": "",
             "colorDisplay": "Lumière stellaire",
             "colorKey": "lumirestellaire",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Lumière stellaire 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Lumière stellaire 10-Core CPU / 10-Core GPU"
           },
           "MDVH4FN/A": {
             "capacity": "",
             "colorDisplay": "Minuit",
             "colorKey": "minuit",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Minuit 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Minuit 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4FN/A": {
             "capacity": "",
@@ -2234,8 +2234,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2256,8 +2256,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2272,7 +2272,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2286,8 +2286,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2301,8 +2301,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2312,16 +2312,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Silver 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Silver 10-Core CPU / 10-Core GPU"
           },
           "MDVD4ZP/A": {
             "capacity": "",
@@ -2331,8 +2331,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2346,8 +2346,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2357,16 +2357,16 @@
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
+              "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/hk/shop/buy-mac/macbook-air"
@@ -2394,16 +2394,16 @@
             "capacity": "",
             "colorDisplay": "Starlight",
             "colorKey": "starlight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Starlight 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Starlight 10-Core CPU / 8-Core GPU"
           },
           "MDHE4HN/A": {
             "capacity": "",
@@ -2429,7 +2429,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2443,7 +2443,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "silver",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -2458,8 +2458,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2469,31 +2469,31 @@
             "capacity": "",
             "colorDisplay": "Midnight",
             "colorKey": "midnight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4HN/A": {
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/in/shop/buy-mac/macbook-air"
@@ -2506,61 +2506,61 @@
             "capacity": "",
             "colorDisplay": "Argento",
             "colorKey": "argento",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Argento 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Argento 10-Core CPU / 8-Core GPU"
           },
           "MDHA4T/A": {
             "capacity": "",
             "colorDisplay": "Galassia",
             "colorKey": "galassia",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Galassia 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Galassia 10-Core CPU / 8-Core GPU"
           },
           "MDHE4T/A": {
             "capacity": "",
             "colorDisplay": "Mezzanotte",
             "colorKey": "mezzanotte",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Mezzanotte 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Mezzanotte 10-Core CPU / 8-Core GPU"
           },
           "MDHH4T/A": {
             "capacity": "",
             "colorDisplay": "Celeste",
             "colorKey": "celeste",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Celeste 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Celeste 10-Core CPU / 8-Core GPU"
           },
           "MDV94T/A": {
             "capacity": "",
@@ -2585,7 +2585,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
@@ -2601,7 +2601,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2611,16 +2611,16 @@
             "capacity": "",
             "colorDisplay": "Celeste",
             "colorKey": "celeste",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Celeste 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Celeste 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/it/shop/buy-mac/macbook-air"
@@ -2637,8 +2637,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2648,16 +2648,16 @@
             "capacity": "",
             "colorDisplay": "スターライト",
             "colorKey": "",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch スターライト 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch スターライト 10-Core CPU / 8-Core GPU"
           },
           "MDHE4J/A": {
             "capacity": "",
@@ -2667,7 +2667,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
@@ -2682,8 +2682,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2693,16 +2693,16 @@
             "capacity": "",
             "colorDisplay": "シルバー",
             "colorKey": "",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch シルバー 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch シルバー 10-Core CPU / 10-Core GPU"
           },
           "MDVD4J/A": {
             "capacity": "",
@@ -2727,8 +2727,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2742,8 +2742,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2765,7 +2765,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2775,31 +2775,31 @@
             "capacity": "",
             "colorDisplay": "스타라이트",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
-              "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 15-inch 스타라이트 10-Core CPU / 8-Core GPU"
-          },
-          "MDHE4KH/A": {
-            "capacity": "",
-            "colorDisplay": "미드나이트",
-            "colorKey": "",
             "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch 미드나이트 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch 스타라이트 10-Core CPU / 8-Core GPU"
+          },
+          "MDHE4KH/A": {
+            "capacity": "",
+            "colorDisplay": "미드나이트",
+            "colorKey": "",
+            "dimensionScreensize": "15inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 15-inch 미드나이트 10-Core CPU / 8-Core GPU"
           },
           "MDHH4KH/A": {
             "capacity": "",
@@ -2809,8 +2809,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2825,7 +2825,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2835,16 +2835,16 @@
             "capacity": "",
             "colorDisplay": "스타라이트",
             "colorKey": "",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch 스타라이트 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch 스타라이트 10-Core CPU / 10-Core GPU"
           },
           "MDVH4KH/A": {
             "capacity": "",
@@ -2854,8 +2854,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -2865,16 +2865,16 @@
             "capacity": "",
             "colorDisplay": "스카이 블루",
             "colorKey": "",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch 스카이 블루 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch 스카이 블루 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/kr/shop/buy-mac/macbook-air"
@@ -2887,31 +2887,31 @@
             "capacity": "",
             "colorDisplay": "Color plata",
             "colorKey": "colorplata",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Color plata 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Color plata 10-Core CPU / 8-Core GPU"
           },
           "MDHA4E/A": {
             "capacity": "",
             "colorDisplay": "Blanco estelar",
             "colorKey": "blancoestelar",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Blanco estelar 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Blanco estelar 10-Core CPU / 8-Core GPU"
           },
           "MDHE4E/A": {
             "capacity": "",
@@ -2921,8 +2921,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2936,8 +2936,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -2947,31 +2947,31 @@
             "capacity": "",
             "colorDisplay": "Color plata",
             "colorKey": "colorplata",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Color plata 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Color plata 10-Core CPU / 10-Core GPU"
           },
           "MDVD4E/A": {
             "capacity": "",
             "colorDisplay": "Blanco estelar",
             "colorKey": "blancoestelar",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Blanco estelar 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Blanco estelar 10-Core CPU / 10-Core GPU"
           },
           "MDVH4E/A": {
             "capacity": "",
@@ -2981,8 +2981,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3019,7 +3019,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3033,8 +3033,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3044,16 +3044,16 @@
             "capacity": "",
             "colorDisplay": "Midnight",
             "colorKey": "midnight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 8-Core GPU"
           },
           "MDHH4ZP/A": {
             "capacity": "",
@@ -3063,8 +3063,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3078,8 +3078,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3094,7 +3094,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3108,8 +3108,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3124,7 +3124,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3141,31 +3141,31 @@
             "capacity": "",
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Zilver 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Zilver 10-Core CPU / 8-Core GPU"
           },
           "MDHA4N/A": {
             "capacity": "",
             "colorDisplay": "Sterrenlicht",
             "colorKey": "sterrenlicht",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Sterrenlicht 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Sterrenlicht 10-Core CPU / 8-Core GPU"
           },
           "MDHE4N/A": {
             "capacity": "",
@@ -3175,8 +3175,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3191,7 +3191,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3201,16 +3201,16 @@
             "capacity": "",
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Zilver 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Zilver 10-Core CPU / 10-Core GPU"
           },
           "MDVD4N/A": {
             "capacity": "",
@@ -3220,8 +3220,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3231,31 +3231,31 @@
             "capacity": "",
             "colorDisplay": "Middernacht",
             "colorKey": "middernacht",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Middernacht 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Middernacht 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4N/A": {
             "capacity": "",
             "colorDisplay": "Hemelsblauw",
             "colorKey": "hemelsblauw",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Hemelsblauw 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Hemelsblauw 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/nl/shop/buy-mac/macbook-air"
@@ -3268,31 +3268,31 @@
             "capacity": "",
             "colorDisplay": "sølv",
             "colorKey": "slv",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch sølv 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch sølv 10-Core CPU / 8-Core GPU"
           },
           "MDHA4H/A": {
             "capacity": "",
             "colorDisplay": "stjerneskinn",
             "colorKey": "stjerneskinn",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch stjerneskinn 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch stjerneskinn 10-Core CPU / 8-Core GPU"
           },
           "MDHE4H/A": {
             "capacity": "",
@@ -3302,8 +3302,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3313,31 +3313,31 @@
             "capacity": "",
             "colorDisplay": "himmelblå",
             "colorKey": "himmelbl",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch himmelblå 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch himmelblå 10-Core CPU / 8-Core GPU"
           },
           "MDV94H/A": {
             "capacity": "",
             "colorDisplay": "sølv",
             "colorKey": "slv",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch sølv 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch sølv 10-Core CPU / 10-Core GPU"
           },
           "MDVD4H/A": {
             "capacity": "",
@@ -3347,8 +3347,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3362,8 +3362,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3377,8 +3377,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3395,16 +3395,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Silver 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Silver 10-Core CPU / 8-Core GPU"
           },
           "MDHA4AB/A": {
             "capacity": "",
@@ -3414,7 +3414,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "skyblue",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
@@ -3444,8 +3444,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3459,8 +3459,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3470,16 +3470,16 @@
             "capacity": "",
             "colorDisplay": "Starlight",
             "colorKey": "starlight",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
+              "colorHint": "midnight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Starlight 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Starlight 10-Core CPU / 10-Core GPU"
           },
           "MDVH4AB/A": {
             "capacity": "",
@@ -3489,8 +3489,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3500,16 +3500,16 @@
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/sa/shop/buy-mac/macbook-air"
@@ -3526,8 +3526,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3541,8 +3541,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3552,46 +3552,46 @@
             "capacity": "",
             "colorDisplay": "midnatt",
             "colorKey": "midnatt",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch midnatt 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch midnatt 10-Core CPU / 8-Core GPU"
           },
           "MDHH4KS/A": {
             "capacity": "",
             "colorDisplay": "himmelsblå",
             "colorKey": "himmelsbl",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch himmelsblå 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch himmelsblå 10-Core CPU / 8-Core GPU"
           },
           "MDV94KS/A": {
             "capacity": "",
             "colorDisplay": "silver",
             "colorKey": "silver",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch silver 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch silver 10-Core CPU / 10-Core GPU"
           },
           "MDVD4KS/A": {
             "capacity": "",
@@ -3616,8 +3616,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3627,16 +3627,16 @@
             "capacity": "",
             "colorDisplay": "himmelsblå",
             "colorKey": "himmelsbl",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch himmelsblå 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch himmelsblå 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/se/shop/buy-mac/macbook-air"
@@ -3653,8 +3653,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3669,7 +3669,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3679,16 +3679,16 @@
             "capacity": "",
             "colorDisplay": "Midnight",
             "colorKey": "midnight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
+              "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 8-Core GPU"
           },
           "MDHH4ZP/A": {
             "capacity": "",
@@ -3698,8 +3698,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3709,16 +3709,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Silver 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Silver 10-Core CPU / 10-Core GPU"
           },
           "MDVD4ZP/A": {
             "capacity": "",
@@ -3743,8 +3743,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3754,16 +3754,16 @@
             "capacity": "",
             "colorDisplay": "Sky Blue",
             "colorKey": "skyblue",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Sky Blue 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Sky Blue 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/sg/shop/buy-mac/macbook-air"
@@ -3776,16 +3776,16 @@
             "capacity": "",
             "colorDisplay": "เงิน",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch เงิน 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch เงิน 10-Core CPU / 8-Core GPU"
           },
           "MDHA4TH/A": {
             "capacity": "",
@@ -3795,7 +3795,7 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
+              "colorHint": "silver",
               "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
@@ -3810,8 +3810,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3821,16 +3821,16 @@
             "capacity": "",
             "colorDisplay": "สกายบลู",
             "colorKey": "",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "skyblue",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch สกายบลู 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch สกายบลู 10-Core CPU / 8-Core GPU"
           },
           "MDV94TH/A": {
             "capacity": "",
@@ -3841,7 +3841,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3855,8 +3855,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3870,8 +3870,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -3881,16 +3881,16 @@
             "capacity": "",
             "colorDisplay": "สกายบลู",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch สกายบลู 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch สกายบลู 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/th/shop/buy-mac/macbook-air"
@@ -3903,31 +3903,31 @@
             "capacity": "",
             "colorDisplay": "Gümüş",
             "colorKey": "gm",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Gümüş 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Gümüş 10-Core CPU / 8-Core GPU"
           },
           "MDHA4TU/A": {
             "capacity": "",
             "colorDisplay": "Yıldız Işığı",
             "colorKey": "yldzi",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Yıldız Işığı 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Yıldız Işığı 10-Core CPU / 8-Core GPU"
           },
           "MDHE4TU/A": {
             "capacity": "",
@@ -3937,8 +3937,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -3948,6 +3948,21 @@
             "capacity": "",
             "colorDisplay": "Gök Mavisi",
             "colorKey": "gkmavisi",
+            "dimensionScreensize": "13inch",
+            "family": "mac",
+            "familyName": "MacBook Air",
+            "metadata": {
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "isRealPartNumber": true,
+              "processorDisplay": "10-Core CPU / 8-Core GPU"
+            },
+            "name": "MacBook Air 13-inch Gök Mavisi 10-Core CPU / 8-Core GPU"
+          },
+          "MDV94TU/A": {
+            "capacity": "",
+            "colorDisplay": "Gümüş",
+            "colorKey": "gm",
             "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
@@ -3955,45 +3970,30 @@
               "colorHint": "skyblue",
               "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
-              "processorDisplay": "10-Core CPU / 8-Core GPU"
-            },
-            "name": "MacBook Air 15-inch Gök Mavisi 10-Core CPU / 8-Core GPU"
-          },
-          "MDV94TU/A": {
-            "capacity": "",
-            "colorDisplay": "Gümüş",
-            "colorKey": "gm",
-            "dimensionScreensize": "13inch",
-            "family": "mac",
-            "familyName": "MacBook Air",
-            "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
-              "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Gümüş 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Gümüş 10-Core CPU / 10-Core GPU"
           },
           "MDVD4TU/A": {
             "capacity": "",
             "colorDisplay": "Yıldız Işığı",
             "colorKey": "yldzi",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Yıldız Işığı 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Yıldız Işığı 10-Core CPU / 10-Core GPU"
           },
           "MDVH4TU/A": {
             "capacity": "",
             "colorDisplay": "Gece Yarısı",
             "colorKey": "geceyars",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -4002,7 +4002,7 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch Gece Yarısı 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch Gece Yarısı 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4TU/A": {
             "capacity": "",
@@ -4013,7 +4013,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -4050,7 +4050,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4064,8 +4064,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4079,8 +4079,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4095,7 +4095,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -4105,7 +4105,7 @@
             "capacity": "",
             "colorDisplay": "星光色",
             "colorKey": "",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
@@ -4114,7 +4114,7 @@
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 15-inch 星光色 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 13-inch 星光色 10-Core CPU / 10-Core GPU"
           },
           "MDVH4TA/A": {
             "capacity": "",
@@ -4135,16 +4135,16 @@
             "capacity": "",
             "colorDisplay": "天藍色",
             "colorKey": "",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SILVER_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch 天藍色 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch 天藍色 10-Core CPU / 10-Core GPU"
           }
         },
         "url": "https://www.apple.com/tw/shop/buy-mac/macbook-air"
@@ -4157,16 +4157,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Silver 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Silver 10-Core CPU / 8-Core GPU"
           },
           "MDHA4B/A": {
             "capacity": "",
@@ -4176,8 +4176,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
+              "colorHint": "midnight",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4187,16 +4187,16 @@
             "capacity": "",
             "colorDisplay": "Midnight",
             "colorKey": "midnight",
-            "dimensionScreensize": "15inch",
+            "dimensionScreensize": "13inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 8-Core GPU"
           },
           "MDHH4B/A": {
             "capacity": "",
@@ -4206,8 +4206,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4232,16 +4232,16 @@
             "capacity": "",
             "colorDisplay": "Starlight",
             "colorKey": "starlight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Starlight 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Starlight 10-Core CPU / 10-Core GPU"
           },
           "MDVH4B/A": {
             "capacity": "",
@@ -4251,8 +4251,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -4266,8 +4266,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -4284,16 +4284,16 @@
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
+              "colorHint": "starlight",
               "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
-            "name": "MacBook Air 13-inch Silver 10-Core CPU / 8-Core GPU"
+            "name": "MacBook Air 15-inch Silver 10-Core CPU / 8-Core GPU"
           },
           "MDHA4LL/A": {
             "capacity": "",
@@ -4304,7 +4304,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SILVER_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4318,8 +4318,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "colorHint": "skyblue",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4334,7 +4334,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_MIDNIGHT_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 8-Core GPU"
             },
@@ -4349,7 +4349,7 @@
             "familyName": "MacBook Air",
             "metadata": {
               "colorHint": "starlight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -4363,8 +4363,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "silver",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_MIDNIGHT_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -4374,16 +4374,16 @@
             "capacity": "",
             "colorDisplay": "Midnight",
             "colorKey": "midnight",
-            "dimensionScreensize": "13inch",
+            "dimensionScreensize": "15inch",
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "skyblue",
-              "containerPartNumber": "RO_MBA_M5_15_INCH_SKY_BLUE_BET_BES_ULT_2026",
+              "colorHint": "starlight",
+              "containerPartNumber": "RO_MBA_M5_15_INCH_STARLIGHT_BET_BES_ULT_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "MacBook Air 13-inch Midnight 10-Core CPU / 10-Core GPU"
+            "name": "MacBook Air 15-inch Midnight 10-Core CPU / 10-Core GPU"
           },
           "MDVQ4LL/A": {
             "capacity": "",
@@ -4393,8 +4393,8 @@
             "family": "mac",
             "familyName": "MacBook Air",
             "metadata": {
-              "colorHint": "midnight",
-              "containerPartNumber": "RO_MBA_M5_13_INCH_STARLIGHT_GOO_2026",
+              "colorHint": "silver",
+              "containerPartNumber": "RO_MBA_M5_13_INCH_SKYBLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
