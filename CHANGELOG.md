@@ -1,11 +1,15 @@
 # Changelog
 
-## Unreleased
+## 3.0.0-RC.4
 
 ### Added
 
 - Sparkle update dialogs show release notes from the changelog. Release packaging embeds the matching version's notes, or the Unreleased section for a new version.
 - GitHub releases include the same changelog section ahead of automatically generated notes.
+
+### Changed
+
+- Scraper run to add new products and update availability: PROLED MacBook Pro
 
 ## 3.0.0-RC.3
 

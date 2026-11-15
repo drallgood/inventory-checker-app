@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "iphone",
-    "generated_at": "2026-11-03T14:47:23.198069+00:00",
+    "generated_at": "2026-11-15T13:02:29.959006+00:00",
     "regions_carried_forward": 1,
     "regions_failed": [
       "za"
@@ -4713,7 +4713,7 @@
         "skus": {
           "MG2L4QN/A": {
             "capacity": "256GB",
-            "colorDisplay": "rymdsvart",
+            "colorDisplay": "Rymdsvart",
             "colorKey": "spaceblack",
             "dimensionScreensize": "",
             "family": "iphoneair",
@@ -4769,7 +4769,7 @@
           },
           "MG2Q4QN/A": {
             "capacity": "512GB",
-            "colorDisplay": "rymdsvart",
+            "colorDisplay": "Rymdsvart",
             "colorKey": "spaceblack",
             "dimensionScreensize": "",
             "family": "iphoneair",
@@ -4825,7 +4825,7 @@
           },
           "MG2W4QN/A": {
             "capacity": "1TB",
-            "colorDisplay": "rymdsvart",
+            "colorDisplay": "Rymdsvart",
             "colorKey": "spaceblack",
             "dimensionScreensize": "",
             "family": "iphoneair",

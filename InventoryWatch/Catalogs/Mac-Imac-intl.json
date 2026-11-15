@@ -1,7 +1,7 @@
 {
   "_meta": {
     "family": "mac",
-    "generated_at": "2026-11-03T14:59:17.894515+00:00",
+    "generated_at": "2026-11-15T13:15:17.193964+00:00",
     "regions_scraped": 33,
     "scraper_version": "1.0",
     "token": "imac"
@@ -337,104 +337,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084AB/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094AB/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4AB/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114AB/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4AB/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4AB/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4AB/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/ae/shop/buy-mac/imac"
@@ -448,104 +448,104 @@
             "colorDisplay": "Silber",
             "colorKey": "silber",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Silber 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silber 10-Core CPU / 10-Core GPU"
           },
           "MH084D/A": {
             "capacity": "",
             "colorDisplay": "Grün",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Grün 10-Core CPU / 10-Core GPU"
+            "name": "iMac Grün 10-Core CPU / 10-Core GPU"
           },
           "MH094D/A": {
             "capacity": "",
             "colorDisplay": "Blau",
             "colorKey": "blau",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Blau 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blau 10-Core CPU / 10-Core GPU"
           },
           "MH0A4D/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114D/A": {
             "capacity": "",
             "colorDisplay": "Silber",
             "colorKey": "silber",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Silber 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silber 12-Core CPU / 12-Core GPU"
           },
           "MH1D4D/A": {
             "capacity": "",
             "colorDisplay": "Grün",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Grün 12-Core CPU / 12-Core GPU"
+            "name": "iMac Grün 12-Core CPU / 12-Core GPU"
           },
           "MH1H4D/A": {
             "capacity": "",
             "colorDisplay": "Blau",
             "colorKey": "blau",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Blau 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blau 12-Core CPU / 12-Core GPU"
           },
           "MH1P4D/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/at/shop/buy-mac/imac"
@@ -559,104 +559,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084X/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094X/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4X/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114X/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4X/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4X/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4X/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/au/shop/buy-mac/imac"
@@ -670,104 +670,104 @@
             "colorDisplay": "Argent",
             "colorKey": "argent",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Argent 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Argent 10-Core CPU / 10-Core GPU"
           },
           "MH084FN/A": {
             "capacity": "",
             "colorDisplay": "Vert",
             "colorKey": "vert",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Vert 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Vert 10-Core CPU / 10-Core GPU"
           },
           "MH094FN/A": {
             "capacity": "",
             "colorDisplay": "Bleu",
             "colorKey": "bleu",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Bleu 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Bleu 10-Core CPU / 10-Core GPU"
           },
           "MH0A4FN/A": {
             "capacity": "",
             "colorDisplay": "Rose",
             "colorKey": "rose",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Rose 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Rose 10-Core CPU / 10-Core GPU"
           },
           "MH114FN/A": {
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Argent 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Argent 12-Core CPU / 12-Core GPU"
           },
           "MH1D4FN/A": {
             "capacity": "",
             "colorDisplay": "Vert",
             "colorKey": "vert",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Vert 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Vert 12-Core CPU / 12-Core GPU"
           },
           "MH1H4FN/A": {
             "capacity": "",
             "colorDisplay": "Bleu",
             "colorKey": "bleu",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Bleu 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Bleu 12-Core CPU / 12-Core GPU"
           },
           "MH1P4FN/A": {
             "capacity": "",
             "colorDisplay": "Rose",
             "colorKey": "rose",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Rose 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Rose 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/be-fr/shop/buy-mac/imac"
@@ -781,104 +781,104 @@
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Zilver 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Zilver 10-Core CPU / 10-Core GPU"
           },
           "MH084FN/A": {
             "capacity": "",
             "colorDisplay": "Groen",
             "colorKey": "groen",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Groen 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Groen 10-Core CPU / 10-Core GPU"
           },
           "MH094FN/A": {
             "capacity": "",
             "colorDisplay": "Blauw",
             "colorKey": "blauw",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Blauw 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Blauw 10-Core CPU / 10-Core GPU"
           },
           "MH0A4FN/A": {
             "capacity": "",
             "colorDisplay": "Roze",
             "colorKey": "roze",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Roze 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Roze 10-Core CPU / 10-Core GPU"
           },
           "MH114FN/A": {
             "capacity": "",
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Zilver 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Zilver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4FN/A": {
             "capacity": "",
             "colorDisplay": "Groen",
             "colorKey": "groen",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Groen 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Groen 12-Core CPU / 12-Core GPU"
           },
           "MH1H4FN/A": {
             "capacity": "",
             "colorDisplay": "Blauw",
             "colorKey": "blauw",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Blauw 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Blauw 12-Core CPU / 12-Core GPU"
           },
           "MH1P4FN/A": {
             "capacity": "",
             "colorDisplay": "Roze",
             "colorKey": "roze",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Roze 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Roze 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/be-nl/shop/buy-mac/imac"
@@ -905,7 +905,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -918,7 +918,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -931,7 +931,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -944,7 +944,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
@@ -957,7 +957,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
@@ -983,7 +983,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
@@ -996,7 +996,7 @@
             "family": "mac",
             "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
@@ -1014,104 +1014,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084LL/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094LL/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4LL/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114LL/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4LL/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4LL/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4LL/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/ca/shop/buy-mac/imac"
@@ -1125,104 +1125,104 @@
             "colorDisplay": "Silber",
             "colorKey": "silber",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Silber 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silber 10-Core CPU / 10-Core GPU"
           },
           "MH084SM/A": {
             "capacity": "",
             "colorDisplay": "Grün",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Grün 10-Core CPU / 10-Core GPU"
+            "name": "iMac Grün 10-Core CPU / 10-Core GPU"
           },
           "MH094SM/A": {
             "capacity": "",
             "colorDisplay": "Blau",
             "colorKey": "blau",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Blau 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blau 10-Core CPU / 10-Core GPU"
           },
           "MH0A4SM/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114SM/A": {
             "capacity": "",
             "colorDisplay": "Silber",
             "colorKey": "silber",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Silber 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silber 12-Core CPU / 12-Core GPU"
           },
           "MH1D4SM/A": {
             "capacity": "",
             "colorDisplay": "Grün",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Grün 12-Core CPU / 12-Core GPU"
+            "name": "iMac Grün 12-Core CPU / 12-Core GPU"
           },
           "MH1H4SM/A": {
             "capacity": "",
             "colorDisplay": "Blau",
             "colorKey": "blau",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Blau 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blau 12-Core CPU / 12-Core GPU"
           },
           "MH1P4SM/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/ch-de/shop/buy-mac/imac"
@@ -1236,104 +1236,104 @@
             "colorDisplay": "Argent",
             "colorKey": "argent",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Argent 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Argent 10-Core CPU / 10-Core GPU"
           },
           "MH084SM/A": {
             "capacity": "",
             "colorDisplay": "Vert",
             "colorKey": "vert",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Vert 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Vert 10-Core CPU / 10-Core GPU"
           },
           "MH094SM/A": {
             "capacity": "",
             "colorDisplay": "Bleu",
             "colorKey": "bleu",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Bleu 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Bleu 10-Core CPU / 10-Core GPU"
           },
           "MH0A4SM/A": {
             "capacity": "",
             "colorDisplay": "Rose",
             "colorKey": "rose",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Rose 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Rose 10-Core CPU / 10-Core GPU"
           },
           "MH114SM/A": {
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Argent 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Argent 12-Core CPU / 12-Core GPU"
           },
           "MH1D4SM/A": {
             "capacity": "",
             "colorDisplay": "Vert",
             "colorKey": "vert",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Vert 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Vert 12-Core CPU / 12-Core GPU"
           },
           "MH1H4SM/A": {
             "capacity": "",
             "colorDisplay": "Bleu",
             "colorKey": "bleu",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Bleu 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Bleu 12-Core CPU / 12-Core GPU"
           },
           "MH1P4SM/A": {
             "capacity": "",
             "colorDisplay": "Rose",
             "colorKey": "rose",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Rose 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Rose 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/ch-fr/shop/buy-mac/imac"
@@ -1347,104 +1347,104 @@
             "colorDisplay": "银色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "预购 iMac 银色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 银色 10-Core CPU / 10-Core GPU"
           },
           "MH084CH/A": {
             "capacity": "",
             "colorDisplay": "绿色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "预购 iMac 绿色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 绿色 10-Core CPU / 10-Core GPU"
           },
           "MH094CH/A": {
             "capacity": "",
             "colorDisplay": "蓝色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "预购 iMac 蓝色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 蓝色 10-Core CPU / 10-Core GPU"
           },
           "MH0A4CH/A": {
             "capacity": "",
             "colorDisplay": "粉色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "预购 iMac 粉色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 粉色 10-Core CPU / 10-Core GPU"
           },
           "MH114CH/A": {
             "capacity": "",
             "colorDisplay": "银色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "预购 iMac 银色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 银色 12-Core CPU / 12-Core GPU"
           },
           "MH1D4CH/A": {
             "capacity": "",
             "colorDisplay": "绿色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "预购 iMac 绿色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 绿色 12-Core CPU / 12-Core GPU"
           },
           "MH1H4CH/A": {
             "capacity": "",
             "colorDisplay": "蓝色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "预购 iMac 蓝色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 蓝色 12-Core CPU / 12-Core GPU"
           },
           "MH1P4CH/A": {
             "capacity": "",
             "colorDisplay": "粉色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "预购 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "预购 iMac 粉色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 粉色 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/cn/shop/buy-mac/imac"
@@ -1458,104 +1458,104 @@
             "colorDisplay": "Silber",
             "colorKey": "silber",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Silber 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silber 10-Core CPU / 10-Core GPU"
           },
           "MH084D/A": {
             "capacity": "",
             "colorDisplay": "Grün",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Grün 10-Core CPU / 10-Core GPU"
+            "name": "iMac Grün 10-Core CPU / 10-Core GPU"
           },
           "MH094D/A": {
             "capacity": "",
             "colorDisplay": "Blau",
             "colorKey": "blau",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Blau 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blau 10-Core CPU / 10-Core GPU"
           },
           "MH0A4D/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac vorbestellen Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114D/A": {
             "capacity": "",
             "colorDisplay": "Silber",
             "colorKey": "silber",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Silber 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silber 12-Core CPU / 12-Core GPU"
           },
           "MH1D4D/A": {
             "capacity": "",
             "colorDisplay": "Grün",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Grün 12-Core CPU / 12-Core GPU"
+            "name": "iMac Grün 12-Core CPU / 12-Core GPU"
           },
           "MH1H4D/A": {
             "capacity": "",
             "colorDisplay": "Blau",
             "colorKey": "blau",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Blau 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blau 12-Core CPU / 12-Core GPU"
           },
           "MH1P4D/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "iMac vorbestellen",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac vorbestellen Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/de/shop/buy-mac/imac"
@@ -1569,104 +1569,104 @@
             "colorDisplay": "sølv",
             "colorKey": "slv",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forudbestil iMac sølv 10-Core CPU / 10-Core GPU"
+            "name": "Køb iMac sølv 10-Core CPU / 10-Core GPU"
           },
           "MH084DK/A": {
             "capacity": "",
             "colorDisplay": "grøn",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forudbestil iMac grøn 10-Core CPU / 10-Core GPU"
+            "name": "Køb iMac grøn 10-Core CPU / 10-Core GPU"
           },
           "MH094DK/A": {
             "capacity": "",
             "colorDisplay": "blå",
             "colorKey": "bl",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forudbestil iMac blå 10-Core CPU / 10-Core GPU"
+            "name": "Køb iMac blå 10-Core CPU / 10-Core GPU"
           },
           "MH0A4DK/A": {
             "capacity": "",
             "colorDisplay": "lyserød",
             "colorKey": "lyserd",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forudbestil iMac lyserød 10-Core CPU / 10-Core GPU"
+            "name": "Køb iMac lyserød 10-Core CPU / 10-Core GPU"
           },
           "MH114DK/A": {
             "capacity": "",
             "colorDisplay": "sølv",
             "colorKey": "slv",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forudbestil iMac sølv 12-Core CPU / 12-Core GPU"
+            "name": "Køb iMac sølv 12-Core CPU / 12-Core GPU"
           },
           "MH1D4DK/A": {
             "capacity": "",
             "colorDisplay": "grøn",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forudbestil iMac grøn 12-Core CPU / 12-Core GPU"
+            "name": "Køb iMac grøn 12-Core CPU / 12-Core GPU"
           },
           "MH1H4DK/A": {
             "capacity": "",
             "colorDisplay": "blå",
             "colorKey": "bl",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forudbestil iMac blå 12-Core CPU / 12-Core GPU"
+            "name": "Køb iMac blå 12-Core CPU / 12-Core GPU"
           },
           "MH1P4DK/A": {
             "capacity": "",
             "colorDisplay": "lyserød",
             "colorKey": "lyserd",
             "family": "mac",
-            "familyName": "Forudbestil iMac",
+            "familyName": "Køb iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forudbestil iMac lyserød 12-Core CPU / 12-Core GPU"
+            "name": "Køb iMac lyserød 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/dk/shop/buy-mac/imac"
@@ -1680,104 +1680,104 @@
             "colorDisplay": "Plata",
             "colorKey": "plata",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Reserva el iMac Plata 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Plata 10-Core CPU / 10-Core GPU"
           },
           "MH084Y/A": {
             "capacity": "",
             "colorDisplay": "Verde",
             "colorKey": "verde",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Reserva el iMac Verde 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Verde 10-Core CPU / 10-Core GPU"
           },
           "MH094Y/A": {
             "capacity": "",
             "colorDisplay": "Azul",
             "colorKey": "azul",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Reserva el iMac Azul 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Azul 10-Core CPU / 10-Core GPU"
           },
           "MH0A4Y/A": {
             "capacity": "",
             "colorDisplay": "Rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Reserva el iMac Rosa 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Rosa 10-Core CPU / 10-Core GPU"
           },
           "MH114Y/A": {
             "capacity": "",
             "colorDisplay": "Plata",
             "colorKey": "plata",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Reserva el iMac Plata 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Plata 12-Core CPU / 12-Core GPU"
           },
           "MH1D4Y/A": {
             "capacity": "",
             "colorDisplay": "Verde",
             "colorKey": "verde",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Reserva el iMac Verde 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Verde 12-Core CPU / 12-Core GPU"
           },
           "MH1H4Y/A": {
             "capacity": "",
             "colorDisplay": "Azul",
             "colorKey": "azul",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Reserva el iMac Azul 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Azul 12-Core CPU / 12-Core GPU"
           },
           "MH1P4Y/A": {
             "capacity": "",
             "colorDisplay": "Rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Reserva el iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Reserva el iMac Rosa 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Rosa 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/es/shop/buy-mac/imac"
@@ -1791,104 +1791,104 @@
             "colorDisplay": "Hopea",
             "colorKey": "hopea",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Hopea 10-Core CPU / 10-Core GPU"
+            "name": "iMac Hopea 10-Core CPU / 10-Core GPU"
           },
           "MH084KS/A": {
             "capacity": "",
             "colorDisplay": "Vihreä",
             "colorKey": "vihre",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Vihreä 10-Core CPU / 10-Core GPU"
+            "name": "iMac Vihreä 10-Core CPU / 10-Core GPU"
           },
           "MH094KS/A": {
             "capacity": "",
             "colorDisplay": "Sininen",
             "colorKey": "sininen",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Sininen 10-Core CPU / 10-Core GPU"
+            "name": "iMac Sininen 10-Core CPU / 10-Core GPU"
           },
           "MH0A4KS/A": {
             "capacity": "",
             "colorDisplay": "Pinkki",
             "colorKey": "pinkki",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Pinkki 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pinkki 10-Core CPU / 10-Core GPU"
           },
           "MH114KS/A": {
             "capacity": "",
             "colorDisplay": "Hopea",
             "colorKey": "hopea",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Hopea 12-Core CPU / 12-Core GPU"
+            "name": "iMac Hopea 12-Core CPU / 12-Core GPU"
           },
           "MH1D4KS/A": {
             "capacity": "",
             "colorDisplay": "Vihreä",
             "colorKey": "vihre",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Vihreä 12-Core CPU / 12-Core GPU"
+            "name": "iMac Vihreä 12-Core CPU / 12-Core GPU"
           },
           "MH1H4KS/A": {
             "capacity": "",
             "colorDisplay": "Sininen",
             "colorKey": "sininen",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Sininen 12-Core CPU / 12-Core GPU"
+            "name": "iMac Sininen 12-Core CPU / 12-Core GPU"
           },
           "MH1P4KS/A": {
             "capacity": "",
             "colorDisplay": "Pinkki",
             "colorKey": "pinkki",
             "family": "mac",
-            "familyName": "Ennakko­tilaa iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Ennakko­tilaa iMac Pinkki 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pinkki 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/fi/shop/buy-mac/imac"
@@ -1902,104 +1902,104 @@
             "colorDisplay": "Argent",
             "colorKey": "argent",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Argent 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Argent 10-Core CPU / 10-Core GPU"
           },
           "MH084FN/A": {
             "capacity": "",
             "colorDisplay": "Vert",
             "colorKey": "vert",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Vert 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Vert 10-Core CPU / 10-Core GPU"
           },
           "MH094FN/A": {
             "capacity": "",
             "colorDisplay": "Bleu",
             "colorKey": "bleu",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Bleu 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Bleu 10-Core CPU / 10-Core GPU"
           },
           "MH0A4FN/A": {
             "capacity": "",
             "colorDisplay": "Rose",
             "colorKey": "rose",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Précommander un iMac Rose 10-Core CPU / 10-Core GPU"
+            "name": "un iMac Rose 10-Core CPU / 10-Core GPU"
           },
           "MH114FN/A": {
             "capacity": "",
             "colorDisplay": "Argent",
             "colorKey": "argent",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Argent 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Argent 12-Core CPU / 12-Core GPU"
           },
           "MH1D4FN/A": {
             "capacity": "",
             "colorDisplay": "Vert",
             "colorKey": "vert",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Vert 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Vert 12-Core CPU / 12-Core GPU"
           },
           "MH1H4FN/A": {
             "capacity": "",
             "colorDisplay": "Bleu",
             "colorKey": "bleu",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Bleu 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Bleu 12-Core CPU / 12-Core GPU"
           },
           "MH1P4FN/A": {
             "capacity": "",
             "colorDisplay": "Rose",
             "colorKey": "rose",
             "family": "mac",
-            "familyName": "Précommander un iMac",
+            "familyName": "un iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Précommander un iMac Rose 12-Core CPU / 12-Core GPU"
+            "name": "un iMac Rose 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/fr/shop/buy-mac/imac"
@@ -2013,104 +2013,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084ZP/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094ZP/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4ZP/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114ZP/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4ZP/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4ZP/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4ZP/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/hk/shop/buy-mac/imac"
@@ -2124,104 +2124,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084HN/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094HN/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4HN/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114HN/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4HN/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4HN/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4HN/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/in/shop/buy-mac/imac"
@@ -2235,104 +2235,104 @@
             "colorDisplay": "Argento",
             "colorKey": "argento",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Preordina iMac Argento 10-Core CPU / 10-Core GPU"
+            "name": "iMac Argento 10-Core CPU / 10-Core GPU"
           },
           "MH084T/A": {
             "capacity": "",
             "colorDisplay": "Verde",
             "colorKey": "verde",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Preordina iMac Verde 10-Core CPU / 10-Core GPU"
+            "name": "iMac Verde 10-Core CPU / 10-Core GPU"
           },
           "MH094T/A": {
             "capacity": "",
             "colorDisplay": "Blu",
             "colorKey": "blu",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Preordina iMac Blu 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blu 10-Core CPU / 10-Core GPU"
           },
           "MH0A4T/A": {
             "capacity": "",
             "colorDisplay": "Rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Preordina iMac Rosa 10-Core CPU / 10-Core GPU"
+            "name": "iMac Rosa 10-Core CPU / 10-Core GPU"
           },
           "MH114T/A": {
             "capacity": "",
             "colorDisplay": "Argento",
             "colorKey": "argento",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Preordina iMac Argento 12-Core CPU / 12-Core GPU"
+            "name": "iMac Argento 12-Core CPU / 12-Core GPU"
           },
           "MH1D4T/A": {
             "capacity": "",
             "colorDisplay": "Verde",
             "colorKey": "verde",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Preordina iMac Verde 12-Core CPU / 12-Core GPU"
+            "name": "iMac Verde 12-Core CPU / 12-Core GPU"
           },
           "MH1H4T/A": {
             "capacity": "",
             "colorDisplay": "Blu",
             "colorKey": "blu",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Preordina iMac Blu 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blu 12-Core CPU / 12-Core GPU"
           },
           "MH1P4T/A": {
             "capacity": "",
             "colorDisplay": "Rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Preordina iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Preordina iMac Rosa 12-Core CPU / 12-Core GPU"
+            "name": "iMac Rosa 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/it/shop/buy-mac/imac"
@@ -2346,104 +2346,104 @@
             "colorDisplay": "シルバー",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMacを予約注文 シルバー 10-Core CPU / 10-Core GPU"
+            "name": "iMacを シルバー 10-Core CPU / 10-Core GPU"
           },
           "MH084J/A": {
             "capacity": "",
             "colorDisplay": "グリーン",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMacを予約注文 グリーン 10-Core CPU / 10-Core GPU"
+            "name": "iMacを グリーン 10-Core CPU / 10-Core GPU"
           },
           "MH094J/A": {
             "capacity": "",
             "colorDisplay": "ブルー",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMacを予約注文 ブルー 10-Core CPU / 10-Core GPU"
+            "name": "iMacを ブルー 10-Core CPU / 10-Core GPU"
           },
           "MH0A4J/A": {
             "capacity": "",
             "colorDisplay": "ピンク",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMacを予約注文 ピンク 10-Core CPU / 10-Core GPU"
+            "name": "iMacを ピンク 10-Core CPU / 10-Core GPU"
           },
           "MH114J/A": {
             "capacity": "",
             "colorDisplay": "シルバー",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMacを予約注文 シルバー 12-Core CPU / 12-Core GPU"
+            "name": "iMacを シルバー 12-Core CPU / 12-Core GPU"
           },
           "MH1D4J/A": {
             "capacity": "",
             "colorDisplay": "グリーン",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMacを予約注文 グリーン 12-Core CPU / 12-Core GPU"
+            "name": "iMacを グリーン 12-Core CPU / 12-Core GPU"
           },
           "MH1H4J/A": {
             "capacity": "",
             "colorDisplay": "ブルー",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMacを予約注文 ブルー 12-Core CPU / 12-Core GPU"
+            "name": "iMacを ブルー 12-Core CPU / 12-Core GPU"
           },
           "MH1P4J/A": {
             "capacity": "",
             "colorDisplay": "ピンク",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMacを予約注文",
+            "familyName": "iMacを",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMacを予約注文 ピンク 12-Core CPU / 12-Core GPU"
+            "name": "iMacを ピンク 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/jp/shop/buy-mac/imac"
@@ -2457,104 +2457,104 @@
             "colorDisplay": "실버",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac 사전 주문하기 실버 10-Core CPU / 10-Core GPU"
+            "name": "iMac 하기 실버 10-Core CPU / 10-Core GPU"
           },
           "MH084KH/A": {
             "capacity": "",
             "colorDisplay": "그린",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac 사전 주문하기 그린 10-Core CPU / 10-Core GPU"
+            "name": "iMac 하기 그린 10-Core CPU / 10-Core GPU"
           },
           "MH094KH/A": {
             "capacity": "",
             "colorDisplay": "블루",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac 사전 주문하기 블루 10-Core CPU / 10-Core GPU"
+            "name": "iMac 하기 블루 10-Core CPU / 10-Core GPU"
           },
           "MH0A4KH/A": {
             "capacity": "",
             "colorDisplay": "핑크",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac 사전 주문하기 핑크 10-Core CPU / 10-Core GPU"
+            "name": "iMac 하기 핑크 10-Core CPU / 10-Core GPU"
           },
           "MH114KH/A": {
             "capacity": "",
             "colorDisplay": "실버",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac 사전 주문하기 실버 12-Core CPU / 12-Core GPU"
+            "name": "iMac 하기 실버 12-Core CPU / 12-Core GPU"
           },
           "MH1D4KH/A": {
             "capacity": "",
             "colorDisplay": "그린",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac 사전 주문하기 그린 12-Core CPU / 12-Core GPU"
+            "name": "iMac 하기 그린 12-Core CPU / 12-Core GPU"
           },
           "MH1H4KH/A": {
             "capacity": "",
             "colorDisplay": "블루",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac 사전 주문하기 블루 12-Core CPU / 12-Core GPU"
+            "name": "iMac 하기 블루 12-Core CPU / 12-Core GPU"
           },
           "MH1P4KH/A": {
             "capacity": "",
             "colorDisplay": "핑크",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac 사전 주문하기",
+            "familyName": "iMac 하기",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac 사전 주문하기 핑크 12-Core CPU / 12-Core GPU"
+            "name": "iMac 하기 핑크 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/kr/shop/buy-mac/imac"
@@ -2568,104 +2568,104 @@
             "colorDisplay": "Color plata",
             "colorKey": "colorplata",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Compra la iMac en preventa Color plata 10-Core CPU / 10-Core GPU"
+            "name": "Compra la iMac Color plata 10-Core CPU / 10-Core GPU"
           },
           "MH084E/A": {
             "capacity": "",
             "colorDisplay": "Verde",
             "colorKey": "verde",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Compra la iMac en preventa Verde 10-Core CPU / 10-Core GPU"
+            "name": "Compra la iMac Verde 10-Core CPU / 10-Core GPU"
           },
           "MH094E/A": {
             "capacity": "",
             "colorDisplay": "Azul",
             "colorKey": "azul",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Compra la iMac en preventa Azul 10-Core CPU / 10-Core GPU"
+            "name": "Compra la iMac Azul 10-Core CPU / 10-Core GPU"
           },
           "MH0A4E/A": {
             "capacity": "",
             "colorDisplay": "Rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Compra la iMac en preventa Rosa 10-Core CPU / 10-Core GPU"
+            "name": "Compra la iMac Rosa 10-Core CPU / 10-Core GPU"
           },
           "MH114E/A": {
             "capacity": "",
             "colorDisplay": "Color plata",
             "colorKey": "colorplata",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Compra la iMac en preventa Color plata 12-Core CPU / 12-Core GPU"
+            "name": "Compra la iMac Color plata 12-Core CPU / 12-Core GPU"
           },
           "MH1D4E/A": {
             "capacity": "",
             "colorDisplay": "Verde",
             "colorKey": "verde",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Compra la iMac en preventa Verde 12-Core CPU / 12-Core GPU"
+            "name": "Compra la iMac Verde 12-Core CPU / 12-Core GPU"
           },
           "MH1H4E/A": {
             "capacity": "",
             "colorDisplay": "Azul",
             "colorKey": "azul",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Compra la iMac en preventa Azul 12-Core CPU / 12-Core GPU"
+            "name": "Compra la iMac Azul 12-Core CPU / 12-Core GPU"
           },
           "MH1P4E/A": {
             "capacity": "",
             "colorDisplay": "Rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Compra la iMac en preventa",
+            "familyName": "Compra la iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Compra la iMac en preventa Rosa 12-Core CPU / 12-Core GPU"
+            "name": "Compra la iMac Rosa 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/mx/shop/buy-mac/imac"
@@ -2679,104 +2679,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084ZP/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094ZP/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4ZP/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114ZP/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4ZP/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4ZP/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4ZP/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/my/shop/buy-mac/imac"
@@ -2790,104 +2790,104 @@
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Zilver 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Zilver 10-Core CPU / 10-Core GPU"
           },
           "MH084N/A": {
             "capacity": "",
             "colorDisplay": "Groen",
             "colorKey": "groen",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Groen 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Groen 10-Core CPU / 10-Core GPU"
           },
           "MH094N/A": {
             "capacity": "",
             "colorDisplay": "Blauw",
             "colorKey": "blauw",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Blauw 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Blauw 10-Core CPU / 10-Core GPU"
           },
           "MH0A4N/A": {
             "capacity": "",
             "colorDisplay": "Roze",
             "colorKey": "roze",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Bestel iMac alvast Roze 10-Core CPU / 10-Core GPU"
+            "name": "Koop iMac Roze 10-Core CPU / 10-Core GPU"
           },
           "MH114N/A": {
             "capacity": "",
             "colorDisplay": "Zilver",
             "colorKey": "zilver",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Zilver 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Zilver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4N/A": {
             "capacity": "",
             "colorDisplay": "Groen",
             "colorKey": "groen",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Groen 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Groen 12-Core CPU / 12-Core GPU"
           },
           "MH1H4N/A": {
             "capacity": "",
             "colorDisplay": "Blauw",
             "colorKey": "blauw",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Blauw 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Blauw 12-Core CPU / 12-Core GPU"
           },
           "MH1P4N/A": {
             "capacity": "",
             "colorDisplay": "Roze",
             "colorKey": "roze",
             "family": "mac",
-            "familyName": "Bestel iMac alvast",
+            "familyName": "Koop iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Bestel iMac alvast Roze 12-Core CPU / 12-Core GPU"
+            "name": "Koop iMac Roze 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/nl/shop/buy-mac/imac"
@@ -2901,104 +2901,104 @@
             "colorDisplay": "sølv",
             "colorKey": "slv",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forhåndsbestill iMac sølv 10-Core CPU / 10-Core GPU"
+            "name": "Kjøp iMac sølv 10-Core CPU / 10-Core GPU"
           },
           "MH084H/A": {
             "capacity": "",
             "colorDisplay": "grønn",
             "colorKey": "grnn",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forhåndsbestill iMac grønn 10-Core CPU / 10-Core GPU"
+            "name": "Kjøp iMac grønn 10-Core CPU / 10-Core GPU"
           },
           "MH094H/A": {
             "capacity": "",
             "colorDisplay": "blå",
             "colorKey": "bl",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forhåndsbestill iMac blå 10-Core CPU / 10-Core GPU"
+            "name": "Kjøp iMac blå 10-Core CPU / 10-Core GPU"
           },
           "MH0A4H/A": {
             "capacity": "",
             "colorDisplay": "rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Forhåndsbestill iMac rosa 10-Core CPU / 10-Core GPU"
+            "name": "Kjøp iMac rosa 10-Core CPU / 10-Core GPU"
           },
           "MH114H/A": {
             "capacity": "",
             "colorDisplay": "sølv",
             "colorKey": "slv",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forhåndsbestill iMac sølv 12-Core CPU / 12-Core GPU"
+            "name": "Kjøp iMac sølv 12-Core CPU / 12-Core GPU"
           },
           "MH1D4H/A": {
             "capacity": "",
             "colorDisplay": "grønn",
             "colorKey": "grnn",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forhåndsbestill iMac grønn 12-Core CPU / 12-Core GPU"
+            "name": "Kjøp iMac grønn 12-Core CPU / 12-Core GPU"
           },
           "MH1H4H/A": {
             "capacity": "",
             "colorDisplay": "blå",
             "colorKey": "bl",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forhåndsbestill iMac blå 12-Core CPU / 12-Core GPU"
+            "name": "Kjøp iMac blå 12-Core CPU / 12-Core GPU"
           },
           "MH1P4H/A": {
             "capacity": "",
             "colorDisplay": "rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Forhåndsbestill iMac",
+            "familyName": "Kjøp iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Forhåndsbestill iMac rosa 12-Core CPU / 12-Core GPU"
+            "name": "Kjøp iMac rosa 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/no/shop/buy-mac/imac"
@@ -3012,104 +3012,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084AB/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094AB/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4AB/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114AB/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4AB/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4AB/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4AB/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/sa/shop/buy-mac/imac"
@@ -3123,104 +3123,104 @@
             "colorDisplay": "silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Förbeställ iMac silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac silver 10-Core CPU / 10-Core GPU"
           },
           "MH084KS/A": {
             "capacity": "",
             "colorDisplay": "grön",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Förbeställ iMac grön 10-Core CPU / 10-Core GPU"
+            "name": "iMac grön 10-Core CPU / 10-Core GPU"
           },
           "MH094KS/A": {
             "capacity": "",
             "colorDisplay": "blå",
             "colorKey": "bl",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Förbeställ iMac blå 10-Core CPU / 10-Core GPU"
+            "name": "iMac blå 10-Core CPU / 10-Core GPU"
           },
           "MH0A4KS/A": {
             "capacity": "",
             "colorDisplay": "rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Förbeställ iMac rosa 10-Core CPU / 10-Core GPU"
+            "name": "iMac rosa 10-Core CPU / 10-Core GPU"
           },
           "MH114KS/A": {
             "capacity": "",
             "colorDisplay": "silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Förbeställ iMac silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4KS/A": {
             "capacity": "",
             "colorDisplay": "grön",
             "colorKey": "grn",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Förbeställ iMac grön 12-Core CPU / 12-Core GPU"
+            "name": "iMac grön 12-Core CPU / 12-Core GPU"
           },
           "MH1H4KS/A": {
             "capacity": "",
             "colorDisplay": "blå",
             "colorKey": "bl",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Förbeställ iMac blå 12-Core CPU / 12-Core GPU"
+            "name": "iMac blå 12-Core CPU / 12-Core GPU"
           },
           "MH1P4KS/A": {
             "capacity": "",
             "colorDisplay": "rosa",
             "colorKey": "rosa",
             "family": "mac",
-            "familyName": "Förbeställ iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Förbeställ iMac rosa 12-Core CPU / 12-Core GPU"
+            "name": "iMac rosa 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/se/shop/buy-mac/imac"
@@ -3234,104 +3234,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084ZP/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094ZP/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4ZP/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114ZP/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4ZP/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4ZP/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4ZP/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/sg/shop/buy-mac/imac"
@@ -3345,104 +3345,104 @@
             "colorDisplay": "เงิน",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac เงิน 10-Core CPU / 10-Core GPU"
+            "name": "ซื้อ iMac เงิน 10-Core CPU / 10-Core GPU"
           },
           "MH084TH/A": {
             "capacity": "",
             "colorDisplay": "เขียว",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac เขียว 10-Core CPU / 10-Core GPU"
+            "name": "ซื้อ iMac เขียว 10-Core CPU / 10-Core GPU"
           },
           "MH094TH/A": {
             "capacity": "",
             "colorDisplay": "ฟ้า",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac ฟ้า 10-Core CPU / 10-Core GPU"
+            "name": "ซื้อ iMac ฟ้า 10-Core CPU / 10-Core GPU"
           },
           "MH0A4TH/A": {
             "capacity": "",
             "colorDisplay": "ชมพู",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac ชมพู 10-Core CPU / 10-Core GPU"
+            "name": "ซื้อ iMac ชมพู 10-Core CPU / 10-Core GPU"
           },
           "MH114TH/A": {
             "capacity": "",
             "colorDisplay": "เงิน",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac เงิน 12-Core CPU / 12-Core GPU"
+            "name": "ซื้อ iMac เงิน 12-Core CPU / 12-Core GPU"
           },
           "MH1D4TH/A": {
             "capacity": "",
             "colorDisplay": "เขียว",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac เขียว 12-Core CPU / 12-Core GPU"
+            "name": "ซื้อ iMac เขียว 12-Core CPU / 12-Core GPU"
           },
           "MH1H4TH/A": {
             "capacity": "",
             "colorDisplay": "ฟ้า",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac ฟ้า 12-Core CPU / 12-Core GPU"
+            "name": "ซื้อ iMac ฟ้า 12-Core CPU / 12-Core GPU"
           },
           "MH1P4TH/A": {
             "capacity": "",
             "colorDisplay": "ชมพู",
             "colorKey": "",
             "family": "mac",
-            "familyName": "iMac",
+            "familyName": "ซื้อ iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac ชมพู 12-Core CPU / 12-Core GPU"
+            "name": "ซื้อ iMac ชมพู 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/th/shop/buy-mac/imac"
@@ -3456,104 +3456,104 @@
             "colorDisplay": "Gümüş",
             "colorKey": "gm",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Gümüş 10-Core CPU / 10-Core GPU"
+            "name": "iMac ın Gümüş 10-Core CPU / 10-Core GPU"
           },
           "MH084TU/A": {
             "capacity": "",
             "colorDisplay": "Yeşil",
             "colorKey": "yeil",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Yeşil 10-Core CPU / 10-Core GPU"
+            "name": "iMac ın Yeşil 10-Core CPU / 10-Core GPU"
           },
           "MH094TU/A": {
             "capacity": "",
             "colorDisplay": "Mavi",
             "colorKey": "mavi",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Mavi 10-Core CPU / 10-Core GPU"
+            "name": "iMac ın Mavi 10-Core CPU / 10-Core GPU"
           },
           "MH0A4TU/A": {
             "capacity": "",
             "colorDisplay": "Pembe",
             "colorKey": "pembe",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Pembe 10-Core CPU / 10-Core GPU"
+            "name": "iMac ın Pembe 10-Core CPU / 10-Core GPU"
           },
           "MH114TU/A": {
             "capacity": "",
             "colorDisplay": "Gümüş",
             "colorKey": "gm",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Gümüş 12-Core CPU / 12-Core GPU"
+            "name": "iMac ın Gümüş 12-Core CPU / 12-Core GPU"
           },
           "MH1D4TU/A": {
             "capacity": "",
             "colorDisplay": "Yeşil",
             "colorKey": "yeil",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Yeşil 12-Core CPU / 12-Core GPU"
+            "name": "iMac ın Yeşil 12-Core CPU / 12-Core GPU"
           },
           "MH1H4TU/A": {
             "capacity": "",
             "colorDisplay": "Mavi",
             "colorKey": "mavi",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Mavi 12-Core CPU / 12-Core GPU"
+            "name": "iMac ın Mavi 12-Core CPU / 12-Core GPU"
           },
           "MH1P4TU/A": {
             "capacity": "",
             "colorDisplay": "Pembe",
             "colorKey": "pembe",
             "family": "mac",
-            "familyName": "iMac için ön sipariş verin",
+            "familyName": "iMac ın",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "iMac için ön sipariş verin Pembe 12-Core CPU / 12-Core GPU"
+            "name": "iMac ın Pembe 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/tr/shop/buy-mac/imac"
@@ -3567,104 +3567,104 @@
             "colorDisplay": "銀色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "預訂 iMac 銀色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 銀色 10-Core CPU / 10-Core GPU"
           },
           "MH084TA/A": {
             "capacity": "",
             "colorDisplay": "綠色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "預訂 iMac 綠色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 綠色 10-Core CPU / 10-Core GPU"
           },
           "MH094TA/A": {
             "capacity": "",
             "colorDisplay": "藍色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "預訂 iMac 藍色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 藍色 10-Core CPU / 10-Core GPU"
           },
           "MH0A4TA/A": {
             "capacity": "",
             "colorDisplay": "粉紅色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "預訂 iMac 粉紅色 10-Core CPU / 10-Core GPU"
+            "name": "iMac 粉紅色 10-Core CPU / 10-Core GPU"
           },
           "MH114TA/A": {
             "capacity": "",
             "colorDisplay": "銀色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "預訂 iMac 銀色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 銀色 12-Core CPU / 12-Core GPU"
           },
           "MH1D4TA/A": {
             "capacity": "",
             "colorDisplay": "綠色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "預訂 iMac 綠色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 綠色 12-Core CPU / 12-Core GPU"
           },
           "MH1H4TA/A": {
             "capacity": "",
             "colorDisplay": "藍色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "預訂 iMac 藍色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 藍色 12-Core CPU / 12-Core GPU"
           },
           "MH1P4TA/A": {
             "capacity": "",
             "colorDisplay": "粉紅色",
             "colorKey": "",
             "family": "mac",
-            "familyName": "預訂 iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "預訂 iMac 粉紅色 12-Core CPU / 12-Core GPU"
+            "name": "iMac 粉紅色 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/tw/shop/buy-mac/imac"
@@ -3678,104 +3678,104 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084B/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094B/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4B/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114B/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
               "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH1D4B/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4B/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4B/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/uk/shop/buy-mac/imac"
@@ -3789,143 +3789,143 @@
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Silver 10-Core CPU / 10-Core GPU"
+            "name": "iMac Silver 10-Core CPU / 10-Core GPU"
           },
           "MH084LL/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Green 10-Core CPU / 10-Core GPU"
+            "name": "iMac Green 10-Core CPU / 10-Core GPU"
           },
           "MH094LL/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Blue 10-Core CPU / 10-Core GPU"
+            "name": "iMac Blue 10-Core CPU / 10-Core GPU"
           },
           "MH0A4LL/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "10-Core CPU / 10-Core GPU"
             },
-            "name": "Pre-order iMac Pink 10-Core CPU / 10-Core GPU"
+            "name": "iMac Pink 10-Core CPU / 10-Core GPU"
           },
           "MH114LL/A": {
             "capacity": "",
             "colorDisplay": "Silver",
             "colorKey": "silver",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Silver 12-Core CPU / 12-Core GPU"
+            "name": "iMac Silver 12-Core CPU / 12-Core GPU"
           },
           "MH174LL/A": {
             "capacity": "",
             "colorDisplay": "Yellow",
             "colorKey": "yellow",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_GREEN_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Yellow 12-Core CPU / 12-Core GPU"
+            "name": "iMac Yellow 12-Core CPU / 12-Core GPU"
           },
           "MH1D4LL/A": {
             "capacity": "",
             "colorDisplay": "Green",
             "colorKey": "green",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PURPLE_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Green 12-Core CPU / 12-Core GPU"
+            "name": "iMac Green 12-Core CPU / 12-Core GPU"
           },
           "MH1H4LL/A": {
             "capacity": "",
             "colorDisplay": "Blue",
             "colorKey": "blue",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_SILVER_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Blue 12-Core CPU / 12-Core GPU"
+            "name": "iMac Blue 12-Core CPU / 12-Core GPU"
           },
           "MH1P4LL/A": {
             "capacity": "",
             "colorDisplay": "Pink",
             "colorKey": "pink",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Pink 12-Core CPU / 12-Core GPU"
+            "name": "iMac Pink 12-Core CPU / 12-Core GPU"
           },
           "MH1W4LL/A": {
             "capacity": "",
             "colorDisplay": "Purple",
             "colorKey": "purple",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_BLUE_GOO_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_PINK_BBU_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Purple 12-Core CPU / 12-Core GPU"
+            "name": "iMac Purple 12-Core CPU / 12-Core GPU"
           },
           "MH214LL/A": {
             "capacity": "",
             "colorDisplay": "Orange",
             "colorKey": "orange",
             "family": "mac",
-            "familyName": "Pre-order iMac",
+            "familyName": "iMac",
             "metadata": {
-              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_ORANGE_BBU_2026",
+              "containerPartNumber": "RO_IMAC_M6_24INCH_STAND_YELLOW_GOO_2026",
               "isRealPartNumber": true,
               "processorDisplay": "12-Core CPU / 12-Core GPU"
             },
-            "name": "Pre-order iMac Orange 12-Core CPU / 12-Core GPU"
+            "name": "iMac Orange 12-Core CPU / 12-Core GPU"
           }
         },
         "url": "https://www.apple.com/us/shop/buy-mac/imac"

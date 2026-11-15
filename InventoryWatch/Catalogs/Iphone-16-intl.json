@@ -1,10 +1,10 @@
 {
   "_meta": {
     "family": "iphone",
-    "generated_at": "2026-11-03T14:49:29.777390+00:00",
+    "generated_at": "2026-11-15T13:04:34.404476+00:00",
     "regions_carried_forward": 2,
     "regions_failed": [
-      "br",
+      "es",
       "za"
     ],
     "regions_scraped": 33,
@@ -569,7 +569,7 @@
       "iphone-16": {
         "skus": {
           "MYE73ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Noir",
             "colorKey": "black",
             "dimensionScreensize": "6_1inch",
@@ -583,7 +583,7 @@
             "partNumber": "MYE73ZD/A"
           },
           "MYE93ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Blanc",
             "colorKey": "white",
             "dimensionScreensize": "6_1inch",
@@ -597,7 +597,7 @@
             "partNumber": "MYE93ZD/A"
           },
           "MYEA3ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Rose",
             "colorKey": "pink",
             "dimensionScreensize": "6_1inch",
@@ -611,7 +611,7 @@
             "partNumber": "MYEA3ZD/A"
           },
           "MYEC3ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Outremer",
             "colorKey": "ultramarine",
             "dimensionScreensize": "6_1inch",
@@ -625,7 +625,7 @@
             "partNumber": "MYEC3ZD/A"
           },
           "MYED3ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Sarcelle",
             "colorKey": "teal",
             "dimensionScreensize": "6_1inch",
@@ -954,7 +954,7 @@
       "iphone-16": {
         "skus": {
           "MYE73QL/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Noir",
             "colorKey": "black",
             "dimensionScreensize": "6_1inch",
@@ -968,7 +968,7 @@
             "partNumber": "MYE73QL/A"
           },
           "MYE93QL/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Blanc",
             "colorKey": "white",
             "dimensionScreensize": "6_1inch",
@@ -982,7 +982,7 @@
             "partNumber": "MYE93QL/A"
           },
           "MYEA3QL/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Rose",
             "colorKey": "pink",
             "dimensionScreensize": "6_1inch",
@@ -996,7 +996,7 @@
             "partNumber": "MYEA3QL/A"
           },
           "MYEC3QL/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Outremer",
             "colorKey": "ultramarine",
             "dimensionScreensize": "6_1inch",
@@ -1010,7 +1010,7 @@
             "partNumber": "MYEC3QL/A"
           },
           "MYED3QL/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Sarcelle",
             "colorKey": "teal",
             "dimensionScreensize": "6_1inch",
@@ -1339,7 +1339,7 @@
       "iphone-16": {
         "skus": {
           "MYE73QN/A": {
-            "capacity": "128 Gt",
+            "capacity": "128GB",
             "colorDisplay": "Musta",
             "colorKey": "black",
             "dimensionScreensize": "6_1inch",
@@ -1353,7 +1353,7 @@
             "partNumber": "MYE73QN/A"
           },
           "MYE93QN/A": {
-            "capacity": "128 Gt",
+            "capacity": "128GB",
             "colorDisplay": "Valkoinen",
             "colorKey": "white",
             "dimensionScreensize": "6_1inch",
@@ -1367,7 +1367,7 @@
             "partNumber": "MYE93QN/A"
           },
           "MYEA3QN/A": {
-            "capacity": "128 Gt",
+            "capacity": "128GB",
             "colorDisplay": "Pinkki",
             "colorKey": "pink",
             "dimensionScreensize": "6_1inch",
@@ -1381,7 +1381,7 @@
             "partNumber": "MYEA3QN/A"
           },
           "MYEC3QN/A": {
-            "capacity": "128 Gt",
+            "capacity": "128GB",
             "colorDisplay": "Ultra­mariini",
             "colorKey": "ultramarine",
             "dimensionScreensize": "6_1inch",
@@ -1395,7 +1395,7 @@
             "partNumber": "MYEC3QN/A"
           },
           "MYED3QN/A": {
-            "capacity": "128 Gt",
+            "capacity": "128GB",
             "colorDisplay": "Sini­­vihreä",
             "colorKey": "teal",
             "dimensionScreensize": "6_1inch",
@@ -1416,7 +1416,7 @@
       "iphone-16": {
         "skus": {
           "MYE73ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Noir",
             "colorKey": "black",
             "dimensionScreensize": "6_1inch",
@@ -1430,7 +1430,7 @@
             "partNumber": "MYE73ZD/A"
           },
           "MYE93ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Blanc",
             "colorKey": "white",
             "dimensionScreensize": "6_1inch",
@@ -1444,7 +1444,7 @@
             "partNumber": "MYE93ZD/A"
           },
           "MYEA3ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Rose",
             "colorKey": "pink",
             "dimensionScreensize": "6_1inch",
@@ -1458,7 +1458,7 @@
             "partNumber": "MYEA3ZD/A"
           },
           "MYEC3ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Outremer",
             "colorKey": "ultramarine",
             "dimensionScreensize": "6_1inch",
@@ -1472,7 +1472,7 @@
             "partNumber": "MYEC3ZD/A"
           },
           "MYED3ZD/A": {
-            "capacity": "128 Go",
+            "capacity": "128GB",
             "colorDisplay": "Sarcelle",
             "colorKey": "teal",
             "dimensionScreensize": "6_1inch",
