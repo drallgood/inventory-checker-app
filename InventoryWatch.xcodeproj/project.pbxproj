@@ -657,7 +657,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = "3.0.0-RC.3";
+				MARKETING_VERSION = "3.0.0";
 				PRODUCT_BUNDLE_IDENTIFIER = net.brendamour.InventoryWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPARKLE_PUBLIC_ED_KEY = "6cAP08H+nCdsISMQFFA0RmHYVzQ99wH3epek8/1Bodg=";
@@ -690,7 +690,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = "3.0.0-RC.3";
+				MARKETING_VERSION = "3.0.0";
 				PRODUCT_BUNDLE_IDENTIFIER = net.brendamour.InventoryWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPARKLE_PUBLIC_ED_KEY = "6cAP08H+nCdsISMQFFA0RmHYVzQ99wH3epek8/1Bodg=";
